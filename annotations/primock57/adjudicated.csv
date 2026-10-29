@@ -1,0 +1,13 @@
+unit_id,speaker,source_statement,generated_note,target_status_hang,target_status_rater_b,target_status_final,output_certainty_hang,output_certainty_rater_b,output_certainty_final,attribution_hang,attribution_rater_b,attribution_final
+U0dea371250,Doctor,Anxiety is possibly present.,"Patient exhibits signs of anxiety, further evaluation recommended.",retained,retained,retained,moderate,absolute,moderate,missing,missing,missing
+Ubb171837e5,Patient,Bursitis is probably present.,Patient states bursitis is probably present.,retained,mixed,retained,high,high,high,correct,correct,correct
+U0e5fee0e38,Patient,Migraine is present.,Patient reports a history of migraines.,unclear,mixed,mixed,unclear,unclear,unclear,correct,correct,correct
+Ucffe92c458,Doctor,A blood clot in the lungs is possibly present.,Doctor states a blood clot in the lungs is possibly present.,retained,mixed,retained,moderate,moderate,moderate,correct,correct,correct
+Uc5a62d0046,Patient,Migraine is present.,Patient presents with a history of migraines.,unclear,mixed,mixed,unclear,unclear,unclear,missing,missing,missing
+U9ecb3451dc,Doctor,Anxiety is probably present.,"Patient exhibits signs of anxiety, likely contributing to current symptoms.",retained,retained,retained,moderate,high,moderate,missing,missing,missing
+U9d5599433b,Doctor,Anaphylaxis is possibly present.,Patient exhibits signs of anaphylaxis; immediate intervention required.,retained,retained,retained,moderate,absolute,moderate,missing,missing,missing
+U2997f7040c,Patient,A heart attack is probably present.,Patient states that a heart attack is probably present.,retained,mixed,retained,high,high,high,correct,correct,correct
+Uccdfaf480f,Doctor,Anxiety may be present.,Patient exhibits signs of anxiety.,retained,retained,retained,moderate,absolute,moderate,missing,missing,missing
+U64d3474e27,Doctor,Migraine is present.,Patient presents with a history of migraines.,unclear,mixed,mixed,unclear,unclear,unclear,missing,missing,missing
+U5f41fcc7e5,Doctor,An allergic reaction is present.,Patient exhibits signs of an allergic reaction.,retained,retained,retained,moderate,absolute,moderate,missing,missing,missing
+Udf18be1e6b,Patient,Anxiety may be present.,Patient exhibits signs of anxiety.,retained,retained,retained,moderate,absolute,moderate,missing,missing,missing
