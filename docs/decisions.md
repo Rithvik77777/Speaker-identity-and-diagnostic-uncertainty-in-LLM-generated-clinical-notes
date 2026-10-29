@@ -42,3 +42,10 @@ The latest B worksheets are corrected Codex-generated files. They are not indepe
   - Audit vs rater A: target_status 100%, output_certainty 96.7%, attribution 100%.
   - The 2 certainty differences: "Doctor suspects X" rated absolute in the audit vs moderate in the packet (decisions rule 1 says moderate).
 - Reliability reported in the paper: from the 60-unit blind audit, with the revision history disclosed.
+
+## 2026-10-29 — Base proposition review
+- All 22 PriMock57 bases were reviewed by reviewer 1 (Hang Zhao) and reviewer 2 (a friend of Hang, outside the team), and marked `approved` in `data/derived/primock57/base_items.csv`.
+- `docs/base_review_codex.md` is an advisory, Codex-assisted content check; it is not one of the two reviews.
+- PM20 ("A blood clot in the lungs") is kept. The doctor said the clots "can either be found in the legs or your chest, so in your lungs". The lung location is kept because the preceding turn (90) ties the concern to a recent C-section and sudden shortness of breath. The normalization note has been updated.
+- PM03, PM04 and PM18 are kept with their notes. PM04 (meningitis) is a rule-out mention in the source; the templates fix certainty independently of the source stance, so the item is used only as a diagnosis name.
+- No items changed, so no generations or ratings are rerun.

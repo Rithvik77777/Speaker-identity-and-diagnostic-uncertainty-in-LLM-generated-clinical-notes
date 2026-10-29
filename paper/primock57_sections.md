@@ -40,7 +40,7 @@ We applied the same construction rules as for ACI-Bench (§4 of the protocol). F
 
 We then walked the consultations in a fixed random order (seed 6210) and kept the first eligible consultation for each diagnosis group. This removed 15 repeats. Migraine, gastroenteritis and urinary tract infection each appear in five consultations, and anaphylaxis, chest infection and dermatitis in two each.
 
-This left **22 base propositions** from 22 different consultations, one fewer than the 23 the protocol targets. Following the protocol, we report the shortfall rather than relax the rules. We kept the full 20 evaluation bases and reduced the development set to two. The evaluation diagnoses span:
+This left **22 base propositions** from 22 different consultations, one fewer than the 23 the protocol targets. Two reviewers (one author and one volunteer outside the team) checked every base against its source excerpt before it was used. In one case the location was narrowed: for *a blood clot in the lungs*, the doctor mentioned clots in the legs or lungs, and we kept the lung reading because the surrounding turns tie the concern to sudden breathlessness after a caesarean section. Following the protocol, we report the shortfall rather than relax the rules. We kept the full 20 evaluation bases and reduced the development set to two. The evaluation diagnoses span:
 
 - infections (urinary tract infection, chest infection, viral upper respiratory tract infection, influenza, gastroenteritis, meningitis, malaria, Lyme disease);
 - acute emergencies (heart attack, stroke, anaphylaxis, blood clot in the lungs);
@@ -127,7 +127,7 @@ These are the paraphrase cases that string matching gets wrong, which is the con
 
 ## 6.x Limitations specific to PriMock57
 
-- **Base selection.** The 22 base propositions came from a rule-based screen of all 57 consultations. Only 22 met the rules, so the development set had two bases instead of three.
+- **Base selection.** The 22 base propositions came from a rule-based screen of all 57 consultations, reviewed by one author and one external volunteer. Only 22 met the rules, so the development set had two bases instead of three. One base (*meningitis*) comes from a rule-out mention; because the templates fix certainty, it serves only as a diagnosis name.
 - **Templates are probes, not natural speech.** The items reuse PriMock57 diagnoses inside fixed templates. In this corpus doctors almost never say *possibly* (3 occurrences), and patients' hedges often concern time or history rather than diagnoses.
 - **Small sample.** With 20 bases, hardening this rare and 10 control bases, the certainty and control analyses have little power. The attribution differences are large enough to survive the cluster bootstrap.
 - **Reliability evidence.** The reliability estimate rests on a 60-unit blind re-rating, because rater B's full packet was revised after comparison with rater A. Calibration conventions were fixed by the same two raters who did the rating.
