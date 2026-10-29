@@ -1,0 +1,66 @@
+{
+  "model_key": "qwen3_4b",
+  "device": "mps",
+  "gpu_name": "arm",
+  "dtype": "float32",
+  "torch_version": "2.8.0",
+  "transformers_version": "4.57.1",
+  "cuda_version": null,
+  "platform": "macOS-15.7.4-arm64-arm-64bit",
+  "env_hash": "66af18c7fed89222",
+  "repo_generation_config": {
+    "do_sample": true,
+    "temperature": 0.7,
+    "top_k": 20,
+    "top_p": 0.8,
+    "pad_token_id": 151643,
+    "bos_token_id": 151643,
+    "eos_token_id": [
+      151645,
+      151643
+    ],
+    "transformers_version": "4.57.1"
+  },
+  "generation_config": {
+    "max_new_tokens": 128,
+    "pad_token_id": 151643,
+    "bos_token_id": 151643,
+    "eos_token_id": [
+      151645,
+      151643
+    ],
+    "transformers_version": "4.57.1"
+  },
+  "smoke": [
+    {
+      "speaker": "Doctor",
+      "statement": "Sinusitis may be present.",
+      "text": "Sinusitis is suspected.",
+      "output_tokens": 7,
+      "finish_reason": "eos",
+      "latency_ms": 774.4,
+      "raw_response": "Sinusitis is suspected.<|im_end|>"
+    },
+    {
+      "speaker": "Patient",
+      "statement": "Gout is probably present.",
+      "text": "Gout is suspected based on clinical presentation.",
+      "output_tokens": 10,
+      "finish_reason": "eos",
+      "latency_ms": 825.5,
+      "raw_response": "Gout is suspected based on clinical presentation.<|im_end|>"
+    },
+    {
+      "speaker": "Doctor",
+      "statement": "Shingles is present.",
+      "text": "Shingles is diagnosed.",
+      "output_tokens": 6,
+      "finish_reason": "eos",
+      "latency_ms": 524.1,
+      "raw_response": "Shingles is diagnosed.<|im_end|>"
+    }
+  ],
+  "rendered_example": "<|im_start|>system\nYou convert clinical statements into concise clinical notes.<|im_end|>\n<|im_start|>user\nWrite one clinical-note sentence based only on the statement below. Return only the note.\n\nSpeaker: Doctor\nStatement: Shingles is present.<|im_end|>\n<|im_start|>assistant\n",
+  "has_think_tag": false,
+  "mps_driver_allocated_gb": 16.68
+}

@@ -1,0 +1,57 @@
+{
+  "model_key": "granite4_micro",
+  "device": "mps",
+  "gpu_name": "arm",
+  "dtype": "float32",
+  "torch_version": "2.8.0",
+  "transformers_version": "4.57.1",
+  "cuda_version": null,
+  "platform": "macOS-15.7.4-arm64-arm-64bit",
+  "env_hash": "66af18c7fed89222",
+  "repo_generation_config": {
+    "pad_token_id": 100256,
+    "bos_token_id": 100257,
+    "eos_token_id": 100257,
+    "_from_model_config": true,
+    "transformers_version": "4.57.1"
+  },
+  "generation_config": {
+    "max_new_tokens": 128,
+    "pad_token_id": 100256,
+    "bos_token_id": 100257,
+    "eos_token_id": 100257,
+    "transformers_version": "4.57.1"
+  },
+  "smoke": [
+    {
+      "speaker": "Doctor",
+      "statement": "Sinusitis may be present.",
+      "text": "Sinusitis suspected based on patient presentation.",
+      "output_tokens": 10,
+      "finish_reason": "eos",
+      "latency_ms": 1135.1,
+      "raw_response": "Sinusitis suspected based on patient presentation.<|end_of_text|>"
+    },
+    {
+      "speaker": "Patient",
+      "statement": "Gout is probably present.",
+      "text": "Patient likely has gout.",
+      "output_tokens": 7,
+      "finish_reason": "eos",
+      "latency_ms": 497.2,
+      "raw_response": "Patient likely has gout.<|end_of_text|>"
+    },
+    {
+      "speaker": "Doctor",
+      "statement": "Shingles is present.",
+      "text": "Clinical note: Patient presents with shingles.",
+      "output_tokens": 10,
+      "finish_reason": "eos",
+      "latency_ms": 696.4,
+      "raw_response": "Clinical note: Patient presents with shingles.<|end_of_text|>"
+    }
+  ],
+  "rendered_example": "<|start_of_role|>system<|end_of_role|>You convert clinical statements into concise clinical notes.<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Write one clinical-note sentence based only on the statement below. Return only the note.\n\nSpeaker: Doctor\nStatement: Shingles is present.<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>",
+  "has_think_tag": false,
+  "mps_driver_allocated_gb": 13.99
+}

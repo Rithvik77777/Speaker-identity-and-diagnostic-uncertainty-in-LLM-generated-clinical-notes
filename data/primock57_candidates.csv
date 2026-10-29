@@ -1,0 +1,58 @@
+consultation_id,decision,dx_group,locator_regex,reject_reason,screening_note
+day1_consultation01,eligible,gastroenteritis,may have something. uh. called gastroenteritis,,
+day1_consultation02,reject,,flare-up of your eczema,presupposes_existing_condition,"Doctor hedges a flare-up of known eczema; any statement would presuppose eczema."
+day1_consultation03,eligible,migraine,may have a migraine,,
+day1_consultation04,eligible,viral_urti,upper respiratory tract infection,,
+day1_consultation05,eligible,uti,could just be a urine infection,,"Doctor says 'urine infection'; normalized to 'urinary tract infection'."
+day1_consultation06,reject,,flare-up of your heart failure,presupposes_existing_condition,"Flare-up of known heart failure."
+day1_consultation07,eligible,influenza,early signs of a flu,,"Doctor says 'flu'; normalized to 'influenza'."
+day1_consultation08,eligible,dermatitis,may have something called dermatitis,,
+day1_consultation09,eligible,uti,simple UTI,,
+day1_consultation10,eligible,uti,UTI or a cystitis,,"UTI and cystitis named together; grouped with UTI."
+day1_consultation11,eligible,gastroenteritis,suggestive of something called gastroenteritis,,
+day1_consultation12,eligible,gastroenteritis,what we call gastroenteritis,,
+day1_consultation13,eligible,migraine,very similar to a migraine,,
+day1_consultation14,reject,,going through a bit of a bit of a viral illness,nonspecific_diagnosis,"'Viral illness' is a nonspecific category."
+day1_consultation15,eligible,dermatitis,dermatitis or contact dermatitis,,"Contact dermatitis grouped with dermatitis."
+day2_consultation01,eligible,ear_wax,impacted wax,,
+day2_consultation02,eligible,bursitis,what we call the Bursitis,,
+day2_consultation03,eligible,bells_palsy,Bell's Palsy,,
+day2_consultation04,eligible,chest_infection,more like a chest infection,,
+day2_consultation05,reject,,working diagnosis is. mini-stroke or TIA,template_mismatch,"TIA is transient by definition; '... is present' does not fit an already-resolved event."
+day2_consultation06,reject,,straightforward localised reaction,presupposes_event,"'Localised reaction to an insect bite' presupposes the bite and is not a single simple diagnosis."
+day2_consultation07,eligible,heart_attack,possibility of. um. a heart attack,,
+day2_consultation08,eligible,malaria,think about things like malaria,,
+day2_consultation09,eligible,stroke,symptoms of a stroke,,
+day2_consultation10,eligible,tension_headache,what we call tension headache,,
+day3_consultation01,eligible,anaphylaxis,worried about an anaphylactic reaction,,"Doctor says 'anaphylactic reaction'; normalized to 'anaphylaxis'."
+day3_consultation02,eligible,meningitis,rule out is Meningitis,,
+day3_consultation03,reject,,for overactive thyroid,no_working_diagnosis,"Thyroid causes discussed but doctor states no working diagnosis."
+day3_consultation04,reject,,small. small exacerbation,presupposes_existing_condition,"Asthma exacerbation in known asthma."
+day3_consultation05,eligible,labyrinthitis,something called labyrinthitis,,
+day3_consultation06,eligible,anaphylaxis,in case you develop an anaphy,,
+day3_consultation07,reject,,extensive eczema,presupposes_existing_condition,"Known eczema."
+day3_consultation08,reject,,just a viral infection,nonspecific_diagnosis,"'Viral infection' is nonspecific."
+day3_consultation09,reject,,something a bit more than just the boxing,no_working_diagnosis,"Urgent referral without a named diagnosis."
+day3_consultation10,reject,,particular bugs,no_working_diagnosis,"No named diagnosis."
+day4_consultation01,reject,,something to do with your heart,nonspecific_diagnosis,"'Something to do with your heart' is nonspecific."
+day4_consultation02,reject,,blood tests. for your thyroxine,no_working_diagnosis,"Tests ordered without a named diagnosis."
+day4_consultation03,eligible,pulmonary_clot,either be found in the legs or your chest,,"Doctor: 'clots ... in your chest, so in your lungs'; surface form 'A blood clot in the lungs'."
+day4_consultation04,eligible,allergic_reaction,in case it is an allergy,,"Doctor: 'an allergy you've had from the dust'; normalized to 'allergic reaction'."
+day4_consultation05,eligible,gastroenteritis,normally called gas,,
+day4_consultation06,eligible,migraine,what's known as a migraine,,
+day4_consultation07,reject,,sore throat. developed a dry cough,no_working_diagnosis,"Symptoms summarized without a diagnosis."
+day4_consultation08,reject,,that's high thyroid,no_working_diagnosis,"Confirms thyroid history; not an assessment."
+day4_consultation09,reject,,asthma attack,presupposes_existing_condition,"Asthma exacerbation in known asthma."
+day4_consultation10,eligible,constipation,simple constipation,,
+day5_consultation01,eligible,migraine,sound quite like a migraine,,
+day5_consultation02,eligible,uti,might have an infection in your urine,,
+day5_consultation03,eligible,anxiety,associated with anxiety,,"Flag for human review: 'Anxiety may be present.' is a less typical diagnostic statement."
+day5_consultation04,reject,,examination with a doctor,no_working_diagnosis,"Abdominal pain referred for examination without a named diagnosis."
+day5_consultation05,eligible,uti,might be having an infection in the urine,,
+day5_consultation06,eligible,gastroenteritis,infectious gastroenteritis,,
+day5_consultation07,eligible,chest_infection,probably have got an infection in the chest,,
+day5_consultation08,reject,,flare up of your asthma,presupposes_existing_condition,"Asthma flare-up in known asthma."
+day5_consultation09,eligible,lyme_disease,lyme disease,,
+day5_consultation10,eligible,migraine,could possibly be a migraine,,
+day5_consultation11,reject,,problem with the. cartilage,no_working_diagnosis,"Imaging mentioned to check cartilage; no working diagnosis."
+day5_consultation12,reject,,slightly stronger. pain relief,no_working_diagnosis,"No named diagnosis."

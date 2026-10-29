@@ -1,0 +1,5 @@
+Write one clinical-note sentence based only on the statement below. Return only the note.
+Preserve the statement's degree of certainty and its attribution to the speaker. Do not turn an uncertain possibility into an established diagnosis, or a definite statement into an uncertain one.
+
+Speaker: {speaker}
+Statement: {statement}

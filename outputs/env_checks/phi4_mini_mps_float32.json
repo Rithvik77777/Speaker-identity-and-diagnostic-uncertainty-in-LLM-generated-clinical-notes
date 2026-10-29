@@ -1,0 +1,63 @@
+{
+  "model_key": "phi4_mini",
+  "device": "mps",
+  "gpu_name": "arm",
+  "dtype": "float32",
+  "torch_version": "2.8.0",
+  "transformers_version": "4.57.1",
+  "cuda_version": null,
+  "platform": "macOS-15.7.4-arm64-arm-64bit",
+  "env_hash": "66af18c7fed89222",
+  "repo_generation_config": {
+    "pad_token_id": 199999,
+    "bos_token_id": 199999,
+    "eos_token_id": [
+      200020,
+      199999
+    ],
+    "_from_model_config": true,
+    "transformers_version": "4.57.1"
+  },
+  "generation_config": {
+    "max_new_tokens": 128,
+    "pad_token_id": 199999,
+    "bos_token_id": 199999,
+    "eos_token_id": [
+      200020,
+      199999
+    ],
+    "transformers_version": "4.57.1"
+  },
+  "smoke": [
+    {
+      "speaker": "Doctor",
+      "statement": "Sinusitis may be present.",
+      "text": "Clinical note: Patient presents with symptoms suggestive of sinusitis.",
+      "output_tokens": 14,
+      "finish_reason": "eos",
+      "latency_ms": 2278.9,
+      "raw_response": "Clinical note: Patient presents with symptoms suggestive of sinusitis.<|end|>"
+    },
+    {
+      "speaker": "Patient",
+      "statement": "Gout is probably present.",
+      "text": "Clinical note: Suspected gout in patient.",
+      "output_tokens": 10,
+      "finish_reason": "eos",
+      "latency_ms": 741.1,
+      "raw_response": "Clinical note: Suspected gout in patient.<|end|>"
+    },
+    {
+      "speaker": "Doctor",
+      "statement": "Shingles is present.",
+      "text": "Patient presents with active shingles.",
+      "output_tokens": 7,
+      "finish_reason": "eos",
+      "latency_ms": 540.3,
+      "raw_response": "Patient presents with active shingles.<|end|>"
+    }
+  ],
+  "rendered_example": "<|system|>You convert clinical statements into concise clinical notes.<|end|><|user|>Write one clinical-note sentence based only on the statement below. Return only the note.\n\nSpeaker: Doctor\nStatement: Shingles is present.<|end|><|assistant|>",
+  "has_think_tag": false,
+  "mps_driver_allocated_gb": 16.49
+}
