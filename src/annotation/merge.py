@@ -69,12 +69,13 @@ def main():
     ap.add_argument("--dir", default="annotations/primock57")
     ap.add_argument("--raters", nargs=2, default=["hang", "rater_b"])
     ap.add_argument("--adjudicated", default=None)
+    ap.add_argument("--prefix", default="packet", help="calibration: agreement only, no label file")
     args = ap.parse_args()
     d = Path(args.dir)
-    a, b = (read_packet(d / f"packet_{r}.xlsx") for r in args.raters)
+    a, b = (read_packet(d / f"{args.prefix}_{r}.xlsx") for r in args.raters)
     b = b.loc[a.index]
     agr = agreement(a, b, args.raters)
-    agr.to_csv(d / "agreement.csv", index=False)
+    agr.to_csv(d / f"{args.prefix}_agreement.csv", index=False)
     print(agr.to_string(index=False))
 
     disagree = a.index[(a[FIELDS] != b[FIELDS]).any(axis=1)]
@@ -84,9 +85,9 @@ def main():
         dis[f"{f}_{args.raters[0]}"] = a.loc[disagree, f].values
         dis[f"{f}_{args.raters[1]}"] = b.loc[disagree, f].values
         dis[f"{f}_final"] = ""
-    dis.to_csv(d / "disagreements.csv", index=False)
-    print(f"{len(dis)} of {len(a)} units disagree -> {d / 'disagreements.csv'}")
-    if not args.adjudicated:
+    dis.to_csv(d / f"{args.prefix}_disagreements.csv", index=False)
+    print(f"{len(dis)} of {len(a)} units disagree -> {d / (args.prefix + '_disagreements.csv')}")
+    if not args.adjudicated or args.prefix != "packet":
         return
 
     final = a[FIELDS].copy()

@@ -39,6 +39,7 @@ def main():
     ap.add_argument("--split", default="eval")
     ap.add_argument("--raters", nargs=2, default=["hang", "rater_b"])
     ap.add_argument("--out", default="annotations/primock57")
+    ap.add_argument("--prefix", default="packet", help="use e.g. calibration for the dev split")
     args = ap.parse_args()
     runs = []
     for m in MODELS:
@@ -51,7 +52,7 @@ def main():
     units = runs.drop_duplicates("unit_id")[["unit_id", "statement", "speaker", "output_text"]].reset_index(drop=True)
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
-    runs[["run_id", "unit_id", "model_key", "prompt_id", "item_id", "base_id", "kind", "marker_id", "role"]].to_csv(out / "unit_map.csv", index=False)
+    runs[["run_id", "unit_id", "model_key", "prompt_id", "item_id", "base_id", "kind", "marker_id", "role"]].to_csv(out / ("unit_map.csv" if args.prefix == "packet" else f"{args.prefix}_unit_map.csv"), index=False)
 
     for i, rater in enumerate(args.raters):
         order = units.sample(frac=1, random_state=random.Random(6210 + i).randint(0, 2**31 - 1)).reset_index(drop=True)
@@ -84,8 +85,8 @@ def main():
         for row in g.iter_rows():
             for cell in row:
                 cell.alignment = Alignment(wrap_text=True, vertical="top")
-        wb.save(out / f"packet_{rater}.xlsx")
-        order[["unit_id"]].to_csv(out / f"packet_{rater}_order.csv", index=False)
+        wb.save(out / f"{args.prefix}_{rater}.xlsx")
+        order[["unit_id"]].to_csv(out / f"{args.prefix}_{rater}_order.csv", index=False)
     print(f"{len(runs)} runs -> {len(units)} rating units; packets for {args.raters} in {out}")
 
 
