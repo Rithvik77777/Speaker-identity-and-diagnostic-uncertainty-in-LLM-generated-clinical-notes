@@ -1,0 +1,7 @@
+model,prompt,n_main,n_control,overcertainty_main,weakening_control,omission,negated_or_mixed,attribution_missing,attribution_wrong,unclear
+granite4_micro,P0,120,20,2,0,0,0,96,1,0
+granite4_micro,P1,120,20,0,0,0,0,49,0,0
+phi4_mini,P0,120,20,9,0,0,0,140,0,0
+phi4_mini,P1,120,20,1,3,0,0,90,0,0
+qwen3_4b,P0,120,20,1,1,0,0,138,0,0
+qwen3_4b,P1,120,20,0,0,0,0,1,0,0

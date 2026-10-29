@@ -1,0 +1,4 @@
+granite4_micro: 24/24 identical outputs; env hashes ['66af18c7fed89222']
+phi4_mini: 24/24 identical outputs; env hashes ['66af18c7fed89222']
+qwen3_4b: 24/24 identical outputs; env hashes ['66af18c7fed89222']
+overall: 72/72 identical
