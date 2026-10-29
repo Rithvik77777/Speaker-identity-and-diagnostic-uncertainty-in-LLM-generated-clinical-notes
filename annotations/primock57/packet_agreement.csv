@@ -1,0 +1,4 @@
+field,raters,n,raw_agreement,cohen_kappa,kripp_alpha_nominal
+target_status,hang vs rater_b,796,0.9925,0.3317,0.3308
+output_certainty,hang vs rater_b,796,0.9925,0.9855,0.9855
+attribution,hang vs rater_b,796,1.0,1.0,1.0
