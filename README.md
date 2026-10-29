@@ -31,7 +31,7 @@ Environment used for the runs: Apple M4 Pro, 48 GB, MPS, float32, torch 2.8.0, t
 
 - Generation is complete for all three models: 304 records per model (24 dev + 280 eval). `outputs/raw/primock57/`
 - **Human labels are done** (2 raters, 12 disagreements adjudicated): `annotations/primock57/human_labels_eval.csv`. Tables and figures without the `auto_` prefix use these labels. `auto_*` files are the lexical screen, kept for comparison.
-- The 22 base propositions were screened by Claude. The protocol's human review of the bases (`approved` column in `data/derived/primock57/base_items.csv`) is still pending. If reviewers change any base, rebuild the items and rerun; each model takes under 30 minutes.
+- The 22 base propositions were screened by rule and reviewed by two reviewers (`approved` in `data/derived/primock57/base_items.csv`; see `docs/decisions.md`).
 
 ## Deviations from protocol v4 (to record in `docs/decisions.md`)
 
