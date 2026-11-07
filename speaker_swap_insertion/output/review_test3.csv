@@ -1,0 +1,247 @@
+encounter_id,split,condition,template_id,actual_assessment,context,proposer_rationale,auto_warnings,R0_speaker_labels_correct,R1_plausible_alternative,R2_not_actual_or_known_dx,R3_natural_as_doctor,R4_natural_as_patient,R5_fits_position,reviewer,comment
+ACI002,test3,a kidney stone,T1,"Glomerulonephritis. - Medical Reasoning: The patient presents today with a complaint of back pain, although this was not present on exam today with palpation. He also has a history of recurrent strep throat and a recent CT scan with concerns of possible glomerulonephritis. - Patient Education and Counseling: The patient was recommended to watch his salt intake. - Medical Treatment: We will refer h","[patient] hi doctor how are you
+[doctor] hi i'm great thanks for asking
+[patient] well so yeah i just happened to have gone in for my regular visit and i just explained to my pcp that you know what i've been having some back pain it's usually on the left and you know he asked some questions and he said i should come see you
+>>> [SPEAKER] i wonder if it might be a kidney stone
+[doctor] alright yeah back pain especially like that like was it sharp could you tell me what kind of pain it was
+[patient] well yeah some days it was sharp some days it was n't some days it moves some days it does n't but it's mostly on the left
+[doctor] okay",One-sided back pain is a classic presentation of a kidney stone.,,,,,,,,,
+ACI012,test3,a meniscus tear,T3,Right knee MCL strain. Diabetes. Hypertension.,"[doctor] hey matthew how is it going good to see you today i see here in your notes you are here for some right knee pain and we are also going to check up on your hypertension and diabetes so can you tell me what happened to your knee
+[patient] yes so i was playing basketball yesterday and when i went up for a rebound and i came down and i felt like my knee just popped it started swelling and i could hardly walk when it happened
+>>> [SPEAKER] it might be a meniscus tear i'm not sure
+[doctor] okay playing basketball how often do you play basketball
+[patient] first time in two years
+[doctor] first time in two years did you watch the game last night",A pop with swelling after landing from a jump is a common meniscal tear mechanism.,,,,,,,,,
+ACI013,test3,tendonitis,T1,Left arm pain. Type 2 diabetes. Hypertension.,"[patient] since
+[doctor] since yesterday alright
+[patient] it's actually my it's actually my left elbow my left arm
+>>> [SPEAKER] i wonder if it might be tendonitis .
+[doctor] okay they must have written that down wrong so it is your your left arm are you right handed or left handed
+[patient] right handed
+[doctor] okay so do you think you might have slept on it wrong or anything like that or what",Atraumatic elbow/arm pain is frequently due to tendonitis.,anchor moved from default 1 to 5,,,,,,,,
+ACI014,test3,arthritis,T2,Chronic lumbar back pain.,"[patient] yeah it's been back has been hurting for a while
+[doctor] mm-hmm
+[patient] for about a couple of years and tried a couple things but nothing seems to work
+>>> [SPEAKER] i think it could be arthritis
+[doctor] okay so let's start start with what happened did something cause the pain
+[patient] i think well i played basketball and i bumped one time and i fell and i hit i think i fell on my back got fell real hard
+[doctor] mm-hmm",Chronic years-long back pain is commonly attributed to arthritis of the spine.,anchor moved from default 1 to 3,,,,,,,,
+ACI019,test3,anemia,T3,1. Stage III non-small cell lung cancer. - Medical Reasoning: This is a new diagnosis for this patient. Recent pathology report showed evidence of a 4.4 cm left upper lobe nodule. - Patient Education and Counseling: We discussed that once her treatment regimen is complete we will proceed with further testing and hopefully tumor resection. - Medical Treatment: Patient will continue on current regim,"[patient] i'm good how are you
+[doctor] i'm good so i see we are here you had a recent diagnosis of stage three non-small cell lung cancer and so we are following up on your neo adevant chemotherapy so you can you tell me how you're doing today
+[patient] yeah you know i'm i'm doing okay i have a little bit of some shortness of breath that i noticed over the weekend and you know i i'm i considered myself pretty active before this i would walk my dog around the block and now i i ca n't even walk you know down the street without being short of breath
+>>> [SPEAKER] it might be anemia i'm not sure
+[doctor] okay yeah yeah i mean that's that's definitely understandable it says you had a four point four centimeter left upper lobe nodule in there so it's kinda big but that's understandable and we're doing the chemo to try to reduce that that that tumor that you do have so how often do you normally run with your dogs
+[patient] i mean i would i would take them for i would normally take them for like mile long walks everyday and just this weekend i could only walk down to the end of the street i had to have my husband take the dog fit walk
+[doctor] man okay what kind of dog do you have",Anemia from chemotherapy can cause new shortness of breath on exertion.,,,,,,,,,
+ACI021,test3,migraines,T1,"1. Hypertension, uncontrolled. - Medical Reasoning: The patient's blood pressure is is elevated. - Patient Education and Counseling: We discussed that this could be multifactorial; for example, her diet, her medications regimen, or the medication she is currently on could be a factor in her elevated blood pressure. I encouraged the patient to take her current medication regimen today. I encouraged","[doctor] alright okay theresa so i understand that you're you're having a bit of some headache here and then your blood pressure has been running high can you tell me a little bit about what's happening
+[patient] yeah i've had blood high blood pressure for a long time my provider gave me chlorthalidone i do n't really take it because it gives me a stomachache but yeah i get headaches right here on the top of my head they kinda come and go they're throbbing tylenol helps the headache
+>>> [SPEAKER] i wonder if it might be migraines
+[doctor] okay alright and then so how long have you had this headache has this been recent or like acute or you've been having this for since you've had your blood pressures
+[patient] hmmm it's been on and off for about a month
+[doctor] a month okay alright and then are you having any other kind of symptoms with that like are you having any kind of you know dizziness lightheadedness any nausea vomiting",Throbbing recurrent headaches are commonly suspected to be migraines.,,,,,,,,,
+ACI036,test3,tension headaches,T2,1. Hypertension with headaches. - Medical Reasoning: Patient presents today with complaints of increasing headaches and elevated blood pressure readings at home. - Patient Education and Counseling: We discussed it is safe for her to exercise and she has been encouraged to continue her walking program. - Medical Treatment: Patient will continue to take Tylenol for pain management. Her lisinopril wa,"[doctor] so donna is a 37 -year-old female she is here with complaint of headache she has a history of hypertension and diabetes so donna tell me what's going on
+[patient] yeah lately i've just been having quite a bit of a headache and i mean every now and then i'll get it but lately it's just been getting worse and i've noticed that my blood pressure has been running high i've been taking it maybe like once a week but the past three weeks it's been really high than usual so i was a little worried
+>>> [SPEAKER] i think it could be tension headaches
+[doctor] do you remember the numbers that you're getting on your blood pressure readings
+[patient] yeah so one of them was like one sixty over eighty seven and then the last one was like one seventy five over ninety two
+[doctor] okay so it's really high i was looking back and it looks like your blood pressure was pretty normal last time we saw you is one twenty four over eighty two have you been able to take your blood pressure medicine the lisinopril that you've been prescribed",Worsening recurrent headaches are often tension headaches.,,,,,,,,,
+ACI039,test3,a stomach ulcer,T3,"1. Abdominal pain. - Medical Reasoning: Patient presents with acute abdominal pain with right upper quadrant tenderness concerning for cholelithiasis or cholecystitis. - Patient Education and Counseling: Patient was advised to remain NPO pending her results in case surgery is needed. - Medical treatment: CBC, chem 12, urinalysis, HCG qualitative, and right upper quadrant ultrasound were all ordere","[patient] sure that's fine
+[doctor] okay great so so karen tell me about your abdominal pain what's been happening
+[patient] well it started about ten days ago with just some mild discomfort in on my right side and it seems to be getting worse over the last couple of days especially
+>>> [SPEAKER] it might be a stomach ulcer i'm not sure
+[doctor] okay and how bad would you say the pain is like it's a zero to ten on a scale today
+[patient] yeah it it waxes and wanes in severity it it's in general probably around a four or a five but sometimes it gets up as high as a seven or eight
+[doctor] okay is there anything that you notice that makes that pain worse or better like rest or movement or eating or anything else",Upper abdominal pain worsening after meals can be a peptic ulcer.,,,,,,,,,
+ACI042,test3,pneumonia,T1,1. Acute heart failure exacerbation. - Medical Reasoning: The patient's physical examination today suggests he is retaining fluid. His shortness of breath is also the result of an acute heart failure exacerbation. His recent dietary indiscretion may have contributed to this development. - Patient Education and Counseling: I explained to the patient that he should increase his diuretic in the morni,"[patient] i am i am i am okay i am not great
+[doctor] you are okay you are not great okay well how long have you been having some shortness of breath
+[patient] it's been about a week
+>>> [SPEAKER] i wonder if it might be pneumonia
+[doctor] it's been about a week okay now have you ever experienced these symptoms before
+[patient] yeah this happened about six months ago and i came in and they changed my lasix dose and i seemed to get better
+[doctor] okay alright so let's talk a little bit about that now i know that you have a history of coronary disease you know you had had a heart attack back in twenty eighteen we put that stent in your right coronary artery i know that the pumping function of your heart was a little low you know that what we call that ejection fraction was about thirty five percent have you been watching your salt intake",A week of shortness of breath could be due to pneumonia.,anchor moved from default 1 to 3,,,,,,,,
+ACI046,test3,anemia,T2,1. Inferior myocardial infarction. - Medical Reasoning: The patient is doing well. His catheterization site is healing well. - Patient Education and Counseling: I explained the importance of continuing to take his medications to prevent the stent from clogging again and to reduce his chance of another heart attack. I encouraged him to limit his salt intake as an increased amount of sodium can affe,"[patient] correct yes right handed
+[doctor] okay alright and any shortness of breath when you walk around or move anything like that
+[patient] yeah i i would say you know i've been trying to keep my my i i'm not doing a lot of exercise but i will say that when i go up and downstairs you know i do feel like i have shortness of breath
+>>> [SPEAKER] i think it could be anemia
+[doctor] okay now i know they put you on that medication the brilinta are you you're taking it correct
+[patient] yes i take it twice a day every twelve hours
+[doctor] okay great and you're still taking your aspirin correct",Shortness of breath on stairs could be from anemia.,anchor moved from default 1 to 11,,,,,,,,
+ACI049,test3,bronchitis,T3,"1. Cough. - Medical Reasoning: The patient presents with symptoms similar to an upper respiratory infection. Most likely it is a virus that is causing her symptoms, especially as she reports being around some else with similar symptoms. - Patient Education and Counseling: I explained that we often let the virus run its course while we treat her symptoms. I advised her to be cautious with over-the-","[patient] i did have this this hacking cough for about three days now
+[doctor] okay tell me more about that cough
+[patient] it started three days ago i was around my sister and she has been sick with the same kind of symptoms and so this cough has just started off with like a gradual cough and now i've just been coughing up some green phlegm here
+>>> [SPEAKER] it might be bronchitis i'm not sure
+[doctor] okay okay so you you started having some mucus with it
+[patient] yes
+[doctor] okay and how about any other symptoms with your cough",A cough productive of green phlegm is commonly blamed on bronchitis.,anchor moved from default 3 to 5,,,,,,,,
+ACI061,test3,an inner ear problem,T1,1. Elevated blood pressure. - Medical Reasoning: I do think his blood pressure is uncontrolled and we need to make some adjustments to his medication. - Patient Education and Counseling: The patient and I discussed that he should stay well hydrated during warm weather. I explained he loses more fluid when perspiring and will need to increase his fluid intake as needed. We discussed that drinking 6,"[patient] yes that's fine
+[doctor] okay great it's gon na record our conversation okay perfect so jerry tell me mister thompson tell me about your blood pressure readings recently i understand you're concerned about them they have been up they have been down what's going on and any other symptoms
+[patient] normally my blood pressure has been very well controlled over about the last three to four weeks there have been periods where i felt a little lightheaded slight headache and when i checked my blood pressure the upper number has been occasionally over one eighty which is way past you know what any of the numbers have been in the past
+>>> [SPEAKER] i wonder if it might be an inner ear problem
+[doctor] okay okay and okay and yeah that does sound unusual for you and so it's been high but you've also felt lightheaded at times have you checked your blood pressure when you were feeling lightheaded was it was it low at those times or have you done that
+[patient] i've done it both when i felt fine and then when i had the lightheaded episodes actually it's been on the high side
+[doctor] okay alright understood and you have n't passed out or anything have you",Episodic lightheadedness is often attributed to an inner ear problem.,,,,,,,,,
+ACI063,test3,cataracts,T2,"1. Wet macular degeneration. - Medical Reasoning: The diagnostic test and eye exams are consistent with neovascular age-related macular degeneration, also called wet macular degeneration. - Patient Education and Counseling: I explained the nature of the diagnosis and that this is advanced to a stage that usually leads to more severe vision loss happening. We discussed this happens when those abnor","[patient] yeah you know i started noticing my wife and i we we eat out almost every night and it's when especially when we go to fancy place
+[doctor] mm-hmm
+[patient] i have trouble adjusting in the that dark dim environment
+>>> [SPEAKER] i think it could be cataracts .
+[doctor] okay and i reviewed my technician's notes before i came in to see you and it says you know you you've been having that decreased vision when you're reading especially in dark place like you just said but it also mentions here that it looks like you told her that when you look at straight lines like in your door frame it looks like things have been looking a little crooked to you how long has that been going on
+[patient] well you know it's been going on a little while probably getting worse over the last three to four months and you know my my office has paneling and you know how that paneling has that dark grooves in it those straight lines well they always look wavy to me
+[doctor] okay alright so it's been going on a few months now you mentioned that you and your wife go out to eat every night have you tried the new the new italium place over there on main street",Difficulty seeing in dim light is a classic cataract symptom.,anchor moved from default 3 to 5,,,,,,,,
+ACI064,test3,a kidney stone,T3,"Low back pain, left side.","[patient] yeah it's nice to see you too it's been a while
+[doctor] yeah
+[patient] yeah yeah you know i had some back surgery and for some reason i always had lower
+>>> [SPEAKER] it might be a kidney stone i'm not sure
+[doctor] left back pain when was your back surgery
+[patient] it was in november of two thousand twenty
+[doctor] was that long ago",One-sided low back pain can be caused by a kidney stone.,anchor moved from default 1 to 3,,,,,,,,
+ACI068,test3,bursitis,T1,Left shoulder pain.,"[doctor] hey betty how're you
+[patient] i'm doing okay aside from this left shoulder pain that i've been having for a few weeks now
+>>> [SPEAKER] i wonder if it might be bursitis .
+[doctor] wow well i'm sorry to hear that do you remember what you were doing when the pain started
+[patient] i you know i ca n't think about anything specifically but i am very active and i also have been renovating my basement so i have been doing a lot with that
+[doctor] wow okay and do you know if there was any direct or associated trauma that you can think of over the past three weeks like did you fall or hit your shoulder or anything",Shoulder pain from overuse during renovation could be bursitis.,,,,,,,,,
+ACI078,test3,the flu,T2,"1. Cough. - Medical Reasoning: The patient presents with a cough likely due to a viral syndrome such as mild bronchitis. - Patient Education and Counseling: We discussed that antibiotics are not needed at this time, however, if his symptoms worsen we will consider a chest x-ray. - Medical Treatment: Continue over-the-counter medications. I will prescribe guaifenesin 600 mg twice a day. 2. Right kn","[doctor] hi billy how are you doing the medical assistant told me that you have a cough today
+[patient] yep i'm doing pretty good you know cough started about a week ago or so you know i just started bringing up some yellow stuff and not feeling the greatest the last two days though
+>>> [SPEAKER] i think it could be the flu .
+[doctor] okay alright so the cough started a week ago but you have have started feeling worse over the last two days correct
+[patient] yep
+[doctor] okay",A week of productive cough and feeling unwell could be the flu.,short synonym(s) may false-match: ['flu'],,,,,,,,
+ACI087,test3,a urinary tract infection,T1,"Kidney stone, right side.","[patient] i've been having pains let's just say for the last two weeks
+[doctor] okay
+[patient] it's it starts up in the right flank and radiates down to my groin and you know it it's under control but i have bouts where it kinda gets a little out of control
+>>> [SPEAKER] i wonder if it might be a urinary tract infection
+[doctor] okay so is it is it a constant pain or does it come and go for you
+[patient] it comes and goes it depends on how much i've been drinking and you know what sort of activities i've been doing but it's still there
+[doctor] alright so have you noticed any pain when you've been urinating",Flank pain radiating to the groin can come from a urinary tract infection.,short synonym(s) may false-match: ['uti'] | anchor moved from default 3 to 5,,,,,,,,
+ACI091,test3,bursitis,T2,Right shoulder rotator cuff tendinopathy.,"[patient] hi i'm i'm okay today i'm having some shoulder pain
+[doctor] i see that i see that here in the nurse's notes it looks like you're having some right shoulder pain says here that you've guys have been remodeling your house what do you do you remember what you were doing when that right shoulder pain started
+[patient] yeah i was up on a ladder painting and kinda reaching out and fell took a fall and kinda braced myself but i i was painting
+>>> [SPEAKER] i think it could be bursitis
+[doctor] okay so it does sound like there might have been some direct trauma to that area now it says here that this happened about three weeks ago were you able it sounds like you were able to get up and continue but you were having some pain did you take anything at that time to help with that shoulder pain
+[patient] yeah i i iced the arm and then i also i also took some advil
+[doctor] okay now have you had any shoulder pain before of that right shoulder or is this the first time or or the first insult to that area",Shoulder pain after bracing a fall could be bursitis.,anchor moved from default 1 to 3,,,,,,,,
+ACI096,test3,a meniscus tear,T3,1. Right knee contusion. 2. Right shoulder pain.,"[doctor] okay well hi joe i understand you've hurt your knee how how are you doing
+[patient] i'm doing okay this feels you know definitely feels like it's swollen and kinda hurts me a little bit
+>>> [SPEAKER] it might be a meniscus tear , i'm not sure .
+[doctor] so what did you do what happened
+[patient] i was i was skiing with some with some friends and i was going down it was snowing pretty hard and i could n't really see as as the two paths kind of come came together and i the front end of the skis i kind of dug into the snow and i ended up basically doing a cart wheel but kinda like stopped halfway through and could feel a pop in my my right knee and then you know just pain right after that came about through the knee so
+[doctor] yeah that sounds painful and so when did this occur",A swollen painful knee after a twisting ski fall could be a meniscal tear.,,,,,,,,,
+ACI111,test3,an achilles tendon tear,T1,Acute right ankle sprain.,"[patient] yeah it's not going so great
+[doctor] what what happened to your ankle
+[patient] well i was doing something i did n't really want to be doing and i fell and now my ankle hurts
+>>> [SPEAKER] i wonder if it might be an achilles tendon tear .
+[doctor] okay well what were you doing were you hiking or biking or what were you doing
+[patient] i was in a mountain biking messenger
+[doctor] you were in a mountain biking lesson and you fell off your bike and twisted your ankle",A fall with ankle pain could involve an Achilles tendon injury.,,,,,,,,,
+D2N168,test3,dehydration,T2,"Ms. Diane Baker is a 28-year-old female with a past medical history significant for depression, and hypertension, who presents for emergency room follow-up.","[doctor] diane is a 28 year old female with a past medical history , significant for , depression and hypertension who presents for emergency room follow-up .
+[doctor] so diane what's going on ? i heard that your- your blood pressure was really high in the emergency room . what happened ?
+[patient] yeah , so i ended up going for a walk , um , yesterday 'cause it was sunny and it was really great . and i just felt really light-headed , um , and i started to fall a bit , and , um , luckily i was with my boyfriend and he caught me , um , and then we went right to the e , to the er .
+>>> [SPEAKER] i think it could be dehydration .
+[doctor] yeah , okay . yeah , i saw that the blood pressure was pretty high , like in , like , the , almost 200 .
+[patient] yeah .
+[doctor] did you have a headache ?",Lightheadedness and nearly falling on a sunny walk could be dehydration.,anchor moved from default 1 to 6,,,,,,,,
+D2N169,test3,low blood sugar,T3,"The patient is a 61-year-old male who presents for shortness of breath. Shortness of breath. Medical Reasoning: I reviewed the patient's chest x-ray, pulmonary function test, and labs which were all normal. He does have slight expiratory wheezing bilaterally on exam. I suspect his episode of shortness of breath was due to an exacerbation of asthma. Medical Treatment: I would like to prescribe an a","[doctor] so , alan is a 61-year-old male , here with complaints of shortness of breath .
+[doctor] so alan , what's going on ?
+[patient] so over the weekend , uh , i took a very long bike ride , about three hours or so and i got back , i was very light headed , i was short of breath and it really surprised me because i pretty much bike ride every morning and it was never an issue before so i'm a little concerned about that .
+>>> [SPEAKER] it might be low blood sugar , i'm not sure .
+[doctor] okay , and have you had any other symptoms ? have you had any fever-
+[patient] n-
+[doctor] . chest pain ?",Lightheadedness after a three-hour ride could be low blood sugar.,,,,,,,,,
+D2N170,test3,a thyroid problem,T1,"Joyce Price is a 50-year-old female with a past medical history significant for COPD, congestive heart failure, who presents for follow up of abnormal labs. 1. Abnormal labs. Medical Reasoning: Her recent hemoglobin level was low at 8.2. Her available anemia labs were normal, but we need to wait for her pending labs for a definitive anemia diagnosis. Additional Testing: I would like to obtain an e","[patient] okay .
+[doctor] all right . so , joyce is a 50 year old female with a past medical history significant for copd , congestive heart failure who presents for follow-up to an abnormal lab finding . so , joyce , i , i got the results of your lab , uh , your labs . your hemoglobin was low . uh , so , i asked them to schedule a follow-up appointment with me . so , how are you feeling ?
+[patient] i've been feeling really tired lately . over the past couple of months , i've noticed that my energy has really gone down . i used to be really active , um , just trying to be as healthy as i can be , running, climbing . um , i at least try to do an hour or two a day . and over the past month , it's gone slowly downhill . i've just been so tired and exhausted and i have n't been able to really keep up with the way i , i was g- was going with my exercise .
+>>> [SPEAKER] i wonder if it might be a thyroid problem .
+[doctor] okay . all right . um , now , have you had ... have you noticed any blood in your stools at all ?
+[patient] uh , no , not really . not , not at this time .
+[doctor] okay . and are your stools , like , dark or charry or black looking ?",Thyroid disease is a common cause of fatigue and low energy.,,,,,,,,,
+D2N171,test3,acid reflux,T2,"Evelyn Morris is a 56-year-old female with a past medical history significant for coronary artery disease, prior carpal tunnel release, and a herniated disc. She presents for her annual exam. Status post right carpal tunnel release. Medical Reasoning: The patient is doing well postoperatively. She has returned to work and denies any recurrent symptoms. Herniated disc. Medical Reasoning: She has be","[patient] it's like a burn .
+[doctor] okay .
+[patient] it it just feels like it's burning , um , nothing terribly concerning , not enough to send me to the er , but i do notice it .
+>>> [SPEAKER] i think it could be acid reflux .
+[doctor] okay , and where exactly is it located in your chest ?
+[patient] just , um , right in the middle ...
+[doctor] okay .",A burning sensation in the middle of the chest is often due to reflux.,anchor moved from default 7 to 27,,,,,,,,
+D2N172,test3,sleep apnea,T3,Roy Sanchez is a 50-year-old male who comes in with a history of depression and high blood pressure. He presents today for abnormal labs. Hypertension. Medical Reasoning: Blood pressure is well controlled at this time. Medical Treatment: He will continue lisinopril 5 mg daily. Depression. Medical Reasoning: He is doing well with Zoloft 50 mg daily. Medical Treatment: He will continue Zoloft 50 mg ,"[patient] i , i could use more sleep like everybody .
+[doctor] okay .
+[patient] but, uh, i'll, i'll usually wake up at about 5:00 in the morning .
+>>> [SPEAKER] it might be sleep apnea , i'm not sure .
+[doctor] okay .
+[patient] which is a little early .
+[doctor] uh , no feelings of , uh , you want to hurt yourself or anybody ?",Poor sleep and early waking could reflect sleep apnea.,short synonym(s) may false-match: ['osa'] | anchor moved from default 6 to 20,,,,,,,,
+D2N173,test3,bronchitis,T1,"Logan Harris is a 57-year-old male with a past medical history significant for coronary artery bypass grafting, hyperlipidemia, and OCD who presents today for upper respiratory symptoms. COVID-19 Positive. Medical Reasoning: The patient presents with upper respiratory symptoms and his COVID-19 test was positive today. He has received both doses of the vaccination. His symptoms seem to be very mild","[patient] sure .
+[doctor] so logan is a 57-year-old male , with a past medical history significant for coronary artery bypass grafting , hyperlipidemia , and ocd , who presents with an upper respiratory infection . so , logan , what's going on ?
+[patient] so , uh , about a week ago i started to get a cold . and , in the last two or three days , it seemed to move into my chest .
+>>> [SPEAKER] i wonder if it might be bronchitis .
+[doctor] okay . um , and , and are you having any pain in your sinuses ? or , any post nasal drip ?
+[patient] um , i had some post nasal drip for , again , for the beginning of the week . and then , uh , it , it left my , uh , my head . it went right down to my upper , uh , chest .
+[doctor] okay . and have you gotten vaccinated against covid ?",A cold that moves into the chest is commonly bronchitis.,,,,,,,,,
+D2N174,test3,tendonitis,T2,"Mr. James Moore is a 57-year-old male with a past medical history significant for coronary artery disease and lupus, who presents today with some joint pain. Lupus. Medical Reasoning: This has been stable and asymptomatic for the past year, but the patient reports increased joint pain and inflammation in his bilateral knees lately. His recent knee x-ray was unremarkable, so I am concerned that thi","[patient] sure .
+[doctor] james is a 57 year old male with a past medical history significant for coronary artery disease and lupus , who presents today with joint pain . so james , what's what's going on ?
+[patient] yeah . i've been putting a , a few more miles on the bike each day and , uh , my knees have been killing me , just more so in the last three or four days or so .
+>>> [SPEAKER] i think it could be tendonitis .
+[doctor] okay . is it one knee versus the other , or both ?
+[patient] both equally .
+[doctor] okay . and , um , does it hurt more in the morning when you wake up , or does it hurt more when you're walking around and that type of thing ?",Knee pain after increasing cycling mileage could be tendonitis.,,,,,,,,,
+D2N177,test3,a thyroid problem,T2,"Bruce Howard is a 60-year-old male with a past medical history significant for depression, type 2 diabetes, and hypertension who presents for follow up of his chronic problems.","[patient] mm-hmm .
+[doctor] how are- how are you doing ?
+[patient] it's been a crazy year and a half and i think the uh the anxiety , the pressure of getting ready for thanksgiving was really starting to wear on me .
+>>> [SPEAKER] i think it could be a thyroid problem .
+[doctor] okay .
+[doctor] did you have a nice holiday ?
+[patient] i , i did but it was uh , it was great to see everybody after about two years but it was just a lot of work .",Thyroid problems can cause anxiety and feeling worn down.,,,,,,,,,
+D2N178,test3,sciatica,T3,Type 2 diabetes mellitus. Hypertension. Hyperlipidemia. Peripheral vascular disease.,"[patient] yeah , but honestly , my feet feel like hell .
+[doctor] yeah .
+[patient] all the time , my legs are bugging me ; i ca n't do much walking .
+>>> [SPEAKER] it might be sciatica , i'm not sure .
+[doctor] okay . yeah , the feet i think is what we call peripheral neuropathy .
+[patient] also , i have the pain up to my hip .
+[doctor] okay . you have pain in the hips and upper legs ?",Leg pain limiting walking and extending to the hip could be sciatica.,anchor moved from default 10 to 48,,,,,,,,
+D2N179,test3,a pinched nerve,T1,"Bilateral carpal tunnel syndrome Mr. Cook is a 60-year-old male referred today for evaluation of numbness and tingling of both hands. His symptom presentation and exam findings today suggest this is bilateral carpal tunnel syndrome or, potentially, this could also be bilateral cubital tunnel syndrome.","[doctor] patient mrn : abc123 . date of birth : january 1st , 1960 . patient is a 60 year old , right-handed male , referred today for evaluation of numbness and tingling .
+[doctor] hello , mr. cook . how are you doing this morning ?
+[patient] hi , dr. martinez . this weekend was a bit rough . i've had this numbness and tingling for a few weeks now .
+>>> [SPEAKER] i wonder if it might be a pinched nerve .
+[doctor] so it's in both of your hands ?
+[patient] yes , ever since my car wreck last december when i broke them ... well , once they healed , i mean , i noticed it more , the tingling and the numbness .
+[doctor] and you still wear the splint only on the right wrist ?",Hand numbness and tingling with neck stiffness after a crash could be a pinched nerve in the neck.,,,,,,,,,
+D2N180,test3,a pinched nerve,T2,"Bilateral carpal tunnel syndrome, question of bilateral cubital tunnel syndrome.","[doctor] patient shirley taylor . date of birth 5/4/1961 . mrn 0000123 . patient is a 60 year old right-handed female new patient referred by dr. jacob ward for evaluation of bilateral hand numbness and tingling . please note that i personally reviewed the ct brain with and without contrasting did 2/5/21 . uh , no metastatic disease . no acute intercranial abnormalities .
+[doctor] hello ms. taylor . how are you doing this morning ?
+[patient] hi dr . lopez . this weekend was a bit rough . i've had this numbness and tingling for a few weeks now .
+>>> [SPEAKER] i think it could be a pinched nerve .
+[doctor] so , in both of your hands ?
+[patient] yeah . ever since my car wreck last december when i broke them . well , once they heal , i mean , i noticed it more , the , the tingling and numbness .
+[doctor] are you still wearing the splint only on your right wrist ?",Hand numbness and tingling with neck stiffness after a crash could be a pinched nerve in the neck.,,,,,,,,,
+D2N181,test3,a hiatal hernia,T3,"The patient presents today with a several year history of GERD that primarily manifests as heartburn and has been poorly controlled with omeprazole 40 mg twice daily. I suspect that she likely has GERD with underlying functional etiology as well. Reassuringly, she has no unintentional weight loss and denies any dysphagia. The patient has been able to identify triggers of her symptoms, including st","[patient] well , my primary doctor , dr. scott , he referred me here .
+[doctor] okay .
+[patient] i've just got really bad acid reflux .
+>>> [SPEAKER] it might be a hiatal hernia , i'm not sure .
+[doctor] okay . can you tell me more about it ?
+[patient] yeah . though i mean i ... right now , i take 40 milligrams of omeprazole twice a day . some days , it is fine , but others are just really bad .
+[doctor] what do you feel ?",A hiatal hernia is a common reason for reflux that persists despite medication.,anchor moved from default 6 to 8,,,,,,,,
+D2N182,test3,a pressure sore,T1,Acute to chronic constipation. Quadriplegia.,"[patient] i told them when i went to the er ... is that your phone ?
+[doctor] it is , yeah . it listens to you and me and it does all of my documentation . it's pretty good stuff . um , tell me what's going on .
+[patient] it is , in my humble opinion , that i was just constipated and that was what was causing my blood pressure to be so high . and i hardly pooped when i was there . then when i got home i had a massive poop and i felt much better . i told them that when i was admitted , and they did x-rays and everything , but they said , "" no , "" as they did n't think that was n't ... that was it . but you know , i felt so much better when i got home and finally pooped .
+>>> [SPEAKER] i wonder if it might be a pressure sore .
+[doctor] okay . um , and the white cell count was the only thing that i think they were kind of concerned about because it was a little high .
+[patient] so i wondered if automatic dysreflexia can affect the white count ?
+[doctor] typically , it does n't .",In quadriplegia a pressure sore is a known trigger of blood pressure spikes.,anchor moved from default 3 to 7,,,,,,,,
+D2N183,test3,folliculitis,T2,Acne vulgaris. Matthew is a 14-year-old male presenting in follow-up of his acne. The acne vulgaris has improved and is well controlled on the face. There is a mild flare with scattered inflammatory papules and pustules across the upper back and posterior shoulders.,"[patient] uh , no . i did n't get it .
+[doctor] okay . um , are your chest and back doing okay ?
+[patient] um , i mean , i have n't put much effort into it because it has n't' really bothered me .
+>>> [SPEAKER] i think it could be folliculitis .
+[doctor] fair enough . that's all right . um , if it bothers you , that's what , uh , that's why i recommended last time
+[patient] okay .
+[doctor] um , so as we move into the summer it may be something that you are more interested in pursuing doing that , uh , but if you feel like the acne on your face ... do you feel like the acne on your face is improving ?",Bumps on the chest and back are often folliculitis rather than acne.,anchor moved from default 6 to 14,,,,,,,,
+D2N184,test3,a pinched nerve,T3,"Status post right medial knee unicompartmental arthroplasty. Ms. Stephanie Morales is a 44-year-old female seen in clinic today in postoperative follow up, 6 weeks status post right medial knee unicompartmental arthroplasty. Overall, the patient is healing well and will continue to improve as she heals.","[patient] it's good .
+[doctor] good . any problems ?
+[patient] no , no problems , uh , just still the numbness on this side .
+>>> [SPEAKER] it might be a pinched nerve , i'm not sure .
+[doctor] okay . that area of numbness will get smaller as the nerves that innervate the skin across the knee heal .
+[patient] right . okay .
+[doctor] so lem me take a look at your right knee .",Persistent numbness near the knee could be blamed on a pinched nerve.,,,,,,,,,
+D2N185,test3,a kidney stone,T1,"Renal hypoplasia. Ashley is a 14-year-old female who presents today for evaluation of abnormal renal ultrasound with atrophic right kidney. She has right-sided renal hypoplasia with a small atrophic right kidney discovered incidentally on imaging for abdominal pain. Imaging shows compensatory hypertrophy of her left kidney. Otherwise, she shows no sequelae of chronic kidney disease and enjoys norm","[patient_guest] sure . so ashley came home one day sick out of nowhere , rubbing her stomach , and she said it was hurting on her right side . and it was so bad that she was bent over in pain .
+[doctor] okay .
+[patient] we automatically thought appendix .
+>>> [SPEAKER] i wonder if it might be a kidney stone .
+[doctor] sure . that makes a lot of sense .
+[patient_guest] we took her to her doctor . they treated her for a stomach virus . they get her fluids and sent her back home , and the next day she was twice as bad as the first day .
+[doctor] goodness . okay . then what happened ?",Severe one-sided abdominal pain causing doubling over could be a kidney stone.,anchor moved from default 1 to 9,,,,,,,,

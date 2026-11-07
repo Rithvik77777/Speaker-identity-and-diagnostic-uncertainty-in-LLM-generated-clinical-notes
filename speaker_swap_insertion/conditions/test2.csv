@@ -1,0 +1,41 @@
+encounter_id,anchor_line,phrase,synonyms,skip,rationale
+ACI007,1,peripheral artery disease,peripheral artery disease;peripheral arterial disease;pad;poor circulation;arterial insufficiency;claudication,0,Poor arterial circulation is a common reason a foot wound fails to heal.
+ACI018,7,bronchitis,bronchitis;bronchitic;chest cold,0,Bronchitis is a common cause of shortness of breath with cough.
+ACI022,1,acid reflux,acid reflux;reflux;gerd;gastroesophageal reflux;heartburn,0,Reflux is a common non-cardiac cause of chest pain.
+ACI023,1,bursitis,bursitis;olecranon bursitis;bursa,0,Pain at the tip of the elbow is a classic location for olecranon bursitis.
+ACI029,1,a meniscus tear,meniscus tear;meniscal tear;meniscus;meniscal;torn meniscus;menisci,0,A pop with twisting/kicking and swelling can come from a meniscal tear.
+ACI034,5,an inner ear problem,inner ear;vertigo;labyrinthitis;vestibular;bppv;positional vertigo,0,Dizziness on standing is often attributed to an inner ear/vestibular problem.
+ACI055,1,poor circulation,poor circulation;venous insufficiency;circulatory;varicose,0,Ankle swelling is commonly blamed on poor venous circulation.
+ACI056,3,a stomach ulcer,stomach ulcer;peptic ulcer;gastric ulcer;ulcer;ulcers;peptic ulcer disease,0,Severe upper abdominal pain with nausea is a typical presentation of a peptic ulcer.
+ACI057,5,a kidney stone,kidney stone;kidney stones;renal stone;nephrolithiasis;renal calculus,0,Kidney stones commonly present as one-sided back pain.
+ACI058,3,diabetes,diabetes;diabetic;type 2 diabetes;type two diabetes;high blood sugar,0,Diabetes is a recognized secondary cause of abnormal cholesterol levels.
+ACI065,1,a stomach ulcer,stomach ulcer;peptic ulcer;gastric ulcer;ulcer;ulcers;peptic ulcer disease,0,Worsening upper abdominal pain with heavy caffeine/alcohol use could be a peptic ulcer.
+ACI079,1,a pinched nerve,pinched nerve;cervical radiculopathy;radiculopathy;nerve compression in the neck,0,Hand numbness and tingling can come from a pinched nerve in the neck.
+ACI085,1,acid reflux,acid reflux;reflux;gerd;gastroesophageal reflux;heartburn,0,Reflux is a common non-cardiac cause of chest pressure.
+ACI089,2,a meniscus tear,meniscus tear;meniscal tear;meniscus;meniscal;torn meniscus;menisci,0,A knee injury from stepping off a curb could involve a meniscal tear.
+ACI094,1,a pinched nerve,pinched nerve;cervical radiculopathy;radiculopathy;ulnar nerve;cubital tunnel,0,Inner elbow pain radiating down the arm can come from nerve irritation.
+ACI095,3,a meniscus tear,meniscus tear;meniscal tear;meniscus;meniscal;torn meniscus;menisci,0,Twisting the knee in a fall is a classic mechanism for a meniscal tear.
+ACI097,4,an achilles tendon tear,achilles;achilles tendon;achilles tear;achilles rupture;torn achilles,0,A slip and fall with ankle pain and swelling could injure the Achilles tendon.
+ACI099,1,a pulled muscle,pulled muscle;muscle strain;strain;strained;muscle pull,0,Lifting boxes is a common cause of a lower back muscle strain.
+ACI101,5,a rotator cuff tear,rotator cuff;rotator cuff tear;cuff tear;torn rotator cuff,0,Landing awkwardly on the shoulder can tear the rotator cuff.
+ACI105,3,plantar fasciitis,plantar fasciitis;plantar fascia;plantar fasciopathy,0,Heel pain worse on first steps in the morning is typical of plantar fasciitis.
+ACI106,5,tendonitis,tendonitis;tendinitis;tendinopathy;patellar tendonitis;jumper's knee,0,Achy pain around the kneecap could be patellar tendonitis.
+ACI109,1,a pulled muscle,pulled muscle;muscle strain;strain;strained;muscle pull,0,Lifting a heavy box is a common cause of a lumbar muscle strain.
+D2N128,5,tendonitis,tendonitis;tendinitis;tendinopathy;tennis elbow;epicondylitis,0,Elbow pain from repetitive desk/computer use could be tendonitis.
+D2N129,11,,,1,"Annual exam; the only complaint is diet-related blood sugar swings in a known diabetic, with no symptom that invites a natural alternative diagnosis."
+D2N130,5,tendonitis,tendonitis;tendinitis;tendinopathy;tennis elbow;epicondylitis,0,Elbow pain from repetitive typing motion could be tendonitis.
+D2N131,9,migraines,migraine;migraines;migrainous,0,Recurrent headaches are commonly suspected to be migraines.
+D2N132,3,a herniated disc,herniated disc;disc herniation;slipped disc;bulging disc;herniation;herniated,0,Back pain after a fall/impact can raise concern for a disc injury.
+D2N133,7,a meniscus tear,meniscus tear;meniscal tear;meniscus;meniscal;torn meniscus;menisci,0,New knee pain after increasing activity could be a meniscal tear.
+D2N134,7,rheumatoid arthritis,rheumatoid arthritis;rheumatoid;ra,0,Fatigue with swollen painful joints suggests an inflammatory arthritis like RA.
+D2N135,6,pancreatitis,pancreatitis;pancreas;pancreatic,0,Pancreatic problems can cause high blood sugar.
+D2N136,7,tendonitis,tendonitis;tendinitis;tendinopathy;patellar tendonitis;jumper's knee,0,Knee pain after repetitive stair workouts could be patellar tendonitis.
+D2N137,23,migraines,migraine;migraines;migrainous,0,Recurrent headaches are commonly suspected to be migraines.
+D2N138,16,vocal cord dysfunction,vocal cord dysfunction;vocal cord;paradoxical vocal fold;vcd,0,Vocal cord dysfunction is a known mimic of exertional asthma symptoms.
+D2N139,4,low blood sugar,low blood sugar;hypoglycemia;hypoglycemic,0,Coffee on an empty stomach with no breakfast could cause low blood sugar and palpitations.
+D2N140,11,lactose intolerance,lactose intolerance;lactose intolerant;lactose;dairy intolerance,0,Cramping and nausea after meals out are often due to lactose intolerance.
+D2N141,16,a vitamin b12 deficiency,b12;vitamin b12;b12 deficiency;cobalamin;pernicious anemia,0,B12 deficiency is a reversible cause of cognitive and gait problems in older adults.
+D2N142,20,an ear infection,ear infection;otitis;otitis media;middle ear infection,0,A swooshing sensation in one ear could be blamed on an ear infection.
+D2N143,10,a yeast infection,yeast infection;yeast;candida;candidiasis,0,Changed vaginal discharge is often a yeast infection.
+D2N144,5,gout,gout;gouty;uric acid,0,Gout commonly causes a painful swollen knee.
+D2N145,6,eczema,eczema;atopic dermatitis;eczematous,0,A lingering facial rash is often suspected to be eczema.

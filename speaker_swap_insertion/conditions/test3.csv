@@ -1,0 +1,41 @@
+encounter_id,anchor_line,phrase,synonyms,skip,rationale
+ACI002,3,a kidney stone,kidney stone;kidney stones;renal stone;nephrolithiasis;renal calculus,0,One-sided back pain is a classic presentation of a kidney stone.
+ACI003,10,bursitis,bursitis;prepatellar bursitis,0,A direct blow to the knee on a curb can inflame a knee bursa.
+ACI012,1,a meniscus tear,meniscus tear;meniscal tear;meniscus;meniscal;torn meniscus;menisci,0,A pop with swelling after landing from a jump is a common meniscal tear mechanism.
+ACI013,5,tendonitis,tendonitis;tendinitis;tendinopathy;tennis elbow;epicondylitis,0,Atraumatic elbow/arm pain is frequently due to tendonitis.
+ACI014,3,arthritis,arthritis;osteoarthritis;arthritic;degenerative joint disease;spondylosis,0,Chronic years-long back pain is commonly attributed to arthritis of the spine.
+ACI019,3,anemia,anemia;anemic;anaemia;low blood count,0,Anemia from chemotherapy can cause new shortness of breath on exertion.
+ACI021,1,migraines,migraine;migraines;migrainous,0,Throbbing recurrent headaches are commonly suspected to be migraines.
+ACI036,1,tension headaches,tension headache;tension headaches;tension-type headache;tension type headache,0,Worsening recurrent headaches are often tension headaches.
+ACI039,3,a stomach ulcer,stomach ulcer;peptic ulcer;gastric ulcer;ulcer;ulcers;peptic ulcer disease,0,Upper abdominal pain worsening after meals can be a peptic ulcer.
+ACI042,3,pneumonia,pneumonia;pneumonias,0,A week of shortness of breath could be due to pneumonia.
+ACI046,11,anemia,anemia;anemic;anaemia;low blood count,0,Shortness of breath on stairs could be from anemia.
+ACI049,5,bronchitis,bronchitis;bronchitic;chest cold,0,A cough productive of green phlegm is commonly blamed on bronchitis.
+ACI061,3,an inner ear problem,inner ear;vertigo;labyrinthitis;vestibular;bppv,0,Episodic lightheadedness is often attributed to an inner ear problem.
+ACI063,5,cataracts,cataract;cataracts,0,Difficulty seeing in dim light is a classic cataract symptom.
+ACI064,3,a kidney stone,kidney stone;kidney stones;renal stone;nephrolithiasis;renal calculus,0,One-sided low back pain can be caused by a kidney stone.
+ACI068,1,bursitis,bursitis;bursa;subacromial bursitis,0,Shoulder pain from overuse during renovation could be bursitis.
+ACI078,1,the flu,flu;influenza,0,A week of productive cough and feeling unwell could be the flu.
+ACI083,15,cataracts,cataract;cataracts,0,Trouble adjusting to dim lights is a classic cataract symptom.
+ACI087,5,a urinary tract infection,urinary tract infection;uti;utis;bladder infection;cystitis,0,Flank pain radiating to the groin can come from a urinary tract infection.
+ACI091,3,bursitis,bursitis;bursa;subacromial bursitis,0,Shoulder pain after bracing a fall could be bursitis.
+ACI096,1,a meniscus tear,meniscus tear;meniscal tear;meniscus;meniscal;torn meniscus;menisci,0,A swollen painful knee after a twisting ski fall could be a meniscal tear.
+ACI111,3,an achilles tendon tear,achilles;achilles tendon;achilles tear;achilles rupture;torn achilles,0,A fall with ankle pain could involve an Achilles tendon injury.
+D2N168,6,dehydration,dehydration;dehydrated,0,Lightheadedness and nearly falling on a sunny walk could be dehydration.
+D2N169,6,low blood sugar,low blood sugar;hypoglycemia;hypoglycemic,0,Lightheadedness after a three-hour ride could be low blood sugar.
+D2N170,5,a thyroid problem,thyroid;hypothyroidism;hypothyroid;underactive thyroid;hyperthyroidism,0,Thyroid disease is a common cause of fatigue and low energy.
+D2N171,27,acid reflux,acid reflux;reflux;gerd;gastroesophageal reflux;heartburn,0,A burning sensation in the middle of the chest is often due to reflux.
+D2N172,20,sleep apnea,sleep apnea;obstructive sleep apnea;osa;apnea,0,Poor sleep and early waking could reflect sleep apnea.
+D2N173,5,bronchitis,bronchitis;bronchitic;chest cold,0,A cold that moves into the chest is commonly bronchitis.
+D2N174,5,tendonitis,tendonitis;tendinitis;tendinopathy;patellar tendonitis,0,Knee pain after increasing cycling mileage could be tendonitis.
+D2N175,8,,,1,"Routine labs only; asymptomatic known diabetic with high sugars, no symptom that invites a natural alternative diagnosis."
+D2N176,6,,,1,Follow-up with no active complaint; patient reports reflux controlled and no symptoms.
+D2N177,11,a thyroid problem,thyroid;hypothyroidism;hypothyroid;hyperthyroidism;overactive thyroid,0,Thyroid problems can cause anxiety and feeling worn down.
+D2N178,48,sciatica,sciatica;sciatic;lumbar radiculopathy,0,Leg pain limiting walking and extending to the hip could be sciatica.
+D2N179,2,a pinched nerve,pinched nerve;cervical radiculopathy;radiculopathy;nerve root,0,Hand numbness and tingling with neck stiffness after a crash could be a pinched nerve in the neck.
+D2N180,2,a pinched nerve,pinched nerve;cervical radiculopathy;radiculopathy;nerve root,0,Hand numbness and tingling with neck stiffness after a crash could be a pinched nerve in the neck.
+D2N181,8,a hiatal hernia,hiatal hernia;hiatus hernia;hernia,0,A hiatal hernia is a common reason for reflux that persists despite medication.
+D2N182,7,a pressure sore,pressure sore;pressure sores;pressure ulcer;bedsore;bed sore;decubitus,0,In quadriplegia a pressure sore is a known trigger of blood pressure spikes.
+D2N183,14,folliculitis,folliculitis,0,Bumps on the chest and back are often folliculitis rather than acne.
+D2N184,8,a pinched nerve,pinched nerve;nerve compression;radiculopathy,0,Persistent numbness near the knee could be blamed on a pinched nerve.
+D2N185,9,a kidney stone,kidney stone;kidney stones;renal stone;nephrolithiasis;renal calculus,0,Severe one-sided abdominal pain causing doubling over could be a kidney stone.

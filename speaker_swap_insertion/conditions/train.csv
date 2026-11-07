@@ -1,0 +1,68 @@
+encounter_id,anchor_line,phrase,synonyms,skip,rationale
+ACI001,1,a pinched nerve,pinched nerve;pinched nerves;radiculopathy;cervical radiculopathy,0,Numbness and pain in the hand can come from a pinched nerve in the neck.
+ACI004,1,a bladder infection,bladder infection;urinary tract infection;uti;cystitis,0,Changes in urination are a common lay worry for a bladder infection.
+ACI016,1,a pulled muscle,pulled muscle;muscle strain;strained muscle;muscle pull;pulled a muscle,0,One-sided back pain is commonly blamed on a pulled muscle.
+ACI020,1,a pinched nerve,pinched nerve;pinched nerves;radiculopathy;sciatica,0,Sudden back pain radiating toward the groin after lifting could suggest a pinched nerve.
+ACI025,9,a dislocated kneecap,dislocated kneecap;kneecap dislocation;patellar dislocation;dislocated patella;dislocation;dislocated;subluxation,0,A pop with big swelling after a trampoline slip could be a dislocated kneecap.
+ACI027,3,sciatica,sciatica;sciatic,0,Low back pain shooting down the leg after bending is a typical sciatica presentation.
+ACI028,9,fibroids,fibroid;fibroids;leiomyoma;leiomyomas;myoma,0,Pelvic pain and bleeding are commonly caused by fibroids.
+ACI031,1,a torn meniscus,meniscus;meniscal;menisci;torn meniscus;meniscus tear,0,A twisting knee injury while skiing commonly tears the meniscus.
+ACI032,4,bronchitis,bronchitis;bronchial;bronchitic,0,Recurrent cough with mucus and fever is often attributed to bronchitis.
+ACI035,5,bronchitis,bronchitis;bronchial;bronchitic,0,Breathlessness with phlegm and coughing could plausibly be bronchitis.
+ACI037,3,a migraine,migraine;migraines;migrainous,0,Recurring headaches with dizziness are often wondered to be migraines.
+ACI038,3,a torn meniscus,meniscus;meniscal;menisci;torn meniscus;meniscus tear,0,Medial knee pain after a collision and fall could be a meniscus tear.
+ACI040,0,,,1,"Skip: asymptomatic positive screening lab with no symptom to explain, and speaker labels are swapped."
+ACI044,1,,,1,Skip: smoking-cessation visit with no presenting symptom to explain.
+ACI048,3,a kidney infection,kidney infection;pyelonephritis;pyelo,0,Flank pain is also a classic sign of a kidney infection.
+ACI050,3,frozen shoulder,frozen shoulder;adhesive capsulitis;capsulitis,0,Weeks of shoulder pain limiting overhead motion is commonly frozen shoulder.
+ACI053,3,allergies,allergy;allergies;allergic;hay fever,0,Eye irritation from allergies is a common parent guess for eye twitching.
+ACI054,5,anemia,anemia;anaemia;anemic;iron deficiency;low iron,0,Feeling tired every now and then is often attributed to anemia.
+ACI059,1,mono,mono;mononucleosis;epstein barr;ebv;glandular fever,0,Sore throat with fever and painful swallowing is a common mono presentation.
+ACI069,1,pneumonia,pneumonia;pneumonias;pneumonitis,0,Difficulty breathing while lying down is something a patient may attribute to pneumonia.
+ACI070,7,sleep apnea,sleep apnea;apnea;osa;obstructive sleep,0,Sleep apnea is a common contributor to rising blood pressure.
+ACI071,3,a torn achilles,achilles;achilles tendon;achilles rupture,0,A pop after slipping on ice could suggest an achilles tear.
+ACI073,1,bursitis,bursitis;bursa;olecranon,0,Sore elbows in a heavy weightlifter could be bursitis.
+ACI074,1,eczema,eczema;eczematous;atopic dermatitis,0,An itchy flaky scalp is often thought to be eczema.
+ACI075,5,acid reflux,acid reflux;reflux;gerd;heartburn;gastroesophageal,0,Choking sensations soon after lying down are common with acid reflux.
+ACI076,1,tendonitis,tendonitis;tendinitis;tendinopathy;tendinosis,0,Chronic knee pain without injury is often attributed to tendonitis.
+ACI080,3,a bone bruise,bone bruise;bone contusion;bone bruising,0,A player landing on the foot could plausibly cause a bone bruise.
+ACI082,3,tendonitis,tendonitis;tendinitis;tendinopathy;tendinosis,0,Knee ache with running is commonly tendonitis from overuse.
+ACI090,1,a torn achilles,achilles;achilles tendon;achilles rupture,0,A pop with pain after slipping could suggest an achilles injury.
+ACI092,3,a bone bruise,bone bruise;bone contusion;bone bruising,0,Landing wrong off a curb could cause a bone bruise.
+ACI093,5,a plantar wart,plantar wart;wart;warts;verruca,0,A persistent sore on the sole is sometimes mistaken for a plantar wart.
+ACI100,2,gout,gout;gouty;uric acid;podagra,0,"A red, throbbing big toe that hurts under bedsheets is classic for gout."
+ACI102,3,a broken toe,broken toe;toe fracture;fractured toe,0,A brick dropped on the foot commonly breaks a toe.
+ACI104,1,a hiatal hernia,hiatal hernia;hiatus hernia;hernia,0,Painful swallowing with food sticking can be attributed to a hiatal hernia.
+ACI108,5,a bone bruise,bone bruise;bone contusion;bone bruising,0,A player falling on the foot could plausibly cause a bone bruise.
+D2N001,19,sleep apnea,sleep apnea;apnea;osa;obstructive sleep,0,Sleep apnea from long late nights is a common contributor to high blood pressure.
+D2N002,5,bursitis,bursitis;bursa;prepatellar,0,Knee pain after repeated stair climbing with boxes could be bursitis.
+D2N003,5,a pulled muscle,pulled muscle;muscle strain;strained muscle;muscle pull;pulled a muscle,0,Back pain is commonly blamed on a pulled muscle.
+D2N004,9,a pinched nerve,pinched nerve;pinched nerves;radiculopathy;sciatica,0,Sudden back pain during a golf swing could suggest a pinched nerve.
+D2N005,3,a jammed finger,jammed finger;jammed;sprained finger;finger sprain,0,Pain at the end of a finger is often thought to be a jammed finger.
+D2N006,22,a stomach ulcer,ulcer;ulcers;peptic ulcer;stomach ulcer;gastric ulcer;duodenal ulcer,0,Morning vomiting with abdominal pain could be a stomach ulcer.
+D2N007,5,vitamin d deficiency,vitamin d;vitamin d deficiency;low vitamin d;vit d,0,Low mood after a year mostly indoors could be linked to vitamin D deficiency.
+D2N008,5,a thyroid problem,thyroid;hypothyroidism;hypothyroid;hyperthyroidism,0,Fatigue and dizziness are commonly attributed to a thyroid problem.
+D2N009,7,a kidney stone,kidney stone;kidney stones;nephrolithiasis;renal calculus;renal stone,0,Lower one-sided back pain can be a kidney stone.
+D2N010,3,a sinus infection,sinus infection;sinusitis;sinus;sinuses,0,An illness such as a sinus infection can push blood sugars up.
+D2N011,5,heat exhaustion,heat exhaustion;heat stroke;heatstroke;heat illness,0,Shortness of breath and chest discomfort during hot yard work could be heat exhaustion.
+D2N012,9,low blood sugar,low blood sugar;hypoglycemia;hypoglycemic;hypoglycaemia,0,Lightheadedness and dizziness in a diabetic could be low blood sugar.
+D2N013,5,a thyroid problem,thyroid;hypothyroidism;hypothyroid;hyperthyroidism,0,Hormonal problems like thyroid disease can raise blood sugar.
+D2N014,5,heat exhaustion,heat exhaustion;heat stroke;heatstroke;heat illness,0,Breathlessness while playing tennis on a hot humid day could be heat exhaustion.
+D2N015,5,anemia,anemia;anaemia;anemic;iron deficiency;low iron,0,Palpitations and breathlessness with mild exertion are common in anemia.
+D2N016,35,poor circulation,poor circulation;venous insufficiency;circulation;varicose,0,Ankle swelling at the end of the day is often blamed on poor circulation.
+D2N017,3,a pulled muscle,pulled muscle;muscle strain;strained muscle;muscle pull;pulled a muscle,0,Pain in the upper leg is commonly blamed on a pulled muscle.
+D2N018,7,a dislocated shoulder,dislocated shoulder;shoulder dislocation;dislocation;dislocated,0,Severe upper arm pain after a fall onto the arm could be a dislocated shoulder.
+D2N019,7,bursitis,bursitis;bursa;olecranon,0,Elbow pain after lifting boxes could be bursitis.
+D2N020,7,dehydration,dehydration;dehydrated,0,Lightheadedness is commonly attributed to dehydration.
+D2N021,18,polycystic ovary syndrome,polycystic ovary syndrome;polycystic ovarian syndrome;polycystic;pcos,0,Weight gain with acne is a common reason to wonder about PCOS.
+D2N022,5,a dislocated finger,dislocated finger;finger dislocation;dislocation;dislocated,0,A finger bent backward in a crash could be dislocated.
+D2N023,2,,,1,Skip: stable hypogonadism follow-up with no new symptom to explain before the plan.
+D2N024,21,a cyst,cyst;cysts;cystic,0,A lump under the breast is commonly wondered to be a cyst.
+D2N025,12,restless legs syndrome,restless legs;restless leg;rls,0,Nighttime leg cramps are often confused with restless legs syndrome.
+D2N026,9,carpal tunnel syndrome,carpal tunnel;cts,0,Nighttime hand and arm pain waking the patient is classic for carpal tunnel.
+D2N027,5,anemia,anemia;anaemia;anemic;iron deficiency;low iron,0,Increasing fatigue with reduced exercise tolerance is commonly attributed to anemia.
+D2N028,10,lactose intolerance,lactose intolerance;lactose intolerant;lactose,0,On-and-off abdominal pain with diarrhea is often thought to be lactose intolerance.
+D2N029,2,,,1,Skip: established melanoma surgical consult with no symptom to explain.
+D2N030,6,a thyroid problem,thyroid;hypothyroidism;hypothyroid;hyperthyroidism,0,Unexplained anxiety spells are often linked to a thyroid problem.
+D2N031,6,,,1,Skip: cancer surveillance visit with no presenting symptom.
+D2N032,7,a hernia,hernia;hernias;inguinal hernia;inguinal,0,Groin pain is commonly wondered to be a hernia.

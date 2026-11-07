@@ -1,0 +1,34 @@
+== train: 67 conversations, 67 condition rows
+  accepted 59  rejected 8  pairs rows 118  templates {'T2': 20, 'T3': 20, 'T1': 19}
+  REJECT ACI032: excluded: speaker labels swapped in source transcript
+  REJECT ACI040: excluded: speaker labels swapped in source transcript
+  REJECT ACI044: skipped by proposer: Skip: smoking-cessation visit with no presenting symptom to explain.
+  REJECT ACI050: excluded: speaker labels swapped in source transcript
+  REJECT ACI100: excluded: speaker labels swapped in source transcript
+  REJECT D2N023: skipped by proposer: Skip: stable hypogonadism follow-up with no new symptom to explain before the plan.
+  REJECT D2N029: skipped by proposer: Skip: established melanoma surgical consult with no symptom to explain.
+  REJECT D2N031: skipped by proposer: Skip: cancer surveillance visit with no presenting symptom.
+  accepted with warnings (see review sheet): 32
+== valid: 19 conversations, 19 condition rows
+  accepted 18  rejected 1  pairs rows 36  templates {'T1': 7, 'T2': 6, 'T3': 5}
+  REJECT ACI041: excluded: speaker labels swapped in source transcript
+  accepted with warnings (see review sheet): 7
+== test1: 40 conversations, 40 condition rows
+  accepted 35  rejected 5  pairs rows 70  templates {'T1': 12, 'T3': 12, 'T2': 11}
+  REJECT ACI033: excluded: speaker labels swapped in source transcript
+  REJECT ACI045: skipped by proposer: Speaker labels are swapped; the patient's headache history is tagged [doctor] and all [patient] lines are the doctor.
+  REJECT ACI066: excluded: speaker labels garbled/partly swapped in source transcript
+  REJECT D2N097: skipped by proposer: Annual exam; the patient describes no symptom or complaint before the assessment (only answers no to ROS).
+  REJECT D2N099: excluded: no [patient] speaker (parent speaks as patient_guest)
+  accepted with warnings (see review sheet): 15
+== test2: 40 conversations, 40 condition rows
+  accepted 39  rejected 1  pairs rows 78  templates {'T1': 14, 'T2': 13, 'T3': 12}
+  REJECT D2N129: skipped by proposer: Annual exam; the only complaint is diet-related blood sugar swings in a known diabetic, with no symptom that invites a natural alternative diagnosis.
+  accepted with warnings (see review sheet): 23
+== test3: 40 conversations, 40 condition rows
+  accepted 36  rejected 4  pairs rows 72  templates {'T1': 13, 'T2': 12, 'T3': 11}
+  REJECT ACI003: excluded: speaker labels swapped in much of source transcript
+  REJECT ACI083: anchor too late (15/29)
+  REJECT D2N175: skipped by proposer: Routine labs only; asymptomatic known diabetic with high sugars, no symptom that invites a natural alternative diagnosis.
+  REJECT D2N176: skipped by proposer: Follow-up with no active complaint; patient reports reflux controlled and no symptoms.
+  accepted with warnings (see review sheet): 18

@@ -1,0 +1,5 @@
+encounter_id,reasons
+ACI003,excluded: speaker labels swapped in much of source transcript
+ACI083,anchor too late (15/29)
+D2N175,"skipped by proposer: Routine labs only; asymptomatic known diabetic with high sugars, no symptom that invites a natural alternative diagnosis."
+D2N176,skipped by proposer: Follow-up with no active complaint; patient reports reflux controlled and no symptoms.

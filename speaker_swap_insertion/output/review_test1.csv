@@ -1,0 +1,236 @@
+encounter_id,split,condition,template_id,actual_assessment,context,proposer_rationale,auto_warnings,R0_speaker_labels_correct,R1_plausible_alternative,R2_not_actual_or_known_dx,R3_natural_as_doctor,R4_natural_as_patient,R5_fits_position,reviewer,comment
+ACI000,test1,a torn achilles,T1,Right lateral malleolar fracture.,"[doctor] so jerry is a 45 -year-old male who came in today with an ankle injury jerry what happened
+[patient] hey doctor michael yeah so my son sean i think you met in the past he he started playing basketball and there we do multiple seasons and so we're kinda getting ready for the next season that starts in in april and we were at the courts plan and i went up for a shot and he's far more aggressive than with me than he is with you know his peers i guess he could say and so he he found me while i was going for a lap and then when i came down i kind of landed awkwardly and i kind of like rolled and twisted my my ankle so now it's it's hurting a bit like kind of on the outside you can you can even see it's it's bruised up and a bit swollen
+>>> [SPEAKER] i wonder if it might be a torn achilles
+[doctor] yeah
+[patient] and yeah i've been having trouble walking and it just does n't feel solid really stable which is a problem i i recently got back into working out and i had been in a really good rhythm going to the gym
+[doctor] okay",An ankle injury jumping during basketball with instability is a classic Achilles rupture scenario.,,,,,,,,,
+ACI008,test1,a pinched nerve,T2,Neck sprain.,"[patient] well which car crash
+[doctor] okay so multiple car crashes alright so let's see if we can how many let's start
+[patient] my therapist said well my well actually my mother said i should go see the therapist and the therapist said i should see the lawyer but my neck's hurting
+>>> [SPEAKER] i think it could be a pinched nerve
+[doctor] okay so i'm glad that you know you're getting some advice and so let's let's talk about this neck pain how many car crashes have we had recently
+[patient] well the ones that are my fault or all of them
+[doctor] all of them",Neck pain after a car crash could plausibly come from a pinched nerve.,,,,,,,,,
+ACI009,test1,an abscess,T3,Right diabetic foot ulcer.,"[doctor] hey gregory good to see you today so take a look at my notes and i see that you're here you've had a nonhealing foot ulcer so can you tell me how you're doing how long have you had it what's going on with it
+[patient] sure so i've had it for about two months now and it's recently become red and is draining so i was concerned about how it's healed
+>>> [SPEAKER] it might be an abscess i'm not sure
+[doctor] okay and when you when you got it would you have any trauma to your foot or it just just did it pop up all of a sudden
+[patient] i think i may have gotten it from walking barefoot on the beach
+[doctor] okay alright and i saw you you did see your pcp before you came in did they put you on antibiotics",A foot sore that has become red and draining could plausibly be an abscess.,,,,,,,,,
+ACI010,test1,a torn meniscus,T1,"Right knee pain, possible ACL tear.","[doctor] hi michelle what's been going on the medical assistant told me that you injured your knee
+[patient] yeah i'm gon na have to keep this my favorite story is that i had a sandra who injured her knee cold dancing so that would immediately came up to mine but let's try skiing so i was skiing in vermont last weekend and i caught my ski when i was coming off the lift and i fell and my knee popped and it's hurt ever since
+>>> [SPEAKER] i wonder if it might be a torn meniscus
+[doctor] okay and were you able to ski down the hill or did you have to be taken down by the ski patrol
+[patient] i had to be taken down by the ski patrol i was unable to bear weight
+[doctor] okay is n't that slightly terrifying they had to do the same thing for me and you're just kind of sitting there watching all of the trees go by so anyway so what part of your knee is bothering you the most is it the inside the outside",A knee that pops in a skiing fall and hurts on the outside could be a meniscal tear.,,,,,,,,,
+ACI015,test1,a torn acl,T2,"1. Right knee pain, lateral ligament strain. 2. Hypertension. 3. Diabetes type 2.","[doctor] hey william so i see that you injured your knee could you tell me a bit about what happened
+[patient] yeah i thought it was a good idea to go to the trampoline park with my wife and heard a snap and instant pain when i was on the trampoline
+>>> [SPEAKER] i think it could be a torn acl
+[doctor] okay alright and so do do you go to the trampoline park often
+[patient] i do n't and i think that's the issue
+[doctor] okay so this is the first time you'd ever done something like that",A snap and instant knee pain on a trampoline is a classic ACL tear story.,short synonym(s) may false-match: ['acl'],,,,,,,,
+ACI017,test1,a torn meniscus,T3,"1. Right knee pain. - Medical Reasoning: Based on the patient's symptoms and exam, I believe he has a medial collateral ligament strain. - Patient Education and Counseling: We discussed the nature of this injury as well as the expected recovery outcome. He was advised surgery is typically not needed and that physical therapy will be beneficial for strengthening to prevent future injuries. He was a","[patient] it's my right knee
+[doctor] your right knee okay and i know that it sounds like you were on a motor boat as you were you know water skiing but did you hear anything pop or feel anything pop when it happened
+[patient] no it just felt like something stretched and then it swelled up some afterwards
+>>> [SPEAKER] it might be a torn meniscus i'm not sure
+[doctor] okay and were you i assume that you were were you able to get out of the water by yourself or did you need some assistance
+[patient] i was able to get out but it was very sore to climb up and you know any kind of squatting or bending is really pretty sore
+[doctor] yeah okay and have you ever injured this knee before",A twisted knee that swelled and hurts with squatting could be a meniscal tear; line 0 mixes doctor and patient speech so a later patient line was chosen.,POSSIBLE SWAPPED SPEAKER LABELS: clinician-style speech tagged [patient]; check R0 | anchor moved from default 0 to 6,,,,,,,,
+ACI024,test1,spinal stenosis,T1,Acute disc herniation at L4-5 with nerve root impingement.,"[patient] well you wan na hear the long story or kind of the short story because my back has been bothering me for a long time
+[doctor] so let's do let's do the reader's digestive version
+[patient] well i ca n't i ca n't really tie my shoes you know standing really makes it bad you know when i go to the mall it really really i do n't know all i i've just been bedridden
+>>> [SPEAKER] i wonder if it might be spinal stenosis
+[doctor] okay and i know it got real bad about a month ago that's what the report here from the pcp said but can you tell me exactly where the pain is in your lower back can you kinda point to where that's at
+[patient] yeah it's right here and you know like thirty years ago when i fell off the roof it was really really bothersome they they said maybe there was a fracture or something and you know i do n't know i just could n't play football and then i had to you know kinda try to take care of myself but you know it's it's been really bad for about a month
+[doctor] okay and then do you still have that pain that radiates down your left leg sometimes",Long-standing back pain worse with standing and walking at the mall is typical of spinal stenosis; default line 1 is small talk.,anchor moved from default 1 to 5,,,,,,,,
+ACI043,test1,bronchitis,T3,1. Moderate intermittent asthma. - Medical Reasoning: The patient's symptoms and results of her PFT are consistent with moderate intermittent asthma. - Patient Education and Counseling: I explained the importance of consistency with her daily inhaler as this will help prevent daily symptoms and the need to use the albuterol inhaler as frequently. My hope is that she has less acute exacerbations as,"[doctor] hey betty how are you doing
+[patient] i'm doing okay i just been really frustrated because with my asthma and it just seems like i can never catch a break never get better i'm always it seems like i'm always coughing and wheezing
+>>> [SPEAKER] it might be bronchitis , i'm not sure .
+[doctor] i'm sorry to hear that what normally triggers your asthma type symptoms
+[patient] i find that it's really really when i get sick if i get sick with a cold i almost always know that my asthma is going to flare i did notice one time though that when i went to my aunt's house i i had a flare afterwards and i think it's because of her cat so i try to avoid going there and i have n't really had an issue since
+[doctor] okay so now you mentioned that that happens somewhat a lot how frequently does this occur that you have these breathing type problems",Constant coughing and wheezing could plausibly be bronchitis.,,,,,,,,,
+ACI047,test1,bursitis,T2,1. Acute lateral epicondylitis of right elbow. - Medical Reasoning: Patient presents today with symptoms consistent with lateral epicondylitis secondary to overuse. - Patient Education and Counseling: The nature of the diagnosis was discussed. He was advised that this is like due to increased tennis activity and was encouraged to rest as much as possible. - Medical Treatment: Patient will disconti,"[patient] yeah that sounds great
+[doctor] okay great so mark tell me about your right elbow pain what's been happening
+[patient] so yeah i've been playing a lot of tennis recently buddy of mine you know you're always telling me to get off the couch and be more active so a buddy of mine asked me if i wanted to go play tennis he just joined a country club i've been hitting hitting the cord a lot more and it's just been killing me for the last three weeks or so
+>>> [SPEAKER] i think it could be bursitis
+[doctor] okay alright and where in your elbow is it hurting
+[patient] outside part
+[doctor] hmmm okay does the pain radiate anywhere like down to your arm up to your shoulder or anywhere else",Elbow pain from repetitive tennis could plausibly be bursitis.,,,,,,,,,
+ACI052,test1,a kidney infection,T3,"1. Kidney stones. - Medical Reasoning: Patient recently experience an episode of kidney stones which is her 7th or 8th episode. Based on the patient's symptoms and exam today, I think she has likely passed her kidney stones. - Patient Education and Counseling: I advised the patient that we will obtain further testing, however, based on her recurrent episodes a referral to urology is necessary. - M","[patient] i'm doing pretty well
+[doctor] alright so looking here at your appointment notes it says you're you're here you think you have a kidney stone you had some in the past so we're gon na take a look at that and then you also have a past medical history of hypertension and diabetes we want to take a look at those as well so first thing what's going on with your kidneys you as what how long ago have you been feeling pain and and how's all that
+[patient] pain's been up and down i went to the emergency room last week but now i think i'm doing a little bit better
+>>> [SPEAKER] it might be a kidney infection , i'm not sure .
+[doctor] okay so the case of kidney stones so have you had you said you've had them in the past and how often would you say
+[patient] i do n't know i this is probably like my seventh or eighth kidney stone
+[doctor] seven or eight kidney stones so do you think you passed it yet or is it still in the",Fluctuating pain needing an ER visit in a stone former could plausibly be a kidney infection.,,,,,,,,,
+ACI060,test1,allergies,T1,"1. Right upper lobe lung nodule. - Medical Reasoning: The patient has incidentally found right upper lobe lung nodule visible on his chest CT. It could be a benign nodule, but because of his smoking history, I think it is best that he has it surgically removed. - Patient Education and Counseling: I had a thorough discussion with the patient concerning surgical treatment. Surgery will require gener","[patient] okay
+[doctor] so let's talk a little bit about how long you've had that cough before you went to see your doctor
+[patient] i you know off and on i've had it for about three months i first noticed it when i was loading some pay i have horses and i i bought you know four hundred bills a day and when i spent a day loading it and then it's i just started coughing a lot more i think around that time and after that i i i just got a cold so that's what sent me to my pcp now i i i do exercise i i do a lot of biking and i typically do n't get sick and my cough has gone away
+>>> [SPEAKER] i wonder if it might be allergies
+[doctor] okay that's good to hear you mentioned exercise and biking i love to bike myself i've got a track seventy one hundred hybrid have you been on the the new trails they opened it was the old the old rail the old rail road right away they've opened that up it's like sixty miles of trails
+[patient] i love that that road i just i i do n't like riding on the road so i prefer to do those rails the trails type
+[doctor] yeah",A cough that started while loading hay could plausibly be allergies; default line 1 is referral history so the cough description was used.,anchor moved from default 1 to 5,,,,,,,,
+ACI062,test1,athlete's foot,T2,1. Right foot diabetic ulcer. 2. Diabetes.,"[patient] yes
+[doctor] so can you tell me about that how are you doing
+[patient] well i've been doing okay but i've had this wound on my right foot for a couple of weeks and it's not getting better i saw my pcp and they referred me to you i i used to see a podiatrist and a couple of years ago but they moved and i was n't able to get another one
+>>> [SPEAKER] i think it could be athlete's foot .
+[doctor] okay and how long have you had the wound
+[patient] about two to three weeks
+[doctor] okay have you had any kind of trauma to that foot",A non-healing foot sore can be confused with athlete's foot skin breakdown.,,,,,,,,,
+ACI072,test1,a torn tendon,T1,"1. Left ankle pain. - Medical Reasoning: Given the nature of her injury, I believe this is an ankle sprain. - Patient Education and Counseling: I advised the patient that I will contact her with the results of her x-ray, and that if these reveal a fracture, we will put in a referral to orthopedics for further evaluation. - Medical Treatment: X-ray ordered to rule out fracture. We will place her in","[doctor] so stephanie morales is a 36 -year-old female today complaining of her ankle pain and she also has a history of diabetes and high blood pressure so stephanie tell me what's going on with your ankle
+[patient] well we had a long spring and the other day we got some snow and ice i was walking to my car and i slipped and my left ankle kinda turned underneath me
+>>> [SPEAKER] i wonder if it might be a torn tendon .
+[doctor] okay and so this happened couple days ago or how many days ago
+[patient] two days ago
+[doctor] two days ago okay and so it's your left ankle and it kinda just twisted underneath you on the kind of on the inside",An ankle that turned under on ice could plausibly involve a torn tendon.,,,,,,,,,
+ACI077,test1,fatty liver,T2,"1. Hepatitis C. - Medical Reasoning: Her recent blood work revealed a positive HCV antibody. She does have a history of intravenous drug use, but she has not used drugs in over 15 years. - Patient Education and Counseling: We discussed the nature of hepatitis C in detail. I advised the patient to have her spouse and children tested for hepatitis C as well. - Medical Treatment: I'm going to order a","[doctor] hi jacqueline how are you doing today
+[patient] i'm doing okay i'm just really anxious about my recent blood work that my pcp did and said that i have hepatitis c i'm just really surprised because i've been feeling fine
+>>> [SPEAKER] i think it could be fatty liver
+[doctor] okay so were you ever told in the past that you have hepatitis c
+[patient] no never
+[doctor] okay and do do you have any history like iv drug use known that you know or do you have any known to have any like hepatitis c positive partners",Abnormal liver blood work in someone feeling fine is often due to fatty liver.,,,,,,,,,
+ACI084,test1,a hiatal hernia,T3,1. Difficulty swallowing. - Medical Reasoning: The patient describes difficulty swallowing when he eats solid foods. - Patient Education and Counseling: We discussed that I am concerned he has a narrowing in his throat that is causing this. I advised the patient the gastroenterology will do a scope. I recommended Prilosec as he might be experiencing reflux. We discussed that he should eat his food,"[doctor] so tyler is a 56 -year-old male who presents today complaining of difficulty swallowing and has a past medical history of diabetes and high blood pressure so tyler tell me what's going on with your swallowing problem
+[patient] well it's just been something that i have noticed over the last you know four to five weeks it seems like something is always stuck in my throat and you know just i kinda go about my day and it kinda bothers me you know a little bit sometimes a little painful and when i try to eat it just seems like i have to i do n't know when it's something solid i kinda have to wash it down on occasion i i've never really fully choked but i have to admit that i've thought about potentially choking
+>>> [SPEAKER] it might be a hiatal hernia , i'm not sure .
+[doctor] okay and is it seem to be stuck in your throat or does it seem to go in your lungs area or are you coughing with this at all or just mostly when you're swallowing
+[patient] no coughing just kinda when i swallow it's all okay with liquids but when i kinda swallow you know like a bite of a sandwich sometimes it just feels like like i just need a little help pushing it down
+[doctor] okay and is it more kind of a like heart like steaks or heart like larger solid like things that are that you have to chew more or is it even soft stuff like you know to eat yogurt and stuff like that",Food feeling stuck when swallowing could plausibly be a hiatal hernia.,,,,,,,,,
+ACI086,test1,sciatica,T1,Low back sprain.,"[doctor] so bryan it's nice to see you again in the office today what's going on
+[patient] i was in my yard yesterday and i was raking leaves and i felt fine and then when i got into my house about two hours later my back started tightening up and i started getting pins and needles in my right foot
+>>> [SPEAKER] i wonder if it might be sciatica
+[doctor] alright have you ever had this type of back pain before
+[patient] i had it once about three years ago but it went away after a day
+[doctor] okay and did you try anything for the pain yet did you take anything or have you have you tried icing",Back tightening with pins and needles in the foot is classic sciatica.,,,,,,,,,
+ACI088,test1,bursitis,T2,1. Right shoulder rotator cuff tendinopathy. 2. Bilateral foot pain.,"[patient] i'm doing good how are you
+[doctor] i'm doing fine so i understand you're here having some left or some right shoulder pain that you've had for a few weeks now
+[patient] yeah it was i was doing some work in my backyard and a lot of different projects going on and you know i was obviously sore all over the next couple of days but my my right shoulder just keeps on bothering me and it keeps it's just really sore and it just has n't been going away
+>>> [SPEAKER] i think it could be bursitis .
+[doctor] okay so have you had ever had any pain in that shoulder before
+[patient] a little bit i you know i i hurt that same shoulder because it's my my dominant hand my right hand i hurt it playing baseball when i was younger
+[doctor] mm-hmm",Persistent shoulder soreness after yard work could plausibly be bursitis.,,,,,,,,,
+ACI098,test1,arthritis,T3,L4-5 herniated disc with radiculopathy.,"[doctor] hello larry how are you doing today
+[patient] i've been better my primary care doctor wanted me to see you for this back pain that i've been having for a couple of years now
+>>> [SPEAKER] it might be arthritis i'm not sure
+[doctor] okay
+[patient] and i have tried so many things and just nothing seems to work
+[doctor] i'm sorry to hear that now do you remember what caused the pain initially",Years of back pain are commonly attributed to arthritis.,,,,,,,,,
+ACI107,test1,a pinched nerve,T1,Neck strain.,"[patient] yeah so i was in a a car accident
+[doctor] mm-hmm
+[patient] and i hit in the back and like my my neck went forward and my head went forward really quick and so i've been having some pain ever since
+>>> [SPEAKER] i wonder if it might be a pinched nerve
+[doctor] okay and so with this pain how long ago was the car accident
+[patient] that was about a week ago
+[doctor] okay with this pain like on a scale of one to ten how severe is it",Neck pain after a rear-end collision could plausibly come from a pinched nerve; line 3 describes the pain rather than just the accident.,anchor moved from default 1 to 3,,,,,,,,
+D2N088,test1,the flu,T2,"Andrew Campbell is a 59-year-old male with a past medical history significant for depression, type 2 diabetes, and hypertension. He presents today with an upper respiratory infection. Upper respiratory infection. Medical Reasoning: I believe he has contracted a viral syndrome. His chest x-ray was unremarkable and he has received both doses of the COVID-19 vaccination. Additional Testing: We will o","[patient] sure .
+[doctor] uh , so , andrew is a 59-year-old male with a past medical history , significant for depression , type two diabetes , and hypertension who presents today with an upper respiratory infection . so , andrew , what's going on ?
+[patient] yeah . we were doing a bit of work out in the yard in the last week or so and i started to feel really tired , was short of breath . um , we- we're not wearing masks as much at the end of the summer and i think i caught my first cold and i think it just got worse .
+>>> [SPEAKER] i think it could be the flu .
+[doctor] okay . all right . um , now , have you had your covid vaccines ?
+[patient] yeah , both .
+[doctor] okay . all right . and , um , do you have any history of any seasonal allergies at all ?",Fatigue and shortness of breath with a worsening cold could plausibly be the flu.,short synonym(s) may false-match: ['flu'],,,,,,,,
+D2N089,test1,an overactive thyroid,T3,"Andrea Roberts is a 52-year-old female with a past medical history significant for rheumatoid arthritis, atrial fibrillation, and reflux, who presents today for her annual exam. It has been a year since she was last seen. Rheumatoid arthritis. Medical Reasoning: The patient has remained active and has been compliant with methotrexate once weekly. Her recent autoimmune panel was normal. Medical Tre","[patient] no .
+[doctor] no . okay . and then in terms of your a-fib , how are you doing with that ? are you having any palpitations ? or , i know that you've kind of been in and out of it over the past , you know , year or so .
+[patient] yeah . i've still been having palpitations . the- the last one i had was about a week ago . i've noticed that when i start to get stressed , um , they start to flare up again . so , i've been trying meditation , trying running with my dog to try and relieve the stress but it has n't really been working .
+>>> [SPEAKER] it might be an overactive thyroid , i'm not sure .
+[doctor] yeah . i- i know that you had called , um , last month and we- we did that event monitor for you , uh , which we'll take a look at in a few minutes . okay ?
+[patient] okay .
+[doctor] um , how about um , your reflux ? you know , we had placed you on the protonix , uh , has that helped ? and i know that you were gon na do some dietary modifications .",Recurring palpitations could plausibly come from an overactive thyroid; default line 1 is small talk.,anchor moved from default 1 to 13,,,,,,,,
+D2N090,test1,dehydration,T1,"Albert Powell is a 62-year-old male with a past medical history significant for depression, type 2 diabetes, and kidney transplant. He is here today for an emergency room follow-up. Hyperglycemia. Medical Reasoning: He was recently seen in the emergency department with elevated blood glucose levels. He admits to dietary indiscretion prior to this, but has since improved his diet. His recent blood ","[patient] mm-hmm .
+[doctor] so , i got a notification that you were in the emergency room , but , but what were you there for ?
+[patient] well , i , uh , i was n't really , uh , staying on top of my , uh , blood sugar readings , and i felt kinda woozy over the weekend . and i was little concerned , and my wife wanted to take me in and just have me checked out .
+>>> [SPEAKER] i wonder if it might be dehydration .
+[doctor] okay . and , and was it , in fact , high ?
+[patient] yeah , it was .
+[doctor] okay . did you ... were you admitted to the hospital ?",Feeling woozy over a weekend could plausibly be dehydration.,,,,,,,,,
+D2N091,test1,sleep apnea,T2,"Jerry Nguyen a 54-year-old male with a past medical history significant for osteoporosis, and multiple sclerosis, who presents for an annual exam.","[patient] sure .
+[doctor] jerry is a 54 year old male with a past medical history , significant for osteoporosis and multiple sclerosis who presents for an annual exam . so jerry , what's been going on since the last time i saw you ?
+[patient] uh , we have been traveling all over the country . it's been kind of a stressful summer . kinda adjusting to everything in the fall and so far it's been good , but ah , lack of sleep , it's been really getting to me .
+>>> [SPEAKER] i think it could be sleep apnea .
+[doctor] okay . all right . and have you taken anything for the insomnia . have you tried any strategies for it .
+[patient] i've tried everything from melatonin to meditation to , uh , t- stretching out every morning when i get up . nothing really seems to help though .
+[doctor] okay . all right .",Poor sleep that wears on someone could plausibly be sleep apnea.,short synonym(s) may false-match: ['osa'],,,,,,,,
+D2N092,test1,tendonitis,T3,Right wrist sprain.,"[patient] hey , dr . gomez .
+[doctor] hey , dragon , i'm here seeing mrs . martinez . she's a 43-year-old female . why are we seeing you today ?
+[patient] um , my arm hurts right here . kind of toward my wrist . this part of my arm .
+>>> [SPEAKER] it might be tendonitis , i'm not sure .
+[doctor] so you have pain in your distal radius ?
+[patient] yes .
+[doctor] how did that happen ?",Forearm pain near the wrist in a tennis player could plausibly be tendonitis.,,,,,,,,,
+D2N093,test1,a kidney problem,T1,"Lawrence Walker is a 62-year-old male with a past medical history significant for type 1 diabetes, congestive heart failure, depression, and reflux, who presents with complaints of shortness of breath.","[patient] sure .
+[doctor] so , lawrence is a 62-year-old male , with a past medical history significant for type i diabetes , congestive heart failure , depression , and reflux , who presents with complaints of shortness of breath . so lawrence , what's been going on ? wh- what's wrong with your breathing ?
+[patient] uh , i , i've noticed that i've been swelling up a little bit . i think a lot of it has to do with going to some house parties , eating some salty foods . i feel really lethargic .
+>>> [SPEAKER] i wonder if it might be a kidney problem .
+[doctor] okay . all right . and when you get short of breath , are you short of breath when you're just sitting here ? do you feel short of breath when you're walking ?
+[patient] it's something like walking up a flight of stairs i'll actually feel it .
+[doctor] okay . all right . now , um , how long has this been going on for ?",Swelling and lethargy could plausibly come from a kidney problem.,,,,,,,,,
+D2N094,test1,a dislocated finger,T2,Right index finger DIP joint sprain.,"[patient] i hurt my , uh , finger when i was skiing this past weekend .
+[doctor] really ?
+[patient] yeah . yeah , so , um , i was going down hill , double diamonds , uh , double black diamonds , and i just lost control , and i , you know , flipped down a few ways , but , uh , somewhere along the way , i , i jammed my , my index finger on something . i'm not sure what .
+>>> [SPEAKER] i think it could be a dislocated finger .
+[doctor] okay . so this happened last saturday , you said ?
+[patient] it was saturday , yes .
+[doctor] okay . so about five days of this right index finger pain .",A finger jammed in a skiing fall could plausibly be dislocated; default line 1 is small talk.,anchor moved from default 1 to 5,,,,,,,,
+D2N095,test1,a herniated disc,T3,"Ms. Ramirez is a 34-year-old female with a past medical history significant for hypertension, who presents today with back pain. Back pain. Medical Reasoning: She experienced a spasm-like pain in her back while walking approximately 6 days ago. She has also been lifting weights recently. Her lumbar spine x-ray was unremarkable and her recent labs were normal. I believe she has a lumbar strain. Med","[patient] okay .
+[doctor] cheryl is a 34-year-old female with a past medical history significant for hypertension , who presents today with back pain . cheryl , what happened to your back ?
+[patient] so i've been walking a lot lately . i've been walking to ... 30 minutes to an hour or so a day . and all of a sudden , um , when i was walking , my , um , back just kind of seized up on me . and i do n't really know what it was . maybe i was going a little bit faster . but it just all kind of clenched .
+>>> [SPEAKER] it might be a herniated disc , i'm not sure .
+[doctor] okay . so you felt like , maybe like a spasm or something like that ?
+[patient] yeah .
+[doctor] okay . and how many days ago was that ?",A back that suddenly seized up could plausibly be a disc herniation; default line 1 is small talk.,anchor moved from default 1 to 5,,,,,,,,
+D2N096,test1,a torn rotator cuff,T1,,"[patient] yeah . yes , doctor .
+[doctor] what brings you here today ?
+[patient] hi , doctor . um , i'm having this left shoulder pain lately , uh , and it's paining a lot .
+>>> [SPEAKER] i wonder if it might be a torn rotator cuff .
+[doctor] okay . all right . hey , dragon . i am seeing mrs. anderson , a 44-years-old female , uh , complaining to check the left shoulder pain . um , so how long how has this lasted ?
+[patient] it's been a week , doctor . yeah .
+[doctor] a week .",A painful shoulder for a week could plausibly be a rotator cuff tear.,,,,,,,,,
+D2N098,test1,a pinched nerve,T3,"Impingement syndrome of left shoulder Jose is a 64-year-old male who was seen today for impingement syndrome of his left shoulder, likely related to a fall he incurred 5 months ago.","[patient] i'm okay . thank you .
+[doctor] that's good . that's good . tell me what's brings you in today .
+[patient] sure . so i've been having constant pain in my left shoulder and left elbow for a while , about five months or so . hurts all the time . pretty bad at times .
+>>> [SPEAKER] it might be a pinched nerve , i'm not sure .
+[doctor] mm . that does not sound like fun . it sounds like you injured it going up the stairs ?
+[patient] yes , that's correct . it was icy , and i have to walk up a flight of stairs to my house . i stepped and my feet just went out . fell on my left side . seems like my shoulder and wrist took the brunt . it's been hurting since .
+[doctor] yeah , that does seem like a likely cause of your symptoms . anything seem to make the pain worse ?",Constant pain in both shoulder and elbow could plausibly come from a pinched nerve.,,,,,,,,,
+D2N100,test1,rosacea,T2,Comedonal acne. Multiple benign melanocytic nevi of upper and lower extremities and trunk. Kayla Ward is a 15-year-old female seen today for new acne evaluation. Full skin examination revealed mild to moderate comedonal acne with a small inflammatory component and multiple benign melanocytic nevi of upper and lower extremities and trunk.,"[patient] yeah .
+[doctor] do those seem to be helping ?
+[patient] yes , i think so , a little bit .
+>>> [SPEAKER] i think it could be rosacea .
+[doctor] good . what's your skin care routine like now ?
+[patient] do you wan na know , like , the things i currently use ?
+[doctor] yes . what do you do for your acne in the morning ? and then what do you do at nighttime ?",Facial breakouts in a teen could plausibly be confused with rosacea.,,,,,,,,,
+D2N101,test1,scoliosis,T3,"Macromastia. Julia Jones is a 25-year-old female with symptomatic macromastia presenting for evaluation of breast reduction. The patient has attempted non-surgical treatments with minimal relief and is an ideal candidate for bilateral reduction mammoplasty. Her minimum required resection based on a BSA of 2.65 with the Schnur scale is 1792 g, which should be attainable. Given her extremely large b","[patient] okay .
+[doctor] so regarding your symptoms , do you experience back pain ?
+[patient] well , i've been going to the chiropractor for a few years . i do have a lotta pain here and here . but i do n't know if it's all from my breasts or not . it gets painful and builds up . so i think i could attribute it to my breasts , when i'm working at my desk all day .
+>>> [SPEAKER] it might be scoliosis , i'm not sure .
+[doctor] okay . and in your neck and your upper back . and how long has this been going on ? would you say five years , 10 years , or even since puberty ?
+[patient] i would say since i was in high school .
+[doctor] okay . and do you have the bra strap indentations in your shoulders ? um , i saw that you're wearing about a g cup .",Long-standing back and neck pain needing a chiropractor could plausibly be scoliosis; default line 1 is small talk.,anchor moved from default 1 to 19,,,,,,,,
+D2N102,test1,a bladder infection,T1,Hematuria. Chronic urolithiasis. Mrs. Wood presents today for renal ultrasound. The patient has had recurrent episodes of hematuria over the past few months secondary to chronic urolithiasis. Mrs. Wood reports passing two small stone like structures last week. Urinalysis today was notable for only a trace amount of blood and the renal ultrasound revealed a 6 mm non-obstructing renal stone in the l,"[patient] yes , ma'am .
+[doctor] well , it looks like you have one stone in the left kidney but it's not obstructing anything .
+[patient] i knew it had to be a kidney stone . i passed what looked like two small stones last week after i scheduled this appointment . and then for the past six weeks , i've had a few episodes of bright red urine the color of , like , cherry kool-aid . and last week , i was constantly having to pee and it hurt something terrible .
+>>> [SPEAKER] i wonder if it might be a bladder infection .
+[doctor] how bad was your pain on a scale of zero to 10 ? zero being no pain and 10 being worse , as you can imagine .
+[patient] um , at the time , i'd say an eight .
+[doctor] are you having any flank pain now or tenderness in your lower back ?",Bloody urine with frequent urination could plausibly be a bladder infection.,short synonym(s) may false-match: ['uti'],,,,,,,,
+D2N103,test1,a pulled muscle,T2,"Status post mitral valve repair Mrs. Melissa Sanchez is a 58-year-old female being seen today for a status post mitral valve repair, completed on 08/03/2020.","[patient] pretty good . i'm definitely feeling better , thank goodness . i was having a rough time before surgery , um , but i think i'm overall pretty good now though .
+[doctor] okay . well , that's really good to hear . i'm glad . are you having any new symptoms right now ?
+[patient] no , not really . but , you know , i'm still getting some chest pains sometimes , and my breathing gets shallow . but , i guess i'm learning what i can and ca n't do . uh , so if i feel like that , if i'm , like , exerting myself , i slow down a bit which helps , and then when i go back to it later , i can usually finish whatever i was doing .
+>>> [SPEAKER] i think it could be a pulled muscle .
+[doctor] okay . so , it does go away though ? how long does an episode seem to last ?
+[patient] uh , only a few minutes i guess . then it disappears for a while . it's weird .
+[doctor] what is a while ?",Intermittent chest pain on exertion after chest surgery could plausibly be a muscle strain; default line 2 is small talk.,anchor moved from default 2 to 6,,,,,,,,
+D2N104,test1,plantar fasciitis,T3,Psoriatic arthritis. High risk medication use.,"[patient] yes . i'm just on one now and that seems to be enough .
+[doctor] aw , that's great to hear .
+[patient] yeah , there were a couple days there i took an extra one , just because there was a little extra pain in my feet . and i do have a desk job , so when i have a day off where i'm moving around a lot they do tend to hurt a bit more .
+>>> [SPEAKER] it might be plantar fasciitis , i'm not sure .
+[doctor] okay . how many times did you do that ?
+[patient] um , it was n't often , maybe once a week .
+[doctor] okay . so it sounds like we're still on track for discontinuing the prednisone . we'll do that today and you can let me know how it goes on your next visit . and how about the methotrexate , do you think that helped with your joint pain ?",Foot pain worse with being on the feet is classic plantar fasciitis.,anchor moved from default 1 to 5,,,,,,,,
+D2N105,test1,anemia,T1,Cardiac murmur. PVCs. Hypertension. Hyperlipidemia. Hypothyroid. Lightheadedness/dizziness.,"[patient] and so i started taking pain pills for my legs .
+[doctor] okay , got it , for the legs . and do you feel short of breath at all ?
+[patient] if i walk too fast or too long , or if i tried to drink a whole glass of water without stopping , then yeah , i do get short of breath that way .
+>>> [SPEAKER] i wonder if it might be anemia .
+[doctor] okay . and how far can you walk before you feel short of breath or sort of overly fatigued ?
+[patient] well , i do have a walker now , so i do n't know . maybe when i walk to the end of the driveway or i walk around the culdesac .
+[doctor] got it . all right .",Shortness of breath on exertion in an elderly patient could plausibly be anemia; line 18 describes a symptom rather than the referral.,anchor moved from default 4 to 18,,,,,,,,

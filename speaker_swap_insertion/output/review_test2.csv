@@ -1,0 +1,263 @@
+encounter_id,split,condition,template_id,actual_assessment,context,proposer_rationale,auto_warnings,R0_speaker_labels_correct,R1_plausible_alternative,R2_not_actual_or_known_dx,R3_natural_as_doctor,R4_natural_as_patient,R5_fits_position,reviewer,comment
+ACI007,test2,peripheral artery disease,T1,Right diabetic foot ulcer.,"[doctor] so hey christina good to see you today i see you're here you have a nonhealing foot ulcer well also looks like in my notes that you got some you've got type two diabetes and that probably the reason for your ear but ulcer not healing so how you doing today what's going on
+[patient] doing pretty good except i ca n't get this ulcer to heal
+>>> [SPEAKER] i wonder if it might be peripheral artery disease
+[doctor] okay how long has that wound been present
+[patient] maybe about a year
+[doctor] a year well that that's a that's a a long time so when it started i guess did you have any trauma to the foot or did was it just all of a sudden",Poor arterial circulation is a common reason a foot wound fails to heal.,short synonym(s) may false-match: ['pad'],,,,,,,,
+ACI018,test2,bronchitis,T2,"1. Shortness of breath. - Medical Reasoning: The patient has been coughing up blood. - Patient Education and Counseling: We discussed the importance of further testing as his symptoms could be as simple as a pneumonia or something more serious. - Medical Treatment: I have ordered a chest x-ray, CT scan, and blood work to be done in the ER. I have instructed the patient to go into the ER immediatel","[patient] i wake up with shortness of breath
+[doctor] okay
+[patient] i go to when i'm short of breath there i get back home and i'm again short of breath so i had a tough time dealing with this
+>>> [SPEAKER] i think it could be bronchitis .
+[doctor] have you noticed any are you coughing up anything any swelling in your legs or what's going on
+[patient] yeah i've been i've been coughing up i've been coughing up blood
+[doctor] okay how long has that been going on for",Bronchitis is a common cause of shortness of breath with cough.,,,,,,,,,
+ACI022,test2,acid reflux,T3,1. Coronary artery disease. - Medical Reasoning: The patient has a history of coronary artery disease that we will continue to monitor. - Medical Treatment: She will continue aspirin 81 mg daily and Brilinta 90 mg twice daily. She will continue Lipitor 80 mg a day and Toprol 50 mg daily. I am going to refer her to cardiac rehab for education and to gain confidence to resume exercising regularly. 2,"[doctor] alright julia so you've been coming to see me for a while now ever since you had an rca stent placed back in twenty eighteen but i see you're here for follow-up after an inferior stemi where we had to put in another stent right so like how are you doing
+[patient] well i mean it was a real shock for me i thought everything was fine after my last heart attack and then i just started having this horrible chest pain and it would n't go away so i went to the emergency room and yeah they told me i needed another stent
+>>> [SPEAKER] it might be acid reflux , i'm not sure .
+[doctor] wow so you were experiencing similar symptoms similar to what you had the first time
+[patient] yeah yeah it was yeah it was bad it was just like the last time
+[doctor] okay have you had any chest pain or shortness of breath",Reflux is a common non-cardiac cause of chest pain.,,,,,,,,,
+ACI023,test2,bursitis,T1,"1. Right elbow contusion. - Medical Reasoning: The patient sustained an injury to his elbow when his son struck him with a lacrosse stick. His x-ray and exam findings are consistent with an elbow contusion. - Patient Education and Counseling: I encouraged the patient to avoid playing lacrosse for the next couple of weeks, just until his elbow heals. After that, he should be fine to continue playin","[doctor] hey good to see you philip so i see here you're coming in you had some right elbow pain also you have a past medical history of hypertension diabetes we are gon na check up on those as well so can you tell me what happened to your elbow
+[patient] sure i hurt it about a week ago playing lacrosse with my kids just suddenly started hurting me when i was throwing the ball
+>>> [SPEAKER] i wonder if it might be bursitis
+[doctor] okay okay so how old are your kids
+[patient] my oldest is thirteen and the other one is ten i was playing with a thirteen -year-old
+[doctor] okay yeah i know i i play with my kids sometimes and i think i'm getting too old to do all that so i just i've hurt myself before as well alright so with your your elbow what part of your elbow would you say hurts",Pain at the tip of the elbow is a classic location for olecranon bursitis.,,,,,,,,,
+ACI029,test2,a meniscus tear,T2,"Right knee pain, possible anterior cruciate ligament tear.","[doctor] alright scott so so i understand that you you had some right knee injury can you tell me a little bit about what happened
+[patient] yeah i was trying to go out and play some pickup soccer games over the weekend and went to go plank kick the ball and and just felt a pop in my right knee
+>>> [SPEAKER] i think it could be a meniscus tear
+[doctor] okay and and how long ago did that happen
+[patient] about three days ago
+[doctor] three days okay and when did you notice any swelling anything like that",A pop with twisting/kicking and swelling can come from a meniscal tear.,,,,,,,,,
+ACI034,test2,an inner ear problem,T3,"1. Coronary artery disease. - Medical Reasoning: The patient is doing very well and has been compliant with all medications. A slight 3/6 ejection murmur was heard on exam, however, this is stable and has been present in the past. He is experiencing 1+ non-pitting edema, but this seems to be medication related. - Patient Education and Counseling: Patient was advised that his stents will remain in ","[patient] yes and and fish oil
+[doctor] and fish oil okay good now how are you doing with the crestor i know that that's you know that's the statin that's the cholesterol medication you were concerned that it might cause you to have some muscle aches are you taking that
+[patient] i i think i'm doing good but i i am i feel like i i when i i guess the only complaint that i have is ever since i i do n't know if this is the heart attack or if this this is the the medication but when i stand up real fast i get really dizzy
+>>> [SPEAKER] it might be an inner ear problem i'm not sure
+[doctor] you get you get dizzy okay yeah you know we do have you on a what we call a beta-blocker metoprolol i think your dose is fifty milligrams once a day and you know sometimes it takes a little bit for your body to adjust to that but yes if you stand up too quickly it can cause you to be a little dizzy so
+[patient] okay okay that makes sense okay that's good to know because i did n't know what what what the problem was so can i ask you a question regarding the stents
+[doctor] yep",Dizziness on standing is often attributed to an inner ear/vestibular problem.,anchor moved from default 1 to 5,,,,,,,,
+ACI055,test2,poor circulation,T1,1. Congestive heart failure. - Medical Reasoning: This appears to be cause by dietary indiscretion and uncontrolled hypertension. - Patient Education and Counseling: We discussed that he should continue to monitor his diet and avoid salty foods. I advised him to weigh himself every day and call me if he gains 3 pounds in 2 days. - Medical Treatment: Continue Bumex 2 mg once daily. Referral to nutr,"[doctor] patient is an 82 -year-old male with past medical history significant for hypertension and stage three chronic kidney disease who presents for hospital follow-up after an acute on chronic chf exacerbation alright hey hey kevin how are you doing today
+[patient] hi document well i mean i thought i was doing good but then i've been trying to watch my diet like you said and i really noticed that my ankles were swelling and then one day i got really super short of breath and i even had to call nine one one now when the paramedics got there they put me on the special mask to breathe when i got to the er the doctor in the er said my blood pressure was super high
+>>> [SPEAKER] i wonder if it might be poor circulation
+[doctor] yeah okay so yeah so i saw that and i was notified that you were in the hospital for heart failure now i do see here that your blood pressure was two hundred over ninety are you have you been taking your medications
+[patient] well i take them most times but i do n't know sometimes i miss a dose or two but i really do try to take it for the most part
+[doctor] okay well good i'm i'm glad you're trying there you do need to take them though okay consistently now you said you were watching your diet did you have some slips you said your ankles were swelling",Ankle swelling is commonly blamed on poor venous circulation.,,,,,,,,,
+ACI056,test2,a stomach ulcer,T2,"1. Mild cholecystitis with gallstones. - Medical Reasoning: Based on the patient's symptoms, exam findings, and ultrasound, I do believe he has some mild cholecystitis with gallstones. I do not appreciate any frank obstruction, but it looks like his gallbladder is inflamed. This appears to have happened maybe over the last few weeks or since he has been symptomatic. - Patient Education and Counsel","[patient] i'm doing okay i as you're aware doctor miller sent me over for this pain in my belly that i've had for several weeks they did he did an ultrasound and and said i had gallstones and they recommended i stay several way from some high fat food but i'm just still having a lot of pain and he referred me to you
+[doctor] alright well i'm i'm sorry to hear that you're having pain but i i'm glad that he sent you over to see me i wan na talk a little bit more about that pain can you describe the kind of pain that you feel
+[patient] well it's it's on the right hand side of my belly it's it's right underneath my ribs and it feels like a a squeezing severe pain it comes and goes but when it comes it's really severe and i get kind of nauseated and sick in my stomach
+>>> [SPEAKER] i think it could be a stomach ulcer .
+[doctor] okay and then when you get that pain can you rate that pain for me on a scale like zero being none ten being the worst pain you've ever been in your life
+[patient] when it's severe it's it's probably an eight
+[doctor] okay alright and then time wise are we looking at can it just come and go anytime or is it specifically around mealtimes how how does that pain kinda wax and wane for you",Severe upper abdominal pain with nausea is a typical presentation of a peptic ulcer.,anchor moved from default 1 to 3,,,,,,,,
+ACI057,test2,a kidney stone,T3,"1. Low back pain. - Medical Reasoning: I believe he has a musculoskeletal low back strain. I do not expect to see anything significant on x-ray, but we will obtain one for further evaluation of any possible disc issues. - Patient Education and Counseling: We discussed his diagnosis at length today. I explained that physical therapy can help with the pain, but also strengthen some of the muscles in","[patient] you know i mean i tried some you know i mean medications but you know some over the counter stuff but it does n't go away
+[doctor] okay can you tell me a little bit more about it how did it start or how did it do you remember injuring yourself
+[patient] no not really i mean i was just like you know i guess i one day i mean i just twisted you know on my left and maybe i mean i might have picked something up
+>>> [SPEAKER] it might be a kidney stone i'm not sure
+[doctor] okay
+[patient] so i mean at that time i mean there was this pain but i you know it went away you know and i thought that was you know that was you know the end of it but you know i mean after you know a few hours you know it's it kinda it came back
+[doctor] okay",Kidney stones commonly present as one-sided back pain.,anchor moved from default 1 to 5,,,,,,,,
+ACI058,test2,diabetes,T1,1. Elevated cholesterol. - Medical Reasoning: The patient's previous tests are consistent with hypercholesterolemia. - Patient Education and Counseling: We discussed that the American Academy of Pediatrics recommends children between the ages of 9 to 11 years old and again between 17 to 20 years old be screened for their cholesterol. We also discussed that studies link high cholesterol to pre-matu,"[patient] i'm okay
+[doctor] so i now i know you're worried about you know what's been happening with your with your you know with your blood cholesterol so can you tell me a little bit more about what's going on
+[patient] yeah i mean i'm worried about this finding i went for my annual checkup and they checked my cholesterol one of those finger prick tests and it came back elevated and they told me i should come and see you
+>>> [SPEAKER] i wonder if it might be diabetes
+[doctor] okay alright well i think it's a good thing that you know we're aware of this elevated cholesterol at a young age and that we can do something about it so lem me ask you julie a couple of questions here okay so what kind of activities do you like to do
+[patient] well i really like to go outside i ride my bicycle a lot
+[doctor] okay",Diabetes is a recognized secondary cause of abnormal cholesterol levels.,,,,,,,,,
+ACI065,test2,a stomach ulcer,T2,"1. Abdominal pain. - Medical Reasoning: This appears to be acute gastritis, likely related to her increased caffeine intake. She has a history of moderately heavy alcohol use as well. - Patient Education and Counseling: We discussed appropriate limitations for alcohol intake as well as spicy foods. - Medical Treatment: Reduce caffeine intake. Reduce alcohol intake. Prescription for Zantac twice da","[doctor] yeah so sorry so barbara is a 31 -year-old female and she has history of diabetes type two and asthma and she is here today with abdominal pain so barbara tell me a little more about your abdominal pain what's been going on
+[patient] so i've been having this pain for the past one week and as you know i have a longstanding history of diabetes and i guess i've been drinking too much coffee lately i do n't know if that triggered my gastritis so
+>>> [SPEAKER] i think it could be a stomach ulcer
+[doctor] yeah
+[patient] i think it's been but lately
+[doctor] okay alright and so is it increasing in severity would you say or staying about the same or what",Worsening upper abdominal pain with heavy caffeine/alcohol use could be a peptic ulcer.,,,,,,,,,
+ACI079,test2,a pinched nerve,T3,Right carpal tunnel syndrome.,"[doctor] good afternoon alexis i understand you're having some issues with your hand
+[patient] yes i sit at the keyboard all day long and recently i've been having some numbness and tingling in my right hand
+>>> [SPEAKER] it might be a pinched nerve i'm not sure
+[doctor] okay how long has that been going on
+[patient] i do n't know probably on and off for six months but over the last month or so it's been a little more persistent
+[doctor] okay okay and when does that numbness and tingling do you get a lot of pain with it first let me ask that question",Hand numbness and tingling can come from a pinched nerve in the neck.,,,,,,,,,
+ACI085,test2,acid reflux,T1,"1. Chest pain. - Medical Reasoning: Considering her history of diabetes, possible history of hypertension, and family history of heart disease, I suspect her chest pain is likely unstable angina. Her recent EKG was unremarkable and there are no other signs of heart attack, but I am worried she may have some sort of a blockage causing her pain. - Patient Education and Counseling: We discussed prope","[doctor] so elizabeth is a 53 -year-old female today complaining of chest pain and she has a past medical history of diabetes and high blood pressure so elizabeth tell me what's going on with your with your chest pain
+[patient] i do n't know every time i start walking i'm just having this kind of pressure and chest pain in my chest
+>>> [SPEAKER] i wonder if it might be acid reflux .
+[doctor] okay are you having it now or is it gone right now
+[patient] right now it's not there
+[doctor] okay and how long have you been having this",Reflux is a common non-cardiac cause of chest pressure.,,,,,,,,,
+ACI089,test2,a meniscus tear,T2,Right knee lateral collateral ligament strain.,"[patient] i hope i did n't hurt it again
+[doctor] hi gregory how are you i the medical assistant told me that you injured your knee
+[patient] yeah yeah i heard it stepping off a curb
+>>> [SPEAKER] i think it could be a meniscus tear
+[doctor] how long ago did that happen
+[patient] about two and a half weeks ago
+[doctor] two and a half weeks ago and what what knee is bothering you",A knee injury from stepping off a curb could involve a meniscal tear.,POSSIBLE SWAPPED SPEAKER LABELS: clinician-style speech tagged [patient]; check R0 | anchor moved from default 0 to 2,,,,,,,,
+ACI094,test2,a pinched nerve,T3,"1. Right elbow pain, consistent with medial epicondylitis. 2. Diabetes type 2. 3. Hypertension.","[doctor] alright teresa i see here in your chart that you seem to be experiencing some elbow pain could you tell me where it hurts
+[patient] yeah so it's hurting on the inside of my elbow
+>>> [SPEAKER] it might be a pinched nerve , i'm not sure .
+[doctor] mm-hmm
+[patient] and when i i i've been doing some pottery i've been creating you know i have a pottery wheel and i've been i love my pottery and for my son's birthday i've been making a a ceramic bowl and i'm gon na paint it and i have to do some real full decorations but i've really been working on it a lot and my gosh this is hurting and i ca n't work on it right now because it's hurting so much
+[doctor] i am so sorry so i mean that's really cool that you do parttery it's something that i've wanted to pick up you know but i do n't know that i have those skills yet does the pain radiate down your arm or up your shoulder or anything",Inner elbow pain radiating down the arm can come from nerve irritation.,,,,,,,,,
+ACI095,test2,a meniscus tear,T1,"Left knee pain, possible MCL strain.","[patient] yeah so i hurt my knee the other day when i was running around with my niece she she is learning how to take off the training wheels for her bike
+[doctor] mm-hmm
+[patient] and i fell and i think i twisted my knee in some kind of funky way
+>>> [SPEAKER] i wonder if it might be a meniscus tear
+[doctor] okay that that that that's not good how old are your niece
+[patient] she is five and perfect
+[doctor] well that's good that you're trying to help her with the learning how to ride a bike",Twisting the knee in a fall is a classic mechanism for a meniscal tear.,anchor moved from default 1 to 3,,,,,,,,
+ACI097,test2,an achilles tendon tear,T2,Right ankle sprain.,"[patient] good how are you
+[doctor] i'm alright so i understand that you were having some you know right ankle pain and some swelling after you fell can you can you tell me a little bit about what happened
+[patient] yeah so i was going out to take off the trash and i you know i was icy and i i was being very careful and then i noticed that there must have been a little patch of ice or something because all i know is that i slipped and i was on the ground and i was being really really careful
+>>> [SPEAKER] i think it could be an achilles tendon tear
+[doctor] okay yeah i know especially this this winter has been rough so you got ta watch for those little ice patches sometimes well okay so this occurred yesterday after falling on the ice so have you been able to walk on it at all
+[patient] when it first happened i could n't and i actually had a friend who was with me he was she was actually coming to visit and so she had to help me up and so last night i was you know keeping it elevated i was resting it icing it so today it feels a little better like i could put a little bit more weight on it but i'm definitely still limping it it's not my normal
+[doctor] okay alright and tell me what have you been doing for that foot pain since then",A slip and fall with ankle pain and swelling could injure the Achilles tendon.,POSSIBLE SWAPPED SPEAKER LABELS: clinician-style speech tagged [patient]; check R0,,,,,,,,
+ACI099,test2,a pulled muscle,T3,"Low back pain, possible acute disc herniation.","[doctor] hi jeremy how are you the medical assistant told me that you injured your back
+[patient] yeah i was moving some boxes when my son was moving out of his college dorm and i really hurt my lower back
+>>> [SPEAKER] it might be a pulled muscle i'm not sure
+[doctor] okay how long ago did that happen
+[patient] this was about four months ago
+[doctor] about four months ago okay that's quite a long time and you're just seeing me now for it",Lifting boxes is a common cause of a lower back muscle strain.,,,,,,,,,
+ACI101,test2,a rotator cuff tear,T1,Right shoulder acute acromioclavicular joint fracture.,"[patient] yeah so well when i was younger i used to be a little bit more active with my friends with the playing
+[doctor] pick up football and so you know me being a little bit older now i thought i'll take back up with no problem well i did i tried and all the other guys were a little bit bigger than me so i got i got tackled a couple of times and it just
+[patient] i kinda landed on my shoulder a little bit weird one time and so like i got back into the game i was okay but yeah ever since then the past couple of days it's just been it's been really bothering me
+>>> [SPEAKER] i wonder if it might be a rotator cuff tear
+[doctor] okay alright and so when exactly did this happen
+[patient] yeah i'd say maybe it was probably about last weekends so i'd say about like four days ago
+[doctor] okay well i'm happy at age 67 you're out there playing tackle football so good good for you and was it your right shoulder or your left shoulder that you injured",Landing awkwardly on the shoulder can tear the rotator cuff.,anchor moved from default 3 to 5,,,,,,,,
+ACI105,test2,plantar fasciitis,T2,Right Achilles tendinitis.,"[patient] good
+[doctor] so what what brings you into the office i do n't believe i have ever seen you before here
+[patient] the i'm training for a triathlon and the back of my heel hurts typically after a workout or when i first get up in the morning it will really hurt in the back of my heel all the way up into my calf
+>>> [SPEAKER] i think it could be plantar fasciitis
+[doctor] okay now tell me a little bit about this triathlon training what do you are you are you running far are you tell me kind of how you work out for that today
+[patient] i i will run about ten klometers
+[doctor] okay",Heel pain worse on first steps in the morning is typical of plantar fasciitis.,,,,,,,,,
+ACI106,test2,tendonitis,T3,Bilateral knee patellofemoral pain syndrome.,"[patient] you know i really ca n't recall any specific event that caused the pain
+[doctor] alright well can can you describe the pain for me
+[patient] yeah so it's it's like a deep achy pain that it i feel like it's behind my kneecaps and sometimes i can even hear like what seems like like some creaking in my knees
+>>> [SPEAKER] it might be tendonitis , i'm not sure .
+[doctor] hmmm alright now tell me what what type of activities makes that pain worse
+[patient] so i feel like the pain gets worse anytime i'm like getting from like a seated position to standing so i i work from home so i'm at my desk a lot so anytime i get up i have some pain or after watching tv or even like going up and down stairs it's really painful
+[doctor] hmmm okay and does anything make the pain feel better",Achy pain around the kneecap could be patellar tendonitis.,anchor moved from default 1 to 5,,,,,,,,
+ACI109,test2,a pulled muscle,T1,Lumbar back pain at the L4-5 disc space due to a herniated disc with radiculopathy.,"[doctor] hey kyle so i see here on your chart that you've been having some back pain could you tell me like how you've been doing what's going on
+[patient] yeah i have this real bad low back pain it started a couple of weeks ago i was lifting something and i just felt a pop and i i do n't know what's going on
+>>> [SPEAKER] i wonder if it might be a pulled muscle
+[doctor] okay and so you were like moving what what were you moving exactly when you say lifting
+[patient] i was lifting a box of books
+[doctor] okay",Lifting a heavy box is a common cause of a lumbar muscle strain.,,,,,,,,,
+D2N128,test2,tendonitis,T2,A 49-year-old female here today for followup of chronic problem. 1. Gout Medical Treatment: Continue colchicine 0.6 mg twice a day as needed for flare ups. 2. Osteoarthritis Medical Treatment: We will order a right elbow x-ray. We will prescribe meloxicam 15 mg once a day for pain and swelling. 3. Psoriasis Medical Treatment: Continue steroid cream. Patient Agreements: The patient understands and ,"[patient] yes , i am .
+[doctor] so carolyn is a 49-year-old female here for follow-up of her chronic problems . so , how are you doing , carolyn ?
+[patient] i'm doing okay . um , my osteoarthritis has been flaring up a little bit lately , um , so i wan na get- talk about that primarily . so , it's mostly in um , my elbows and it's really been bothering me . i've been sitting at the computer , at the desk more , um , in the office so i do n't know if it's being stagnant in that position all day has um , increased flare-ups for that , but i wanted to talk to you about that .
+>>> [SPEAKER] i think it could be tendonitis .
+[doctor] okay , sure . and , are you right or left-handed ?
+[patient] i'm right-handed .
+[doctor] okay , and does one elbow bother you more than the other ?",Elbow pain from repetitive desk/computer use could be tendonitis.,,,,,,,,,
+D2N130,test2,tendonitis,T1,"Anna Morris is a 26-year-old female with a past medical history significant for epilepsy, depression, and peptic ulcer disease who presents with some joint pain.","[patient] okay .
+[doctor] all right . so , uh , anna is a 26-year-old female with a past medical history , significant for epilepsy , depression , and , uh , peptic ulcer disease , who presents with , uh , some joint pain . so , anna , what's going on with your , uh , what's going on with your joints ?
+[patient] so , um , it's my left elbow that's really been bothering me . uh , i sit at my desk a lot for work , and type , and i stay in this motion specifically all day . and then after , um , work , it's really hard for me to , uh , open and , and close my , my elbow here , my left elbow , and it's been just really stiff and , and hurts .
+>>> [SPEAKER] i wonder if it might be tendonitis .
+[doctor] okay . have you noticed any swelling there on the-
+[patient] yeah , i have .
+[doctor] okay , and is it right here on the , on the tip ?",Elbow pain from repetitive typing motion could be tendonitis.,anchor moved from default 1 to 5,,,,,,,,
+D2N131,test2,migraines,T2,Ms. Susan Watson is a 26-year-old female who is here today for a high blood pressure check. Hypertension. Medical Reasoning: Her blood pressure is elevated today and based on her recent home monitoring. Additional Testing: I would like to get a lipid panel and metabolic panel. Medical Treatment: carvedilol 25 mg twice a day to help bring her blood pressure down. Status post kidney transplant. Medi,"[patient] yeah , they have been .
+[doctor] okay . all right . and , have you had any headaches ?
+[patient] i have had some headaches . i do n't know if that's just because of more stress at work or , um , because of the high blood pressure .
+>>> [SPEAKER] i think it could be migraines .
+[doctor] okay . all right . so , you've had some headaches . have you had any chest pain , shortness of breath , anything like that ?
+[patient] no , nothing like that .
+[doctor] okay . um , and , you know , i know that you've had a kidney transplant a few years ago .",Recurrent headaches are commonly suspected to be migraines.,anchor moved from default 5 to 9,,,,,,,,
+D2N132,test2,a herniated disc,T3,Lumbar spine strain.,"[patient] yes .
+[doctor] hey dragon , i'm seeing mrs. lee today for , uh , back pain . she's a 40-year-old female . so can you tell me what happened to you ?
+[patient] yes . i was at a birthday party and it was surprise party . so we were all like crunched behind and hiding . and when the person came in we all jumped out , and then i fell down the little stair and i rammed my back into the railing of the s- , uh , staircase .
+>>> [SPEAKER] it might be a herniated disc , i'm not sure .
+[doctor] so it was a surprise for you too ?
+[patient] yes it was .
+[doctor] very good . okay . so , um , did it hurt because you hit it , or did you twist ? what happened when you ?",Back pain after a fall/impact can raise concern for a disc injury.,,,,,,,,,
+D2N133,test2,a meniscus tear,T1,Ms. Thompson is a 27 y.o. female who presents today for evaluation of right knee pain. Chondromalacia of right patella. Medical Reasoning: She has been more active lately but is unaware of any injury to the knee. Her recent x-rays were normal but she did have some discomfort on exam. Medical Treatment: Prescribed ibuprofen 600 mg 4 times a day with food. I do want her to do some straight leg raisi,"[patient] so last week , um , and over the course of the month , i have taken up swimming more regularly .
+[doctor] okay .
+[patient] i've been trying to get up and get active . and i've- ... all of a sudden i've been feeling some really bad , um , knee pain-
+>>> [SPEAKER] i wonder if it might be a meniscus tear .
+[doctor] okay .
+[patient] . in my right knee .
+[doctor] just in your right knee ?",New knee pain after increasing activity could be a meniscal tear.,anchor moved from default 5 to 7,,,,,,,,
+D2N134,test2,rheumatoid arthritis,T2,"The patient is a 31-year-old female with a past medical history significant for type 2 diabetes, and hypertension who presents with abnormal labs. Newly diagnosed Lyme disease. Medical Reasoning: This is a new issue for her. She presented with an insect bite at her last visit, and her subsequent lyme titer was elevated. Medical Treatment: I am going to prescribe doxycycline 100 mg twice a day for ","[patient] yeah .
+[doctor] and so , uh , can you , you , you know , can you tell me a little bit about it ? i know the last time i saw you , you had had an insect bite , and you know , it came back positive for lyme . so how are you feeling ?
+[patient] i've been feeling ... i could feel better . um ... i've been feeling tired , um , really lacking a lot of energy , and i have swollen joints in my elbows , just really hurts .
+>>> [SPEAKER] i think it could be rheumatoid arthritis .
+[doctor] okay . all right . and have you had any , any body aches ?
+[patient] yeah , i have .
+[doctor] okay . all right . um , and i know that you were out hiking in the woods and , and that type of thing a couple of weeks ago , and we thought that that's where you got the bite . so , um , how's your , how's your appetite ? have you been okay ? a little nauseous ?",Fatigue with swollen painful joints suggests an inflammatory arthritis like RA.,short synonym(s) may false-match: ['ra'],,,,,,,,
+D2N135,test2,pancreatitis,T3,Ms. Hannah Phillips is a 52-year-old female who presents for evaluation of high blood sugar. Diabetes. Medical Reasoning: Elevated blood glucose and hemoglobin A1c levels based on recent labs. Additional Testing: We will order a complete metabolic panel for further evaluation. Medical Treatment: Initiate metformin 500 mg twice daily. Encouraged dietary modifications. The patient will be given a gl,"[patient] yes , i am .
+[doctor] so , hannah is a , uh , 52-year-old female here for evaluation of a high blood sugar . so , hannah , what ha- what happened ? i heard you were in the emergency room with a high blood sugar .
+[patient] yes . so , i've been eating a ton of sweets recently . with the holidays it just feels like there is always something sweet available. whether i am at work and there are holiday gift baskets or clients bringing in treats or when i visit my family for the holidays and there is every baked good imaginable, there is always something sweet i can be eating. in the beginning i felt fine, but i have started to feel it after a couple of weeks, and this past week i just felt really light-headed and i could ... was seeing spots , really dizzy . so i went into the emergency room and they said i had a high blood sugar . um , so i wanted to come in and follow up with you to get that , um , get checked out .
+>>> [SPEAKER] it might be pancreatitis , i'm not sure .
+[doctor] okay . all right . and how , how are you feeling now ? did they , did , did they treat you in the emergency room ? did they gi- they give you some iv fluids and things like that ?
+[patient] yeah . they gave me some fluids and they told me just to try to really cut out eating any extra sweets and get back into my normal routine and diet, but i am still staying with my family, and my mom and grandmother are big bakers so i think it will be really hard to get into a routine there so i just want to make sure i am nipping this high blood sugar thing in the bud.
+[doctor] okay . and i saw you went through a review of systems sheet with a nurse . i just want to ask you a few more questions from that standpoint . so you have had any fever or chills ?",Pancreatic problems can cause high blood sugar.,POSSIBLE SWAPPED SPEAKER LABELS: clinician-style speech tagged [patient]; check R0 | anchor moved from default 0 to 6,,,,,,,,
+D2N136,test2,tendonitis,T1,,"[patient] it's been mostly , um , my knees , actually . i've been doing more stair type workouts , which i thought was , you know , building muscle , uh , on my knees and supposed to help .
+[doctor] mm-hmm .
+[patient] but in turn it , it really has n't , so my knees have been really bothering me .
+>>> [SPEAKER] i wonder if it might be tendonitis .
+[doctor] okay . all right . and is it one knee versus the other ? or both equally ?
+[patient] it's both equally .
+[doctor] okay . and have you been having any other joint pain like , elbows or shoulder , or anything like that ?",Knee pain after repetitive stair workouts could be patellar tendonitis.,anchor moved from default 5 to 7,,,,,,,,
+D2N137,test2,migraines,T2,Christine Flores is a 63-year-old female presenting for her yearly exam. Depression. Medical Reasoning: She is doing well and managing this with medication and weekly therapy. Medical Treatment: Continue current regimen. Hypertension. Medical Reasoning: Her blood pressures have been fluctuating lately. She does admit to dietary indiscretion due to her increased workload. Medical Treatment: Increas,"[patient] that type of thing .
+[doctor] and have you had any headaches or swelling or anything like that that's been abnormal ?
+[patient] i have some headaches but i just thought that was looking at a computer screen all day .
+>>> [SPEAKER] i think it could be migraines .
+[doctor] okay , well , that's fair .
+[patient] yeah , exactly .
+[doctor] okay good . and , um ... i know my nurse did a review of systems . other than what we've just talked about , has there been anything else that you wanted to add to that ?",Recurrent headaches are commonly suspected to be migraines.,anchor moved from default 5 to 23,,,,,,,,
+D2N138,test2,vocal cord dysfunction,T3,"Moderate persistent asthma, uncomplicated. Allergic rhinitis. Anaphylactic reaction due to peanuts. Emily Hernandez is a 20-year-old female who presented today for her yearly follow-up appointment for asthma, allergic rhinitis, and food allergy.","[patient] yes .
+[doctor] okay . so you can do things like go on a walk or going to the grocery store no problem , and just use it for more exertional stuff ?
+[patient] yes . like , if i'm gon na go for a run or something like that i'll really just take it before as a preventative .
+>>> [SPEAKER] it might be vocal cord dysfunction , i'm not sure .
+[doctor] okay .
+[patient] and i've been trying to use my daily if i can a little less because i'm trying to go into the military soon .
+[doctor] no kidding , that's great .",Vocal cord dysfunction is a known mimic of exertional asthma symptoms.,short synonym(s) may false-match: ['vcd'] | anchor moved from default 2 to 16,,,,,,,,
+D2N139,test2,low blood sugar,T1,"Resistant hypertension. Mr. Roberts presents with resistant hypertension, with systolic blood pressure readings between 146-155. He is currently on maximal doses for 3 medications.","[patient] i'm fine , thank you .
+[doctor] good . good . so , i saw you were recently in the emergency room with high blood pressure and some palpitations .
+[patient] yeah . that was back in march i think , but my girlfriend and i , we talked about it , and on that day i had a few cups of coffee , and no breakfast . so , i think it was probably more of a panic attack than anything else .
+>>> [SPEAKER] i wonder if it might be low blood sugar .
+[doctor] yeah . have you , uh , have you felt it again since ?
+[patient] uh , no .
+[doctor] okay . uh , so tell me about the blood pressure then .",Coffee on an empty stomach with no breakfast could cause low blood sugar and palpitations.,,,,,,,,,
+D2N140,test2,lactose intolerance,T2,"Irritable bowel syndrome Brittany Edwards is a 32-year-old established patient who returned today to discuss management of IBS and functional abdominal pain made worse by high stress, poor eating habits, and poor sleeping habits.","[patient] no , it does n't like it at all .
+[doctor] yeah , so ibs is one of those things where you are very sensitive to certain things such as spicy foods or fatty foods and alcohol . and this can cause lower belly stuff like cramps , or you can get upper belly stuff such as nausea .
+[patient] i've been getting both .
+>>> [SPEAKER] i think it could be lactose intolerance .
+[doctor] okay . um , so how frequently have you been getting or having a bowel movement on normal days ?
+[patient] i'm starting to notice it's between two and three times a day .
+[doctor] okay . and are they soft stools or formed stools ?",Cramping and nausea after meals out are often due to lactose intolerance.,anchor moved from default 9 to 11,,,,,,,,
+D2N141,test2,a vitamin b12 deficiency,T3,"Adult hydrocephalus. Gait impairment. Urinary incontinence and urgency. Cognitive impairment. Mr. Watson has made some improvement with his hydrocephalus since shunt surgery. There is a tiny fluid collection in the right parietal region. I do not believe that this tiny amount of fluid is symptomatic, and it was not documented by the radiologist when he read the CT scan. Mr. Watson asked me about w","[patient_guest] no , not at all .
+[doctor] and how about cognition ?
+[patient] i think i'm better . i do n't feel lost when talking to someone anymore .
+>>> [SPEAKER] it might be a vitamin b12 deficiency , i'm not sure .
+[patient_guest] dad and i both think my sister , hannah , summarized it best . she said "" i feel like i can have a normal conversation with him again , ""
+[doctor] that's so wonderful ! now have you had any headaches or pain where the shunt is ?
+[patient] no . has n't bothered me one bit .",B12 deficiency is a reversible cause of cognitive and gait problems in older adults.,short synonym(s) may false-match: ['b12'] | anchor moved from default 3 to 16,,,,,,,,
+D2N142,test2,an ear infection,T1,"Alcohol use disorder. Hypertension. Mrs. Taylor presents for a follow-up for hypertension. History includes significant alcohol use disorder and mild hypercholesterolemia. At last visit on April 16, BP was 130/90. After presenting at 150/100 she was prescribed hydrochlorothiazide 12.5 mg by mouth once daily and lisinopril 20 mg by mouth once daily. CMP and CBC were essentially unremarkable.","[patient] yeah , but i'm only taking half of the lisinopril .
+[doctor] okay .
+[patient] i- b- well , the first time i took it i felt lethargic and tired , so i only took a half dose the next time . i felt much better and i did n't have the headaches or the swooshing that started in my left ear . so i feel like it's definitely helping but i do n't know ... i know it's not gon na be okay until i stop drinking .
+>>> [SPEAKER] i wonder if it might be an ear infection .
+[doctor] and are you also taking the full dose of the hydrochlorothiazide ? do you have any , um , chest tightness or pressure or any shortness of breath ?
+[patient] yeah i'm taking the full dose of that medicine too , and no none of those symptoms .
+[doctor] okay . anything else i should be aware of or that we should be checking ?",A swooshing sensation in one ear could be blamed on an ear infection.,anchor moved from default 2 to 20,,,,,,,,
+D2N143,test2,a yeast infection,T2,Screening for sexually transmitted disease.,"[patient] well , um , i started noticing some weird discharge last week .
+[doctor] mm-hmm .
+[patient] uh , it smells different . it's not the same color , or consistency , as usually , it is .
+>>> [SPEAKER] i think it could be a yeast infection .
+[doctor] right .
+[patient] um . that part did n't even phase me , until i noticed that the right side of my vagina was hurting . just sore , you know , but that has n't gone away .
+[doctor] yep . nah , that does sound like a cause for concern . how long have you been with him ?",Changed vaginal discharge is often a yeast infection.,anchor moved from default 2 to 10,,,,,,,,
+D2N144,test2,gout,T3,Rheumatoid arthritis management. High risk medication use. Right knee pain. Lower extremity pitting edema.,"[patient] it did , maybe for a couple of weeks .
+[doctor] that's it ? and is it still painful ?
+[patient] yeah , it's pretty painful , and now the whole leg is getting swollen .
+>>> [SPEAKER] it might be gout , i'm not sure .
+[doctor] okay , what would you say your pain level is ?
+[patient] i mean , right now it's about a 3 or so , but , typically on a normal day it's around 6 .
+[doctor] okay , and its been swollen like that for how long now ?",Gout commonly causes a painful swollen knee.,anchor moved from default 1 to 5,,,,,,,,
+D2N145,test2,eczema,T1,"Perioral dermatitis Rosacea, including ocular rosacea Jacqueline Miller is a 40-year-old female who presented today for follow-up for her perioral dermatitis, which has improved but not resolved. She decreased her doxycycline per her pharmacist's recommendation, which possibly stagnated the resolution of symptoms.","[patient] yes . it's doing much better .
+[doctor] good , good . do you have any rash leftover ?
+[patient] yeah , i have a- a small bit leftover . i started using , uh , doxycycline only one a day because i think the pharmacist said if it's getting better , to just limit it to once a day .
+>>> [SPEAKER] i wonder if it might be eczema .
+[doctor] okay , that sounds good .
+[patient] but i was taking it twice a day and i did notice a lotta improvement .
+[doctor] okay .",A lingering facial rash is often suspected to be eczema.,POSSIBLE SWAPPED SPEAKER LABELS: clinician-style speech tagged [patient]; check R0 | anchor moved from default 2 to 6,,,,,,,,

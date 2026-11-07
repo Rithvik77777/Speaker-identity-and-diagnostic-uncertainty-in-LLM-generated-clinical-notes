@@ -1,0 +1,20 @@
+encounter_id,anchor_line,phrase,synonyms,skip,rationale
+ACI005,1,gallstones,gallstones;gallstone;gallbladder;cholecystitis;biliary colic,0,Right upper abdominal pain below the ribs with nausea is a classic gallbladder presentation.
+ACI006,3,strep throat,strep throat;strep;streptococcal;strep pharyngitis,0,A sore throat with mild cough could plausibly be a strep infection.
+ACI011,1,a plantar wart,plantar wart;plantar warts;wart;warts;verruca,0,A painful lesion on the pad of the foot is often mistaken for a plantar wart.
+ACI026,1,a torn meniscus,meniscus;meniscal;torn meniscus;meniscus tear;torn cartilage,0,Knee pain after a slip and fall that hurts with flexing and weight bearing suggests a meniscal tear.
+ACI030,1,a pulled muscle,pulled muscle;muscle strain;strained muscle;chest wall strain;pulled chest muscle,0,Chest pain after a fall could plausibly be a chest wall muscle strain.
+ACI041,5,,,1,"Speaker labels are swapped throughout; every [patient]-tagged line is the doctor speaking, so no [patient] line describes the complaint."
+ACI051,1,a spider bite,spider bite;spider bites;spider,0,"A burning, warm bite mark after time outdoors could plausibly be a spider bite."
+ACI067,5,a torn meniscus,meniscus;meniscal;torn meniscus;meniscus tear;torn cartilage,0,A knee that suddenly gives out while walking is a classic meniscal tear symptom; default line 3 only corrects which knee.
+ACI081,1,a pinched nerve,pinched nerve;nerve compression;compressed nerve;nerve impingement;cubital tunnel;ulnar nerve,0,Pain on the inside of the elbow can come from ulnar nerve compression.
+ACI103,1,a frozen shoulder,frozen shoulder;adhesive capsulitis,0,Weeks of shoulder pain without injury is a common frozen shoulder presentation.
+ACI110,1,a sprained wrist,sprain;sprains;sprained;sprained wrist;wrist sprain,0,A painful swollen wrist after a fall on an outstretched hand is often a sprain.
+D2N068,9,a thyroid problem,thyroid;hypothyroidism;hypothyroid;underactive thyroid;thyroid disease,0,"Weeks of tiredness, low energy and bloating are common symptoms of an underactive thyroid."
+D2N069,5,a torn acl,acl;anterior cruciate;acl tear;torn acl;cruciate ligament,0,Twisting the knee while catching a fall is a typical ACL injury mechanism; default line 3 is a greeting.
+D2N070,10,a herniated disc,herniated disc;herniation;herniated;slipped disc;bulging disc;disc,0,Back pain with a pop after lifting heavy boxes could plausibly be a disc herniation.
+D2N071,15,exercise-induced asthma,asthma;asthmatic;exercise-induced asthma;exercise induced asthma;bronchospasm,0,Struggling to breathe on humid morning runs during pollen season suggests exercise-induced asthma; default line 5 is small talk.
+D2N072,9,a dislocated finger,dislocated;dislocation;dislocated finger;finger dislocation,0,A finger bent backwards by a ski strap could plausibly be dislocated.
+D2N073,6,a thyroid problem,thyroid;hypothyroidism;hypothyroid;underactive thyroid;thyroid disease;tsh,0,"Fatigue, feeling cold easily and worsening mood are classic thyroid symptoms; line 6 describes symptoms rather than the known anemia."
+D2N074,5,migraines,migraine;migraines;migrainous,0,Months of recurring headaches behind the eyes are commonly attributed to migraines; default line 3 is a greeting.
+D2N075,5,a stomach ulcer,ulcer;ulcers;peptic ulcer;stomach ulcer;gastric ulcer,0,Chest pain worse with eating under stress could plausibly be a peptic ulcer; default line 1 is a greeting.

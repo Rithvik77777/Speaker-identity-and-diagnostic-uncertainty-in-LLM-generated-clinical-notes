@@ -1,0 +1,41 @@
+encounter_id,anchor_line,phrase,synonyms,skip,rationale
+ACI000,1,a torn achilles,achilles;achilles tendon;achilles rupture;achilles tear,0,An ankle injury jumping during basketball with instability is a classic Achilles rupture scenario.
+ACI008,5,a pinched nerve,pinched nerve;nerve compression;compressed nerve;nerve impingement;radiculopathy,0,Neck pain after a car crash could plausibly come from a pinched nerve.
+ACI009,1,an abscess,abscess;abscesses,0,A foot sore that has become red and draining could plausibly be an abscess.
+ACI010,1,a torn meniscus,meniscus;meniscal;torn meniscus;meniscus tear;torn cartilage,0,A knee that pops in a skiing fall and hurts on the outside could be a meniscal tear.
+ACI015,1,a torn acl,acl;anterior cruciate;acl tear;torn acl;cruciate ligament,0,A snap and instant knee pain on a trampoline is a classic ACL tear story.
+ACI017,6,a torn meniscus,meniscus;meniscal;torn meniscus;meniscus tear;torn cartilage,0,A twisted knee that swelled and hurts with squatting could be a meniscal tear; line 0 mixes doctor and patient speech so a later patient line was chosen.
+ACI024,5,spinal stenosis,stenosis;spinal stenosis;lumbar stenosis,0,Long-standing back pain worse with standing and walking at the mall is typical of spinal stenosis; default line 1 is small talk.
+ACI033,0,,,1,Speaker labels are swapped; the patient's description of facial pain is tagged [doctor] and all [patient] lines are the doctor.
+ACI043,1,bronchitis,bronchitis;bronchial infection,0,Constant coughing and wheezing could plausibly be bronchitis.
+ACI045,1,,,1,Speaker labels are swapped; the patient's headache history is tagged [doctor] and all [patient] lines are the doctor.
+ACI047,3,bursitis,bursitis;bursa;olecranon bursitis,0,Elbow pain from repetitive tennis could plausibly be bursitis.
+ACI052,3,a kidney infection,kidney infection;pyelonephritis;renal infection,0,Fluctuating pain needing an ER visit in a stone former could plausibly be a kidney infection.
+ACI060,5,allergies,allergies;allergy;allergic;hay fever,0,A cough that started while loading hay could plausibly be allergies; default line 1 is referral history so the cough description was used.
+ACI062,3,athlete's foot,athlete's foot;athletes foot;tinea pedis;fungal infection,0,A non-healing foot sore can be confused with athlete's foot skin breakdown.
+ACI066,13,bronchitis,bronchitis;bronchial infection,0,New shortness of breath in a healthy person could plausibly be bronchitis; default line 3 is small talk.
+ACI072,1,a torn tendon,torn tendon;tendon tear;tendon;tendons;tendon injury,0,An ankle that turned under on ice could plausibly involve a torn tendon.
+ACI077,1,fatty liver,fatty liver;fatty liver disease;steatosis;nafld;hepatic steatosis,0,Abnormal liver blood work in someone feeling fine is often due to fatty liver.
+ACI084,1,a hiatal hernia,hiatal hernia;hiatus hernia;hernia,0,Food feeling stuck when swallowing could plausibly be a hiatal hernia.
+ACI086,1,sciatica,sciatica;sciatic,0,Back tightening with pins and needles in the foot is classic sciatica.
+ACI088,3,bursitis,bursitis;bursa;olecranon bursitis,0,Persistent shoulder soreness after yard work could plausibly be bursitis.
+ACI098,1,arthritis,arthritis;osteoarthritis;arthritic;degenerative joint disease,0,Years of back pain are commonly attributed to arthritis.
+ACI107,3,a pinched nerve,pinched nerve;nerve compression;compressed nerve;nerve impingement,0,Neck pain after a rear-end collision could plausibly come from a pinched nerve; line 3 describes the pain rather than just the accident.
+D2N088,7,the flu,flu;influenza,0,Fatigue and shortness of breath with a worsening cold could plausibly be the flu.
+D2N089,13,an overactive thyroid,thyroid;hyperthyroidism;hyperthyroid;overactive thyroid;graves,0,Recurring palpitations could plausibly come from an overactive thyroid; default line 1 is small talk.
+D2N090,7,dehydration,dehydration;dehydrated;volume depletion,0,Feeling woozy over a weekend could plausibly be dehydration.
+D2N091,5,sleep apnea,sleep apnea;apnea;osa;obstructive sleep apnea,0,Poor sleep that wears on someone could plausibly be sleep apnea.
+D2N092,3,tendonitis,tendonitis;tendinitis;tendinopathy,0,Forearm pain near the wrist in a tennis player could plausibly be tendonitis.
+D2N093,7,a kidney problem,kidney problem;kidney disease;kidney;kidneys;renal,0,Swelling and lethargy could plausibly come from a kidney problem.
+D2N094,5,a dislocated finger,dislocated;dislocation;dislocated finger;finger dislocation,0,A finger jammed in a skiing fall could plausibly be dislocated; default line 1 is small talk.
+D2N095,5,a herniated disc,herniated disc;herniation;herniated;slipped disc;bulging disc;disc,0,A back that suddenly seized up could plausibly be a disc herniation; default line 1 is small talk.
+D2N096,3,a torn rotator cuff,rotator cuff;rotator cuff tear;torn rotator cuff;rotator,0,A painful shoulder for a week could plausibly be a rotator cuff tear.
+D2N097,1,,,1,Annual exam; the patient describes no symptom or complaint before the assessment (only answers no to ROS).
+D2N098,4,a pinched nerve,pinched nerve;nerve compression;compressed nerve;nerve impingement,0,Constant pain in both shoulder and elbow could plausibly come from a pinched nerve.
+D2N099,-1,,,1,No [patient] speaker; history is given entirely by a parent tagged [patient_guest].
+D2N100,5,rosacea,rosacea,0,Facial breakouts in a teen could plausibly be confused with rosacea.
+D2N101,19,scoliosis,scoliosis;curvature of the spine;spinal curvature,0,Long-standing back and neck pain needing a chiropractor could plausibly be scoliosis; default line 1 is small talk.
+D2N102,3,a bladder infection,bladder infection;urinary tract infection;uti;cystitis,0,Bloody urine with frequent urination could plausibly be a bladder infection.
+D2N103,6,a pulled muscle,pulled muscle;muscle strain;strained muscle;chest wall strain;pulled chest muscle,0,Intermittent chest pain on exertion after chest surgery could plausibly be a muscle strain; default line 2 is small talk.
+D2N104,5,plantar fasciitis,plantar fasciitis;fasciitis;plantar,0,Foot pain worse with being on the feet is classic plantar fasciitis.
+D2N105,18,anemia,anemia;anemic;anaemia;iron deficiency;low blood count,0,Shortness of breath on exertion in an elderly patient could plausibly be anemia; line 18 describes a symptom rather than the referral.

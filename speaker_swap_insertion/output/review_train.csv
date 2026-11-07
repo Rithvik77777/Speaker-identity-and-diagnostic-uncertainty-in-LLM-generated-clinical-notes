@@ -1,0 +1,402 @@
+encounter_id,split,condition,template_id,actual_assessment,context,proposer_rationale,auto_warnings,R0_speaker_labels_correct,R1_plausible_alternative,R2_not_actual_or_known_dx,R3_natural_as_doctor,R4_natural_as_patient,R5_fits_position,reviewer,comment
+ACI001,train,a pinched nerve,T1,Bilateral carpal tunnel syndrome.,"[doctor] hey george how are you today i understand you're here for some numbness and tingling in your fingers and some pain in your wrist
+[patient] right my left wrist and hand has been bothering me probably for a few months now with pain and numbness
+>>> [SPEAKER] i wonder if it might be a pinched nerve
+[doctor] okay and you said that's been ongoing for several months do you know what caused this type of pain or is it just something that started slowly or
+[patient] it just kinda started on it's own it i notice it mostly at night
+[doctor] okay",Numbness and pain in the hand can come from a pinched nerve in the neck.,,,,,,,,,
+ACI004,train,a bladder infection,T2,1. Difficulty urinating. - Medical Reasoning: The patient presents today with approximately a 6 month history of difficulty with urination. His prostate also felt slightly enlarged on exam today. - Patient Education and Counseling: The patient was advised that there were no concerning symptoms of prostate cancer appreciated on his physical exam today. - Medical Treatment: We will order routine lab,"[doctor] hi billy how are you what's been going on the medical assistant told me that you're having some difficulty urinating
+[patient] yeah yeah i i did n't really wan na come in to talk about it's kinda weird but i think probably over the last six months i'm just not peeing right it just does n't seem to be normal
+>>> [SPEAKER] i think it could be a bladder infection
+[doctor] okay so let's talk a little bit about that now is your is your stream is your urination stream weak
+[patient] yeah i'd probably say so
+[doctor] okay and do you feel like you're emptying your bladder fully or do you feel like you still have some urine left in there when you when you finish",Changes in urination are a common lay worry for a bladder infection.,short synonym(s) may false-match: ['uti'],,,,,,,,
+ACI016,train,a pulled muscle,T3,"Kidney stone, right side.","[doctor] so anna good to see you today so reading here in your appointment notes you were you were diagnosed with kidney stones from your your pcp and you currently have one and so they they had you come in so can you tell me what happened how's all that going for you
+[patient] sure i've been having some back pain on my right side it's been lasting for about a week now
+>>> [SPEAKER] it might be a pulled muscle i'm not sure
+[doctor] okay
+[patient] and i also started to see some blood in my urine
+[doctor] okay so on the right side so does that pain does it move anywhere or is it just kinda stay in that that one area",One-sided back pain is commonly blamed on a pulled muscle.,,,,,,,,,
+ACI020,train,a pinched nerve,T1,Right kidney stone.,"[doctor] hey mason good to see you today so let's see you here in my notes for evaluation of kidney stones your your pcp said you had some kidney stones so you got a referral over so can you tell me a little bit about that you know what happened when did you first notice them
+[patient] yeah it was about you know about a week ago and i was working down in the the barn with the horses and you know i was moving some hay but i developed this real sudden onset of pain in my right back and i thought it initially it was from throwing hay but it i broke out into a sweat i got real nauseated and that's when i went and saw my doctor and he ordered a cat scan and said that i had a kidney stone but you know that's i i've never had that before my father's had them in the past but yeah so that's that's how that all happened
+>>> [SPEAKER] i wonder if it might be a pinched nerve
+[doctor] okay so you said you had the pain on the right hand side does it move anywhere or radiate
+[patient] well when i had it it would it radiated almost down to my groin
+[doctor] okay",Sudden back pain radiating toward the groin after lifting could suggest a pinched nerve.,,,,,,,,,
+ACI025,train,a dislocated kneecap,T2,"1. Right knee pain. - Medical Reasoning: I am concerned about a torn MCL due to pain on ambulation and trouble with weightbearing, as well as the pop she heard. - Patient Education and Counseling: We discussed treatment options today including bracing, anti-inflammatories, and icing. - Medical Treatment: I am going to put her in a straight leg brace and I will prescribe some Mobic. She can start t","[patient] about four days ago
+[doctor] great the weather was perfect this weekend so i'm glad you at least got outside sorry to hear you got hurt okay so your right knee did you did you feel it like pop or or snap or anything when you hurt it
+[patient] yeah i felt a little pop and then it swelled up really big afterward
+>>> [SPEAKER] i think it could be a dislocated kneecap
+[doctor] okay did you try anything for the pain
+[patient] i took some ibuprofen and i put some ice on it
+[doctor] okay did that help",A pop with big swelling after a trampoline slip could be a dislocated kneecap.,anchor moved from default 1 to 9,,,,,,,,
+ACI027,train,sciatica,T3,1. Lower back pain. - Medical Reasoning: I believe this is more of a muscular sprain. - Patient Education and Counseling: We discussed treatment options today. - Medical Treatment: I am going to start him on Naprosyn 500 mg twice a day and Flexeril 10 mg twice a day. I will refer him for physical therapy to help strengthen some of the muscles in his lower back. - Additional Testing: I do not think,"[patient] sure
+[doctor] okay so gabriel is a 43 -year-old male today here for back pain evaluation and also has a past medical history of diabetes high blood pressure and high cholesterol so gabriel tell me what's going on with your back
+[patient] well i was working in the yard and you know bent over to pick something up and i got this pain and you know across the lower part of my back and then it went down my left leg and you know it's been going on for about four days and just does n't seem to be getting any better
+>>> [SPEAKER] it might be sciatica , i'm not sure .
+[doctor] okay are you a big gardener or this is something that you just started working in the yard
+[patient] yeah i know my wife held a gun to my head make me go out there work in the yard and carry some stuff around it's not my not my first choice but
+[doctor] sure sure",Low back pain shooting down the leg after bending is a typical sciatica presentation.,,,,,,,,,
+ACI028,train,fibroids,T1,"1. Ovarian cancer. - Medical Reasoning: Looking at her abdominal CT results, it appears to be stage IIIA disease based on the lymph node involvement. - Patient Education and Counseling: I explained to the patient that the typical approach to treating this stage of cancer is surgical intervention followed by adjunct chemotherapy. The procedure and subsequent chemotherapy plans were discussed in det","[patient] yes
+[doctor] okay okay so lem me ask you some questions so what kind of symptoms were you having that prompted you your doctor to do the tests
+[patient] i was having severe pain and bleeding
+>>> [SPEAKER] i wonder if it might be fibroids
+[doctor] okay now do you have other symptoms such as weight loss constipation vomiting or issues with urination
+[patient] no vomiting but constipation and weight loss
+[doctor] okay yeah that's understandable so do you have any children or have you ever been pregnant",Pelvic pain and bleeding are commonly caused by fibroids.,anchor moved from default 1 to 9,,,,,,,,
+ACI031,train,a torn meniscus,T2,1. Right knee posterior cruciate ligament strain.,"[doctor] hi elizabeth so i see that you were experiencing some kind of injury did you say that you hurt your knee
+[patient] yes i hurt my knee when i was skiing two weeks ago
+>>> [SPEAKER] i think it could be a torn meniscus
+[doctor] okay skiing that sounds exciting alright so what happened what what's when did the injury like what sorry what happened in the injury
+[patient] so i was flying down this black diamond you know like i like to do
+[doctor] yes",A twisting knee injury while skiing commonly tears the meniscus.,,,,,,,,,
+ACI035,train,bronchitis,T1,"1. Asthma. - Medical Reasoning: The patient has experienced an increased need to use her albuterol inhaler. She is not currently utilizing a daily medication. At this time, we will try a daily medication since it looks like she might be having some allergies. - Patient Education and Counseling: I explained the side effects of albuterol to the patient. We also discussed Singulair and that she shoul","[patient] sure absolutely what can i help you with today
+[doctor] so you know i've been dealing with my asthma and like i tried to join sports but it's really kind of it's getting hard you know and i i i just wonder if there's something that can be done because i really do like playing water polo
+[patient] but i'm having difficulty breathing sometimes i've had to like you know stop matches and sit on the side just to kind of like catch my breath and use my inhaler so i was wondering if there was something we could do about it
+>>> [SPEAKER] i wonder if it might be bronchitis
+[doctor] and then like i'm kind of a little bit worried i think my mood is getting a little a little worrisome and i i wanted to explore like what my options were
+[patient] okay let's talk about the asthma first so what inhaler are you using now
+[doctor] i have an albuterol inhaler",Breathlessness with phlegm and coughing could plausibly be bronchitis.,anchor moved from default 3 to 5,,,,,,,,
+ACI037,train,a migraine,T2,"1. Headache. - Medical Reasoning: Patient presents with symptoms similar to a tension headache. On exam she has tension and tightness in her paraspinal muscles as well likely due to working at the computer. Additionally, I think her stress level is also a contributing factor. - Patient Education and Counseling: I discussed the diagnosis with the patient today. I explained that her headaches may be","[patient] yes that's okay
+[doctor] okay great thanks so carolyn tell me about your headache and headache or headaches when did when did they start and and what symptoms are you having
+[patient] my headache started about a week ago it's feeling like a dull pain in the back of my head i have flushing in my ears they get really red and hot and sometimes i just feel a little bit dizzy when i get these headaches but i've taken tylenol and advil and it's not really going away it just keeps coming back
+>>> [SPEAKER] i think it could be a migraine
+[doctor] okay and alright and so this started about a week ago has it been fairly constant since it started or does it come and go does it come and go or what
+[patient] it comes and goes i it it's relieved when i take my tylenol or advil but then it comes right back
+[doctor] hmmm okay and do you notice any any timing difference you know is it is it worse in the morning worse in the evening is there anything else that makes it better or worse",Recurring headaches with dizziness are often wondered to be migraines.,,,,,,,,,
+ACI038,train,a torn meniscus,T3,"Right knee pain, possible medial collateral ligament strain.","[patient] i'm good thanks how are you
+[doctor] good so you know you got that knee x-ray when you first came in but tell me a little bit about what happened
+[patient] i was playing basketball and jerry ran into me and the inside of my knee hurts
+>>> [SPEAKER] it might be a torn meniscus i'm not sure
+[doctor] okay did you fall to the ground or did you just kinda plant and he pushed and you went one way and your knee did n't
+[patient] i did fall to the ground
+[doctor] you did fall to the ground okay and did you land on the kneecap i mean did it hurt a lot were you able to get up and continue on",Medial knee pain after a collision and fall could be a meniscus tear.,,,,,,,,,
+ACI048,train,a kidney infection,T3,1. Kidney stone. - Medical Reasoning: Patient presents today with symptoms consistent with kidney stones. She does have a history of kidney stones with this being her third episode. - Patient Education and Counseling: We discussed the importance of pushing fluids to help facilitate passing the kidney stone. - Medical Treatment: Prescription for oxycodone 5 mg every 6 to 8 hours as needed for pain ,"[patient] and i've been in a lot of pain it started about i would say probably about three days ago
+[doctor] okay
+[patient] started having pain on my left back
+>>> [SPEAKER] it might be a kidney infection , i'm not sure .
+[doctor] okay
+[patient] and since then i continued to have pain it is traveling a little lower it's gotten little low but i definitely have not passed it yet and i'm just in so much pain
+[doctor] okay so is the pain that you're having is it constant or does it come and go",Flank pain is also a classic sign of a kidney infection.,anchor moved from default 1 to 3,,,,,,,,
+ACI053,train,allergies,T2,1. Transient tics. - Medical Reasoning: The patient's father provided a video today as she did not have a twitch in office. It appears the patient is experiencing a tic. - Patient Education and Counseling: Nature of the diagnosis was discussed today with the patient and her father. I advised eye tics are very common in children and as many as 1 in 5 children have a tick during their school years. ,"[patient] i'm okay i guess
+[doctor] hey dad how are you doing
+[patient] hey doc i am okay yeah karen has been having this eye twitch i noticed a couple of weeks ago when i talked to her pediatrician and they told me to come see you
+>>> [SPEAKER] i think it could be allergies
+[doctor] okay alright so karen have you felt the twitch
+[patient] yeah well i mean i feel my face sometimes
+[doctor] yeah and do you have any pain when it happens",Eye irritation from allergies is a common parent guess for eye twitching.,,,,,,,,,
+ACI054,train,anemia,T3,1. Coronary artery disease. - Medical Reasoning: The patient's exam is consistent with coronary artery disease. - Patient Education and Counseling: We discussed that he should continue to watch his diet and salt intake. We also discussed that the cardiac rehab should help with his confidence with exercising regularly and for his education. - Medical Treatment: Continue taking aspirin 81 mg daily C,"[patient] well
+[doctor] how's it been since you've had your heart attack have you been have you been doing alright
+[patient] no i've been seeing you for years since i had my last heart attack in two thousand eighteen but i've been doing pretty good i ca n't believe this happened again i mean i'm doing okay i guess i just feel tired every now and then and but overall i mean i guess i feel pretty well
+>>> [SPEAKER] it might be anemia , i'm not sure .
+[doctor] okay good were you able to enjoy the spring weather
+[patient] yeah some i mean i'm hoping now that i've had my little procedure that i'll feel better and feel like getting back out and and maybe doing some walking there is some new trails here behind the rex center and maybe get out and walk those trails
+[doctor] that will be fine i know you love walking the trails i know you like looking at the flowers because i think you you plant a lot of flowers as well do n't you especially around this time",Feeling tired every now and then is often attributed to anemia.,anchor moved from default 1 to 5,,,,,,,,
+ACI059,train,mono,T1,"1. Sore throat. - Medical Reasoning: The patient has experienced sore throat, fever, chills, profuse sweating, and difficulty swallowing for 4 days. There is erythema and edema of the peritonsillar space with exudates present bilaterally as well as edema and erythema of her turbinates, bilaterally. - Patient Education and Counseling: We discussed treatment options today. I have stressed the import","[doctor] hi teresa what's going on i heard that i heard that you're having a sore throat you're not feeling well
+[patient] yeah my throat has been hurting me for like four four days now and i think i had a fever last night because i was really sweaty but i did n't take my temperature because i was already in bed
+>>> [SPEAKER] i wonder if it might be mono .
+[doctor] okay alright so four days ago you started feeling badly okay now were you having chills
+[patient] yeah last night i was chills and i had lot of sweating and it's really hard to swallow
+[doctor] it's really hard to swallow okay now do you have pain every time you swallow or is it just periodically",Sore throat with fever and painful swallowing is a common mono presentation.,short synonym(s) may false-match: ['ebv'],,,,,,,,
+ACI069,train,pneumonia,T2,"1. Congestive heart failure. - Medical Reasoning: This appears to have been caused by dietary indiscretion and uncontrolled hypertension. - Patient Education and Counseling: I encouraged the patient to continue making dietary modifications, including limiting her sodium intake. She could try keeping a food diary, as previously discussed, to log her diet and associated blood pressure readings. I al","[doctor] well hello christina so how are you doing i was notified you were in the hospital for some heart failure what happened
+[patient] well i'm doing better now but i just started having problems that my ankles were swelling and could n't get them to go down even when i went to bed and could n't breathe very good had to get propped up in bed so i could breathe at night and so i just really got to feeling bad i called my friend diane and she said i probably ought to call nine one one since i was having a hard time talking and so i called nine one one and they sent out an ambulance and they took me into the er on the it was quite an experience
+>>> [SPEAKER] i think it could be pneumonia .
+[doctor] yeah
+[patient] having an ambulance ride and and i've never done that before so not an experience i wan na do again either
+[doctor] i'm sure you do n't yeah i see that your blood pressure was high also it was two hundred over ninety have you been",Difficulty breathing while lying down is something a patient may attribute to pneumonia.,,,,,,,,,
+ACI070,train,sleep apnea,T3,"1. Hypertension, uncontrolled. - Medical Reasoning: The patient's elevated blood pressure is consistent with uncontrolled hypertension. - Patient Education and Counseling: We discussed the nature of the diagnosis and that this is typically multifactorial. I advised the patient that further testing should reveal additional information. She was encouraged to reduce her intake of alcohol as well as h","[patient] yeah i she wanted me to get a blood pressure cuff so i did start getting checking my blood pressures probably like a few times a week
+[doctor] okay
+[patient] and so then i noticed that it has been getting higher the other day was even as high as one seventy over ninety
+>>> [SPEAKER] it might be sleep apnea i'm not sure
+[doctor] wow
+[patient] so i did call my pcp and she increased the meds again
+[doctor] yeah okay now i i just have a couple questions about that are you using a an electronic blood pressure recorder or do you have somebody help you at home",Sleep apnea is a common contributor to rising blood pressure.,short synonym(s) may false-match: ['osa'] | anchor moved from default 1 to 7,,,,,,,,
+ACI071,train,a torn achilles,T1,"Lateral ligament complex sprain, Right ankle.","[patient] i'm doing alright other than this ankle pain i've been having
+[doctor] so i see here that you hurt your right ankle can you tell me what happened
+[patient] yeah so yesterday i was going to take out the trash and it was quite icy i thought i was doing okay job and i just slipped and and fell and i'm pretty sure i heard a pop
+>>> [SPEAKER] i wonder if it might be a torn achilles
+[doctor] okay and you said this happened yesterday correct
+[patient] yeah
+[doctor] okay and have you been able to walk on it at all",A pop after slipping on ice could suggest an achilles tear.,anchor moved from default 1 to 3,,,,,,,,
+ACI073,train,bursitis,T2,Bilateral medial epicondylitis.,"[doctor] hey dylan what's going on so i lift quite a bit of weights i try to stay in shape as much as i can i'm not like normal people i lift heavy weights and my elbow is extremely sore which elbow is it
+[patient] actually it's both my elbows but my right elbow is hurting me the most
+>>> [SPEAKER] i think it could be bursitis
+[doctor] okay and you said you lift a lot of weights
+[patient] mm-hmm
+[doctor] did you play any sports when you were younger",Sore elbows in a heavy weightlifter could be bursitis.,,,,,,,,,
+ACI074,train,eczema,T3,1. Scalp psoriasis. - Medical Reasoning: The patient presents today with symptoms similar to scalp psoriasis. - Patient Education and Counseling: Nature of the diagnosis was discussed as well as treatment options. Patient was advised there is no cure for this. Patient was counseled on how to apply clobetasol 0.05%. - Medical Treatment: Prescription for clobetasol 0.05% solution twice daily provide,"[doctor] so barbara i i know you are here for some itchy scalp pain can you tell me a little bit about how you're doing
+[patient] yeah it's still quite a problem you know something i've been suffering with for so long now it's still quite itchy and it's really embarrassing too because i'll have dandruff so much like all over me but but i just ca n't stop itching
+>>> [SPEAKER] it might be eczema , i'm not sure .
+[doctor] okay when did you first notice this
+[patient] i wan na say it's been a while but probably worsening in the past like six months or so
+[doctor] okay okay and have you seen ever noticed any rashes either when it first started or intermittently anywhere else",An itchy flaky scalp is often thought to be eczema.,,,,,,,,,
+ACI075,train,acid reflux,T1,1. Shortness of breath. - Medical Reasoning: I believe this is an exacerbation of her congestive heart failure. - Patient Education and Counseling: I advised the patient to monitor her weight daily. - Medical Treatment: She will increase her dose of Lasix from 20 mg to 60 mg for the next 4 days. She should also use her albuterol and Atrovent inhalers as needed. If her symptoms don't improve in the,"[patient] really just for about the past two weeks i i just ca n't ca n't get comfortable you know when i when i lay down in bed i just ca n't ca n't fall
+[doctor] is it because you're having you ca n't sleep or you're having shortness of breath or difficulty breathing or what's going on with that
+[patient] yeah i i feel like i'm just i'm just choking a few minutes after i i lay down to sleep i just ca n't catch my breath
+>>> [SPEAKER] i wonder if it might be acid reflux .
+[doctor] okay and are you and how has your pulse ox been your oxygen level been at home i know you your oxygen level here is like ninety two right now in the office which is a little bit on the low side how is how has that been at home
+[patient] i can breathe fine
+[doctor] just when you lay down you get short of breath okay and is it worse when you have you noticed any shortness of breath during the day when you exert yourself when you climb stairs or do other stuff",Choking sensations soon after lying down are common with acid reflux.,anchor moved from default 1 to 5,,,,,,,,
+ACI076,train,tendonitis,T2,"1. Patellofemoral pain syndrome, bilateral. - Medical Reasoning: After reviewing her x-ray, previous MRI, and exam findings, her symptoms are consistent with patellofemoral pain syndrome. - Patient Education and Counseling: We discussed the nature of this condition in detail. I encouraged the patient to be conservative with her physical activity for now. - Medical Treatment: Continue with over-the","[doctor] good morning julie how are you doing this morning
+[patient] i've been better my primary care doctor wanted me to see you because of this this knee pain that i've been having for about six months now
+>>> [SPEAKER] i think it could be tendonitis
+[doctor] okay and do you remember what caused the pain initially
+[patient] honestly i do n't i ca n't think of anytime if i fell or like i i've really been trying to think and i ca n't really think of any specific event
+[doctor] okay now it it says here that it's in both knees is that correct",Chronic knee pain without injury is often attributed to tendonitis.,,,,,,,,,
+ACI080,train,a bone bruise,T3,"Lisfranc fracture, left foot.","[patient] i'm doing alright aside from this foot pain that i have
+[doctor] so i see here that you looks like you hurt your left foot here where you were playing soccer can you tell me a little bit more about what happened
+[patient] yeah so yeah i was playing in a soccer game yesterday and i was trying to steal the ball from another player and she ended up falling directly onto my right foot and i do n't know i i mean i was trying to get around her and my body ended up twisting around her and then i accidentally felt a pain in my foot
+>>> [SPEAKER] it might be a bone bruise i'm not sure
+[doctor] okay so have you ever hurt your left foot before
+[patient] no i've had a lot of injuries in soccer but never injured this foot
+[doctor] okay and then so after the fall and the entanglement with the other player were you able to continue playing",A player landing on the foot could plausibly cause a bone bruise.,anchor moved from default 1 to 3,,,,,,,,
+ACI082,train,tendonitis,T1,"1. Right knee sprain. - Medical Reasoning: The patient is an avid runner and her symptoms appear to be the result of overuse. - Patient Education and Counseling: We discussed the nature of her diagnosis, as well as her x-ray results, in detail. I advised her that this is a common issue for runners and encouraged her to continue her strength training exercises. - Medical Treatment: She will take Ty","[patient] hello hi nice to meet you i'm i'm doing okay
+[doctor] good i'm doctor sanchez and i'm gon na go ahead and take a look i saw with your notes that you've been having some knee pain yes that's that's true you know it's been going on for a while i like to run i do jogs i sign up for the 5k tack you know sometimes the marathon and i have n't been doing longer distances because
+[patient] when i'm running i my right knee here it just starts to ache and it's it's just to the point where i need your opinion
+>>> [SPEAKER] i wonder if it might be tendonitis
+[doctor] okay okay what have you done for it so far what makes it better what makes it worse
+[patient] well it used to be that when i run it ache and then i put ice on it and then it would be okay so i do ice and ibuprofen
+[doctor] okay okay and did you see anybody for this before coming into the office here",Knee ache with running is commonly tendonitis from overuse.,anchor moved from default 1 to 3,,,,,,,,
+ACI090,train,a torn achilles,T2,Right ankle sprain.,"[doctor] hey anna good to see you today so i'm looking here in my notes says you have you're coming in today for some right ankle pain after a fall so can you tell me what happened how did you fall
+[patient] yeah so i was taking out the trash last night and i ended up slipping on a patch of ice like and then when i fell i heard this pop and it just hurts
+>>> [SPEAKER] i think it could be a torn achilles
+[doctor] okay so have you been able to walk on it at all or is it you know
+[patient] at first no like my friend who was visiting thankfully had to help me get into the house and i you know and now i'm able to put like a little bit of weight on it but i'm i i'm still limping
+[doctor] okay well you know that's not good we'll we'll hopefully we can get you fixed up here so how much how much pain have you been in on a scale of one to ten with ten being the worst pain you ever felt",A pop with pain after slipping could suggest an achilles injury.,,,,,,,,,
+ACI092,train,a bone bruise,T3,Left ankle sprain of the lateral ligament complex.,"[patient] hey doc i'm doing pretty good how are you
+[doctor] i'm doing pretty good hey i see here in the nurse's notes it looks like you hurt your left ankle can you tell me a little bit more about that
+[patient] yeah i did my wife and i were on a walk yesterday and i was just talking to her and and stepped off the curb and landed on it wrong it's kind of embarrassing but yeah it's been killing me for a couple days now
+>>> [SPEAKER] it might be a bone bruise i'm not sure
+[doctor] okay now when you fell did you feel or hear a pop or anything like that
+[patient] i would n't say i really heard a pop it was just kind of really kind of felt extended and stretched and it it's just been really bothering me ever since kind of on the outside of it
+[doctor] okay and then were you able to walk on it after the incident",Landing wrong off a curb could cause a bone bruise.,anchor moved from default 1 to 3,,,,,,,,
+ACI093,train,a plantar wart,T1,"1. Non-healing ulcer, right foot 2. Diabetes 3. Coronary artery disease","[patient] yes
+[doctor] going away
+[patient] yeah it's been there gosh it's like six or so weeks right now and it's and it's on my right foot and it's just yeah it's just not going away i'm not sure if it maybe even gotten a little worse from when i first noticed it
+>>> [SPEAKER] i wonder if it might be a plantar wart
+[doctor] okay and how long did you say it's going on for
+[patient] probably about
+[doctor] six eight weeks maybe",A persistent sore on the sole is sometimes mistaken for a plantar wart.,anchor moved from default 1 to 5,,,,,,,,
+ACI102,train,a broken toe,T3,"Right foot pain, due to a Lisfranc fracture.","[patient] i'm doing okay
+[doctor] so i see here that your primary care provider sent you over it looks like you were doing some yard work yesterday and dropped a landscape brick on your foot can what so what's going on with your right foot today
+[patient] it's a little sore today but you know i hurt my foot before but this is the first time where i'm actually being seen for it
+>>> [SPEAKER] it might be a broken toe i'm not sure
+[doctor] okay so you say you've injured your right foot before tell me a little bit about that injury
+[patient] twenty years ago i broke my ankle i had to put in a cast but that seems to be okay but you know sometimes it'll give me trouble once in a while it feels a little sore it swells up at times
+[doctor] okay",A brick dropped on the foot commonly breaks a toe.,,,,,,,,,
+ACI104,train,a hiatal hernia,T1,Acute esophagitis.,"[doctor] okay raymond it looks like you've been having some difficulty swallowing over for a period of time could you tell me like what's going on
+[patient] well i've been better for the last several weeks i've been noticing that it's been hard for me to swallow certain foods and i also have pain when i swallow down in my chest
+>>> [SPEAKER] i wonder if it might be a hiatal hernia
+[doctor] okay and when does it does it happen every time you eat
+[patient] it hurts not every time it hurts when i when i swallow most foods but it's really just the bigger pieces of food that seem like they're getting stuck
+[doctor] okay and what do you mean by bigger pieces of food like what's your diet like",Painful swallowing with food sticking can be attributed to a hiatal hernia.,,,,,,,,,
+ACI108,train,a bone bruise,T2,"Right foot pain, consistent with a Lisfranc fracture.","[patient] it was like a double game and i was trying to volley the ball and i got in front of another player and actually ended up falling on top of my foot
+[doctor] alright
+[patient] and then yeah it kinda hurt i quickly then twisted my myself around her because i was trying to catch myself but then i started to feel some pain in my foot
+>>> [SPEAKER] i think it could be a bone bruise .
+[doctor] mm-hmm okay have you ever injured that foot before
+[patient] yeah no sorry i injured my other foot before not this foot
+[doctor] okay so right now you're experiencing right leg pain but you have injured your your left leg before is that what i'm hearing",A player falling on the foot could plausibly cause a bone bruise.,anchor moved from default 1 to 5,,,,,,,,
+D2N001,train,sleep apnea,T3,"Martha Collins is a 50-year-old female with a past medical history significant for congestive heart failure, depression, and hypertension who presents for her annual exam. Congestive heart failure. Medical Reasoning: She has been compliant with her medication and dietary modifications. Her previous year's echocardiogram demonstrated a reduced ejection fraction of 45%, as well as some mitral regurg","[patient] no , nothing like that .
+[doctor] okay , all right . and then in terms of your high blood pressure , i know that you and i have kind of battled in the past with you remembering to take some of your blood pressure medications . how are you doing with that ?
+[patient] i'm still forgetting to take my blood pressure medication . and i've noticed when work gets more stressful , my blood pressure goes up .
+>>> [SPEAKER] it might be sleep apnea , i'm not sure .
+[doctor] okay . and , and so how has work going for you ?
+[patient] it's been okay . it's been a lot of long hours , late nights . a lot of , um , you know , fiscal year end data that i've been having to pull . so , a lot of responsibility , which is good . but with the responsibility comes the stress .
+[doctor] yeah , okay , all right . i understand . um , all right . well , i know that you did a review of system sheet when you checked in with the nurse . i know that you were endorsing some nasal congestion from some of the fall pollen and allergies . any other symptoms , nausea or vomiting , abdominal pain , anything like that ?",Sleep apnea from long late nights is a common contributor to high blood pressure.,short synonym(s) may false-match: ['osa'] | anchor moved from default 1 to 19,,,,,,,,
+D2N002,train,bursitis,T1,"Andrew Perez is a 62-year-old male with a past medical history significant for a kidney transplant, hypothyroidism, and arthritis. He presents today with complaints of joint pain. Arthritis. Medical Reasoning: The patient reports increased joint pain in his bilateral knees over the past weekend. Given that his right knee x-ray was unremarkable, I believe this is an acute exacerbation of his arthri","[patient] sure .
+[doctor] okay ? so , andrew is a 62-year-old male with a past medical history significant for a kidney transplant , hypothyroidism , and arthritis , who presents today with complaints of joint pain . andrew , what's going on with your joint ? what happened ?
+[patient] uh , so , over the the weekend , we've been moving boxes up and down our basements stairs , and by the end of the day my knees were just killing me .
+>>> [SPEAKER] i wonder if it might be bursitis .
+[doctor] okay . is , is one knee worse than the other ?
+[patient] equally painful .
+[doctor] okay .",Knee pain after repeated stair climbing with boxes could be bursitis.,,,,,,,,,
+D2N003,train,a pulled muscle,T2,"Mr. John Perry is a 61-year-old male with a past medical history significant for kidney stones, migraines, and gastroesophageal reflux, who presents with back pain. Kidney stones. Medical Reasoning: He is experiencing pain in his back that is similar to his previous kidney stone pain. His recent abdominal x-ray demonstrates what appears to be a recurrent kidney stone. Additional Testing: I have or","[patient] okay .
+[doctor] so john is a 61-year-old male with a past medical history significant for kidney stones , migraines and reflux , who presents with some back pain . so john , what's going on with your back ?
+[patient] uh , i'm feeling a lot of the same pain that i had when i had kidney stones about two years ago , so i'm a little concerned .
+>>> [SPEAKER] i think it could be a pulled muscle .
+[doctor] yeah . and so wh- what side of your back is it on ?
+[patient] uh , honestly , it shifts . it started from the right side and it kinda moved over , and now i feel it in the left side of my back .
+[doctor] okay . and , um , how many days has this been going on for ?",Back pain is commonly blamed on a pulled muscle.,anchor moved from default 1 to 5,,,,,,,,
+D2N004,train,a pinched nerve,T3,"James Allen is a 57-year-old male with a past medical history significant for congestive heart failure and type 2 diabetes, who presents today with back pain. Acute lumbar strain. Medical Reasoning: The patient reports feeling a 'pop' and immediate pain while golfing approximately 4 days ago. He has tried Tylenol and ibuprofen without significant relief. Additional Testing: If he continues to have","[patient] mm-hmm .
+[doctor] so , james , what happened to your back ?
+[patient] uh , i was golfing and i hurt my back when i went for my backswing .
+>>> [SPEAKER] it might be a pinched nerve , i'm not sure .
+[doctor] okay . and did you feel a pop or a strain immediately or ?
+[patient] i f- felt the pop , and i immediately had to hit the ground . i had to just try and do anything to loosen up my back .
+[doctor] okay . and how long ago did this happen ?",Sudden back pain during a golf swing could suggest a pinched nerve.,,,,,,,,,
+D2N005,train,a jammed finger,T1,Right middle finger distal phalanx fracture.,"[patient] hi , dr. james , good to see you .
+[doctor] hey , dragon , i'm seeing ms. hill . she's a 41-year-old female , and what brings you in today ?
+[patient] um , i am having a lot of pain at the end of my right middle finger .
+>>> [SPEAKER] i wonder if it might be a jammed finger .
+[doctor] what did you do ?
+[patient] a little embarrassing . um , i got rear-ended , slow motor , uh , vehicle accident , and i got really angry with the person who hit me , so i went to flip him the bird , but i was a little too enthusiastic .
+[patient] and i hit the ceiling of the car .",Pain at the end of a finger is often thought to be a jammed finger.,anchor moved from default 1 to 3,,,,,,,,
+D2N006,train,a stomach ulcer,T2,"Anna Mitchell is a 44-year-old female with a past medical history significant for arthritis, gout, and reflux, who presents today for follow-up of her chronic problems. Acid reflux with nausea and vomiting. Medical Reasoning: She reports episodes of vomiting in the morning, as well as abdominal pain and bloating. She has been compliant with omeprazole and has made a few dietary modifications. Addi","[doctor] okay . great . all right .
+[doctor] and then , you know , how about your reflux ? we had placed you on , um , omeprazole , you know , to help with some of those symptoms and i know that you were gon na do some dietary modifications . how are you doing with that ?
+[patient] so , i started to make some dietary modifications . unfortunately , i have n't cut the stone out quite yet . um , i've still been having some episodes and , and throwing up in the mornings , um , things like that .
+>>> [SPEAKER] i think it could be a stomach ulcer .
+[doctor] you're throwing up in the morning ?
+[patient] yup .
+[doctor] like , just , like , reflux into your throat or are you actually vomiting ?",Morning vomiting with abdominal pain could be a stomach ulcer.,anchor moved from default 1 to 22,,,,,,,,
+D2N007,train,vitamin d deficiency,T3,The patient is a 27-year-old female who presents today for an annual followup of chronic conditions. Chronic back pain. Medical Reasoning: She is experiencing worsened pain with sitting for extended periods of time. Medical Treatment: Physical therapy referral ordered. Patient would like to defer pain medication at this time. Depression Medical Reasoning: The patient was previously doing well on P,"[patient] yes , i am .
+[doctor] okay . so sarah is a 27-year-old female here for her annual visit . so , sarah , how have you been since the last time i saw you ?
+[patient] i've been doing better . um , i've been struggling with my depression , um , a bit more just because we've been trapped really inside and remotely over the past year , so i've been struggling , um , off and on with that .
+>>> [SPEAKER] it might be vitamin d deficiency , i'm not sure .
+[doctor] okay . uh , and from looking at the notes , it looks like we've had you on , uh , prozac 20 milligrams a day .
+[patient] yes .
+[doctor] are , are you taking that ?",Low mood after a year mostly indoors could be linked to vitamin D deficiency.,,,,,,,,,
+D2N008,train,a thyroid problem,T1,"Ms. Stephanie Diaz is a 49-year-old female with a past medical history significant for congestive heart failure, kidney stones, and prior colonoscopy, who presents today for abnormal labs. Anemia. Medical Reasoning: This is a new issue. Her recent hemoglobin level was low at 8.2, but she denies any signs of gastrointestinal bleeding or urinary tract bleeding, as well as any abnormal menstrual blee","[patient] okay .
+[doctor] so , stephanie is a 49-year-old female with a past medical history significant for congestive heart failure , kidney stones and prior colonoscopy who presents today for an abnormal lab finding . so , stephanie , i called you in today because your hemoglobin is low . um , how have you been feeling ?
+[patient] over the past couple of months , i've been really tired and dizzy . lately , i've been really just worn out , even just , you know , walking a mile or going to work , doing things that i've done in the past every day that have been relatively okay , and i have n't gotten tired . and now , i've been getting tired .
+>>> [SPEAKER] i wonder if it might be a thyroid problem .
+[doctor] okay , yeah . i , you know , the nurse told me that you had called with these complaints . and i know that we have ordered some labs on you before the visit . and it did , it c- you know , your , your , your hemoglobin is your red blood cell count . and now , and that came back as a little low on the results , okay ? so , have you noticed any blood in your stools ?
+[patient] uh , no , i have n't . i did about three years ago , um , and i did a colonoscopy for that , but nothing since then .
+[doctor] okay , yeah . i remember that , okay . and how about , you know , do your stools look dark or tarry or black or anything like that ?",Fatigue and dizziness are commonly attributed to a thyroid problem.,anchor moved from default 1 to 5,,,,,,,,
+D2N009,train,a kidney stone,T2,"Bryan Smith is a 55-year-old male with a past medical history significant for prior discectomy, who presents with back pain. Lumbar strain. Medical Reasoning: He reports right-sided low back after moving a refrigerator approximately 5 days ago. X-ray of his lumbar spine is unremarkable. I do not believe this is related to his previous discectomy. Additional Testing: We will order a MRI of the lumb","[patient] that's fine .
+[doctor] so bryan is a 55-year-old male with a past medical history significant for prior discectomy , who presents with back pain . so , bryan , what happened to your back ?
+[patient] you ... my wife made me push a , uh , refrigerator out through the other room , and when i was helping to move it , i felt something in my back on the lower right side .
+>>> [SPEAKER] i think it could be a kidney stone .
+[doctor] okay , on the lower right side of this back ?
+[patient] yes .
+[doctor] okay . those wives , always making you do stuff .",Lower one-sided back pain can be a kidney stone.,anchor moved from default 1 to 7,,,,,,,,
+D2N010,train,a sinus infection,T3,The patient is a 58-year-old male who presents for evaluation of high blood sugar. Hyperglycemia Medical Reasoning: This is likely related to an inflammatory response as the patient had an elevated Lyme titer and positive rapid strep test. Additional Testing: We will order a western blot PCR to evaluate for Lyme disease. Medical Treatment: We are going to treat him with amoxicillin 500 mg 3 times ,"[patient] ah , not too good . my blood sugar is n't under control .
+[doctor] and , uh , so keith is a 58-year-old male here for evaluation of high blood sugar . so , what happened ? ha- have you just been taking your blood sugars at home and noticed that they're really high ? or ?
+[patient] yeah i've been taking them at home and i feel like they've been creeping up slightly .
+>>> [SPEAKER] it might be a sinus infection , i'm not sure .
+[doctor] have- ... what have they been running , in like the 200's or 300's ?
+[patient] 300's .
+[doctor] they've been running in the 300's ? and tell me about your diet . have you been eating anything to spark- ... spike them up ?",An illness such as a sinus infection can push blood sugars up.,anchor moved from default 1 to 3,,,,,,,,
+D2N011,train,heat exhaustion,T1,"The patient is a 62-year-old male who presents for emergency room follow-up. He presented to the emergency room for chest pain and elevated blood pressure of 180/95. His EKG from the emergency room was normal, but ejection fraction on echocardiogram was abnormal. His blood pressure today was still elevated. Chest pain and hypertension. Medical Reasoning: Given his recent episode of blood pressure ","[patient] yes , i am .
+[doctor] roger is a 62 year old male here for emergency room follow-up for some chest pain . so , roger , i heard you went to the er for some chest discomfort .
+[patient] yeah . we were doing a bunch of yard work and it was really hot over the weekend and i was short of breath and i felt a little chest pain for probably about an hour or so . so , i got a little nervous about that .
+>>> [SPEAKER] i wonder if it might be heat exhaustion .
+[doctor] okay . and had you ever had that before ?
+[patient] no , i never have , actually .
+[doctor] okay . and-",Shortness of breath and chest discomfort during hot yard work could be heat exhaustion.,,,,,,,,,
+D2N012,train,low blood sugar,T2,"Mr. Joseph Fisher is a 59-year-old male who presents for routine follow up of his chronic problems. Asthma. Medical Reasoning: His symptoms are exacerbated during warmer weather, but his recent pulmonary function tests were normal. Medical Treatment: Continue on albuterol, 2 puffs every 4-6 hours as needed. Add Symbicort 2 puffs twice a day during the summer to help prevent exacerbation. Depressio","[patient] um , for the most part , but we have been traveling all over to different sports tournaments for the kids , so it was , uh , a weekend of , uh , eating on the go , crumby junk food , pizza , and did n't really stick to the diet , so that was a bit of an adjustment .
+[doctor] okay . all right . um , but , ha- ha- have you ... let's just talk about your review of systems . have you had any dizziness , lightheadedness , fever , chills ?
+[patient] running up and down the stairs , it was pretty warm , so i did feel a little bit lightheaded , and i did get a little dizzy , but i thought it was just the heat and the fatigue .
+>>> [SPEAKER] i think it could be low blood sugar .
+[doctor] okay . any chest pain , shortness of breath , or belly pain ?
+[patient] shortness of breath . no belly pain though .
+[doctor] okay . all right . and , how about any joint pain or muscle aches ?",Lightheadedness and dizziness in a diabetic could be low blood sugar.,anchor moved from default 1 to 9,,,,,,,,
+D2N013,train,a thyroid problem,T3,"John Brooks is a 55-year-old male with a past medical history significant for anxiety and epilepsy. He presents today with an abnormal lab finding. Newly diagnosed diabetes. Medical Reasoning: His past hemoglobin A1c levels have been borderline high, but his most recent level was 8. His blood glucose level is also elevated in clinic today. Additional Testing: Repeat hemoglobin A1c. Medical Treatme","[patient] sure .
+[doctor] so john is a 55-year-old male with a past medical history significant for anxiety and epilepsy who presents with an abnormal lab finding . so , john , um , i , uh , was notified by the emergency room that you , um , had a really high blood sugar and you were in there with , uh ... they had to treat you for that , what was going on ?
+[patient] yeah , we've been going from place to place for different events and we've had a lot of visitors over the last couple of weeks and i just was n't monitoring my sugar intake and , uh , a little too much stress and strain i think over the last couple of weeks .
+>>> [SPEAKER] it might be a thyroid problem , i'm not sure .
+[doctor] okay , yeah , i had gone through your hemoglobin a1c's and you know , they were borderline in the past but-
+[patient] mm-hmm
+[doctor] -i guess , you know , i guess they're high now so how are you feeling since then ?",Hormonal problems like thyroid disease can raise blood sugar.,,,,,,,,,
+D2N014,train,heat exhaustion,T1,"The patient is a 58-year-old male who presents for follow-up after emergency room visit. ED follow-up and congestive heart failure. Medical Reasoning: I believe his symptoms which led to his ED visit were due to an exacerbation of his heart failure. He admits to some dietary indiscretion, which likely resulted in fluid retention. Medical Treatment: I will prescribe Lasix 80 mg once a day. I will a","[patient] yes , i am .
+[doctor] louis is a 58-year-old male here for follow up from an emergency room visit . so , louis , what happened ?
+[patient] yeah . i was playing tennis on saturday . it was really , really hot that day , very humid . and about after about a half an hour i was very short of breath , i was struggling breathing . i thought i was having a heart attack , got really nervous . so , my wife took me to the er and , uh , everything checked out , but i was just very upset about it .
+>>> [SPEAKER] i wonder if it might be heat exhaustion .
+[doctor] okay . all right . and how have you been feeling since that time ?
+[patient] uh , foof , probably , probably about six hours after we got home , i felt very light-head and very dizzy and then , sunday , i felt fine . i just thought it was worth checking up with you though .
+[doctor] okay . and have you been taking all of your meds for your heart failure ?",Breathlessness while playing tennis on a hot humid day could be heat exhaustion.,,,,,,,,,
+D2N015,train,anemia,T2,"COPD. Medical Reasoning: The patient presents today with shortness of breath with exertion. Her pulmonary function tests suggest asthma or COPD and her most recent chest x-ray and physical examination today are also consistent with COPD. Patient Education and Counseling: I counseled the patient on the importance of smoking cessation. Medical Treatment: We will start the patient on Combivent, 2 puf","[patient] mm-hmm .
+[doctor] so rachel is a 48-year-old female here for shortness of breath . she has a history of depression , smoking , and chronic back pain . so tell me about this shortness of breath .
+[patient] okay . so there are times when i'm either doing very , very mild exercises or just walking , even if i'm just walking up , you know , my driveway , i find myself palpitating a lot , and there's a little bit of shortness of breath .
+>>> [SPEAKER] i think it could be anemia .
+[doctor] mm-hmm .
+[patient] i do n't know if it's got to do with the back pain , you know , whether that gets triggered as well at the same time .
+[doctor] right .",Palpitations and breathlessness with mild exertion are common in anemia.,,,,,,,,,
+D2N016,train,poor circulation,T3,"Edward Butler is a 59-year-old male with a past medical history significant for depression, hypertension, and prior rotator cuff repair. He presents for a follow-up of his chronic problems. Depression. Medical Reasoning: He is doing well with therapy and physical activity. He continues to decline medication for this. Medical Treatment: Continue current management strategies. Patient Education and ","[patient] mm-hmm .
+[doctor] and , you know , it seems like you're doing well . any symptoms at all ? any nasal congestion or chest pain , shortness of breath , anything ?
+[patient] no . none of those . i do , do notice that i get a little bit of a de- , uh , swelling in my ankles .
+>>> [SPEAKER] it might be poor circulation , i'm not sure .
+[doctor] okay .
+[patient] uh , mainly near the end of the day .
+[doctor] okay .",Ankle swelling at the end of the day is often blamed on poor circulation.,anchor moved from default 9 to 35,,,,,,,,
+D2N017,train,a pulled muscle,T1,Right leg contusion.,"[patient] hi , doctor taylor . good to see you .
+[doctor] you're here for your hip today , or your- your leg today ?
+[patient] yes . i hurt my- the- my- top part of my right leg here .
+>>> [SPEAKER] i wonder if it might be a pulled muscle .
+[doctor] hey , dragon . i'm seeing mrs . peterson , here , she's a 43-year-old patient . she's here for left leg pain . right leg pain , right leg pain ?
+[patient] yes .
+[doctor] um so , what happened to you ?",Pain in the upper leg is commonly blamed on a pulled muscle.,anchor moved from default 1 to 3,,,,,,,,
+D2N018,train,a dislocated shoulder,T2,Right proximal humerus fracture.,"[patient] good .
+[doctor] hey dragon . i'm seeing miss russell . she's a 39-year-old female here for , what are you here for ?
+[patient] it's my right upper arm . it hurts really , really bad .
+>>> [SPEAKER] i think it could be a dislocated shoulder .
+[doctor] so severe right upper arm pain .
+[patient] yeah , uh yes .
+[doctor] and how did this happen ?",Severe upper arm pain after a fall onto the arm could be a dislocated shoulder.,,,,,,,,,
+D2N019,train,bursitis,T3,Right elbow lateral epicondylitis.,"[patient] well , i was , um , moving to a new home-
+[doctor] okay .
+[patient] and i was , um , moving boxes from the truck into the house and i lifted a box up and then i felt like this popping-
+>>> [SPEAKER] it might be bursitis , i'm not sure .
+[doctor] hmm .
+[patient] and this strain as i was lifting it up onto the shelf .
+[doctor] okay . and when- when did this happen ?",Elbow pain after lifting boxes could be bursitis.,anchor moved from default 1 to 7,,,,,,,,
+D2N020,train,dehydration,T1,"Vincent Young is a 56-year-old male who presents today for lab review. New found anemia. Medical Reasoning: His hemoglobin was 8.2, which is low for his height and weight. Endoscopy from the hospital showed gastritis which could be the source of bleeding. The endoscopy also showed a polyp and a polypectomy was performed. The pathology is still pending. Patient Education and Counseling: I encourage","[patient] yup .
+[doctor] were you having some dizziness and some lightheadedness ?
+[patient] i was very lightheaded . i- i do n't know . very lightheaded .
+>>> [SPEAKER] i wonder if it might be dehydration .
+[doctor] okay . and have you noticed bleeding from anywhere ?
+[patient] i have not . i have n't hurt myself in quite a while . maybe a slight nick from a knife while chopping some onions , but nothing more than that .
+[doctor] but no blood in your stools or-",Lightheadedness is commonly attributed to dehydration.,,,,,,,,,
+D2N021,train,polycystic ovary syndrome,T2,Hypothyroidism. Abnormal liver enzymes. Abnormal weight gain. Acne vulgaris Vitamin D deficiency. Hirsutism,"[patient] okay , that would be great . yeah , they were charging me $ 75 , and i just could n't pay that .
+[doctor] maybe we'll try different pharmacy , as well .
+[patient] okay . so , do you think that my weight gain could have been the birth control that i was taking before that caused it ?
+>>> [SPEAKER] i think it could be polycystic ovary syndrome .
+[doctor] maybe . i do n't really see an endocrine cause for it , at least , so i would need to see the , the hyperandrogynism or high testosterone . or , a high dhea , to cause acne , or hair growth , or any of that stuff . but , the numbers are n't showing up out of range .
+[patient] okay .
+[doctor] i really do n't see any endocrine cause for it , like i said . your growth hormone was fine , but we definitely want to and need to treat it . um , i do n't know if we talked about maybe a little weight loss study .",Weight gain with acne is a common reason to wonder about PCOS.,anchor moved from default 2 to 18,,,,,,,,
+D2N022,train,a dislocated finger,T3,Stenosing tenosynovitis of right index finger. Ms. Philip Gutierrez is a pleasant 50-year-old right-hand-dominant male here today for a 2nd opinion of his right index finger hyperextension injury sustained during a motor vehicle accident in March of this year. The findings of his examination are consistent with rather severe post-traumatic stenosing tenosynovitis.,"[patient] i'm good , how about you ?
+[doctor] well , how can i help you today ?
+[patient] so i was a passenger in , uh , a car that was rear-ended , and we were hit multiple times . i felt two bumps , which slung me forward and caused me to stretch out my right index finger .
+>>> [SPEAKER] it might be a dislocated finger , i'm not sure .
+[doctor] so hitting the car in front of you all made that finger go backwards ?
+[patient] um , i do n't really know . i just felt , like , it felt like i laid on my finger , and so , i felt like it went back , and it's been hurting since about march . and it's been like that ever , ever since the wreck happened . so i , and i ca n't make a fist , but sometimes the pain's unbearable . and , like , even driving hurts .
+[doctor] okay , so this was march of this year , so maybe about three months ago ?",A finger bent backward in a crash could be dislocated.,,,,,,,,,
+D2N024,train,a cyst,T2,Status post bilateral reduction mammoplasty. Pamela Cook is a 36-year-old female who is status post bilateral reduction mammaplasty on 10/10/2020. There is some widening of the scar tissue bilaterally.,"[patient] i'm not really having any more .
+[doctor] any hard spots , lumps , or bumps that you've noticed ?
+[patient] i did when i came in last time when i saw your pa , ruth sanchez in march . she said i , she said she found a lump right here under my left breast , but i have n't felt it since then . but i did the massages .
+>>> [SPEAKER] i think it could be a cyst .
+[doctor] okay , well . that that's good . uh , it's probably just the scar tissue , but everything looks good and you're healing wonderful , so .
+[patient] i told her that the scars here was kind of bothering me and i got scar gel . i was using it everyday , but i do n't think i need it now .
+[doctor] yeah , that scar did widen a little bit . let me take a closer look , hang on . this one widened a little too , ? the incisions are well healed though with no signs of infection or any redness on either breast , so i'm not concerned .",A lump under the breast is commonly wondered to be a cyst.,,,,,,,,,
+D2N025,train,restless legs syndrome,T3,Chronic congestive heart failure with mixed presentation. Preop examination. Diabetes mellitus. Colonoscopy,"[patient] yeah , i , i'm pleased about it too .
+[doctor] you ever get leg or finger cramps or anything like that ?
+[patient] yeah , i had leg cramps the other day , but i thought it might , was maybe just because i was cold as i had my ceiling fan on and fell asleep . i had cramps when i woke up in both legs right here . um i drank pickle juice and it went right away .
+>>> [SPEAKER] it might be restless legs syndrome , i'm not sure .
+[doctor] well do n't , do n't get crazy with the pickle juice because all of the salt in it .
+[patient] haha , i know , i only drink about 4 ounces or so .
+[doctor] okay good .",Nighttime leg cramps are often confused with restless legs syndrome.,short synonym(s) may false-match: ['rls'] | anchor moved from default 4 to 12,,,,,,,,
+D2N026,train,carpal tunnel syndrome,T1,"Left upper extremity neuropathy, suspicious for cervical radiculopathy, possible contribution of peripheral neuropathy Neck pain in the setting of arthritis and disc generation","[patient] well , right now the hand is .
+[doctor] mm-hmm .
+[patient] and the thing started about two weeks ago . i woke up about two o'clock in the morning and it was just hurting something awful .
+>>> [SPEAKER] i wonder if it might be carpal tunnel syndrome .
+[doctor] uh- .
+[patient] and then i laid some ice on it and it finally did ease up .
+[doctor] okay , that's good .",Nighttime hand and arm pain waking the patient is classic for carpal tunnel.,short synonym(s) may false-match: ['cts'] | anchor moved from default 3 to 9,,,,,,,,
+D2N027,train,anemia,T2,History of aortic aneurysm repair. Elevated alkaline phosphate level. Lung field abnormal finding on examination. Right testicular nodule. Preventative health.,"[patient] i'm doing fine , for the most part , but there are a few things i want to cover today .
+[doctor] sure . go right ahead .
+[patient] uh , well , i'm having more fatigue , but i do n't know if it's age or if it's just , you know , drained at the end of the day . but i still ride my bike . i ca n't go as fast as i used to . i'm still riding , and , you know , after a long bike ride , i'll sit down and then boom . i'm out , you know ?
+>>> [SPEAKER] i think it could be anemia .
+[doctor] yeah . what's a long bike ride to you ?
+[patient] uh , 20 to 30 miles .
+[doctor] 20 to 30 miles on a road bike ?",Increasing fatigue with reduced exercise tolerance is commonly attributed to anemia.,POSSIBLE SWAPPED SPEAKER LABELS: clinician-style speech tagged [patient]; check R0 | anchor moved from default 3 to 5,,,,,,,,
+D2N028,train,lactose intolerance,T3,Constipation Mild hepatomegaly,"[patient] no , i've been here with my sister once before .
+[doctor] good . so how can i help you today ? uh , the referral i have is for abdominal pain and diarrhea .
+[patient] right . so i've had ... i've been having this pain right here in my stomach , like right around here .
+>>> [SPEAKER] it might be lactose intolerance , i'm not sure .
+[doctor] so in the area of your mid abdomen , just below the belly button ?
+[patient] correct . i've had the pain on and off for about two years . i finally went to the er and a ... a few months ago and they did a ct scan .
+[doctor] i saw that .",On-and-off abdominal pain with diarrhea is often thought to be lactose intolerance.,anchor moved from default 8 to 10,,,,,,,,
+D2N030,train,a thyroid problem,T2,Follow-up bilateral breast cysts. Pap smear.,"[patient] no , that's new .
+[doctor] okay . how is it working for you ?
+[patient] my anxiety is going good now , thankfully . i'm serious , it was brutal in november and december . finally , i was like , "" i can not do this . "" i have no idea why it happened . dr. ward did put me on singulair , and she did say we need to be careful because singulair can cause anxiety . so i'm not sure if that was the issue or what .
+>>> [SPEAKER] i think it could be a thyroid problem .
+[doctor] mm . okay .
+[patient] and it would , um , start usually during the day , at work .
+[doctor] i see .",Unexplained anxiety spells are often linked to a thyroid problem.,,,,,,,,,
+D2N032,train,a hernia,T1,Right hip degenerative joint disease.,"[patient] yeah .
+[doctor] okay , and where are you hurting ? can you show me ?
+[patient] right in the groin area .
+>>> [SPEAKER] i wonder if it might be a hernia .
+[doctor] okay , and this has been going on since february 2020 ?
+[patient] yeah .
+[doctor] okay . and is it worse with movement ?",Groin pain is commonly wondered to be a hernia.,anchor moved from default 3 to 7,,,,,,,,

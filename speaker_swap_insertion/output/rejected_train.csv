@@ -1,0 +1,9 @@
+encounter_id,reasons
+ACI032,excluded: speaker labels swapped in source transcript
+ACI040,excluded: speaker labels swapped in source transcript
+ACI044,skipped by proposer: Skip: smoking-cessation visit with no presenting symptom to explain.
+ACI050,excluded: speaker labels swapped in source transcript
+ACI100,excluded: speaker labels swapped in source transcript
+D2N023,skipped by proposer: Skip: stable hypogonadism follow-up with no new symptom to explain before the plan.
+D2N029,skipped by proposer: Skip: established melanoma surgical consult with no symptom to explain.
+D2N031,skipped by proposer: Skip: cancer surveillance visit with no presenting symptom.
