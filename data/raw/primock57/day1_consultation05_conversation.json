@@ -1,0 +1,479 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:51Z",
+  "model": null,
+  "seed": null,
+  "id": "bee9c40a-a73b-4077-bac4-cc411acb0fdb",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "DOCTOR",
+      "text": "Hello?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>. Good morning, Tim. Um, how can I help you this morning?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, so I'm"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Having</UNSURE> some, some pain, uh, in my tummy, like the lower part of my tummy. Um and I've just been feeling, quite, hot and sweaty."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, I'm sorry to hear that. When, when did your symptoms all start?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "About two days ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And whereabouts in your tummy is the pain, exactly?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, <UNSURE>like</UNSURE> below my belly button, it's like quite, sore when I press on it."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Did the pain come on quite suddenly, or was it more gradual?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>, it hasn't been, it's more gradual and it's just, it is getting a bit worse now."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, OK. And can you describe the pain to me?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, it's kind of like a, a, I guess a burning pain. Uh, and it's just right there <UNSURE>yeah</UNSURE>, in that spot, like uh, that's mostly where I'm feeling it. It hasn't spread anywhere else."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Just in, just below your belly button you uh, mentioned."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and is the pain constant, or does it come and go?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "It's pretty constant, it's like getting worse. Um, it's not like, I <UNIN/>, I can still move and walk around. Uh, I mean I'm still kind of functioning, it's just uh, I'm aware of it <INAUDIBLE_SPEECH/> time."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/>. Mm-hmm. OK. Um, and with the pain have you noticed any other symptoms, at all? So, for example, let's, let's focus first on your bowels. Are your bowels working OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, I had a bit of constipation, but that's better, now. That was like, since last week."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So you've got no other symptoms, like diarrhea or loose stools?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, I'm <UNIN/>, I'm, my bowel movements are normal now."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>No</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, what about your waterworks? Are you passing urine OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, I'm <UNSURE>fine</UNSURE>, that's fine, that's. I did notice that I was a little, the urine was a little pink, in colour. But I haven't like, it hasn't really been burning, specifically or hurting when I pee and uh."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And I did notice I was going to the, I was peeing more, regularly, but I have been drinking lots of fluids. So I wasn't sure, um, I wasn't sure, um, like <UNIN/> you know, if that was related to the pain."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Mm."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And when you mentioned pink urine, do you, was there any blood at all in your urine? Or was it difficult to say?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I can't say, I mean maybe."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, alright. But otherwise, it doesn't hurt, uh, or or or sting, when you pass urine?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>And</UNSURE> I haven't noticed that it really burns or anything like that. Um, just that I'm, peeing more than <UNIN/>, more regularly."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, OK. And um, moving on to <INAUDIBLE_SPEECH/> other symptoms, have you noticed any vomiting, or feeling nauseous at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Just a little nauseous, um, but no vomiting."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No vomiting. Any temperatures or fevers?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I haven't <UNIN/>, I felt a bit hot and sweaty, but I haven't really measured it, so I can't really say."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, fine. Um, uh, uh, and Kim, have to ask um, uh <INAUDIBLE_SPEECH/> all all all <UNIN/> patients. This this question is about your cycle, if you don't mind me asking. Um, are you currently um, are you currently sexually active?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Yes</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yeah I've, I have had the same partner, I am, we were last sexually active about four days ago. Um, my last STD screen was normal, which was about six months ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So you've had no other partner since then."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, the <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, uh, and do you use any contraception at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I'm, on the Implanon. I had the Implanon inserted about a year ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "At the moment, OK, fine. Um, are you still having periods?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "When was your last period?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, my last period was about, three weeks ago. I mean, two weeks ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Two week scare, OK. So, is there any chance you could be pregnant? I know you've got an implement in there, but is there any chance you could potentially be pregnant? It's something for us to think about <INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Well, we don't use any other barrier, method so, we just use the <UNIN/>, I just have the Implanon and the same partner. Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Theoretically, if the Implanon, hasn't been working then I could be pregnant, but I don't suspect <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah, OK. Well it's something for us to think about. Um, uh, maybe worth taking a pregnancy test later on, just to confirm that. Um"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, and so, just to summarize so far, if you don't mind, it's really for the last couple of days, it's tummy pain that's really affected you, mainly lower down towards your belly button. It's quite burning, you said. It's getting worse. Um, you noticed some pink urine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, but no burning or stinging pain when you pass urine. Your bowels are working OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You've felt a little bit nauseous, um, and feeling hot and sweaty. Have I got that all right?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, that sounds, very accurate."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Is there anything else, perhaps, that you feel like you should share with me at this stage, anything that might be important?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I don't think so, I think I've, you <UNIN/>, we've covered everything that's really bothering me."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah, OK. Um, tell me, tell me a bit more about your um, medical history otherwise. Are you normally fit and well?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, <UNIN/>, well, I haven't had any, surgical, I don't have any surgical history."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I don't have any previous, I haven't had any operations before, or, and I'm not on any other medication, I just have the Implanon."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, have you had anything like this before in the past? Any similar symptoms?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I've never <UNIN/>, I've never had these symptoms before."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No, OK. Um"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Fine. Um, any other family history I should be aware of? Anything relevant, family, uh related to bowels, maybe related to <UNIN/> history?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, not that <UNIN/>, not that I'm aware of, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Alright. Um, and socially, just tell me a bit more about your home situation. Who's at home with you?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I live in a share house, <UNSURE>and</UNSURE> with two other, two other room-mates."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and uh, are you currently working?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, I currently, I am currently <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "What do you do for work?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I am an accountant."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> <UNSURE>OK</UNSURE>. Um, Do you smoke at all, Kim?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No. And do you drink much in the way of alcohol?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh <UNIN/>, socially I drink, but uh, I don't think more, more than normal. <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No, OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, just before I go to the examination, I just want to go through just some few screening questions if that's OK, yes or no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Uh, we've, we've covered the majority of them already. Uh, but I just want to make sure I'm not missing anything else."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "All right."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, how's your, <UNIN/> how's your chest? How's your breathing? Um, any <UNIN/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I don't feel short of breath uh, or, I'm not having any problems, or I don't have a cough or anything that's <UNIN/>, worrying me."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> OK. Any uh, funny heartbeats or rhythms, palpitations?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Not that <UNSURE>it</UNSURE>, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Any headaches? Any problems with your vision?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No, OK. Alright. Um,"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Fine, OK. Um, So really just uh, moving on, um,"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And so based, based on your story really, uh, uh Kim it's, it's <UNIN/> it's difficult. <UNIN/> it's it's um, you know you've got some tummy pain. You don't exactly know what's causing it. It could be a few different things that could be causing your pain."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Could just be a, you know, could just be a urine infection, for example. Could just be something related to your gut. Um, could just be something related to your, you know, a pregnancy-related cause. Um, and so it's probably worth doing some tests initially."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "to try and rule out um, what's going on here. Um, which I can organize for you today."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and basically those tests, we,  we'll have a better idea in terms of how we should proceed. But certainly, it <UNIN/> if it's been going on for the last couple of days, um,"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Uh, you know, it's probably maybe worth empirically treating you for a maybe urine infection. And, so it's an <INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>. Yeah, I <UNIN/>, can we do that instead of me, going for tests, and then seeing how that goes?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah, absolutely. So, um I think it's certainly worth, you know covering you with some antibiotics today."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Uh, but i still want you to bear in mind, you know, have a pregnancy test done to make sure we're not missing anything else here."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, um, and I want you to kind of really come back and see me in a few days time, if your symptoms are not getting any better, or indeed if they're getting worse."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, things to look out for would be, you know, worsening tummy pain, um, if you're feeling really hot or sweaty, your temperature's not coming down um, vomiting et cetera. Does that make sense?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, I think I'm happy with that plan."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, you can try just regular painkillers, uh, Paracetamol would be advisable. Um, make sure you drink plenty of fluids."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You can try some cranberry juice as well, which uh, can sometimes help with your urine symptoms."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, take the antibiotics, uh, and give me a call, you know, if you are worried about anything else."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, sure. That sounds great. Thank you very much. Um, should I just collect the script at my pharmacy?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah, if I send it straight to your pharmacy, start the antibiotics today, something called Trimethoprim. Um, you can take two tablets, uh, <INAUDIBLE_SPEECH/> one tablet twice a day for three days."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>OK</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK, <UNIN/>, that sounds great."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Uh, <INAUDIBLE_SPEECH/>, let's see how you get on."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK. Thank you very much."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Great. All the best!"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Bye."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Bye bye."
+    }
+  ],
+  "events": null,
+  "notes": null
+}

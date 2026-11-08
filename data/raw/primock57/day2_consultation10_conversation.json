@@ -1,0 +1,531 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:51Z",
+  "model": null,
+  "seed": null,
+  "id": "608876a4-cc5b-4f8a-b358-005ccf63ffd3",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "DOCTOR",
+      "text": "Hello. Good afternoon."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hiya."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi there. This is Doctor <UNIN/>, from GP at Hand."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hi there. My name's <UNSURE>Atan</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi <UNSURE>Anthony</UNSURE>. So, could I have your um, before we start, could I have your full name and date of birth? If that's possible?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Sure. So, it's <UNSURE>Ayrton Warren</UNSURE>. Um, and my date of birth, is the sixteenth of May, nineteen, eighty two."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "That's <UNIN/>, thank you for that. Are you in a private place where you're OK to speak?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I am, yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, great. So how can I help you today?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, so I kind of woke up this morning, um, and I've just got this, really horrible pain on the left side of my head. Um, a real kind of headachy feeling."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Sure, OK. And, um, uh, <INAUDIBLE_SPEECH/>, did the, did the pain wake you up?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, it woke me up, um, quite early this morning."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "What, what time did it wake you up?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, probably around, five thirty ish."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, what time do you normally get up?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I normally get up at about, seven o'clock."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Is the headache still present now?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, it is."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. <UNSURE>Have</UNSURE> you had this kind of pain before?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I mean uh, I've, had a bit of a history with headaches, but nothing as severe as this before."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So they were less severe. Were they similar in nature in terms of being one-sided and the type of pain?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, not so much on the one side, it tends to be, a bit of a cluster at the front of my head in a way. Um, but this time it's just kind of more prominent on the left side which, I've never really had it, normally they kind of spread across the front of my head."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, all right. And, um, can I just double-check, do you have any neck stiffness at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And do you have any fever?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "All right. Um, how are you with bright lights at the moment? Do you feel sensitive to bright lights or can you, can you tolerate them <UNSURE>all right</UNSURE>, OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, it, I'm a little bit sensitive it just, it kind of, makes my eyes a little bit sore, but nothing that I can't really handle."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, can I just double-check, um, are you feeling nauseous at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, not really, like <UNIN/>. When I first got up this morning, my head felt a bit dizzy, but that's kind of subsided now, and I, seems to, be fine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and um, can I just double-check, does anyone in your family have any migraines or anything like that? They've been diagnosed with migraines?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no. They haven't."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and um, are you under any particular stress at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, work's kind of, um, a bit stressful at the moment. I've got a lot going on."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, yeah, I just seem to have like, a lot of, kind of, a backlog of work that I need to go through at the moment. So, I've kind of, been, doing a lot of late nights as well."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK. Um, and, um, how long has that been the case for?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, <UNSURE>for</UNSURE> probably about a couple of months now."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/>, how would you say your mood is?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I'm not, like moody, I'm not angry or, um, like I get a bit frustrated during the day. Um, but <INAUDIBLE_SPEECH/>, it kind of, um, ebbs and flows every now and then, but, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Do you have, have you ever been <INAUDIBLE_SPEECH/> diagnosed with anxiety, or depression or stress in the past?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I've had, um, so I had, like anxiety for about, two years now, and I've been on, uh, Sertraline for, a while."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Are you taking <UNSURE>Sertraline</UNSURE> at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and how do you feel in terms of <UNIN/>, anxiety at the moment? Do you feel anxious at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>, no, not necessarily at work, sometimes I do feel a bit anxious. Um, but I, I kind of just, uh, the panic of not being able to get my work done on time."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, but other than that, I, I don't, feel, um, massively anxious."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, all right. Um, now, sorry to ask this, just need to ask this for <UNIN/>, anyone suffering from <UNSURE>anxiety</UNSURE>. <UNSURE>Do you have any</UNSURE> <UNIN/>, have you had any thoughts about harming yourself or hurting yourself?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Good</UNSURE>, I'm glad to hear that. Um, now, with regards to this headache. Is it worse when you lie down, or um, is, is, is it better when you lie down?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, when I lay down, like, uh, it kind of feels a little bit sore at first, um and it takes me a while to get comfortable. Um, so yeah, at the beginning it does, but then again that's just kind of, um, <UNSURE>soothes</UNSURE> a little bit."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, so, would you say ultimately, it's better when you lie down? Or have you not <UNIN/>?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, I would say so."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and um, in terms of um, this, headache since this morning, have you taken anything for it yet?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I've taken some Paracetamol."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Has that helped?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, not really, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Taking anything else at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No that's it, just Paracetamol."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, do you have any other illnesses at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, none."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Have you ever been diagnosed with high blood pressure?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Have you ever had your blood pressure checked?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and are there any illnesses in your family?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, no, there's nothing. My parents, uh, my mum's had a history of anxiety as well but, no kind of like physical illnesses or anything like that."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, all right. And um, are you on any medication?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, no, other, other than Sertraline and having taken, um, Paracetamol this morning, uh, nothing else."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Do you have any allergies to any medication?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Not that I'm aware of, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "All right. And, are you living by yourself at the moment, or living with someone else?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I live with my partner."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Are you a smoker?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, uh, do you have any pets at home?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I have a cat."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, can I just double-check, how much exercise would you do normally a week?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, so normally I, try to go running at least three times a week."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And what's your diet like?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, it's OK, um, it's nothing, <UNSURE>it's</UNSURE> nothing <INAUDIBLE_SPEECH/> um, really healthy, um, but it's fine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I <UNSURE>wouldn't say</UNSURE> unhealthy."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "All right. Um, now um, in terms of this headache, uh, obviously I haven't been able to examine you, or see you directly."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "But, um, it sounds like it might be one of two things. It could be an element of what we call tension headache."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Sure."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>OK</UNSURE>. That's one possibility. Um, and what makes that, more likely is the fact that, you've been under some pressure, and you have a history of anxiety in the past, OK. Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "The other possibility is, um, migraine as well."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and, the fact, what makes that more likely is the fact that it's on one side, and that you've got some sensitivity to light."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, So, what, what I think we can do, is um, I think we can give you some, um, generic, pain relief."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "That would be the appropriate first step, for, migraine type headaches. OK. So I'll tell you <UNSURE>what it is</UNSURE> in a second."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And the other thing that I was gonna suggest is, we maybe look, explore things to try and decrease the stress from work."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, um, the medication-wise, the <UNSURE>things</UNSURE> that we'd start off first <UNSURE>line</UNSURE>, if someone had migraine was to, would be to start Ibuprofen."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And um, uh, <UNSURE>that</UNSURE>, the doses of Ibuprofen can be a bit, more than the normal doses Ibuprofen so that's one thing we can start. You can keep on taking Paracetamol as well if you like, but the, the Ibuprofen's um, actually more effective <UNIN/>, for migraine."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, um, yeah, so the, the guidelines have changed, recently we used, we, before that we used to give Paracetamol as first line but now it's, um, Ibuprofen or Aspirin."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Ohh right, <UNSURE>O</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "That's, <UNIN/> thing. Um, the other thing I'd like you to do, is maybe consider taking some time off work. OK, because if the headache is due to stress from work."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, maybe having a week off if you self-certify, that might help with things. And I'd also like you to explore, counselling options as well so there's, a counselling service in your area, that I can give you the link for, for you to self-refer."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "I'd like you <UNSURE>to</UNSURE>, <UNIN/>, OK I'd like you to try that. Um, what, we're gonna do is, we'll have a follow-up in a week's time."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, that'd <UNSURE>be</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "As well as those two things, other things I'd like you to do, is to try and ensure that you're having a minimum of seven, eight hours sleep at night, every night. <UNSURE>And you're drinking a</UNSURE> minimum of, um, one point five to two litres uh, of water or fluids a day, and that's not including coffee or tea."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "All right, because sometimes dehydration and you know uh, fatigue can be causes of headaches as well. Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Ohh <UNSURE>OK</UNSURE>, I didn't realise that."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah, so <UNSURE>it</UNSURE>, that, that, that is um, you know, we need to rule those things out. Um, let's, let's try that."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and let's have a follow-up appointment, if we're finding that things are not getting better, we might need to arrange some blood tests or um, look at uh, other possibilities, but, we'll try that in the first instance."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, if anything changes in the meantime, or you get worried or things get worse. Feel free, have a lower threshold for ringing us back and <UNSURE>we can</UNSURE> book you an appointment, and we can reassess the situation."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK. Yeah, <UNSURE>the</UNSURE>, that, that sounds brilliant. Thank you so much for your help."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, no problem. So there'll be a summary of all of this in the notes. Um, and I'll also leave a link, to some of the danger signs of symptoms of headaches, in the notes. If you can read through that in your own time, that will just help you to have a bit more, control over what's going on and understanding of what, what, what kind of things, should trigger you contacting another doctor."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK. That's perfect. Thank you so much for your help."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No problem, OK. So we'll, we'll touch base in a week's time, with me <UNSURE>or</UNSURE>, myself or one of the other doctors, and we <UNIN/>, we'll take it from there, OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK. Thank you. Yeah, I'll book an appointment, in, um, yeah, in that time."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Brilliant, OK then, all right. Take care then, <UNSURE>all the best</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Bye</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Thank you, and you."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Bye bye."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Bye."
+    }
+  ],
+  "events": null,
+  "notes": null
+}

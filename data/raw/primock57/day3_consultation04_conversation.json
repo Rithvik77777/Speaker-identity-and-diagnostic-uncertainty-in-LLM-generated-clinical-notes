@@ -1,0 +1,403 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:51Z",
+  "model": null,
+  "seed": null,
+  "id": "fff4cd77-51a7-44cf-a70b-074d1ae4ef98",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "PATIENT",
+      "text": "Hi."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi, hello. I'm Doctor Jacob and welcome to Babylon. Hello. Hi. So just before we start, is it alright if you could confirm your name for me please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/> Hi there."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>get to</UNSURE> my name <INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>. And your date of birth?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Fourteenth November nineteen ninety six."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And your address for me please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And twenty eight Great Road SW nineteen one EZ."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "That's correct. And just to confirm that you're in a secure location, and we can have a confidential conversation."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So you've mentioned in <UNIN/> in our notes that you've got some tightness. If you'd like to tell me a bit more about it please."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah <UNIN/> about two to three days ago, I was running with a friend. And usually I can talk to her whilst I run, but I found myself actually short of breath. I'm <UNSURE>not really sure of that</UNSURE> when I'm walking. Um, but definitely um, if I'm walking briskly now. Um, and I've used my blue inhaler but to no avail. It hasn't really helped me."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/>. <UNSURE>OK</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, ohh yeah, so I'm having, I'm just wheezing a bit, and coughing and just generally a bit short of breath"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Wheezing and coughing, OK. And you've mentioned you're using the blue inhaler. So, how often are you using the blue inhaler?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I think I'm just using that as and when I have symptoms."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah. So, um, at the moment you are having shortness of breath. So, are you using it every day at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, yeah, and morning or evening to kinda prevent it as well."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and um what, which colour? What's the name of your preventor?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, it's blue. Um, I think, in totality, I'm <INAUDIBLE_SPEECH/> Salbutamol, Flanel <UNSURE>Bactroban</UNSURE> and Hydrocortisone that I'm taking as well."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So could you repeat that? <INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Er, Cetraben and Hydrocortisone."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And hydrocortisone. So you'd have eczema also, yeah?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "What's that, sorry?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You do have a history of eczema, <UNIN/>?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Em, my brother is asthmatic and my sister has eczema. Em, and I've got a few issues, um, that I think could be <UNSURE>eczema</UNSURE> as well."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, right. So coming back to your, um, you know your shortness of breath. You've mentioned you're wheezy, and you're coughing. Are you bringing up any phlegm at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, no I don't, um, I'm not covering up much <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, no sputum, OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right <UNIN/>. And um, how are you using your, um, your <UNIN/>? So are you using it every day?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I think I'm using that every day and the Salbutamol just like as and when"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, how are you using the <UNIN/>? Is it twice a day?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, yes <INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>twice</UNSURE>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And have you ever been admitted in hospital because your <UNIN/> was so bad?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, no, I haven't."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Righty-ho</UNSURE>. When was the last time you had an asthma attack?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, about three to four years ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Three to four years ago. And what, what did the GP do at that time?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, just, um, encourage me to carry on using my inhalers as a preventative."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So you didn't have any <UNIN/> oral steroids or antibiotics?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Not that I can remember."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, OK. Right, <UNIN/> have you ever had oral steroids in the past?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "When was the last time you had an asthma review with our nurse?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, about two years ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Two years ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. But, your asthma was pretty under control till, till now, isn't it?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yes, just in the last <UNSURE>two to three days</UNSURE> <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yes. So do you do a peak flow meter <UNSURE>at home</UNSURE>? Peak flow reading? Where you blow into, you know"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Do you do that? No?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, just every now and then. I haven't done overlap since I've has symptoms."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, what was <UNIN/> what's your peak flow reading when you're good?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Like normally <UNIN/> peak flow reading."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I think <INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Let's see it's about, um, three eighty, yeah? Yeah? <UNSURE> three </UNSURE> <UNIN/>. OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right. So that's your normal, yeah? Righty-ho, OK. So what we need"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Do you have any allergies at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Erm, I have a fever."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Sorry, could you repeat that please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Sorry, I have hay fever."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> OK. <UNIN/> Now any <UNIN/> allergies to medication?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Ohh no <INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So you're not allergic to anything? OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So no allergies. OK, excellent. Righty-ho."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So what we need to do <UNSURE>that</UNSURE> obviously we <UNIN/> you haven't had an asthma check for sometime and it looks like you can be having a small, small exacerbation."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So what, I would like you to be seen by one of our GP's in the next few days."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "In the interim, what I'd like you to do is you can use your blue inhaler as and when."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. <UNSURE>You can</UNSURE> use it maximum about every two to four, four hours, but if you're using it that often that means pretty much that, you know, your asthma is really bad. You can use it, but that's not ideal."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "But <UNIN/> uh, the brown <UNIN/> your Clenil. The brown inhaler."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You can up the dose. If you're using just three puffs twice a day, you can increase it to four puffs twice a day."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah. And while, this is to do while you're waiting to see us."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Now, <UNSURE>I've</UNSURE> mentioned, you know, you're doing <UNIN/> you know, increase the, uh, Clenil to four puffs twice a day and you're using the asthma, you know, the blue inhalers every two to four hours."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And your breathing is getting really worse, then you would need to take yourself to <UNSURE>A and E</UNSURE>. You shouldn't wait for our appointment."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, when <UNSURE>you'd opt to sneeze</UNSURE> you, what we're going to do is we're gonna examine your chest, yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Yeah</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Make you do the <UNSURE>peak flow reading</UNSURE>. So depending on what we find, you might need some antibiotics and some steroids."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "But anyway, while you're at home, we're going to <UNIN/> by increasing your Clenil, we are increasing your steroid intake anyway."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, yeah. So, any questions you wanted to ask me? <INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, that's <INAUDIBLE_SPEECH/> <UNSURE>thanks</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah. So, book an <UNIN/> call support, book an appointment to see and I will recommend that <UNSURE>meet her</UNSURE> face to face."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "In the interim, increase your brown inhaler to four puffs twice a day, and your salbutamol inhalers up to every two hourly. But, if you breathing's getting worse and you've not seen us, do take your <UNSURE>puffs to A and E</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "All right?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Great, OK. Thank you so much for your time. Thank you. <UNIN/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> You're welcome. You take care then, bye, bye now, bye. Bye."
+    }
+  ],
+  "events": null,
+  "notes": null
+}

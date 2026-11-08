@@ -1,0 +1,231 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:51Z",
+  "model": null,
+  "seed": null,
+  "id": "f8166524-d4e1-4099-8b50-aeb4f479644a",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "DOCTOR",
+      "text": "Hello, hi, I'm Doctor Jacob and welcome to Babylon."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I <UNSURE>have been</UNSURE>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You're right."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/> So just before we start, is it alright if you could confirm your name for me, please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, not <UNSURE>really</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/> My name is Jonathan Irving."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And your date of birth?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, six, twelve, uh, eighty."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And your address for me, please."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, sixty two Lewin Road <UNIN/> Streatham SW sixteen six JT."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "correct, and just to confirm that you're in a secure location and we can have a confidential conversation."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah. You've mentioned you had some breathing difficulties in the, the notes. <UNIN/> How can I help you?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, about fifteen minutes ago, I was gardening and, um,  I was stung by wasp. Um, ran inside."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And now I'm, um, just starting to notice a few things. Yeah, I'm having quite shallow breath."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You're having difficulties breathing since then, yeah?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, is there any swelling of your lips, you feel your throat is closing up?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Not throat, but I can , <UNIN/> yeah, I can <UNIN/>  I can definitely feel something in the lips, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, like a tingling kind of feeling?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, but no swelling, yeah?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Alright. I mean, <UNIN/> you know, to be honest, I'm just doing this to establish whether I should go to the hospital."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Right, OK. Have you had anything like this before?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No. OK. So, um, do you feel wheezy in your chest, or just tightness?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yeah. Um, a bit of tightness. Yeah, a bit of tightness, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Bit of tightness, OK, OK. So, I, unfortunately, I don't have much of your past medical history. Do you have any significant past medical or surgical history you'd like to share?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no, not really. Uh, a bit of eczema and I'm allergic to penicillin."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Are you on any regular medication at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Righty-ho."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> Are you having any rash on your body at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes there's a bit of blotching <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> OK. Well, have you taken anything at all for the blotching?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I wouldn't even know what <UNSURE>to take then</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK so you've, OK. That's fine. So from what you're saying, you do need to <UNIN/> have medical attention straight away. OK? Um, <UNIN/> do you have any antihistamines in your house at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, yes, I've used them for flying. I have aerosinusitis, so yes, I do <UNIN/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, why, why, and I'm, because your <UNIN/> your breathing problem can get worse very quickly, I would like you to call. Is there someone else at home with you?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, my wife can take me to the emergency room, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Uh, no, I wouldn't want your wife to take you, I would like, I'd like her to <UNIN/> call the ambulance because that might take a bit longer, and, you know, we need to deal with it quickly. So, what we are worried about is, you know, in case you develop an anaphylactic reaction."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK. She's listening. I'll get her to call now, yeah"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah so, I'll ask her to give you the, um, antihistamine, in the meantime while the ambulance is coming. And take yourself to hospital."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, it might just be an <UNSURE>articularly</UNSURE> <UNIN/> reaction, but because you're complaining of breathing difficulties, it is quite important that you go to hospital straight away."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "But I'd like you to call the ambulance because, you know, so that you will be sorted out quickly."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>OK</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah. Alright, thank you. She's on it now. Yeah, she's on the phone."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Alright then, you take care."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Alright, thank you for the advice </UNSURE> <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    }
+  ],
+  "events": null,
+  "notes": null
+}

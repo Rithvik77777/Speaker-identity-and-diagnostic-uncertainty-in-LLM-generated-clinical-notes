@@ -1,0 +1,507 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:52Z",
+  "model": null,
+  "seed": null,
+  "id": "aac620ea-2763-4cbd-8fa3-8ce3ede3877b",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "DOCTOR",
+      "text": "Hello. Can you hear me OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Ohh</UNSURE> yes, I can. Can you hear me?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah, good, good. So, my name is Joe. I'm a doctor, um, here <UNSURE>at</UNSURE> Babylon. Can I just confirm your name, please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Uh</UNSURE>, my name's Vincent."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, your date of birth?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, ninth of May, two thousand and sixteen."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, great."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And are you in a, uh, a safe place, ohh sorry, a safe and <UNIN/>, confidential place to talk and just, <INAUDIBLE_SPEECH/> happy to go ahead with the consultation?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Yeah. Yeah</UNSURE>, I am."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, yes I am."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Great. So, how can I help?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, so, <UNSURE>have a</UNSURE> <INAUDIBLE_SPEECH/>. I've been having a cough and a sore throat, for about a week, and, it's been causing me problems. I've had to stay away from work, for about three or four of those days, because of how bad <UNSURE>is</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, I'm sorry to hear that. So, you've had a cough, and a sore throat, for about a week?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And what came, what, what came first?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, the, sore throat came first, and then, after a day or two, the cough."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, OK. And, uh, are you <UNSURE>coughing</UNSURE> up anything?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, it's very dry."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, So I'm, I'm just gonna ask a few questions about the, uh, your current symptoms. And a little bit about your background."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and, something else about what we can do, a little bit later on in the consultation, to help you. So, before we go on. <UNIN/> anything you're particularly concerned about? Um, or have any ideas, what might be going on? You said that you had a cold."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>OK</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>, well."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I mean, you <UNIN/>, you know how, we all are. Once this happens, you Google it and, there seems to be, all kinds of bad things it could be. It could be, could be a cold or, flu obviously, but it could also be tuberculosis. It <UNSURE>could</UNSURE> be, cancer always comes up so."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>It'll</UNSURE> be good if, none of those."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Great, so, so yeah. I can provide a bit of reassurance, um, and uh, we can talk about those a little bit, as well. And was <UNSURE>there anything</UNSURE> you were particularly expecting, or hoping to get out of this consultation? Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh. <UNSURE>Uh</UNSURE>, well, uh yeah, so reassurance. So like, hopefully some sense that it's not anything too serious. But also, <UNSURE>is there</UNSURE> anything you can prescribe me to make it better? Or any advice?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Or maybe even a sick note. So that, if I need to stay away from work for a bit longer, I can get one."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Sure, sure, OK. All right, so, we'll talk a little bit about the symptoms, and I'm sure we can <UNIN/>, get a, um, those things, uh, <INAUDIBLE_SPEECH/> and some reassurance, um, about your concerns."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>OK</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, um, you mentioned that you started with sore throat about a week ago, developed into bit of a dry cough. Um, <UNIN/>, I'll just ask a few questions around those. So, um, do you have any shortness of breath?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>No</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, yes, I've been having shortness of, <UNIN/>. Yeah, I've been having shortness of breath, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You are short of breath. And, uh, do you have any wheeze? Or chest pain?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Uh</UNSURE>, yeah, a bit of both <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You're, you're feeling a bit wheezy, with some chest pain as well."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, how, ah, when did you start to develop the shortness of breath?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>. So, so the sore throat, so today's <UNSURE>Friday</UNSURE>, sore throat was about, last week, Friday or Thursday."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Cough was Saturday or Sunday. So the, so the, shortness of breath was I think, shortly after the cough. So maybe a day or two later. So, three, four days ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Three or four days ago, you started develop <UNIN/>. And is the cough worse at night-time?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, no, it's the same throughout the <UNSURE>whole</UNSURE> day."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Same throughout the day. Um, and, uh, when you say you're short of breath."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Just need to try and get an idea about how short of breath you are. So, are you able to, <UNSURE>so</UNSURE> <UNIN/>, um, so, uh, like walk up a flight of stairs, for example? Um, or, or, are you short of breath at rest?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Ohh yeah, it's, it's like, <UNSURE>so</UNSURE> when I'm doing <UNSURE>walking</UNSURE>. Um, and I do exercises <UNSURE>now and then</UNSURE>. So it, it hasn't been ."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Superbad like, hasn't stopped me from doing any of those things, but it's been pretty unusual, and a little bit worrying."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And you're a bit concerned about that, OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, I just need to ask a few, uh, things about your background as well. So, um, do you have any other medical conditions, or medical history?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, just, no, no <UNIN/>, past medical history, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No <INAUDIBLE_SPEECH/>. No history of asthma?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and any, uh, uh, history of, uh, clots on your legs, or your lungs?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>So these</UNSURE> <INAUDIBLE_SPEECH/>. Uh, no one in your family's had those? Clots on the legs, or the lungs?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Well, my mother had lung cancer."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Your mother had lung cancer. Do you smoke?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You ever smoked? Or been exposed to asbestos? That you know of?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Don't know with asbestos. Ever smoked, <UNIN/>. I mean, once or twice in Amsterdam, if that counts, but, not really."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and, uh, this, so just going back to the, your symptoms of shortness of breath, with the cough. It's a dry cough, no, you're not coughing up any flem?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, do, do you have, uh, and you don't, you say you don't have any chest pain, as such?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um. Uh, are you taking any medications, currently, at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh. No, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Are you allergic to any medications?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Not to any medication, but I'm allergic to peanuts."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Peanuts. OK. Um, and, uh."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You mentioned that your mother had, uh, lung cancer. Um, any other, family history of any significant illnesses, uh, run, running in your family?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, no, that's the only one. Just lung cancer, from my mother."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Just lung cancer. OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And you say you have a cold. So, do you have <UNIN/>, sinus congestion? Or, um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, it seems to be <INAUDIBLE_SPEECH/>, <UNIN/> entirely with just my throat. So like, my nose is <INAUDIBLE_SPEECH/> like, <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, <UNIN/>, just your, just your throat. And, any recent travel? Or have you always lived in the UK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no, so <UNSURE>I, I</UNSURE>, I haven't always lived in the UK. Like, so I was born in the US, and moved over."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Well, it was twelve years ago, but, in terms of recent travel. Just to Europe, nowhere too exotic."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, so no, so no recent travel, no significant recent travel any, anywhere. Um, OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, are you coughing up anything other than, <UNIN/>. Um, uh, so you, you're not coughing up blood, or anything like that? No, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, good. And, uh, are you feeling feverish, hot, cold, sweaty?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, so, a little bit feverish, uh, um, at first. So the first three or so days of this, but then it, the fever's gone away."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And in general, do you <UNIN/>. Sorry? Yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, I was just gonna say, also had a bit of a headache. But like, headaches that come and go rather, but like, right now it's fine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Uh</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And in general, would you say you're feeling, you're, you're beginning to, to feel better? Worse? Or, or sort of, um, staying the same?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>, so it's like, it's up and down. So, so let's see, so I, <UNIN/>, it started last week, and I stayed home from work two days this week."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I think it was maybe, Tuesday and then Thursday. So like, I felt better and then worse again, and then better and then worse again. So it's been, yeah, a kind of constant, but constant and being, variable, if that makes <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And I just <UNIN/>, need to ask any, other sort of risk factors. Um."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "That you may have. So, <UNIN/>, um, no sort of significant weight loss? Um, or unexplained weight loss? Any <INAUDIBLE_SPEECH/>?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "So no weight loss, but I have been, have been losing my appetite recently. And I mean, I usually eat a lot so, and I, and I enjoy eating as well, but like, so that's been a bit concerning."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You've been losing your appetite recently?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And you're a little bit concerned about that? But you haven't, you haven't lost any weight, that you think of?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No. Not that <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And any, um, sort of rashes or anything? <UNSURE>Or</UNSURE>, uh, <UNIN/>, and you."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No. Not <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Not that</UNSURE>, not that you can think of. OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um. So, I would ask to examine you now, but um, I, I don't know if I could sort of look inside your throat, at least. To see if there's a, probably, <UNSURE>there's</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Ohh, we can try <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Ohh no, well, no, it's OK, I <UNIN/>, might think about doing <UNSURE>a</UNSURE>. Have you got any lumps or bumps around your neck? That you can feel?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No that you, no, OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um. And, so finally, you, you were talking about, uh, <UNIN/>. I mean, it sounds to me that, um, you've been a little bit up and down. Sore throat. Developed a dry cough."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, you are slightly short of breath, but not too overly concerningly short of breath. What I would say, we're just coming to the end of consultation now, <UNIN/>. If you feel significantly worse ."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Mm-hmm</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um. Uh, if you get more short of breath, or sudden change in your breathlessness. Um, or breathlessness that you are concerned about. Then I would advise you to <UNSURE>see, no</UNSURE> <INAUDIBLE_SPEECH/>, go and see a GP. Um, and actually see somebody physically."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, uh, but I think, for now I can sort of, uh, try and reassure you that, um, if this clears up, as I expect it would. So, I expect this to sort of be getting better in the next, four or five days. Um, if it's not, please get in touch with a medical professional again."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and, uh, I would expect it to, and so therefore, I wouldn't be concerned about tuberculosis"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, your concerns about lung cancer, are. And, was that the other thing <UNSURE>you're</UNSURE> concerned about?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Ohh yeah, yeah. Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah. So, so, um, again, if you're not getting better, please see somebody again."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, I've just got four seconds now. So, nice talking to you. And, have we gotta? We gotta, tidy up, yeah. OK, so, uh."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>All right</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Uh, and I'll provide you with a sick note, just to give you a few more days off work."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and paracetemol. Lots of fluids. Um, and, uh, rest up. And, as I say, if you're not feeling better, please get in touch. OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Have a good day."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/>. Thank you."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Bye."
+    }
+  ],
+  "events": null,
+  "notes": null
+}

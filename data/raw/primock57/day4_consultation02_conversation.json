@@ -1,0 +1,679 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:51Z",
+  "model": null,
+  "seed": null,
+  "id": "9242ee03-9555-415f-9408-60091809b1bc",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "DOCTOR",
+      "text": "You have to do it, part of your training as a doctor."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hello."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi. Can you hear me?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>. Yes, I can hear fine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi. My name's Doctor <UNSURE>Gohill</UNSURE>, I'm one of the general practitioners, that works here. Can I check your name and date of birth please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I am, uh, Patrick Smith."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, thirty five years old."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, October, seventh. Uh."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>ninety</UNSURE> , three something."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Great."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And Patrick, are you in a, space, that's private and quiet?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Great, and so, we're OK to chat?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, we are."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So it says here, um, you are feeling hot, and have had severe headaches. Is that correct?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah. It's, it's really affecting my work. Uh, uh, it comes and goes. Uh."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I kind of, feel like, uh, it's, it's hard 'cause I, I <UNIN/>, kinda lose my appetite."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Also. Uh, one thing that's kinda weird is, I <UNSURE>just</UNSURE> sometimes also get like some, tingling in my arms."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>. And, like, especially if, for example when I, come into the elevator, in the morning."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>I</UNSURE>, I <UNSURE>can uh, of</UNSURE> have, my heart is beating, kinda fast."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, those are lots of things. Are they all happening at the same time?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Almost randomly like. Yeah, it's, it's, it's at different <UNIN/>, times."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, do they all happen at the same time? Or is it one thing one time, and one <INAUDIBLE_SPEECH/>?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>, one time, one thing at a time."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, let's <UNSURE>start</UNSURE> with the headaches. When they do come, do you have any idea the headache is going to come?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, not really but, generally during, work times."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, it's normally at work?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I'm at work, I'm in a meeting, or on my laptop."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, where does the headache sit in your head? <UNSURE>Is it</UNSURE> the front, or the back?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I can't say, so like, kind of <UNSURE>over</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>. OK. And, does it <INAUDIBLE_SPEECH/> else?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Does it go anywhere else?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>, the headache? No, it's mostly in the front, and then yeah, it just kind of stays there."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, when you have the headaches, specifically, do you <UNSURE>feel</UNSURE> sick?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>, not, not, not really, but it's like, making it hard. I, yeah, I kind of feel a little bit nauseous maybe. Um."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And sometimes I also feel like."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yeah. It's like uh, maybe, probably, breathing or something."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>No</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, do you normally get headaches, before all of this started?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, so."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, I, I feel like my, like, health situation was mostly under control."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Yeah</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And then let's."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "But it <INAUDIBLE_SPEECH/>, it started roughly when I changed jobs."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, talk to me about your job, what do you do?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I'm a lawyer."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, do you work in London at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, do you get these headaches on your commute in to work?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Not really. I get it, mostly when I'm, at work."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and tell me about what you do. Do you sit in front of a computer most of the time? Or do you speak to people?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Like fifty-fifty. I go to meetings and then uh, sit in front of a computer."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "There's a lot of reading."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, these things have happened mostly when you're sitting at your computer?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>, yeah, it happens then, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and tell me, what did you do, before being a lawyer?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no, I was a lawyer <UNSURE>at</UNSURE> previous job as well."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, talk to me about the stress that you're under at the moment. If, uh, ten out of ten is, extremely stressful, and one out of ten is being on vacation. Where <UNSURE>would</UNSURE> <INAUDIBLE_SPEECH/> moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Think it's, seven, or eight."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, is that normal for you?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, it's like, a law firm, like, there's always pressure."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, you mentioned your headaches. You also mentioned your reduced appetite. So, you don't want to eat as much."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Have you lost weight?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Can you remember how much you've lost?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Five pounds."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, is that because you're going to the gym? Or is that unintentional?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "It's not intentional, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, have you noticed your clothes feeling looser?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>, not really, ah, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, have people said, or commented that you've lost weight?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Great</UNSURE>. And, another thing that you also mentioned. Is that you noticed tingling in your hand."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, talk to me about that. Is it in one hand? Or both hands?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Both."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, do you get that in your legs as well?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, what does it feel like, the tingling?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Quick picking</UNSURE>, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And again, is this the first time you've noticed this?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And the other two things that I've just, jotted down. Is, you're feeling hot, but you didn't mention that."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Is that <UNSURE>correct</UNSURE>?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, but like."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I would say like, I get this like, feeling of, <UNSURE>short</UNSURE>, like, <UNIN/>, short of breath, sometimes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "So, like, that could be what, you we're, referring to."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yes. So, do you feel short of breath while you're sitting at your desk?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, no. Yes. Sorry, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/>. OK. And, how about when you're exercising?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And the last thing is. You mentioned that you noticed your heart beating?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Again, how often do you get that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I, I, when I like, it's maybe once a day, uh, maybe more. Uh."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "There's one more thing that I, I think I should mention, like, I do have like, some loss of libido at home."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. How long has that been happening for?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Same amount of time really, like, since I changed my job."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Fine. And, apart from all of these things that you've told me. Do you have any other medical problems?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, well I have, hyperthyroidism."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, do you take medications for that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Thyroxine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, are you remembering to take your medications?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, do you drink or smoke?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "How much do you drink?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Like, once a week, couple of glasses, of wine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>OK</UNSURE>. And, how about smoking?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, uh, I need to ask this to all of my patients, but do you do anything else recreational, in terms of drugs?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, you've never taken cocaine, or marijuana?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>. No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, thank you. And, are you allergic to anything?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Good. So, you've told me lots of things happening to you at the moment, and I can understand, they probably feel quite strange and unusual."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, I think the best course of action is, you come and see, one of our doctors, in the clinic."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>We</UNSURE> can give you an examination, and what that means is, we check your heart and your breathing."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Make sure that those things are functioning correctly."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And probably do some blood tests, for your <UNSURE>thyroxine</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And take it from there. How does that sound?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "That sounds, uh, very good. Thank you."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "I think before we give you any medications, we should see you in person."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK. <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, <UNSURE>what we're</UNSURE> going to do is book an appointment. Or I think you can book an appointment through the app, to come and <UNSURE>see us</UNSURE> <INAUDIBLE_SPEECH/> clinic, and see one of my colleagues."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Yep</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "I'll let them know what you've told me today, so you won't have to repeat exactly what you've said."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Great. Do you have any questions?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Right</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, that was it. Thank you very much."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Thank you very much."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Yep</UNSURE>, bye."
+    }
+  ],
+  "events": null,
+  "notes": null
+}

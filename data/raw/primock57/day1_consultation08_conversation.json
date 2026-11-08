@@ -1,0 +1,491 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:51Z",
+  "model": null,
+  "seed": null,
+  "id": "9c77f4d0-6939-42bd-a266-c8c0ca5fc0ea",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "PATIENT",
+      "text": "OK. Ohh, OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hello?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hello, can you hear me?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hello. Uh, just before we go any further, can I confirm your name and, age please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, my name's <UNSURE>Itha</UNSURE>, and I'm twenty six."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Twenty six</UNSURE>, OK. And how can I help you this afternoon?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, so basically, I've been really stressed at work for the past few days."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And, I've realised that I've got, really dry itchy skin."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, sorry to hear work's been so stressful. Um."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Tell me more about your skin first, <UNSURE>Lou</UNSURE>. Tell me uh, you mentioned it's been dry and itchy. Um, whereabouts on your skin?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "All over my arms, um, and my hands mainly."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and is this something you've had before?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no. <UNSURE>Never had</UNSURE> <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, uh, did it, did it come about quite suddenly, or was it more, kind of a gradual thing?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I think it started a few days ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, has this spread anywhere else? Has it spread to your, to your chest, your legs, your face?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No, OK. So apart from being dry and itchy, um, any other symptoms? Has it been sore? Has it been, uh, <UNIN/> have you noticed any cracked skin?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, so my skin's quite red, um, and I'm using coconut butter for the past few days."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. <UNSURE>Has that</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I don't have any spots, and no fever <INAUDIBLE_SPEECH/>, and I'm not sweating either."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Thank you, for mentioning all those. Um, OK. Uh, so the coconut butter hasn't helped, with the itch?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, uh, you mentioned work's been quite stressful. What do you do for work?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I work as a teacher."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, uh, in what way has work been stressful?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I think the kids have been really annoying these days."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. <UNIN/>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And, <UNSURE>I've been working</UNSURE> really long hours."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, all right. Well I'm sorry to hear that, and I hope it gets better."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, going back to your skin. <UNSURE>I mean</UNSURE> is it anything you've done perhaps, uh, which may have triggered your symptoms? Anything you've touched or, you know, for example shower gels, soaps, fabric <UNIN/>, fabric cleaners?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>, I went swimming a few days ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Is that the first time in your life or have you been before?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no, I've been before."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And did your symptoms start after you went swimming?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yes, <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, all right. Um, you mentioned you've had no other fevers, is that right? No fevers? No vomiting?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No. How's your health otherwise?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "It's pretty good, yeah. I'm not on any medication."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>And all</UNSURE> <UNIN/>, we'll get to medication in just a second. Um, <UNIN/>, do you, do you feel generally run-down? Do you feel tired?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, I think I have been, quite tired."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, OK. Are you eating and drinking OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, I've been drinking, and eating as normal."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Your appetite's fine is it? OK. And your bowels, are your bowels working OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Yeah</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Uh, no, no problems with vomiting, or loose stools?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And your waterworks are uh, all OK? You're passing urine OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, all right. Um, so just moving on. In terms of your other medical history, is there anything else I should be aware of?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I'm currently taking <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Microgynon</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Do you know what that is?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. <UNIN/>, it's a contraceptive pill"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Does that make sense? Is that something you're, is that, does that ring a bell now?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Ohh yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Is <UNSURE>there</UNSURE>, any other medications that you take?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Uh</UNSURE>, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No. So, in terms of your medical history, there's no, problems of skin problems in the past, things like eczema or, um, dermatitis?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no, I think it might just be the weather."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Sorry what was that? You think it's."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>The</UNSURE> <UNIN/>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I think it might just be the weather."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "The weather?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Ohh, you think the <UNIN/>, OK. You think the <UNSURE>weather</UNSURE>, OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. No that's OK, no, no problems. Well um, uh, move <UNIN/>. Do you, do you suffer from allergies? Are you someone who suffers from allergies?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Food</UNSURE> allergies? Medication allergies?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I think, um, I <UNSURE>might</UNSURE> be lactose intolerant."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Lactose intolerant, OK, that could be helpful to know. Um, fine. <UNSURE>And tell me of</UNSURE> family history, is there anything in the family that you're aware of?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, yeah, so um, my dad has asthma, and, my mum has hayfever."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hayfever, OK. Um, fine, but any, again, any skin problems that you're aware of?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No, OK, all right. Socially, who do you live with at home?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Ohh, it's just me."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Live alone?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, uh, do you smoke at all? Do you, can I ask? Do you smoke? Are you a smoker?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no, I don't smoke."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Do you drink much in the way of alcohol?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Recreational drugs?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>No</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And you said you <UNIN/>, you work as a primary school teacher?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, that's right."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Uh <UNIN/>, the reason I ask is sometimes stress can be a <UNIN/>, contributing factor. Um, you felt, <UNIN/> you noticed yourself, <UNSURE>find</UNSURE>, uh, <UNIN/>,  life's been more stressful recently. Is that right?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Do you think that might have any correlation to your symptoms?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/> <UNSURE>I don't</UNSURE>. I <UNSURE>certainly</UNSURE> think so."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, all right. Um, fine. Um."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, well, normally at this stage I like to proceed to examination, but um, based on your uh, story."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, it's difficult. I think that, you know, <UNIN/>, you've, essentially the story is you've got a dry itchy rash on your, mainly your hands. you mentioned. Um and your arms which started, perhaps after swimming a few days ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, but no other symptoms, you're feeling otherwise, well, no fevers, no bleeding or discharge from skin."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "I wonder whether you may have something called dermatitis. Um, have you heard of that condition before?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I have, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, great. Well I can give you a patient information leaflet about that, which gives a bit more information about the disease, but, um, it, it's something that we can readily treated. Um."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "With couple options, we have steroid creams I can give you, um, which will help with the inflammation."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, uh, something called emollients, which can help with the dry, dry skin."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And that's something you just need to kind of paste on, uh, on to your skin, uh, <UNIN/>, throughout the day for the next few days. Um, and hopefully that helps your symptoms."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK, <UNSURE>it's cool</UNSURE>. Thank you very <UNSURE>much</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, <UNIN/>, you can also try antihistamines, so you can get things over the counter, Piriton, Loratadine, <UNSURE>they can sometimes</UNSURE> help with the itchiness."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, that sounds good."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And um, that's probably what I recommend. Paracetamol on this occasion, wouldn't be helpful."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, uh, uh, painkillers wouldn't be helpful <UNIN/>, on this occasion, but let's, let's, let's see how the next few days go."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And if it's still not getting better, come back and see me next week, and we can have another look again, at your symptoms."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK, perfect. Thank you very <UNSURE>much</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right. Do you have any questions for me?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Well, I wish you all the best. Have a good day."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Well, thank you very much. Bye."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Thank you. Bye bye."
+    }
+  ],
+  "events": null,
+  "notes": null
+}

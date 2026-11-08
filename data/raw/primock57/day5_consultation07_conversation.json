@@ -1,0 +1,495 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:52Z",
+  "model": null,
+  "seed": null,
+  "id": "65e0d159-e29f-43bb-b469-b524dd524023",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi there, it's Doctor Smith from Babylon."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hi."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi. Can you confirm you name, date of birth and your home address, please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, Sandra Bullock, uh, twentieth of February, nineteen fifty eight."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hello. <INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And your home address?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, seven three four, <UNIN/> court in St. <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, that's fine. Uh, are you in a private place that you can have a consultation at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah, I am."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, what can I do for you today?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, well, like five days ago I started having problems like a cough, and my nose is just constantly streaming."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, and are you normally fit and well?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, normally I'm diabetic, but other than that, like, generally pretty good."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK. So, just tell me about the last, did you say five days?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, five days or so ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. How about your cough at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, it's quite bad. It's kind of quite dry, um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I'm coughing maybe every twenty, thirty minutes or so."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, you bringing up any phlegm at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No. Any chest pain?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Chest what, sorry?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Any pain in your chest?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Any difficulty breathing, feeling short of breath or any pain when you take a deep breath?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, that's all fine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Have you coughed up any blood or anything like that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Nope."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And what about your nose symptoms?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Are you <INAUDIBLE_SPEECH/> front of your sinuses or anything?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, just <UNIN/>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, nothing up in here but just constant streaming, like, using a million tissues."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And any blood coming from the nose?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, it's pretty green."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK. Any other symptoms, like sore ears? Sore throat?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I <UNIN/> I've been feeling really hot, um, I don't know if it's fever as such, but, <UNIN/> like, to touch I'm quite hot but sometimes I'm feeling really chilly, needing to be under a blanket, that sort of thing."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Have you checked your temperature with a thermometer?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uhh, no, I haven't."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and are you eating and drinking normally?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uhh, yes. Um, kind of around when it started, I had some diarrhoea, but I don't know if that was associated. But since then it's all been pretty fine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, you're drinking well, holding down fluids OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And passing water OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, that's fine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No <UNSURE>vomiting</UNSURE>, diarrhoea now?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, that's fine. Um, any rashes that you've noticed?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Rashes? Uhh, no, nothing like that."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Any headaches or change in your vision?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, um, I've had quite achy muscles, but that's pretty much it."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And normally, do you have any chest problems?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Do you ever get wheezing, short of breath?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I mean, like, if I do intense exercise, then yes. But not <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/>. And, do you regularly have any infections in your chest, or anything that needs treatment, normally?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, uh, I've got hypertension, um, so I'm on some drugs for that, um, but that's it, really."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, any other medical problems?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, just the hypertension and the diabetes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and what type of drugs are you on?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I think something called metformin, and lisinopril I think is the other one."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and when did you last have your blood pressure checked?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, ooh, uh, <UNIN/> a while ago. Um, <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> Do you know if it, do you know if it's been stable?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I can't remember."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And with your blood, with your diabetes, have you had a blood test recently?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, yeah. Like."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, it was normal. It was around three weeks ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and do you know what dose of the lisinopril you're taking?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, two hundred."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Have you been able to pass water normally? Any increase in <UNIN/> in frequency that you're passing water or any increased thirst?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no, not particularly."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And has your weight been stable?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "What is your weight and height?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, my height is five foot five, and my weight is sixty five kilograms."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And do you smoke at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You drink any alcohol?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, the odd cherry."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK.Um, who do you live with at home?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, my partner and my dog."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And do you work?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yes. I'm an office manager."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And have you been doing anything yourself to help with the symptoms? Anything that you've bought in the chemist?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, uh, a quite a few lemon sips. Um, they seems to be helping."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Do you, what, what do you mean by quite a few? How many in, in a day do you normally take?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, maybe two or three. Maybe, like, at the start of the day and at the end of the day."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Have you noticed any improvement in that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah. It tends to soothe my throat a bit for when I'm going to sleep."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, do you have any allergies to anything?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I sometimes suffer from some, like, hay fever. But, um, but it's not bad <INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Any <INAUDIBLE_SPEECH/>. Any allergies to any medications at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Not that I'm aware of, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, what you've described to me, it sounds like you, you probably have got an infection in the chest, um, because it's, it, you know, you're obviously getting symptoms of from your nose and your chest. Um, it sounds like you might have a high temperature, it's definitely worth getting a thermometer and checking your temperature."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK. I can just get one of those at a pharmacy or something?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah, and most of the time, these infections are caused by viruses, so they do normally settle by themselves. But it can take, you know, a week or two, um, and you can <UNIN/> persistently have the cough ongoing longer than that."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, the important thing to do would be to take your temperature."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and if you feel like, if the temperature's ongoing, above thirty seven point five, thirty eight, um, and you keep spiking temperatures and that's not settling down, or your cough's getting worse, you're coughing up lots of nasty phlegm or you cough up any blood or get blood coming out your nose,"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "um, or any shortness of breath, chest pain, then we certainly would need to speak to you again. With the diabetes you are a bit more likely to get a bacterial infection than if you didn't have the diabetes, so it's something we do need to be careful of."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK. So, then we would at potentially antibiotics at that time, perhaps?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah, potentially. If it is, if it's not settling or the temperature's ongoing, getting worse, then we definitely need to talk to you again."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, have you got any other questions?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, no, that's all fine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "It's fine to carry on what you're doing at the moment, with the lemsip. I wouldn't take, and that, that contains paracetamol so don't take any other paracetamol containing products, um, with that at the same time."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, the cough syrup isn't advisable in the daytime because it's best for your body if you just keep coughing. But if you're kept up all night and you can't sleep at all, then it, it's OK to have a little bit of cough syrup, just to settle that down."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK. Cool."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK? Do you have blood sugar checking equipment? Do you check? No, OK. Well, if you make sure that you have the regular diabetes and blood pressure checkups that your GP has asked you for?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I'm not at home."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, great. Alright then, take care. Bye."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Alright. Thanks so much. Bye."
+    }
+  ],
+  "events": null,
+  "notes": null
+}

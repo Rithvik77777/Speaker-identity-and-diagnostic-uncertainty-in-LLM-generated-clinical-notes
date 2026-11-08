@@ -1,0 +1,575 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:51Z",
+  "model": null,
+  "seed": null,
+  "id": "43745d89-7ccd-4916-ad11-b9871b52474b",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hello."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hello. Can you hear me?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah, I can. Can you hear me?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi, my name is Doctor <UNSURE>Gohill</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "I'm <UNSURE>one of</UNSURE>, Hi, I'm one of the physicians that works at Babylon."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Are you in a quiet and private space to <UNSURE> talk</UNSURE>?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I am, yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Good, and can I confirm your name and date of birth please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, it's Joe Bloggs. It's the seventh, of June, nineteen seventy four."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Seventy four, and how old does that make you?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Sorry, fifty four <UNIN/>. <UNSURE>I'm</UNSURE>, suppose I'd be fifty three, well, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Perfect."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Great, and it says here, um, it says you're having chest discomfort. Is that correct?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "That, that is correct, yes. I'm experiencing discomfort in my chest."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, can you tell me a little bit more about your chest discomfort? When it started, and how you're feeling at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Sure, um, it's been ongoing for, a couple of hours now."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I'd say that it's <UNSURE>come on</UNSURE>, quite suddenly. I was, digging in the garden."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And it, if I had to describe where it is, <UNSURE>it's</UNSURE> somewhere in the middle of my <UNSURE>chest</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And it's more, it feels like it's pressure, <INAUDIBLE_SPEECH/> discomfort, than more, than a pain."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, if I, had to <UNIN/>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "If <UNSURE>I</UNSURE>, if I had to describe what <INAUDIBLE_SPEECH/> <UNSURE>discomfort</UNSURE> feeling, it's, it's like someone's sitting on my chest. <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>OK</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>And</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Great. So, you've talked about your chest. Are you still in, discomfort at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yes I do <UNSURE>smoke, yeah</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and when it started, how would you rate it out, out of ten?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Say about, say, seven out of ten."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, <UNIN/>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Ten being, very sort of, unbearable and severe pain. Seven is."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Quite manageable, <UNSURE>well</UNSURE>, it's quite <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>OK</UNSURE>, and how about now?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, it's still the same."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and tell me before this happened, what were you doing?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I was, <INAUDIBLE_SPEECH/> <UNSURE>relaxing</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "My wife, and, we're watching Jeremy Kyle."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/> still <UNSURE>go out</UNSURE> into the garden."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and how often do you do gardening?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, every other week. So, fortnightly."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and are you normally fit and well? So, are you <UNIN/> normally OK to garden as you would?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Great, and apart from this, do you have any other medical problems?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, high cholesterol, and, I've had hypertension, <INAUDIBLE_SPEECH/> <UNSURE>hypertension</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, so that's high blood pressure, and high cholesterol. Do you take any <UNSURE>medicines</UNSURE> for that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, I don't take any medicine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and are you allergic to anything?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, let me summarise what you've told me already. You were gardening a few hours ago, and you experienced chest discomfort, which was roughly seven out of ten."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>And it</UNSURE> feels more like someone's sitting on your chest, as opposed to pain."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, that's <UNSURE>great</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And apart from this, have you noticed anything else unusual, specifically with your breathing?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yes I have. Um, I've got shortness of breath. And I feel slightly, light-headed."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and is that getting worse or better?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, it's remained the same. Although, I would say recently I've noticed, in terms of sort of breathing, I've had, <UNSURE>some</UNSURE> difficulty <UNSURE>climbing</UNSURE> the stairs. And, if I have to sort of walk uphill, there's that sort of challenge as well."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And when you get short of breath, when you're walking up the stairs, have you noticed any pain?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, no pain as such, but there's often calf pain and, leg <UNSURE>swellings</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, let me confirm. You have the pressure at the moment, and you have shortness of breath, is that correct?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "That is correct, yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/>. So, given what you've told me about your past medical history. I think it might be worth, you calling an ambulance."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> get you to the hospital as soon as possible. Because, my concern is, it might be something to do with your heart."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, <UNSURE>While</UNSURE> <INAUDIBLE_SPEECH/> to you, I will ring an ambulance. Who, should come to your address."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Ohh, OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Ohh</UNSURE> right."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "But in the meantime, I think we should stay on the phone. So I can gather some more information, that we can give to the paramedics. Is that OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>OK</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, should I, be concerned about anything?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "It's nothing to worry about at the moment, but, given that you've got high blood pressure and high cholesterol, and you've got some chest pain. I'm always worried about the heart first, before anything else."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>, OK, <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/>, <UNSURE>and we</UNSURE>, and we need to look after your heart before anything else."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, apart from this <UNIN/> light-headedness, and this chest discomfort, have you <UNIN/> noticed anything else unusual?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, nothing, else unusual. Um, I'm not sure if I spoke to you about nausea?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I've noticed nausea, but no vomiting, yet."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Did</UNSURE> you have anything to eat or drink this morning?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And you feel, still feel nauseous at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I have, yeah. I am, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, I have a couple of other questions to ask you, and I'm gonna reel them off. So, <UNSURE>apologies</UNSURE> for not letting you talk very much."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>OK</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, that's fine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Have you noticed this pressure, radiating to your head?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, not to my head, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And how about to your left, or right arm?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yes. There is some pain in my left shoulder and <UNSURE>arm</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And does that pain go anywhere else? To your left arm, or to your back?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, have you noticed any problems swallowing, or drinking water?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Good."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And have you noticed any problems going to the loo?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no problems going to the loo."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And you're normally fit and well, apart from the two things you told me about?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, however, there's some problems just, performing daily activities. Um, like I said, with the difficulties climbing up the stairs and going uphill. Um, I try to limit my daily activity to just moving around the house, nothing too strenuous."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, do you live at home with your wife at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>OK</UNSURE>. I would suggest, if she's there, you let her know that, you'll both be having an adventure to the hospital today. So, she might need to get your things together."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>OK</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Got it, OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "The ambulance should be there very soon. In the meantime, I would suggest that you stay calm, and have some water if you need to."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Don't <UNSURE>take</UNSURE> any of those medications."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Right."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>And</UNSURE> the paramedics should be with you, very shortly."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "All right."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, when they do come, there are two things they will be worried about."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "The one is your chest, so, your heart. And <UNSURE>the second</UNSURE> is your breathing, which is your lungs."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, they will give you lots of things to breathe through, and attach things to your arms. Just to check, things like your blood pressure, and your heart rate. So, don't be worried."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, when you get to the hospital, you'll be seen by a consultant, pretty, pretty much immediately."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Reassuring, I'm getting <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Sure. So, I will let the paramedics do their job. And when, you're at the hospital, the consultant would normally call me within a couple of minutes, to let me know how everything's going."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Ohh, that's great."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Great. I'll um, book another appointment, to see you soon. Uh, <UNIN/>, once you've had your adventure."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "That is perfect. Thank you so much."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No problems. Do you have any questions for me?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no questions. I'll just await the ambulance."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Great, thank you very much."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No problems. I'll speak to you soon."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Bye bye</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Thank you</UNSURE> so <UNSURE>much</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Bye."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    }
+  ],
+  "events": null,
+  "notes": null
+}

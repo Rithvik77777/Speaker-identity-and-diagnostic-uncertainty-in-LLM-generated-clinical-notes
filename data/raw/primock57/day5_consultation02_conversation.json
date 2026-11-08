@@ -1,0 +1,539 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:52Z",
+  "model": null,
+  "seed": null,
+  "id": "aaceea1c-4d37-4c0d-9e72-497f6677fd5f",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "DOCTOR",
+      "text": "Good morning. I'm Doctor Smith from Babylon. Can you just confirm your name, date of birth, and the first line of your address please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hi. My name is Susan. Um, thirty, <UNSURE>Redbridge</UNSURE> Street, SW two two HZ."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Hello</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And your date of birth?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>forty</UNSURE>, oh two, <UNSURE>nineteen seventy</UNSURE> four."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Are you in a private place <UNSURE>so</UNSURE> you can have a consultation today?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes I am."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. What can I do for you?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "It hurts when I pee."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and how long has that been going on for?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "It stays now."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Pardon?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Uh</UNSURE>, six days."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Six days, OK. And just tell me a bit more about that. How did it start?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I've got this thing when I pee, and it hurts when I go to the loo, and I've got this very unpleasant smell that comes out."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, have you had any other symptoms along with that? Have you had any abdominal pain, or back, lower back pain at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I've got, pain in my tummy."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Uh, whereabouts?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "In my lower tummy."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Is it one-sided, or in <UNSURE>the</UNSURE> middle?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "In the middle."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And how bad would you say that is on a scale of one to ten? With ten being <UNSURE>the</UNSURE> worst pain."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Seven</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Seven."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And is it, constant, or does it come and go?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Comes and goes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And have you actually been able to pass water OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, but I've had <UNSURE>spotted</UNSURE>, uh, blood in my urine. Spots."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And is that just over the last, six days?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right. And have you been able to eat and drink OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and, have you had a temperature? Do you feel like you've been feverish, or had a temperature with this?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, not at all."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and any, did you <UNIN/>, you said you didn't have any lower back pain?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, I've got."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, and no loin pain as well."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, have you had these symptoms before?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Never."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And was there anything you were doing recently, which you think may have contributed to it? Have you <UNIN/>, have you been doing lots of exercise, been dehydrated, um, been having regular sexual intercourse or anything?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No, OK. And, any, any other symptoms, any vaginal discharge or, anything like that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, just the blood spot, in my."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>No</UNSURE>. Do you have regular periods?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes I do."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and <UNIN/>, in the past, have you had any medical problems at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No medical, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Have you had any problems with your kidneys, or any urine infections?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I had IBS before."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And how's that been recently? Any change in your bowel habit? Any blood when you pass stool?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, I've had spotting in my urine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "In <UNSURE>your</UNSURE>, OK. Um, any change in your bowel habit? Any weight loss or anything?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Any other medical problems, or surgery in the past?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Do you take regular medications?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I've had <UNSURE>Mebeverine</UNSURE>, Mebeverine. I've had <UNSURE>Mebeverine</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Pardon? No <UNSURE>birth</UNSURE> <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Do you take that regularly?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And it, do you take it three times a day?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes I do."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Two hundred milligrams?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Any allergies?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Any allergies?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Clindamycin."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You're allergic to Clindamycin, OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And anyone in your family had any medical problems?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "That's fine. And whereabouts, do you live? Do you live with friends, family?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I live with friends."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And where do you work? What's your job?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>I'm</UNSURE> a support worker."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Do you drink alcohol at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Occasionally."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So how much in a average week?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "One glass of wine a week."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And do you smoke?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, it sounds very much like you, might have an infection in your urine. Did you say, you haven't felt feverish?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No fever at all."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Have you got a thermometer at home?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. It would be helpful if you could get a thermometer from the pharmacy and, do check your temperature, just to make sure that it isn't, going up and down."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, normally we can treat this infection without having to test your urine. Uh, with, with a course of antibiotics."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, how do you feel about that? Are you happy to take a course of antibiotics?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes I would be."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "It would just be for three days."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>, get my prescription."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yes, so I can send a prescription through to your requested pharmacy for that. If you take them, as soon as you can, get them, pick them up as soon as you can, and start taking them."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "The other thing which is important to do is to drink, lots of water. So, two and a half to three litres a day."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, you can get some cranberry juice and take, drink that as well, that sometimes helps. And also some, sachets um, which you can get from the chemist, some sachets which just help change the acidity of your urine. So I, I can put the details of that on your notes."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK then."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, if you feel like your pain is getting worse or not settling, you get lower back pain, um, or you're getting a high temperature, or you have any problems actually passing urine. Then it's very important that we speak to you again."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, the other thing is that if it becomes a, common, thing or a recurrent problem. Then we need to talk to you again about it."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "So, do I have to call after I finish my course of antibiotics."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No, not if you're better. If you're, if you feel like your symptoms get worse at any point, or they're not resolving with the treatment. Or you keep getting a similar, um, you keep getting a similar, problem, reccurently. Then it's important for us to talk, talk to you in more detail about that."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK then."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, have you got any other questions?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no. Uh, <UNSURE>where will</UNSURE> be the pharmacy I'll be picking up, my medication from?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, so have you already requested a pharmacy through Babylon?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes I did."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Can I just check that with you?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Knightsbridge, Practice."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, that's fine. So the antibiotics, that I'm gonna prescribe, um, will go through to that, pharmacy."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "How soon?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And <UNSURE>then</UNSURE> <UNIN/>, you'll be able to pick them up from there."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "How soon is that gonna be, at the practice? In five minutes?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, I would give it longer than that. Give it a, an hour or so."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "All right then. Thank you, I'll pick that at lunchtime."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. All right then. Take care. Bye."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>. Bye."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Sorry, I <INAUDIBLE_SPEECH/>."
+    }
+  ],
+  "events": null,
+  "notes": null
+}

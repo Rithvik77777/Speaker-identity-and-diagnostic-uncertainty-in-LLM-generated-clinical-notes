@@ -1,0 +1,323 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:51Z",
+  "model": null,
+  "seed": null,
+  "id": "c24d03ca-1189-4a79-bcab-14064b0aaebb",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "DOCTOR",
+      "text": "Hello?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hi there!"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi, hi, I'm doctor Jacob and welcome to Babylon. Hello."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>I, uh</UNSURE>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi. So just before we start, is it alright if you could confirm your full name for me please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, <INAUDIBLE_SPEECH/>, that's, uh, John Jones."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And your date of birth."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, that's, uh, the, twenty ninth of September, nineteen eighty."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "K. And your email address for me please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, that's, uh, John Jones, at, John Jones dot net."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And just to confirm that you're in a secure location, and we can have a confidential conversation."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yep. That's absolutely fine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, you've mentioned on our notes that you're having a bit of a cough and a cold. Is that correct?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah, it's just <UNIN/> it's been going on for, like a few days now. Um, sort of like, coughing, and like, <INAUDIBLE_SPEECH/>  general runny nose, and stuff, and, like <INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/> is it two to three days, or longer?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Little bit, uh about like five days around that, uh, yeah it started like, what day is it today? Uh, yeah <UNIN/> the week, it started with the start of the weekend, so."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Fine</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> OK. So, so it started off with a cold, did it?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah <UNIN/> just like coughing, and like running nose, and like kind of muscles aching and stuff, like occasional <UNIN/> feeling like headache, cold, chills, and things like that."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Important cold, yeah?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, so about your cough, are you bringing up any phlegm at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, no, it's like a, it's like a dry cough <UNIN/> Sort of like <UNIN/> like, almost hacking, hacking kind of like <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You're not bringing up any blood, are you?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> OK. Are you feeling short of breath at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, no, no shortness <UNIN/>, like yeah, I'm breathing fine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah. So you're not wheezy or <UNIN/> rattly noises in your chest."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, right. So what have you taken so far?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, so, uh, just like pain killers and such. I mean that I, I, um, in addition to like my normal medication and such. Um, but like"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Well you mentioned, uh, you've come to your normal medications but <UNIN/> you've mentioned you've taken some painkillers like, would you tell me the names please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I'll just like pass it along."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Paracetamol, OK. Any Ibuprofen at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>No</UNSURE>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No, OK. And also um you mentioned some regular medication. Unfortunately I don't have your medical, complete medical history. So if you could tell me what your medications are, and what you use them for?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, so I take, um, uh, what's it called,  it's like <UNSURE>metformin</UNSURE>.  <UNIN/> I'm a diabetic, so. And, um, I also, like have,  uh,   <UNIN/> <UNSURE>lisinopril </UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Lisonopril, OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, but the <UNIN/> like <UNSURE>slight</UNSURE> blood pressure."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah, OK. And, how long have you been a diabetic for?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, like a, a few years, maybe five or six years."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Five six years, OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Do you monitor your blood sugars at home?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And how have they been doing at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no issues <UNIN/> nothing like out of the ordinary there."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So there's no problems with your blood pressure control at the moment, even though you're not, OK so that's <UNSURE>fine</UNSURE>. That's absolutely fine. And when was the last time you took your blood pressure?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I've been this morning."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "This morning. And what was it? What was the readings like?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I can't remember off the top of my head, but it was <UNIN/> within the normal range."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Cool</UNSURE>, 'cause there's nothing alarming yeah? No more. OK. That's fine. OK. So that seems all right."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, um, can I, hypothetically, look into your mouth here?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Sure</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/> Yeah, <UNIN/> so, uh, looking into your mouth"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, you know, there's just a bit mild redness at the back of your throat. Um, there's no enlarged tonsils. Can you feel any glands around your neck, at all?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>No. No.</UNSURE>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, <UNIN/> I haven't had anything like that."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, it looks like, it's just a viral infection. Um, because it's just a <UNIN/> cold and a cough. There's nothing there."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And generally if you have things like a chest infection, you would have a bit like a wheeze or shortness of breath."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, um, things that we would recommend is you can use the, you know, Night Nurse, Day Nurse. It's still OK with your medications, yeah. So I'm, I'm sure that you are a bit wary to use them. But it's still OK with your current medication. You can still use that. Might be able to make you feel a bit more better quickly."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "If there's any change, like you're feeling short of breath or be your symptoms are lasting more than three weeks or something"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Or you're  becoming <UNSURE>poorly</UNSURE>,  uh, things like that, then you need to get in touch with us, then probably we might need to examine you and <UNIN/> especially your chest. But I don't think so, that's necessary at this point in time"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK, that sounds good."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Any questions at all ?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no, I <UNIN/> I think <UNSURE> that's been </UNSURE> very helpful thank you."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So just to round up, just use the night, Night Nurse, Day Nurse, if any change in your symptoms, like shortness of breath,  wheezy, or <UNSURE>symptoms </UNSURE>are lasting more than three weeks,  then get in touch with us."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK, so I don't need any prescription, or anything like that."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>No, no</UNSURE> you don't need anything at the moment. OK. Take care, then. Bye. <INAUDIBLE_SPEECH/> Bye bye."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Thank you very much, bye!"
+    }
+  ],
+  "events": null,
+  "notes": null
+}

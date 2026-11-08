@@ -1,4 +1,4 @@
-field,n,raw_agreement,cohen_kappa,kripp_alpha_nominal,categories_hang
-target_status,60,1.0,,,{'retained': np.int64(60)}
-output_certainty,60,0.9667,0.9283,0.9288,"{'moderate': np.int64(43), 'high': np.int64(10), 'absolute': np.int64(7)}"
-attribution,60,1.0,1.0,1.0,"{'missing': np.int64(34), 'correct': np.int64(26)}"
+field,n,raw_agreement,cohen_kappa,kripp_alpha_nominal
+target_status,60,1.0,,
+output_certainty,60,0.9667,0.9283,0.9288
+attribution,60,1.0,1.0,1.0

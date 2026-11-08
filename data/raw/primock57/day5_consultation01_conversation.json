@@ -1,0 +1,467 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:52Z",
+  "model": null,
+  "seed": null,
+  "id": "369ff001-e3d1-4061-b1e7-7fc10876dd59",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "DOCTOR",
+      "text": "Ohh, hello."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hello. I'm Doctor <UNSURE>Geraghty</UNSURE>. Ohh, <UNIN/> sorry. <INAUDIBLE_SPEECH/>. Can I take your, full name, date of birth, and, your home address please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yeah it's uh, <UNIN/>. Um, and, five, um, Kings Place."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And are you in a, uh, and your date of birth?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, it's the twentieth, of the fourth, nineteen ninety."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And are you in a private place you can have a confidential consultation today?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, I am."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "What can I do for you today?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I've got a really bad headache, had it for about a day now."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and can you just tell me about, how it started? What were you doing when it came on?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, yeah, just ever since yesterday morning, since I woke up really. Um, just yeah, kind of throbbing headache, haven't really wanted to leave the house much since then."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and whereabouts in your head is the pain?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, mainly on the left side."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. What does it feel like?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, it just, kind of feels like it's throbbing, it's quite intense, sort of comes and goes. Um, yeah, quite sensitive to light, um, but yeah, quite painful."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "K and <UNIN/>. When, when you say it comes and goes, does it completely go away?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, just kind of fades, so it's still there a little bit but, it kind of gets more or less, severe."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And any, any other symptoms that you've had, any problems with your eyes, or your eyesight?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no, not at all."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Any abnormal smells or tastes?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Any, any nausea, vomiting?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no, no, been feeling fine actually."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And have you been eating and drinking OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah, <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, normally, do you get any headaches?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no not really, it's not something I've, ever had before."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, has it occurred at a particular term in your menstrual cycle?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, no, not particularly, <UNIN/> <UNSURE>and</UNSURE> my period was about a week ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK. And how we're you the before it came on? Have you had any other symptoms, like feeling feverish, <UNIN/>, runny nose, sore ears?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, not really any sort of, cold symptoms, I seemed OK the day before."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, at the moment, how are you feeling?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, it's still pretty bad. Um, yeah, <UNSURE>still the</UNSURE> kind of throbbing, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Have you had any changes in your skin?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, <UNSURE>skin feeling</UNSURE> fine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Have you checked your temperature at all?  Have you got a thermometer at home?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I haven't. Um, I don't feel like I'm feverish, but I haven't checked."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And any problems with weakness, tingling, numbness in your arms or legs?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, not at all."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And what have you been doing since it came on? Have you been able to go to work, or have you been at home?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, taken some painkillers, mainly been at home. Um, yeah just kind of, kind of seems to be worse, when I'm in a light room or like sunlight. So I've kind of just been staying in as much as possible."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Does it get worse with any position that you're <UNSURE>on</UNSURE>? Is it worse when you lie flat, or when you bend forward?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, no, think I've generally been lying down, <UNSURE>seems to</UNSURE> be better that way."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Any problems if you cough or sneeze?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no, but I haven't really got a cough or anything."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And can you just tell me a bit about, your medical history in the past? Have you had any significant medical problems? Any hospital admissions, operations, <UNSURE>something</UNSURE> like that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no, not recently, nothing."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Do you take any medication?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no, just contraception."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And which contraception do you take?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, Microgynon, <UNIN/> pill."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>When</UNSURE> did you start that one?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, about six years ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Do you get any side effects from it?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, not really, um, no, not too much."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, anyone in your family had any medical problems?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, my mum had, <UNSURE>uh</UNSURE>, high blood pressure, and she's got a history of migraines. Um, but <UNSURE>it's</UNSURE> not really affected me before."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And have you had your blood pressure checked <UNIN/> recently?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I haven't actually, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Have you had it checked, when you've had the <UNIN/>, repeat prescription done?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah, so uh, probably about six months ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Do you know if there's been any problems with it?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, it's always been fine I think."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and whereabouts, whereabouts do you live at the moment? You've given me your, address. <UNSURE>Do</UNSURE>, who do you live with at home?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, just with housemates, um, just friends."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And do you drink much alcohol day-to-day?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I'd say a normal amount, um, probably, you know, a few drinks at the weekend."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And do you smoke?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Do you take any other drugs of any sort?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um. So, <UNIN/>, what, what tablets did you say you've been taking already? <UNSURE>Yeah</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Sorry?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "What tablets have you been taking already, for it?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, just Paracetamol. Um, I'm allergic to Aspirin, so I haven't been taking that."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "What happens when you get <UNSURE>a</UNSURE>, when you take Aspirin?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I just feel really sick."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And have you ever, taken any, non-steroidal anti-inflammatories, like Ibuprofen, Naproxen, anything like that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I have in the past, I haven't been taking it, last few days."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, so, this headache is new to you, and you've, you've not had regular headaches before?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "What I would, suggest is, taking, uh, um, some anti-inflammatories, along with the Paracetamol."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Um, as a</UNSURE>. Uh, you said you're eating OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah, fine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "I mean it, from the sounds of it, it does, sound quite like a migraine, but obviously <UNSURE>if you</UNSURE> had no history of that, in the past."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and is anything changed recently, or any, anything you've done recently might've, triggered it?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, not that I can think of, um, may have been a bit stressed out at work, that kind of thing, but <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah. Um, well that would be the first thing to do, is to take some anti-inflammatories along with the Paracetamol. Make sure you're really well hydrated."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and, see how that goes, and if it, if it isn't settling, or it's getting worse, or you get any other change in your headache. Um, or you're unwell with it, with a high temperature, then we would certainly need to speak to you."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Straight away about that. The other thing is if you, if you're getting persistent, um, headaches, or headaches associated with your menstrual cycle, or certain things seem to trigger these headaches."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Then, it, it would be worth, having a further discussion about it, to see whether we can, work out if we can help <UNSURE>the</UNSURE>, that longer-term."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK, brilliant, thank you."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, I would, try and arrange to get your blood pressure checked, if you haven't had it checked for a while."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Uh, <UNSURE>and</UNSURE>, thing to do <UNSURE>is</UNSURE> to have a thermometer at home, so you <UNSURE>can</UNSURE> make sure that your temperature's OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK, sure."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "If you have a raised temperature or, your headache's just getting <UNSURE>worse, or</UNSURE> you develop any rashes or anything like that. Then we'd need to speak to you straight away."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yep, OK, that's brilliant. OK, so I'll take some Ibuprofen and I'll um, hopefully, be a bit better in a day or two then, so yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, so, have you got any other questions?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no, that was it today."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. OK then, we'll, we'll, we'll, um, speak to you again."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK, brilliant. Thanks <UNSURE>so</UNSURE> much."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/>, <UNSURE>very</UNSURE> much. Bye."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Bye."
+    }
+  ],
+  "events": null,
+  "notes": null
+}

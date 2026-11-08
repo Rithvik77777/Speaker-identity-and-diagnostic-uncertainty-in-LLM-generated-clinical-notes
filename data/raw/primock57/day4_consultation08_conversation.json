@@ -1,0 +1,683 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:52Z",
+  "model": null,
+  "seed": null,
+  "id": "6335a855-b354-4c75-971a-61c7093bd067",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hello."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Hi there</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi! Hi there. Uh, my name's Joe. I'm one of the doctors at Babylon. I, just, can I confirm your name please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>, yeah. Uh, my name's <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Makes sense. Yeah.</UNSURE>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, <UNIN/>. Sorry, your name is?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Name was Brian."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Brian. Hi Brian. Nice to <UNIN/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Hi</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, uh, and your date of birth."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, my date of birth is the eighth of August, nineteen eighty two."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Great. And uh, are you in a sort of, uh, confidential place where you can speak freely?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah. No, no one else can hear me."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Great. And you're happy to continue with the consultation."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Marvelous. OK. So, um, how can i help today?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, um. So basically it's, just been happening over the last few weeks or so."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "But I don't really feel like um, like, getting up in the morning's really difficult, and I don't have much energy at all, during the day, um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Often."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah just like, doing most things that I would normally find, easy <UNIN/>, is become quite difficult."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> OK. So, things have become quite difficult for you."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Is there anything else?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, <UNIN/> <UNSURE>no it's</UNSURE> quite hard to say like. Things like, I'm not, <UNSURE>I'm</UNSURE> not eating very much at the moment. I just don't feel like I have a lot of energy."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. I'm sorry to hear that."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, so you had difficulty waking up. No energy, not eating."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And that's been going on for a few weeks. When you say a few weeks, do you mean two or three or five? <UNIN/> <UNSURE>how many </UNSURE> hours of sleep? <UNIN/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Actually, well</UNSURE>, now I <UNSURE>kind</UNSURE> of think about it maybe, maybe even longer, um. I guess uh, <UNIN/>, might be related <UNSURE>to</UNSURE>, so I also started a new job, um, slightly recently."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um. It might of even <UNSURE>coincided</UNSURE>, coincided with uh, with that, job, a couple of months ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "When did you start your new job? Two months ago, did you say?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, um, so this has been going on perhaps for um, sort of, six weeks or so?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "More like, <UNIN/>, two months, I would say, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Alright. So, um,"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Is there anything that you're particularly, sort of concerned about, um, or hoping to get out of this consultation?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Well, um, I, I know that it's not really normal for me, so, before this phase. So I'd <UNSURE>have thing</UNSURE>, you know I wouldn't have, uh, any problems sort of."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>, eating, what I want to eat, or you know, doing standard things in life, and, and, what I want, to do is just like, kind of return to that previous state."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, somehow. Um, I'm not sure how that is. Uh, what, what the best ways of doing that are, but, yeah. <UNSURE>Do you have</UNSURE> some advice or?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Whatever, that'd be really useful."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Sure. OK. Um, well what would I like to do is just ask you a few more, sort of questions around what's been going on, um, and also around your background health and um, and things like that."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And then we can go on to sort of <UNIN/> what can be done from there. Is that alright?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>OK</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, great. <UNIN/> so you say you've been, um, feeling unwell with not a lot of energy, difficult waking up in the mornings. Do you tend to just on that <UNIN/>, do you tend to wake up early, and then stay in bed in the morning?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, actually I'm, just uh, not, not really waking up early. It's more like I'm just having trouble sleeping at all, <UNSURE>really</UNSURE>. I think that's probably closer."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/>, difficulty sleeping as well."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and have you, and, how, how has your mood been over this period?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Have you been feeling your usual <UNSURE>self</UNSURE>?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Distracted</UNSURE>, <UNIN/>, I'd say. Uh, I, I kind of, um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, uh, finding it really hard to, quite, difficult to keep focusing, I would say."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, not unhappy or, happy, but just uh, quite, just <UNIN/>, not focused."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So difficulty focusing, quite distracted."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, would you say you've <UNIN/> been in good spirits? Or is your mood low?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Actually uh, now <UNSURE>you, you</UNSURE>, you mention it like, my, mood is a bit lower recently."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, and so I've <UNSURE>noticed</UNSURE> like, uh, my sex drive <UNSURE>has</UNSURE> kind of decreased, um, a bit over the, the past few months as well, so, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>K</UNSURE>. And uh, so lower mood, decreased sex drive recently as well."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, just on that note, just a few questions around that."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Are you able to, uh, it may be slightly personal questions, but if you're O. O. K. to answer this,"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Do you tend to, to have morning erections like you, is that something that you've noticed, <INAUDIBLE_SPEECH/>?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I <UNSURE>haven't</UNSURE> noticed anything like that, specifically, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, you've not, so you're saying you have not noticed morning erections, and usually you would. So, <UNIN/> normal thing to have, uh, waking up in the morning with something. But you have not noticed those recently."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I have not noticed those recently."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, and that's been a change, has it?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Important one I don't think, um, yeah. Not, I don't think it's important to change, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Sorry?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Uh, so you, you, you, you don't think there's been a change there. You"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, there hasn't been a change <UNSURE>there</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Ohh OK, sorry. Right, so"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, um,"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Just going back to the mood symptoms as well. Uh, you <UNIN/> have had uh, difficulty focusing, easily distracted. Your mood has been uh, slightly lower, with lower sex drive."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and in what way has your sex drive been lower? <UNIN/> are you in a relationship at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, I, I'm married, um, have been for, many years."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And, <UNSURE>uh</UNSURE>, yeah just, um. Over the last few months, just uh, been <UNSURE>disinterested</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Disinterested."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>OK</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Sorry, you froze there for a moment."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, <UNIN/>. So less interested as well, OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, just to ask you a few questions before we <INAUDIBLE_SPEECH/> uh, wrap up is, uh, any significant past medical history?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, so do you suffer from any, uh, mental health problems in the past, or any, uh, physical health problems? <UNIN/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, so, in the past, um, I have a, a history of, hypothyroidism, um."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hypo?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hypothyroidism."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hyperthyroid."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "K, so that's high thyroid, just to sort of confirm that."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Sorry, can you say that again please?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> hyper, as in high, hyperthyroid."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hypo."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hypo, OK. Hypothyroid. Thank you."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Thank you. Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, and uh, also in the past, I mean, I haven't had any kind of specific, uh, medical diagnoses, along these lines."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, but <UNSURE>the</UNSURE> suspicion, that it may have uh, had an impact on me, <UNSURE>but</UNSURE> my father has commited suicide, um, about fifteen years ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And um,"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Uh, do you take any medications?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I had a, a, drug history of Thyroxine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "So, maybe, yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Do you, do you continue to take Thyrocsin now?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You do. You're, so you're taking Thyrocsin at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Cool. And any drug allergies? Are you allergic to any medications?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, I have no uh, medication allergies, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>No</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No allergies. And you mentioned the <UNIN/>, the suicide of your father fifteen years ago. I'm very sorry to hear that. Is there any other, um, uh, <UNIN/> significant family history of medical conditions, or psychiatric conditions?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No depression or anything like that running in your family, or uh, <UNIN/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Uh</UNSURE>, nothing, nothing, that sort."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And your mother is, is well? Any brothers or sisters?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah she's fine, um, and no, I'm an only child. <UNSURE>Um</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um,"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, I just uh, uh, sorry it might seem like a slightly random question, but any uh, change in vision?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>No </UNSURE> <UNIN/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, no, nothing like that."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>. OK. And, just to go back to your, you were saying you had low mood. Some people who <UNIN/>, who do have low mood, uh, and low sex drive can sometimes feel uh, suicidal as well. Have you had any thoughts of harming yourself or harming anyone else?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, not <UNIN/>, not really, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> and are you able to get the usual enjoyment out of your daily activities, that you have done in the past?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Sometimes, I mean, I guess, um, most of the activites, but, when I've been doing sports as well,  <INAUDIBLE_SPEECH/>, I find sometimes it's quite difficult to breathe, um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "So, I have some kind of like, shortness of breath um, when doing, sports, compared to maybe a couple of months ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So you, you've become more short of breath over the last few months."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and you've had a"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So uh, any other things around that? So, more fatigue, more shortness of breath, um, over the last few months?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mmm."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, with a <UNIN/> low, lower mood, decreased sex drive. Um, is there, just before we wrap up, is there anything else that you would like to talk about?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, no, nothing specific, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, um,"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "We're getting a little bit towards the end now, but I would quite like to make a bit more of a plan for you. Um,"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "I would like to, probably see you in person, and do an examination. And, and also, we would probably like to do some blood tests um, as well."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, do you think it would be possible to see uh, to to book an appointment in the next few days uh, with your GP? Or, or um, that would be ideal, I think here."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and then we can, we can probably do some more uh, we'll do an examination and uh, do some investigations really, to see what's going on here a little bit more."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>, yes."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "That <UNSURE>makes</UNSURE> sense, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Is that alright?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, that's very useful, thank you, um."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, <UNSURE>it feels</UNSURE>, better to have some kind of plan, uh."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah. Yeah, yeah. I think <UNIN/>, I definitely think we need a plan here. Um, it's been nice talking to you. I'm sorry, we've run out of time now."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Uh, but we've at least started the ball rolling with um, some further investigations and tests."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "I'm glad you're, you know, you're, you're <UNIN/>, you're, although you have a low mood, um, you're, you're, um, you're not <UNIN/> feeling suicidal, just to confirm that."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Mm-hmm</UNSURE>, yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, and you're, uh, and uh, we'll hopefully get to the bottom of some your tiredness, and your other symptoms, when we see you. OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Thank you very much, for taking the time. Thank you."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Thank you. Thanks."
+    }
+  ],
+  "events": null,
+  "notes": null
+}

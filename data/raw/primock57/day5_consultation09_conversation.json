@@ -1,0 +1,503 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:52Z",
+  "model": null,
+  "seed": null,
+  "id": "d9111a20-688d-436a-a092-a284dcd28253",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> Hi there, it's Doctor Smith from Babylon."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hello."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hi there."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi, can you confirm your name, date of birth and your home address, please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, it's Matt Carter, and it's fourteenth of August, nineteen eighty nine, and <UNIN/> what was the last bit?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Your address."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And it's one Babylon Avenue."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And are you in a private place where you can have a consultation today? What can I do for you?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, <UNIN/> coming, I, I don't really know what's been going on, but it's just aching all over, but, <UNIN/> definitely the last six weeks, it might have been slightly longer than that, but it's just sort of that, feeling really tired, run down."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, um, so when do you think you were last well?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, where are we now, we've just started April. I, definitely Christmas, New Year, I felt relatively well, I think."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, so, since then. Actually, yeah, I, I was on holiday in, um, in the States. And yeah,  it probably coincided with some time around then. End of January, start of Feb."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So do you think it started when you were on holiday or after you got back?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, probably a couple of weeks after I got back."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Were you well when you were on holiday?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, had a had a great time, very active, uh."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Did you get any infections, chest infections, diarrhoea, vomiting, anything like that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, no, not that I recall. Um, yeah, not."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, the symptoms sort of all started afterwards."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, just tell me what symptoms you've been having, in terms of just your general health. Any persistent cold symptoms or earaches, sore throat, chest <UNIN/> cough, shortness of breath, phlegm, anything like that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Any change in your weight at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I don't think so. Like, I'm probably less hungry, but no, no weight change, just a bit."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and are you eating different amounts?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, probably slightly smaller portions, or it, yeah, more of an effort to, to actually eat everything that's in front of me."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Any difficulty swallowing or acid in your throat, or abdominal pain?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Any change in your bowel habit, diarrhoea, vomiting or blood in the stool?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Any difficulty passing urine or blood in the urine?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, that's all fine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and any other general symptoms like rashes?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Or."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I don't have any rashes now, but there was, uh, in fact I've got a photo, um, on my phone if if that's helpful. I can try and show you, hang on. Um, because this, yeah, this was weird, this sort of came up, and then, uh."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Disappeared after a couple of weeks, <UNIN/>where's the light, <UNIN/> that, you see that?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, right, yeah, whereabouts was it?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I think sort of calf, back of my calf, because I didn't notice it, my wife noticed it actually."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "When did you first notice it?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, probably, uh, around the end of February, the middle to end of Feb. And then it, like, it didn't actually cause too much itching, or anything, at the time. And, I, it faded over a couple of weeks, I guess."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Did you have any fevers at that time?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I, to be honest that actually turns out it was a bit of a sore throat I had, um, so possibly a little bit feverish, but I, I sort of put it down to that."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Do you know where you got that, when it started? Had you been walking, did you get any bites that you noticed?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I <UNIN/> like,  I do quite a lot of walking, and we did, um, quite a lot while we were out in the, on holiday as well, but definitely, um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, I mean, I don't, I don't recall any bugs, I don't remember seeing anything bitten but you often, like, yeah, as you're walking through, I was in shorts and, and boots but <INAUDIBLE_SPEECH/>/"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Whereabouts were you in the States?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, just sort of, um, he examined me, so."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and any headaches, blurred vision, tingling, numbness?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, no."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "But it's the sort of headache maybe in just generally feeling a bit crappy."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And have you been able to go to work as usual?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I've been going to work. I don't know how effective it's been. But, yeah, been, been."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And what's your job?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I work for a health technology company actually."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and has your concentration been affected, or your tiredness levels in the daytime at work?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, definitely sort of tired and, um, yeah, less energy, sort of probably <INAUDIBLE_SPEECH/> than I, I would normally be."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Have you been able to exercise OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Not as much. I, I don't know if it's, I haven't been able to or I've just been a bit lazy with it. I <UNIN/> I'm not exercising as I would normally."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, fine, and, um, how's your mental health, your stress levels, all that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hey."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/> Pretty good at the moment, actually. Like, it previously that has been an issue, but, um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Other than, sort of, physically feeling a bit."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, crappy, I've."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, in a pretty good place."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Apart from that rash, any other rashes on your skin, or swelling of your joints, or pain in your joints?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, sort of aching shoulders, back, the hips, knees, but sort of, yeah. Not <UNIN/>,"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Any <UNIN/> swelling that you've noticed?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Your</UNSURE> hands, wrists, ankles, toes."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, um, and any other significant medical problems in the past?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I mean."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Pardon?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>Asthma and hay fever if they can help."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Any flare-ups of your asthma recently?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no, <UNIN/> pretty well <UNIN/>, I think."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Do you take your regular inhalers or other medication?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yeah. I've got one of those, um, preventative, I think. Yeah <INAUDIBLE_SPEECH/>, but I've not used one."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You haven't been using it, you said?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I, I have it. I've been using the <UNIN/> everyday for the morning and night but not the, uh, <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And any, erm, do you take any other medications?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, <UNIN/> I take, um, one of the antihistamines <UNIN/> it might be <UNIN/> can I get that from, just from the pharmacy."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah, that's fine. Um, and do you smoke?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/> uh, <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Drink any alcohol?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Sorry, occasionally, that was."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and who do you live with at home?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, just my wife."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Sorry, um, so with this rash, we would need to investigate whether this has been a contributing factor to your symptoms. And just because of your symptoms, which have been ongoing for six weeks, that's obviously quite a long time to notice a change in your energy levels."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, I think it's important to get some blood tests, checking all the normal things, like liver, kidneys, blood count, <UNSURE>etc. But</UNSURE> also, some more specific things like, um, a bacterial infection you can sometimes get, uh, including one which you can get which can produce a rash like that. So, that would involve blood tests. Are you happy to do that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, I <INAUDIBLE_SPEECH/> but, uh, what, what's the infection?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Well, you can get, uh, you can get a bacterial infection caused which is called, um, it's called lyme disease that you can get a rash <UNSURE>like</UNSURE> that from a tick bite."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So that's something we would do a test for, as well. Um, and if that comes back positive, then there are specific antibiotics that we would give you to treat it."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So it's definitely worth checking for, but we would also check just for <UNIN/> which can cause reduced energy, tiredness and aching for, persistent over six weeks."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So if you're happy to do that, if you book that through the support line, and then when you've had the test arrange a follow up about a week after, after you've had the test done."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK, so, do the test first and then, <UNIN/> and that follow up we can just do over the phone again? Or, <UNIN/> yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, yeah, we can do that over the phone to start with."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>All right</UNSURE>. Excellent."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "That, that's really helpful, thank you very much."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Oops, sorry, you broke up a bit <UNSURE>there</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Any other questions?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Ohh, no, not <UNIN/>, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, that's great. Take care."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK, take care, thank you, bye."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Sorry <UNIN/>"
+    }
+  ],
+  "events": null,
+  "notes": null
+}

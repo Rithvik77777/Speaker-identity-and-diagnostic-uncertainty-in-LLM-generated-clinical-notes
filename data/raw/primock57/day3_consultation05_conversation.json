@@ -1,0 +1,395 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:51Z",
+  "model": null,
+  "seed": null,
+  "id": "4363e7ee-cdff-4f11-85e2-644146603100",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "PATIENT",
+      "text": "Hello."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hello. Hi, I'm Doctor Jacob and welcome to Babylon. How are you doing?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I'm OK, thank you. Um, not feeling that great actually."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/> Good. <INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Alright. I can't see your face properly <UNIN/>, just, yeah that's it. That's good. Thank you. So, I'm sorry to hear that. But just before we start, is it alright if you could confirm your name for me please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I'm Mary Jane Grey, um."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> Date of birth?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Date of birth, um nineteen eighty."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And your address for me please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I live <UNIN/> on SW four zero NG."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "That's correct. And just to confirm that you're in a secure location, and we can have a confidential conversation."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So you've mentioned that you're feeling dizzy. <INAUDIBLE_SPEECH/>, yes."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, I'm feeling I'm, I'm yeah, I'm feeling very sick. It's probably because i'm feeling dizzy, um the the room is sort of spinning, um."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And I, I can't, I can't walk properly. Uh, well I can walk properly but not straight, um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "and my ears are buzzing a bit. I'm just, they're feeling a bit off."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Mm-hmm</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, <UNSURE>ear's buzzing</UNSURE>. So when did it all start?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Started probably about two hours ago maybe. but I, I, um, I had a a similar sort of thing about a month ago, um"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "But I didn't really think anything of it, 'cause it <UNIN/> it settled quite quickly. Um, but this has been going for a bit more now."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So you <UNSURE>said</UNSURE>, you mentioned it started a few hours ago. So <UNIN/> did it start? What were you doing?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I was just actually making my husband some breakfast, um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And I, yeah, I just suddenly felt very fuzzy and dizzy, um, and a bit shaky."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So <UNIN/> you <UNSURE>mentioned</UNSURE>, like the room spinning around?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And is, how long does it last for? Or is it there now, continuously now?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah it's, it's there, the whole time."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So it's there now for the past two hours you'd say, yeah?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Did you have any kind of viral illness in the recent past, past couple of weeks?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No cold, cough, nothing."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, I've been pretty healthy I think, um, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah, OK. Um, you've mentioned that you have a, some ear buzzing kind of thing. Any kind of ear pain or ear discharge, anything like that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, nothing."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Do you have a temperature at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I don't think so, um."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, right. You also mentioned that you can walk, but you're not walking straight. Why is that? Is it because"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I think just 'cause the room feels like it's moving a bit. Um"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Feels like to move</UNSURE> <UNIN/>. That's why you're feeling like you're a bit unsteady, yeah?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>I'll look</UNSURE> <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/> My, my legs and arms and everything are working fine I just, I don't feel like I'm <UNIN/> stable. My, the room is <UNIN/> spinning."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So there's no weakness of your arms and legs. OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "K. Right. Um, so you mentioned you had something like this a month ago. So how, how, how long did that episode last for?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Probably only about five, ten minutes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, right. And do you have any problems hearing at the moment? Like, is it <UNIN/> muffled or something?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "It's just a bit of a buzzy noise in my ears, but otherwise I can hear everything."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. <UNSURE>Righty-ho</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, have you been physically sick?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, but now I'm feeling very sick."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Nausea, OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Righty-ho. And, I don't have much information of your past medical history. So is there any medical conditions you'd like to <UNIN/> tell me, surgical, medical conditions?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I've had premature ovarian failure, um, and I've taken HRT."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK <UNSURE>charting premature hearing failure</UNSURE>. OK, and um any other medications at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, do you have any allergies at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Right. OK so <UNIN/>, talking to you today, um, in the <UNIN/>, the most common um, you know, diagnosis we would <UNIN/> you're suffering from at the moment is something called labyrinthitis. Yeah?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, that's when your middle ear...there is something um, some inflammation going on there, and there is some imbalances in the crystals there in your middle ear."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, so what the most important treatment is actually giving you some kind of middle ear <UNSURE>stability </UNSURE> so that you won't feel as if you're going around in a boat, kind of feeling."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK? So that's what we need to <UNIN/>. Because to actually make you <INAUDIBLE_SPEECH/> function a bit more, we'll start you on certain medications."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "I would still like you to be seen by one of our doctors to take a look inside your ears to just make sure. So this is like just symptomatic relief like you have a fever we just give paracetamol.  So just to, you know, make you able to come and see one of the doctors and things like that."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> while you're with the doctors, we'd like to do your blood pressure, just examine your, you know, you know, how your walking and everything is."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, while we're waiting, while you're waiting on seeing the doctor if you double up any weakness of your legs or arms or, or, you know, a sudden headache."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Any of those symptoms, or you start being violently sick with it, then you know, you would need to take your <UNIN/> to A and E."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "But if not, wait for the appointment <UNIN/> for the doctor to examine you um and we'll take it from there."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So i'll, i'll send the a prescription at cross <UNIN/> pharmacy looks like it's the Lloyd pharmacy on our system. Is that correct?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah. So we'll send you across that prescription. Um, it's called <UNIN/> , yeah? It's one tablet three times a day. So I'll give you <UNIN/> about ten days worth."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "In the interim, obviously in the next few days, you'll get to see one of my doctors and we'll have to just take it from there."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK, thank you so much."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/> Any questions at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, can you take, do you need to take those tablets with food? Or can you just take them any time?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "It doesn't really matter, you can take it, because sometimes, you know, you get the symptoms as soon as you wake up, so probably you'll feel a bit sick to eat anything so might as well just take the tablets."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK, that's great. Thank you so much, that's so helpful."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Just make sure you call support to book that appointment, OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I will, thank you very much."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/> Bye bye now. Bye"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    }
+  ],
+  "events": null,
+  "notes": null
+}
