@@ -1,0 +1,403 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:51Z",
+  "model": null,
+  "seed": null,
+  "id": "3f418178-ed15-4218-939f-b5f4c29a993f",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi there, good morning. Or good afternoon, sorry. <UNIN/> Hi."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hello there. Uh, good afternoon. This is Jack."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Good afternoon</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi. This, this is Doctor Deen Mirza from GP at Hand."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I do."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "All right. So before we start your appointment, could I please confirm your full name and date of birth?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, uh, my name is Jack Armani."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "That's great, thank you."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And my date of birth is"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "twelve August nineteen fifty eight."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "That's great, thank you for that. Um, are you in a private place where you're OK to speak at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, I am."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, how can I help you today?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I am. So, I woke up, um, this morning, and, um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hello?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah I'm still here, you'll tell <INAUDIBLE_SPEECH/>. Yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/> Uh so <UNIN/> I'm a bit worried 'cause I woke up this morning, about an hour ago, and I couldn't move my left arm any more."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Uh, and how's your arm right now?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Well like, I feel no pain but just, uh, can't move it."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "That you still can't move. And, and what time did you wake up? You said it was an hour, you're sure about that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, um."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Now, can I just double check? Has this ever happened before?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No. No, uh, it's really the first time."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, did you sleep, anything, <UNIN/> in an awkward position, or in a different bed, or anything like that last night?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh no, uhf, everything as usual."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and um, is there any discoloration in your hand?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "K, um, does your hand feel cold?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mmm, no, really the, mmm, the arm feels fine, apart from me not being able to move it."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And it's to your <UNIN/> on your left side. Have you had any symptoms in your left leg at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, but um, I feel a bit of tingling on the left side of my face."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK. Um, and how long has that tingling been there for?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, since I woke up. Um, since I started to feel the <INAUDIBLE_SPEECH/> , since, since the the arm really it stopped moving, so an hour ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, um."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Now, um, I can't see you. <UNIN/> It's, it's telephone appointment. Have you noticed any kind of, um, asymmetry in your face, or did your face expression look different on one side compared to the other, or anything different at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mmm, no, not really, it's just."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, having like <UNIN/> a bit of issues like, uh, I was trying to drink earlier and <UNSURE>I'd be bold</UNSURE> a bit and and the tingling on, on the left side."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, um, you have some difficulties swallowing, is that right?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Any problems with your speech? Is your, is your, is your speech different to how it, um, sounds normally?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, yeah it feels a, a bit harder <UNIN/>. It's more complicated maybr, maybe um, be more slow.  I need to think more about it."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Is there anyone at home with you? <UNIN/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. <UNIN/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Is this something I should be worried about?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, well, um, I'm <UNIN/> I'm concerned that some of the symptoms you've got may be, um, symptoms of a stroke."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hmm, wow."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK? So, um, that's something that can be dealt with, but it needs to be dealt with as an emergency in a hospital."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/> Would, should I call <UNIN/>, would you be able to call the ambulance for me?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah I'm, I'm happy to do that. Um, what we need to do is to make sure that they've got access to you when you come. So, um, maybe you could, uh, leave the front door, um, unlocked, sit in the hallway. But I'm gonna arrange one of my colleagues next to me to, um, call an ambulance to your home address now."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK.  OK.  Thank you."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So <UNIN/> that's being done right now, as we speak. Uh, while we're waiting for that, I'm just gonna ask you a few more questions. Is that OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Sure</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Do you have any other illnesses at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I have, uh, type two diabetes and, uh, high blood pressure."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, um, are you on any medication for that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I'm taking <UNIN/> Metformin losartan and Amlodipine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Do you have any, um, uh, allergies to any medication?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, only penicillin, I believe."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, are there any illnesses in your family at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, my dad has got, um, heart disease."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "But, uh, but don't, I don't know more detail."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, anyone else?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Not really."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And um, <UNIN/> are you normally living alone?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>K</UNSURE>. Do you smoke at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I used to."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. How much alcohol do you drink?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I will have a few drinks over the weekend. Um, maybe a, a couple more during the week."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, <UNIN/> what, what drinks are we talking about?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, uh, beers, uh, like pints."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>OK</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "All right, um."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "How are you feeling now? Have you got the symptoms right now still, that, um"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, yes. The the arm still can't move and I think the speech is getting a bit harder."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, all right. So, the ambulance is on it's way, all right? Um, and what they're going to do is, they'll probably take you down to, um, the local hospital, A and E. And then, they'll they will ring through for the, um, the stroke doctor to assess you, to see whether they can give you any kind of, um"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Treatment for that OK? So no worry. They're they're on their way, um, and what I'm gonna do is, I'm gonna stay on the line until they reach there. Just to make sure that you're OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK. Is there anything I should be doing now?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, not at the moment, no, not at the moment, Just, uh, make sure the <UNIN/> the front door's open. Sit in the hallway, by the front door so that they've got access if needs be, if for any reason you can't open the front door. OK, um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "All right, then so <UNIN/> I'll be <UNIN/> staying on the line and we'll and <UNIN/> we'll wait until the ambulance comes."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK, I'm gonna go to the door."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK then, all right. Thank you."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "K, bye bye."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    }
+  ],
+  "events": null,
+  "notes": null
+}

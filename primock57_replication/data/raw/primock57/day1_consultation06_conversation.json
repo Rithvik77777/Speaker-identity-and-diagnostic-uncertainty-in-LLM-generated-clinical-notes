@@ -1,0 +1,663 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:51Z",
+  "model": null,
+  "seed": null,
+  "id": "06e9580a-91b6-4c41-8756-9c2814dc0f7a",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hello?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hello there."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Uh, hello. Can you hear me OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, I can hear you."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, great. <UNIN/>. I am, yes. Nice to see you here, Oscar. Um, how can I help you this afternoon?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Are you the doctor?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I'm, contacting you because I've been, quite short of breath lately."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Do you want to tell me a bit more about it? When did it all start?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, well it seems to have been, slowly getting worse over the last couple of weeks."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, now it's, become quite troublesome, <UNSURE>in</UNSURE> the last few days."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I kind of, normally I can walk to the shops, without a problem but, now I'm having to sort of sit down and catch my breath. And I'm <UNSURE>really</UNSURE> starting to get a bit breathless, just about the house."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And uh, it's got me kind of worried, don't really know what's going on."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. OK. Is there anything you're particularly worried about?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, well, I've, I've uh, I've got um, heart failure."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I was told that, uh, a while ago."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, and I got a bit breathless when I was first diagnosed, and put on some <UNSURE>medicine</UNSURE> that, that um, that helped, but I'm a bit worried it's just getting worse."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK. So you mentioned you're feeling, uh, short of breath for the last couple of weeks, but mainly the last couple of days it's got a bit worse."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, uh, and you're now feeling more breathless on kind of minimal, minimal exertion you mentioned. Um, have you noticed any other symptoms at all, uh, uh, with your breath? So, for example, any pain in your chest?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No pain in my chest."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And have you found yourself coughing, coughing at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I've got a bit of a dry cough, but it's not too troublesome."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. OK. And how's your general health otherwise? Are you feeling uh, weak, lethargic?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I'm feeling a little run-down, um, but otherwise, otherwise pretty normal."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I've noticed my ankles have got a bit bigger."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And what do you mean by that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, it's just like, it's sort of swollen up a bit."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, is that, is that both <UNIN/>?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Kind of <INAUDIBLE_SPEECH/>. Um, yeah, both ankles. Yeah, it's a bit embarrassing."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Both ankles?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Uh, I can imagine, yeah. Um, and again, <UNIN/> over how long has this, have you noticed this for?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I kind of noticed it the last few days."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Past few days, OK. And is this something that you've had before, in the past?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I think my ankles did swell up a bit last time, the heart failure was a problem."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. OK. Um, fine. OK. So, um, just to really recap, uh, so you're really, in the last couple of weeks, uh, you've been feeling breathless, uh, but worse in the last couple of days. You mentioned you had a bit of a dry cough."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and some swelling in your ankles. Um, reporting no chest pain. Um, and, and have you had any, have you any, have you noticed your heartbeat racing at all? So, palpitations or skipped heartbeat?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, not really."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And any temperatures or fevers?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And how about your appetite? Are you eating and drinking OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, I, <UNIN/>, <UNSURE>I'm</UNSURE>, that's fine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And your waterworks? Are you passing urine OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, <UNSURE>but</UNSURE> yeah. I usually pee a lot, <INAUDIBLE_SPEECH/>, ever <UNSURE>since</UNSURE> the drugs <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah. <INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Sure, OK. Alright. Um, fine. So, <INAUDIBLE_SPEECH/> your uh, your past medical history. You mentioned heart failure. Any, any other medical history I should be aware of?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, well I was told I had like a, they called it like a small heart attack."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "About, five years ago. Um, I uh, I had, I, I had like <UNSURE>some</UNSURE> chest pain and, they took me into hospital."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And um, they, uh, but then I just got better."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And when, when you say a small heart attack, did they give you a name, for what happened, a, a name of a diagnosis?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I can't remember. They just called it something a <UNIN/>, uh, something like that, a small heart attack."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "It's more hard to say. OK. Was it like angina or, um,"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no they, they said that it, uh, it seemed, it was like, more than angina."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, uh, but um, I didn't, but I only had to stay in hospital for a few days, and, uh."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And yeah, I've been OK since then."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You've been OK since then. OK, alright. So, apart from the uh, the heart, the heart problems, the heart failure, any other problems I should be aware of?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no, I think I'm otherwise, I'm OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, do you take any regular medications, apart from your <UNIN/> diuretics that you're taking? And do you know which ones?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Uh</UNSURE>, yeah, I take something called Furosemide."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>. Do you know which dose you're taking?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I can't remember, I'm sorry doctor. I have to check."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "That's OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No problems. Um,"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Any other medications?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yeah. I take Aspirin."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>And uh, Bisoprolol</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "The Metoprolol, was it?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Or?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, <UNSURE>Bisoprolol</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Sorry, the connection's not very good. OK. Thank you, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>And a thousand</UNSURE>, OK. Alright. Any allergies at all? Any medications?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Uh</UNSURE>, no, no allergies."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And is there anything in the family that's, uh, that, that's uh, that's important for me to know? Any family history of medical problems, heart problems, lung problems?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh <UNIN/>, my, my father died of a, uh, of a heart attack."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "I'm sorry to hear that. And, um, how old was your father when he passed away?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, he was, um, early sixties."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Early sixties, OK. Alright. Anything else I should be aware of?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, my mother had osteoporosis."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Is your mother still with us?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, she's still living."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, alright. Um, and socially, sir, just tell me a bit more about your situation at home. Who lives at home with you?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I live on my own. Well, I got two cats."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You've got two cats. OK, great. Do they have names?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "They're my family. Uh, they're, they're called, um, they're called, Polly and Tim."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, so it's just you and your cats. And um, in terms of day to day, are you working at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I work part-time as, a, uh, lorry driver."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And how is that? Is that quite stressful, long hours?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, it's OK. Um, I uh, yeah <UNIN/>, when I'm working it's pretty exhausting."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Mm."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I guess I'm a bit worried, that if I get sick I won't, if I get more sick then, I won't be able to work properly."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah, that's certainly a consideration, isn't it? So let's, let's try and get you better soon, so it doesn't have any um, impact on your, on your job."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>No</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Uh, and do you find yourself doing a lot of anti-social hours? Do you <INAUDIBLE_SPEECH/>, do you do a lot of night driving, weekend driving?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Ohh no, I <UNIN/>, I <UNIN/>, I, I only take shifts during the day, I don't like working at night."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, alright. And what about smoking and alcohol? So, 'cause <UNIN/> that can sometimes be very important when it comes to heart problems. Do you, do you smoke at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Not any more."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, you used to smoke?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And how many did you smoke a day, on average?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Ooh it was about, about a pack a day, back in the day."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and how many, how many years was that for?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Ohh that was, oof, good twenty five years."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And what about the stopping? That must have been difficult for you. <INAUDIBLE_SPEECH/> stopping. Um, and what, what about alcohol?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I don't drink alcohol."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Do you do much in the way of exercise, sir?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I try and walk to the shops, at least once a day."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, but uh, that's about it, I've. Yeah, I don't, I don't go running like I used to when i was young."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK. And certainly now your symptoms, you, you're, you said you're feeling more breathless even walking to the <UNIN/> uh, to the shop, she said."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, right. Ohh um, based on your, based on you history, and having listened to your story, I, I wonder whether you've had a flare-up of your heart failure, sir. Um,"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Which can sometimes happen. Um, um, and uh,"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mmm."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>That</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "It's <UNIN/>. So, it seems like your heart's not pumping as well as it should be. Um, and obviously having diagnosed with heart failure, there's obviously"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "What's going <UNSURE>on</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, that's the first thing that comes to my mind. Um, now there's a couple of options <INAUDIBLE_SPEECH/> move forward. Um,"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mmm."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Given that you're otherwise well at the moment, and having examined you, your chest, and your saturations and blood pressure are all OK,"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "I'm quite happy to increase your dose of Furosemide. Maybe, rather than one tablet a day, we can do two tablets a day, for the first few days."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and see, and see how you're getting on."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK. If you think that'll be better."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Uh</UNSURE>,"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "I think, I think, it's, <UNIN/> it's, it's definitely worth treating your symptoms. But what we should also think about is maybe doing a couple of other tests, like a blood test, and maybe an echocardiogram of your heart, to see how well your heart's pumping."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Is that something you've had <UNSURE>before</UNSURE>? Yeah, so um, an <UNIN/>, it's a, it's a general scan of your heart. You might have had this done before, when you were diagnosed. And it's just to get a good"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "What does that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Ohh yes, <UNSURE>I remember now</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Sorry?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, I remember now. <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You remember that. OK, fine. That's something I can organize for you today. And, and that might take a week or two weeks for that to be organized. But, I think certainly in the meantime, let's, um,"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Let's, let's get a blood test done. We can check your um, you know your full blood count, look for signs of anemia. We can have a check of your kidney function."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and we can definitely increase your um, your Furosemide, uh, to you know, one tablet twice a day."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "But I really like, would like you to come back and see me in about a week's time, see how you're getting on. That sound reasonable?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I think that sounds like a good plan."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And of course, in the meantime if you are getting more unwell, feel like you're getting more breathless, or you're having any other symptoms like chest pain, or palpitations or dizziness, then, uh, you know <UNIN/> I want you to give me a call sooner than that, and we can have a chat on the phone as well."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK. I'll see <UNSURE>how</UNSURE> I get on."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK? Do you have any questions for me?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, <UNSURE>I</UNSURE> think that's all pretty clear. Thank you very much Doctor."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Great, and then well I wish you all the best! Have a good day. <INAUDIBLE_SPEECH/> OK. Thank you."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>OK</UNSURE>. See you soon."
+    }
+  ],
+  "events": null,
+  "notes": null
+}

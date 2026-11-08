@@ -1,0 +1,547 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:52Z",
+  "model": null,
+  "seed": null,
+  "id": "e3e87685-0c10-434a-80fb-689836130a77",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "PATIENT",
+      "text": "Hi."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi there. It's Doctor Smith from Babylon."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Hi Doctor Smith</UNSURE>. Hi, can you confirm your name, date of birth, and your home address please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hi Doctor Smith."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes. My name is Mary Jo. Date of birth is January first, nineteen eighty."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And my address is uh, sixty Sloane Avenue, London."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, <UNSURE>I</UNSURE>, are you in a private place where you can have a consultation today?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Absolutely</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "What can I do for you?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "So, a couple of things. I, I, think I may have, overdone my workouts, and now my knees are hurting, and they're clicking a lot, and it's starting to worry me."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I can't run very far, um, any more without just feeling, pain in my knees."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And then, sometimes I also get this weird tingling in my toes. Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "So yeah, that's, that's it. I'm just concerned and I figured you know I'd call and, see if you can, help me figure out what's going on."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>OK</UNSURE>, that's fine. So when do you think it started?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "So probably, it's been about two weeks."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and, any joint problems before that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "You know not, not really. I mean I play a lot of sports. Um, and I had a <UNIN/>, like I play some ice hockey, and I had this injury a few months ago."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "You know I just like, fell on the ice and, and, you know had a, huge bruise but, I think that's about it."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, So, um, at the moment, just tell me about the exercise that you're doing, normally."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "So I'm training, well, I'm currently training for a marathon, um, that's gonna happen in, June. And so, I'm trying to run like."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I mean right now, I'm actually not even doing such long runs, maybe like seven or eight miles. And so, I started about uh, maybe a month ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I've done like, you know, four or five miles, and I've just done like a couple of seven, mile runs."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And then uh, uh, and then you know I go to the gym like few times a week and, kinda do my, usual routine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, but, yeah, I think the only thing that's really different has, have been, the runs, the longer runs."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, have you had, any times when the knee feels like it's giving way underneath you?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, well, I, what do you mean by that? I'm not sure what, what <UNSURE>that</UNSURE> means."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, it means if you're, if you're there and <UNSURE>uh</UNSURE>, you just feel it sort of jolt, like give way, feel unstable underneath you."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Not, not bad, I mean it just kinda starts hurting, you know. Um."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And does it hurt, uh, how far into the run does it generally hurt?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "You know I would say probably starts off like after, uh, maybe, twenty minutes or so. Which is, probably I don't know like somewhere around mile, three maybe,  two and a half or three miles."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Ooh you're fast. Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/> switching my kilometres and miles, I'm not sure, <UNSURE>all right</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/> Um. And, um, do you have to stop running, or can you run through the pain?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, that is a good question. So, um, you know the last few times, the last time I actually stopped, I mean I ran a little bit longer, but then I stopped, because it was um, I, I feel like it's getting worse."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, and, when I start doing my abs, that's, you know when I do my abs. <UNSURE>It's</UNSURE> kind of requiring me to move my you know, um, to kind of go from the flex position on my knees, and straighten my legs, then I feel all this clicking."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And, I think that's also freaked me out, and uh, I just figured you know, something's wrong <UNSURE>here</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right. And, you said before, it's both knees."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "So it's more, um, it's actually my right knee that hurts."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>And</UNSURE>, any problems with your left one?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, <UNSURE>and</UNSURE>, can you just describe in the knee, or show me whereabouts the pain, is happening mainly?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "So, ah, you know I, I feel it, it's kind of weird, I feel it in the middle, but I almost feel like maybe it kind of uh,  um, moves to the right, to the right of my knee a little bit."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Have you noticed any tenderness when you press over any areas in the knee?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "So, yes, well it's, I have, probably some fluid. I googled it, and you know it says that sometimes <UNIN/> fluid accumulates uh, <UNSURE>I</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. <UNIN/>, does it look swollen to you?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Sorry?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Does the knee look swollen?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, well it did, like, the first time I ran, it was a little bit swollen, but then I just put some like ice on it, and it went away."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, but, right now, right now it's not swollen, and right now it doesn't hurt, you know."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, but, it just kind of comes on when uh, um, or you know right now when I flex and extend my leg, it, there's no clicking but, I'll notice it in the gym and then, you know, when I run it'll start hurting."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and, if you're sitting, still for a while, do you have any problems when you stand up, any locking up of the knee?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Can't straighten it. Any problems going up and down stairs?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Any problems just walking normally?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, <UNSURE>none</UNSURE>, I don't."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And <UNSURE>intervals</UNSURE> of range of movement. Are you able to fully straighten the leg?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And what about fully flex it?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Are you taking any medication for the knee?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Well, um, since you're asking. Um, yes I <UNIN/>, I take Ibuprofen, um, and I'll just kinda, use it sometime like uh, um, like sometimes I have some joint issues, but you know, that kind of, is not very frequent. So I'll take Ibuprofen for that."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "But you know it's nothing like major maybe, like, four hundred milligrams max, something like that."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I also sometimes will um, you know, smoke a joint."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, and, yeah, other than that, that's it."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and any other joint problems, that you're getting? Any back pains? Small swelling of your, hands, feet, elbows, wrists? Any pain?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>No</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, well I have sometimes, you know how sometimes like if you stand for a long time, your feet will kinda, or your legs will swell up. Like I noticed it because of my socks, I'll just kind of, notice this indentation."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>OK</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And then, another weird thing. I've felt this just once, but there was this tingling in my toes, like uh, um, after the run."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "There was tingling in my toes like on my, you know my right toes, um, so."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "On your right <UNSURE>side</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Any change in colour, or temperature of your lower legs?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Any swelling which stays if you push in, and then you release it, that it stays there?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Well I don't know if I really try that, but I, I will tell you that, what I noticed is like if I, you know when my socks come off, I kind of notice that indentation a little bit, I mean it's not like major, right but, I. Uh, I mean do you mean I just need to like press and see what happens, if it like kind of stays or, <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah, any, or any pain in the back of the calf or anything like that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>No</UNSURE>, no, nothing like that, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and, with your foot, has that gone back to normal now? Do you feel any altered senstation, tingling numbness, anything like that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No it was just, it was that time, uh, but it was just really weird, because it kind of went on for a while."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK.And any pain in the joints of your foot or <UNIN/>, on the underside in the arch? Any problems walking round on hard floors?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, have you had, any other medical problems before?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, well, I had uh."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "You know <UNSURE>what</UNSURE> just, kind of your garden variety stuff, right, colds and, uh. I mean I, I do have, I'm far-sighted, and so I had uh, I had Lasik surgery."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And then, once I had this really bad UTI, they thought it was kidney stones, and so they had me actually in ER."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And if my GP didn't call them, tell them, that you know, they don't need to give me Morphine."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, that was kind of an awful experience but, uh, other than that, you know, I'm, I'm, I'm pretty good."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, <UNSURE>and</UNSURE>, do you take any other medications, apart from the ones you told me about?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Well, I'll take uh, I take vitamin D."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I take melatonin. Sometimes, you know, just for cramps, I'll take, like, uh, um, ibuprofen, or actually <UNIN/>, uh, I'll take, what am I taking? Aleve. Whatever Aleve is."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Think that's maybe um, Acetaminophen, or, I can't remember what class of drugs."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "You know occasionally, if I'm really having hard times, like I'll, I'll sleeping, I'll take Xanax."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, but, I prefer Melatonin, it's just sometimes Melatonin doesn't work."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, any problems with your stomach, or asthma, indigestion, acid <UNSURE>reflux</UNSURE>?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, no, no problems."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/>. <UNSURE>And</UNSURE>, what I would suggest is, definitely carrying on with the ice therapy that you've been using. So, as much as you can, 'cause that really does make a difference to injuries."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Brings</UNSURE> the healing blood into the area, and it gives it the best chance of, getting better. So, as much as you can, use the ice."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, obviously you're trying to stick to a marathon programme, but."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, I would, try and ease up on the running, if you can. And if it, if it's painful enough that you're, having to stop running, then it's not a good idea, to do that."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um. It's fine to take the Ibuprofen. Um, I can prescribe you a slightly stronger, anti-inflammatory that you can take regularly instead of the Ibuprofen, but not with the Ibuprofen."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Hmm</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "But make <UNSURE>sure</UNSURE> that with food. Ultimately we probably need to, examine the knee."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I see."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, so, the best thing I would, suggest, getting a appointment with the physiotherapist first, who can do like a long, assessment, and examination of the knee."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And then <UNSURE>we can</UNSURE> make an assessment as to whether we need to do any, um, imagery to <UNIN/>, have a look inside the knee, and see if there's any problem with the, cartilage."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Well, you know I read, I read some stuff online that, that maybe like my ligaments there's, I think it's like ACL or, or something like that right, and so if that. I mean I'm kind of like freaked out that <UNSURE>that</UNSURE> may break."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "So do you think it's that, or?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, it's, it's not really possible to, diagnose that over the <UNIN/>, over the video. So we definitely would need to, see you. And, the, a physio is the best point of call, because they'll probably be the most likely initial treatment."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Right</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "But certainly if the appointment time's too long to wait, then we can see, we can see you <UNSURE>in</UNSURE> our clinic as well."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Can you, so are you going to send referral for that?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yep, <UNIN/> we can, we can do a referral before that. If in the meantime you develop like persistant swelling, heat, redness, um, of the knee, or high temperature, feel unwell, or it completely locks up and you can't bend and stretch it."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>OK. Great</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Then, you'd need to see a doctor urgently, so call us back <INAUDIBLE_SPEECH/> in that, case. <UNIN/>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>That sounds</UNSURE> good. Thank you yeah. <UNIN/>, sure I mean, give me the, stronger medicine, I'll give that a try."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. I'll send it through to your pharmacy for you. OK? Thank you, bye."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>OK</UNSURE>. Sweet. Thanks so <UNSURE>much. OK</UNSURE>. Bye, bye."
+    }
+  ],
+  "events": null,
+  "notes": null
+}

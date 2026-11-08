@@ -1,0 +1,419 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:51Z",
+  "model": null,
+  "seed": null,
+  "id": "e6badfda-d217-4765-b653-83412ac82ab0",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hello."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hi, hi I'm <UNSURE>Maria</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hello, I'm Doctor Jacob and welcome to Babylon."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "How are you doing?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I'm all right, thank you. Well I feel a little weird today, to be honest."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah, so just before we <UNIN/> we start, is it all right if you could confirm your full name for me please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes. Maria <UNSURE>Trabalotsa</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, day and your date of birth?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "That is the first of October, ninety-nine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and your email address for me please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, M <UNSURE>Traba</UNSURE> at Gmail dot com."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and just to confirm that you're in a secure location and we <UNSURE>can</UNSURE> have a confidential conversation?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes I think I am, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Good, right, you've mentioned in <UNIN/> in, in your patient notes that you're having some <UNIN/> sort of lip swelling, and you after you had a sandwich. Is that correct?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah that is, well, I don't think, I don't think it was, it it wasn't a sandwich but it was, it was something with prawn so."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Basically, I, I sometimes go with my friends to, to this place called <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And, we, we regularly have like usually I have like a normal vegetarian soup <UNSURE>or</UNSURE> something."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Mm-hmm</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And yeah, and, then I wanted to try something new."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, so what happened was, I, I ordered a prawn soup <UNSURE>it it's it it's</UNSURE> called <UNIN/> <UNSURE>it's like</UNSURE> a soup, I ordered a prawn one this time."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And, yeah and then my <UNSURE>feel</UNSURE> <UNIN/> like my lips started feeling a little weird just in <UNSURE>the</UNSURE> in the corner sort of on the left first."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And then, I don't know and then, we went back we had little bit of chat, of banter I wasn't really, paying attention."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Uh</UNSURE>, now I feel the that there is a swelling, there is like a swelling on my, on my upper lip and it's kind of getting bigger. I don't know what to do."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Right</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "All right. So when did you have the prawn soup? What time?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "That was, that must have been just after work, so maybe like around seven."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, around seven o'clock, and um how long did it take to develop the swelling?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Well I wasn't really paying attention so, it must have been like, must have been like, I don't know half an hour maybe."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK in half an hour you developed the swelling yeah?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and it's getting bigger and bigger?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah <UNSURE>it's it it</UNSURE> <UNIN/> still feel it like, really pumping blood and it's kinda getting bigger it feels like it's getting worse."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> OK. So, just a few more questions. Um, so you mentioned about <UNSURE>your</UNSURE> swelling of your lips. Is there any feeling of swelling in in your throat, like your throat is closing up, any feeling like that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah actually, I, I feel like I can't breathe that well right now."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And do you feel like, like your chest is tight?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And I don't know <UNSURE>if it's the</UNSURE> chest it just generally feels a little difficult, but yeah it might be, I'm not sure."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, right."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And just a few <UNIN/> have you ever these <UNIN/> any kind of lip swelling in the past? After eating any food?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, well, maybe, I remember like a year ago."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "A year ago I was, out with my friends."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And I think we went like, to a late night kinda Chinese place, and I remember that I was quite drunk to be honest."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Sure, OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And I remember that after like having that very late."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>I've</UNSURE> woke up the next morning quite swollen up and had also I, felt really bad and <UNSURE>quite</UNSURE> difficult breathing, but I <UNSURE>don't</UNSURE> know what it was I had it was like a curry or something I think."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Uh, and what did you take at that time? Did you use anything like antihistamine or anything, when you had that last time?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "But I generally have asthma so, I <UNSURE>took</UNSURE> I, I take, ohh what's it called? Salbutamol inhalers?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, so I do take that regularly but I've always taken it. I generally have <UNSURE>asthma</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And any other inhalers? Is it just the Salbutamol that you use? Any other brown inhalers?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Ohh I, no I don't think so, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> OK right and um so, do you use antihistamines like <UNIN/> Cetirizine, Loratadine, Piriton, any of those, kind of things?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hmm, no. I, I <UNSURE>got</UNSURE> no I <UNSURE>do</UNSURE> sometimes but I don't know which ones, but I have a peanut allergy as well, like always had it."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I, think I do get antihistamines for that but I'm not sure which ones."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And any <UNIN/> point because you had peanut allergy, any time you <UNSURE>have</UNSURE> to ever use like an injection?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "When I was a kid I think I remember my mom told me about it, but I don't know what it was 'cause I was small and I've changed doctors since."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, so has your mum ever said that you had to go to hospital because you had an severe allergic reaction?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah <UNSURE>is that well</UNSURE> I was like six <UNSURE>or</UNSURE> something I, I, I think. Ohh sorry, the swelling is getting, ohh my god ohh, yeah I think when I was <UNSURE>six</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Oh."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>You all right</UNSURE>? Are you OK now?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Ohh, I feel a <UNSURE>little</UNSURE> dizzy right now to be honest, ohh."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Are you</UNSURE> <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You're <UNSURE>feeling</UNSURE> dizzy. OK, right do you have any kind of, uh, antihistamines with you at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/> No, I don't think I have no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>OK</UNSURE>, right OK, so."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, uh, all right I, I'm really a bit worried about you at the moment, Maria. <UNIN/> Um I think we need to call an ambulance, because, um, from what history you've been telling me. It sounds like you could be going into what we say an a, an anaphylactic reaction. That's when your throat and your chest, you know closes in and you might need an injection like what your mum's."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, you know what your mum told you as you were a young child. O<UNSURE>K, all</UNSURE> right so is there any, anyone with you at the moment or are you alone?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I'm alone at the moment, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Ohh no</UNSURE> so hang on the line, while I'll call the ambulance OK, and I'll send them right to you, OK and <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Hey ohh</UNSURE> somebody just came, somebody just came yes, I'm not alone any more. <UNSURE>Thank</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "All right, OK somebody just came. So just call the <UNIN/> ambulance make sure that person's with you till the ambulance comes, yeah. Uh and <UNIN/> because we are worried about an anaphylactic reaction so you need go straight away. Could you ask the person whether they have any antihistamines around, in the interim, while we're waiting."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, uh Mum, Mum do we have any antihistamines around? Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yes <UNSURE>K</UNSURE>. Do that straight away and if mum can call. Mum, if you can call the <UNIN/> uh nine nine <UNIN/>, nine nine nine yeah, and say that your there is a suspected anaphylactic reaction and they need to come straight away. OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Ohh <UNSURE>yeah</UNSURE> yeah we do <UNIN/>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes she said she will yes, yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>All right</UNSURE>, so straight away take the antihistamines in the meantime all right."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK, OK. Yes, thank <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>And</UNSURE> <UNIN/> <UNSURE>after</UNSURE> you come out from the hospital <UNIN/> do give us a ring back we might need to sort you out, um, with your injections and things like that OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, yes will do, yes, thank <UNIN/> ."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "All <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK then, take care."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Thank you very much thank <UNSURE>bye</UNSURE> bye."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Bye <UNSURE>bye</UNSURE>, bye. <UNIN/>"
+    }
+  ],
+  "events": null,
+  "notes": null
+}

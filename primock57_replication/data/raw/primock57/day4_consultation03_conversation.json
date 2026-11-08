@@ -1,0 +1,499 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:51Z",
+  "model": null,
+  "seed": null,
+  "id": "6d951ba3-5836-4179-89ab-e28d3505d41a",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hey."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi. Can you hear me?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah. I can hear you."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Good. Um, my name is Doctor Gohil. I'm one of the physicians that works here at Babylon."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "May I confirm your name and date of birth, please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, uh, my name is Sarah Smith. And, my date of birth is the twentieth of April nineteen eighty."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Great."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Nineteen eighty three. And, are you in a space that's private and quiet, and you can talk?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Yeah.</UNSURE>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Good. So, it says, erm, I've got a note to say, it says you're feeling short of breath. Is that correct?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Are you able to tell me a little bit more about that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah. I was watching TV and, um, just like over the last hour, I've started to feel, like, a bit short of breath."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "That is, while you're sitting watching TV?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, have you noticed anything like this before?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, apart from the shortness of breath, have you noticed anything else?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, so, I <UNIN/>, I started with a cough yesterday."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah. I, I don't know if it's, um, relevant, but I had a C-section a few weeks ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, how long ago was that? Just a few weeks?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, four weeks."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, are you with baby at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, I am."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, how is baby doing?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah. <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Any coughs or colds with, uh, them?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, no. He's fine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, you've noticed shortness of breath for just an hour, while sitting <UNSURE>and</UNSURE> watching TV?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, you had your C-section a couple of weeks ago?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, yesterday you noticed a cough?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, talk to me about the cough. Have you bought anything up?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no, I haven't, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, when was the last time you were ill with the flu, or symptoms like this?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, you know, I get coughs and colds quite a lot, but probably."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Good few months ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, this shortness of breath you're having, is it getting worse?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No. I mean, I don't know. I feel like I'm getting really stressed out because, like, my heart, it's really going."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, you're feeling your heart more than normal?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, the shortness of breath, does it cause any pain in your chest?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "How about when you take a very deep breath in?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I mean, yeah. My chest feels sore, but so does my C-section scar. You know, it's, it's all tender."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, since your C-section, did you have to take any medications?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, no. Just some painkillers."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>All right.</UNSURE> And, can you remember what the name of those were?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, they gave me some, uh, Codeine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, have you had to use that regularly?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yeah. I, I've been taking that fairly, fairly regularly. But, probably haven't taken it for a week."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, apart from the C-section and the shortness of breath, have you got any other medical problems I should know about?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, you were <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/> tell you, I'm allergic to Ibuprofen, though."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, what happens when you take Ibuprofen?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I don't know. <UNSURE>Sorry.</UNSURE>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, I need you to do something for me. Have you measured the rate of your heart before?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Have you measured it recently, either with an iWatch or something similar?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, I haven't, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. We might need to do that over the phone. So, are you able to put your right hand on your left wrist, just underneath your thumb? And, see if <UNSURE>you can</UNSURE> feel your heartbeat."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, uh, what I need you to do is, when I count to three, count down from three, just <UNIN/> count the number of beats you've noticed. And, I'll tell you when to stop. Is that OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, we'll start in three, two, one. Go."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Great. That should be enough. How many did you count?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I counted thirty."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Good."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, your heart is running slightly fast at the moment, which is probably because of the shortness of breath and some of the pain that you're under."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Given that you've had a C-section, and you're short of breath, which has come on quite recently and quite quickly"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "It might be worth you going into the hospital to get checked out the bit further."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, there's two ways of us doing this. The first is, I can call an ambulance. Or, you can take yourself to the hospital with baby."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Which one would you prefer?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, it feels a bit dramatic to call an ambulance. Um, I, I will, I will go. I will, I will take myself."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Sure. And, what I would suggest is, go fairly quickly and take some bits for baby at the same time."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, if you're taking any medications like Codeine, don't, don't take them for the time being."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mm-hmm, OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Is anyone else with you at home?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no. My partner's at work."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, I think that's the best thing to do, for the time being."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, what I'm worried about at the moment is, given that you've had a C-section"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Some people can suffer with clots. And, those can either be found in the legs or your chest, so in your lungs."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "It's quite a common thing to happen. And, it's not something to worry about. But, needs to be checked out in the hospital first."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, if it, if that does become the case, they can give you something to reduce the clot."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "All right, OK. That makes <UNSURE>sense</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Fairly quick process."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK. Yeah. I mean, my mum's had, uh, clots in her legs before. So, I guess, you know."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/> Yeah, that makes sense. I know, I know what they are."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Good. Are you, uh, are you particularly worried about anything, or do you want to ask me anything, before we go?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, no. I'm fine. I'll, uh, I'll just take myself to the hospital."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Great. Thank you so much."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "All right. Thank you. Bye."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    }
+  ],
+  "events": null,
+  "notes": null
+}

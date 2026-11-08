@@ -1,0 +1,607 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:52Z",
+  "model": null,
+  "seed": null,
+  "id": "67532a60-691f-4fc3-b1b0-f5d76655de37",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "DOCTOR",
+      "text": "Hello. Hello, I'm Doctor Smith from Babylon."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hello."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hello, I'm <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi there. Can you confirm your full name, date of birth, and the first line of your address please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Okay."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "My, my name is <UNIN/> and <UNIN/> I'm twenty, twenty three years old."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Can you confirm your date of birth, and first line <UNIN/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/> nineteen ninety-six."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And your address?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>And my address</UNSURE> is, um, sixty <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yep."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And are you in a <UNIN/>, are you in a private place where you can have a consultation?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, definitely. Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. What can I do for you today?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/> yeah. Sorry, I, I, I can't hear you."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "What can I do for you today?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, <UNIN/> I'm having really bad tummy ache. Like, at the bottom. At the lower bottom of my belly."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK. And when did it start?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Few days ago, I was all well, <UNSURE>was being well</UNSURE>. Everything was O. K. <INAUDIBLE_SPEECH/> Kind of, really, getting worse big time."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And whereabouts in your, in your abdomen do you think it is? Can you <UNSURE>just </UNSURE> explain to me whereabouts it is?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah. It's like, lower. In my lower abdomen. Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And is it in the middle, or to one side?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>No<UNIN/>. It's, It's in the middle. Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, is it around your belly button, or above or below that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Below. <UNSURE>Mainly</UNSURE> below."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And is it there all the time, or does it come and go?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>It's there</UNSURE> all the time."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And what would you say it is on a scale of one to ten, with ten being the worst pain you've ever had?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "It may be a eight."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, and have you, are you having any other symptoms with it?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, like."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "As in, like. I have, like, vaginal sometime bleeding. But, it's like <UNIN/> light colour, and sometimes <UNIN/> I'm constipated. Like <INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> K. So when, when was your last period?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "My <UNIN/> um, last month <UNIN/>, two weeks ago. I'm sorry. About two weeks, two or three weeks ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And are you having sexual intercourse regularly?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes. <UNSURE>Yes, I do. Four weeks</UNSURE> ago. <INAUDIBLE_SPEECH/> four days ago, sorry. I just had"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Are you using any contraception?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, I am. I usually<UNSURE>come</UNSURE> last one year. And <INAUDIBLE_SPEECH/> it's called <UNSURE>implant</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, do you have your <UNIN/>, do you have your periods when you, since you've been using the <UNIN/>, Implanon? Do you have periods?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> regularly, or are they sporadic?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, I do."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Close, they, they are spreading</UNSURE> like, not the time. It changes. Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right. OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And was your last period normal?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, any problems with nausea or vomiting?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, I feel <UNIN/> like , I feel like vomiting, but I, I get nauseated, but I don't vomit."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right. And have you been eating and drinking OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah. Yeah, my regular activities <INAUDIBLE_SPEECH/> OK, yeah, but it's just very uncomfortable at times and <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, have you opened your bowels normally?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Have you opened your bowels normally?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, yeah, last week, last week I had problems, but this week it seems to be."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You've been to the toilet?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "What problems did you have last week?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Like, I was constipated for a week. Like, I was having problem."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And what about this week?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, that seems to be OK. <UNIN/> It's, it's fine now, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Are you going to the toilet every day? Um, is the stool normal, or diarrhea, or <UNIN/> hard stool?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "It's <UNIN/>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, <UNIN/> it's, it's."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/> now, yeah, not like <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and you said you'd had some vaginal bleeding?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, yes, I did."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Is that, is your period stopped?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah. My period stopped, like, last two weeks ago, but, and this is different, I can, I can see, because it's not really, like, dark, it's just light pink colour. So, I don't know what is it, I cannot say what exactly what it is but I <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Any abnormal discharge, other discharge, or just the slight bleeding?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Just very small, extra, like, a vaginal discharge, just."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Any difficulty breathing, or pain in your shoulders, or anything like that?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And have you had a high temperature? Have you got a thermometer?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, I don't. I, I should be OK <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Do you feel feverish?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And do you feel faint when you stand up?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "What have you been doing for the last few days? Have you been at work as normal, or, have to stay at home?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/> Yes, I have <UNIN/>. I'm doing, I work <INAUDIBLE_SPEECH/> regular other activities, like cooking and stuff, everything, but it seems OK when I get the pain. It's just very bad."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. But you said the pain's constant, there all the time? Or is it getting worse from time to time?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "It is getting <UNSURE>worse</UNSURE>. <INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, have you had any other um, medical problems in the past?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, I have allergy, I have amoxicillin <UNIN/>. Amoxicillin allergy."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Pardon?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Anything else? Have you had any operations?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Have you had any pregnancies?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Have you taken a pregnancy test this time? <UNIN/> when was that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, I did. Yeah. Yeah, <UNIN/> around like a month ago, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. But not since you've had the abdominal pain?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, any surgery in the past?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and what's your job day to day?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, I'm a teacher. School <UNSURE>teacher</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And who do you live with at home?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "My husband, and my husband's family."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And do you smoke or drink alcohol?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>I don't know</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You take any other drugs?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Have you been abroad recently?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Whereabouts to?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Out in the air."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Pardon?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "A year ago, not recently. No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and any problems passing water?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Any pain, or strong smell, or having to go more often than normal?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "So, I, I, I don't really, I have noticed that I don't really go up that high before, so, yeah, I do drink a lot though."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK. And any <UNIN/>, any <UNIN/> weight loss or blood in the stool, or urine?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes. I have <UNIN/>. As I said, I have some, I guess, discharge and pain. But, then I <UNIN/> there's isn't a lot of discharge."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>. OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Fine. Um, I think with the abdominal pain, as it's getting worse, and it's been going on for the last few days, um, it would be very helpful to be able to examine you properly."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Would you be happy to have an examination with a doctor?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, so what we can do, is we can arrange a face to face examination where they can um, see you in a clinic and do a abdominal examination, and advise further from there when we got more of an idea what's causing the problem."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, would you <UNIN/> be happy to call the support line and arrange that appointment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. That's fine. So we'll, we'll do that. In the meantime, if it gets a lot worse, um,"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "or you, you're not holding any fluids down, um, then we should see you before then."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, did you say your pregnancy test was a month ago?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, um, your Implanon was just put in a year ago?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "The other thing we would need to do is to, to do a pregnancy test today, if possible."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I will do it."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So if you can do that today, and if it's positive we need to see you straight away, so give us a call back."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK? Have you got any other questions?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK. So, if you call the support line and make an appointment, we'll go from there."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Thank you, thank you, thank you very."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Thanks. Bye."
+    }
+  ],
+  "events": null,
+  "notes": null
+}

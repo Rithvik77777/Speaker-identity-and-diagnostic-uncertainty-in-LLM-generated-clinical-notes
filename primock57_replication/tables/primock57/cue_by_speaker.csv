@@ -1,0 +1,17 @@
+family,cue,doctor_count,patient_count,doctor_per_1k,patient_per_1k,diff_per_1k,ci95_lo,ci95_hi,consultations_doctor_uses,consultations_patient_uses
+modal_aux,may,38,10,0.74,0.29,0.44,0.1,0.79,22,9
+modal_aux,might,71,21,1.38,0.62,0.76,0.28,1.25,38,12
+modal_aux,could,60,17,1.17,0.5,0.67,0.15,1.17,34,11
+adverb,possibly,3,1,0.06,0.03,0.03,-0.07,0.14,2,1
+adverb,probably,47,56,0.91,1.65,-0.74,-1.44,-0.09,29,25
+adverb,perhaps,7,2,0.14,0.06,0.08,-0.06,0.22,6,2
+adverb,maybe,40,92,0.78,2.71,-1.93,-2.72,-1.15,17,32
+adverb,likely_adv,9,0,0.18,0.0,0.18,0.06,0.32,7,0
+adverb,definitely,17,24,0.33,0.71,-0.38,-0.83,0.05,12,14
+adjective,possible,18,1,0.35,0.03,0.32,0.15,0.51,15,1
+adjective,probable,0,0,0.0,0.0,0.0,0.0,0.0,0,0
+commitment_verb,i_think,86,158,1.67,4.66,-2.98,-4.15,-1.84,38,42
+commitment_verb,i_wonder,4,1,0.08,0.03,0.05,-0.04,0.14,4,1
+commitment_verb,i_suspect,1,0,0.02,0.0,0.02,0.0,0.06,1,0
+commitment_verb,seems_sounds,21,2,0.41,0.06,0.35,0.17,0.54,18,2
+commitment_verb,not_sure,3,22,0.06,0.65,-0.59,-0.88,-0.33,3,17

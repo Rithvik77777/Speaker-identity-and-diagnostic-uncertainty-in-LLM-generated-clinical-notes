@@ -1,0 +1,591 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:52Z",
+  "model": null,
+  "seed": null,
+  "id": "d252b42e-533d-4277-a79d-da845d81067b",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "PATIENT",
+      "text": "Hello."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi there, it's Doctor Smith from Babylon. Can you confirm your name, date of birth and your address, please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, <UNIN/> date of birth twenty second of december, nineteen ninety. Uh, address, uh, <INAUDIBLE_SPEECH/> sixteen <UNIN/> avenue."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, that's fine. <UNIN/> Are you in a private place so you can have a consultation?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, sure."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "What can I do for you today?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "So, um, recently I'm wheezy. Uh, I have feel like kind of short of breath."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and how long has that been going on for?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mmm, two, three days. Yeah, quite recently."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And have you ever had similar symptoms in the past?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I think so. It was a while before, yeah, but I can't remember."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "As, was that as an adult or as a child?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Sorry? Oh, as a <UNIN/>, as a adult, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "How long ago was that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Sorry?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "How long ago was that, that you had similar symptoms?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I can't remember, sorry."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And any problems with wheezing when you were a child or any asthma?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yes, I had asthma. I also had, uh, <UNIN/> hay fever and <UNIN/> <UNSURE>eczema</UNSURE> <UNIN/>, sorry."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and <UNIN/> when you were a child how bad was your asthma?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, it's quite bad."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Did you have to take medication?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, I take the asthma inhaler."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Do you know which ones you took?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, I can't remember."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And did you ever have to go to hospital with it?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, sometimes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Did you ever get severely unwell, have to be on intensive care unit or anything like that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, not that bad but still, sometimes, need to go to hospital to check if it goes well."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Did you have to miss school?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, occasionally."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And when do you think it last, when do you think that asthma stopped? At what age did you get to a point where you weren't taking medication anymore?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mmm."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Few years ago, like, three or four years ago I think? Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And so this time, how did it start? Did you have any other symptoms? Any chest pain, temperature, cold symptoms, anything like that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, so I have, I have cough and cough a lot, and I have a fever. Um, I also used to walk to work but recently I can't because it's, I, I feel like very short of breath and sometimes I feel like I can't even finish <UNIN/> sentence is quite difficult to, to complete the, the the talking sometimes, yeah. Occasionally."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right. Have you coughed any phlegm up or anything like that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Any, any, um, blood in there when you cough?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, I don't think so."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And any chest pain?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No chest pain, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Have you been woken up at night time at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, just daytime working, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Have you been able to do any exercise?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, I can't."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and do you have a peak flow meter at home, where you measure your breathing?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Sorry?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You have what's called a peak flow meter, which you breathe into to get a score on your breathing?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And do you normally take any asthma inhalers over the last few years?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You do? So you said you stopped them three to four years ago?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Ohh, um, when I had asthma I used to take this inhaler, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. How about over the last three to four years?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Have you taken any medication?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I took salbutamol? Salbutamol? Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, so you, you normally take that do you? Or is that just recently?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Normally, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and how often do you normally need it?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Every, every few weeks? I'm not sure."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. What about when you exercise normally, do you have to use medication? Uh, inhalers?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/> Yeah, yeah, a bit."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Pardon?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, um, and do you take any other medications?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, nothing else."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Any other medical problems?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I have, uh, hay fever as well."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, do you take anything for that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And any allergies to medications?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, no allergies."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Do you smoke?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, I don't smoke."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Do you drink any alcohol regularly?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, one glass."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "How often? Have a glass of what?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Today, yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, one glass of wine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Every, how often did you say?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Every two or three days? Depends, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And who do you live with at home?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Who do you live with at home?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Who do you live with, do you live on your own, or do you live with"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I live with my partner."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and what's your job, day-to-day?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I'm engineer."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And have you been at work in the last few days?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No I can't because I used to walk <INAUDIBLE_SPEECH/> walk to work, but recently I, I work from home or sometimes I take sick leave, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and when, at the moment, are you, um, feeling short of breath when you're sitting still? Or just when you walk?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Just walk or sometimes, but currently I feel, I feel well."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Are you able to get <UNIN/> up and down the stairs OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK. Um, and did you say you were finding it hard to complete your sentences?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, sometimes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, <INAUDIBLE_SPEECH/>, days, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK. Um, I mean, it sounds like you've had a flare up of your asthma. It could be, um, triggered by, if there's more pollen around, or there may be, you may have a viral infection, causing it to get worse."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Did you say you checked your temperature already?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, I checked, I have fever <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Was it normal?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> What was your temperature?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, thirty seven, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, that's fine. Um, have you got an asthma inhaler at home?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So what I would suggest is you take it more regularly than you are doing at the moment. Have you got, um, a spacer at home?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, do you want to show me how to do it or somehow?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, do you have a spacer at home?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, what I can do is, I can prescribe you a peak flow meter so we can check your breathing level and a spacer to use your inhaler a bit more efficiently, which the pharmacist can show you how you use that when you pick it up."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, sure."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and if you increase it so you're taking it two to four puffs, like, every four hours?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Initially, um, if you get a high temperature or your wheezing is getting worse, you need to call us back straightaway so we can just advise you further with that."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And it will be a good idea when you're feeling better if we can arrange just a review, just to see how your asthma is, because we may need to start some other medication for you."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK, sounds good, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You could arrange a review in a week or so, um, but, but before that and if you're, if you're feeling worse."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "In a week, right? OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and the other thing to do would be to take a regular antihistamine."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Which you can get from the pharmacy, I can put a <UNIN/> on your notes about what to take."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, they'll be helpful."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And then if you, when you get the peak flow meter, if you can take, the pharmacist can show you how to use it, and if you can record a value first thing when you wake up."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And in the evening over the next week, and then we can discuss that over the phone when we look at the figures and see whether you need to go on another inhaler as well."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Oh, awesome, thank you."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Have you got any questions?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, no, that's fine, yeah, thank you very much."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Thanks a lot, bye."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    }
+  ],
+  "events": null,
+  "notes": null
+}

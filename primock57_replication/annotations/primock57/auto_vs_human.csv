@@ -1,0 +1,4 @@
+field,n,raw_agreement_auto_vs_human,cohen_kappa
+target_status,796,0.9962,0.0
+output_certainty,796,0.9899,0.9607
+attribution,796,0.9925,0.9842

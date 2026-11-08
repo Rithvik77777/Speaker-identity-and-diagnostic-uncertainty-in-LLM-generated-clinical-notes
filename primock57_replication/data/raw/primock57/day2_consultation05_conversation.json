@@ -1,0 +1,579 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:51Z",
+  "model": null,
+  "seed": null,
+  "id": "c1a02680-bccd-4c2a-9850-15dd727260b7",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi there. Good morning. I'm Doctor <INAUDIBLE_SPEECH/> <UNSURE>from GP at Hand</UNSURE>. Nice to see you."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Hi</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, um, before we start your appointment. Could I confirm your full name and date of birth please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Yeah</UNSURE>, it's John Smith, and I am thirty two years old."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Sorry, I didn't catch your date of birth."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I'm thirty two years old."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Thirty two years old, OK. Could you tell me the first line of your address, and <UNSURE>your</UNSURE> postcode please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "It's four Park Avenue, and it's AB one CB two."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "That's great, thank you so much for that. Are you in a private place where you're OK to speak at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So how can I help you today? You've been having some problems with your asthma. Is that right?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Sorry, say that <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "How can I help you today?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "So, um, I've been experiencing very weird symptoms, over the past month or so."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And I <UNSURE>don't know</UNSURE> what's causing them. I have googled it and, um, nothing's coming up, so I thought I'd come and speak to you about it."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, tell me a bit more about these weird symptoms you've been having."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "So, it started with, feeling very tired, but for a couple of days, and then I get back to normal."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And then I started losing feeling, in my hands and arms. I get a weird sensation like, uh, I guess, pins and needles."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Right</UNSURE> <INAUDIBLE_SPEECH/> again, the connection's not so great. You've been getting pins and needles in the hand. Is that right?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, that's correct."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Is that the right or left hand?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "My right hand."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Is it always the right?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Um, we've lost video now, maybe is there a, a, a button you can press?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Are you happy for us to carry on without the video? I can't see you at the moment."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, that's fine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "All right. Um, so, you've been having these pins and needles, <UNSURE>and</UNSURE> episodes of numbness, in the right hand. Is it just the hand, or does it go up the arm as well?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, the pins and needles are in the hand, but I feel like my arm is getting weaker, but it only lasts few days and then goes back to normal. So, it's very weird."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK. Um, is <UNSURE>there</UNSURE> any involvement of your leg at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, my, colleague said, I'm walking slightly differently to normal."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And again, it's only for three days, or three or four days."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. You, you said you've been having weird symptoms for about a month."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/>, so, what has been happening from the beginning of the month? What else has been <UNSURE>happening</UNSURE>?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I generally feel tired, and weak."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And, sometimes I feel nauseous, and I don't feel like I want to do anything."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and, um."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You know, <UNIN/>, your colleague said you've, you've not been walking normally."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Do you feel anything different, on either side, in terms of your legs? Can <UNIN/>, have you noticed anything different?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Yeah</UNSURE>, so, at the same time I get my arm symptoms, my leg feels weaker."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You know you, the abnormal gait. Has that been present, outside of these episodes?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, it has not. So normally, I'm, fit and well actually."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "All right, OK. Um, and, these, these episodes. How often have they been happening?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "They have been getting more regular. So at the start, it would be maybe once a week, uh, to every once <UNIN/>, once a month, but now it's getting uh, uh, a couple of times a day."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK. And, how long have these episodes been going on for? When, when did it all start? Was it a month ago?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>, probably a month and a half, maybe two months."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, along with these symptoms, of the weakness and numbness. Do you have any other symptoms at the same time? Like swallowing, or difficulty speaking, or vision problems?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "So, recently I've noticed, I can't hold my cup of coffee."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And when I, do drink coffee, it's slightly harder to drink."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And that's only been in the last couple of days, I guess."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right. Is that during these episodes, or outside of these episodes?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Only during the episodes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Do you have any difficulty swallowing at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Not currently, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/>. During the episodes, do you have any difficulty swallowing?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I, I, I feel like there's something in my throat."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. What about, <UNIN/> um, difficulty speaking during these episodes? Any, any issues with that at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, I can speak fine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And any visual problems during these episodes?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>I</UNSURE>, I don't think so, but I wear glasses."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, all right. Now um, can I just ask? <UNIN/>, has, uh, is there any history of stroke, or mini-strokes in your family?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yes. My, father has had a, operation to the side of his neck, to reduce the risk of stroke."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and, uh, how about yourself? Have you had any history of, mini-strokes or anything like that, along those lines? I know you're quite young."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, so after my, dad had his operation, I was required to be checked, and my cholesterol <UNIN/>, was fine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Good, excellent. So you had a, a blood test done. And did they check for diabetes as well?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "They checked my diabetes, my blood pressure and my, cholesterol, and the doctor said it was all OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Fantastic, OK. Now, do you have any other illnesses at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No. Are you on any medication?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I take an aspirin, seventy five milligrams, once a day, but that's, because of something I read on the internet."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, so, why is that? Why do you take that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I think it's, meant to reduce your risk of stroke and heart attack."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Do, have you ever told a doctor before, your GP, that you're on Aspirin?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes I took, I started to <UNIN/>, taking it after my, father had his operation, but that wasn't the doctor telling me."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Uh, and, has any GP ever spoken to you about, the risks of Aspirin, and whether you should be on it? Or have you not <UNIN/>, told the <UNIN/>, the GP in the past?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, I haven't."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You haven't, OK. Um, all right. Um. Now, um, in terms of your uh, your kind of social situation. Um, are you working at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, I am."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/>, what do you work as?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I'm, uh, I'm actually a doctor."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You're a <UNIN/>, a, a medical doctor?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Uh, which, <UNSURE>specialty</UNSURE> are you in?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I work in, <UNSURE>uh</UNSURE>, plastic surgery."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Plastic surgery, OK, great. And, um, do you, have any, um, allergies to any medication at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I'm allergic to penicillin only."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, um, are you, um, living alone?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, I live with my wife."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK. Um, fantastic. Uh <UNIN/>, do you smoke at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, I don't."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK. Um, that's fine. Now, obviously you're a, you're a medic yourself. Did you have any thoughts as to what might be going on?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I've <UNSURE>actually</UNSURE>, got no idea."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK. Um, well the, the way you're describing these episodes. They make me concerned about, mini-strokes or TIAs, <UNIN/>, transient ischemic attacks. Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>OK</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And so, that's something quite urgent. And given that you've got a family history of um, stroke."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, even though you're quite young, I think um, it's something that we need to exclude. So, what I'm probably going to do, uh, in fact what I am going to do, is I'm going to, refer you to a stroke, a TIA clinic."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, now just to double-check. Do you have the symptoms right now?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, I'm perfectly fine at the moment."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, so, what I'm gonna do, is I'm uh, I'm gonna refer you to a, a mini-stroke clinic, or a TIA clinic."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, I send that referral off now, and then you can attend them, they, they'll usually, call you in within the next one to two days, OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Because it's something relatively urgent. Now, today it's Wednesday, so we've got a few days <UNIN/>, before the weekend. So, um, uh, basically the deadline should be, Thursday, Friday."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "We're expecting you to be seen by the time, that's the kind of turnaround we're, we're looking at."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And in that clinic, they'll be doing a number of things. Um, they'll be checking, they'll be doing <UNSURE>a</UNSURE> ultrasound of the, carotid arteries, like your, your father had. Um, and, they'll be doing a, maybe a, they might do a scan of your brain as well, to check if there's <UNSURE>any</UNSURE> signs of a bleed there."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "But, um, they'll be doing a range of tests in a short time frame, in order to exclude whether, you have um, any illness. OK, whether you <UNSURE>have</UNSURE> got any kind of stroke or, mini-stroke."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Sure."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Now, if your symptoms return and they persist, <UNSURE>they're prolonged</UNSURE>. Then um, you may need to attend A and E."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, because um, our presumptive, working diagnosis <UNSURE>is</UNSURE>, mini-stroke or TIA, OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And if, a mini-stroke is prolonged then uh, then we end up thinking that this might be a stroke and in that case, that becomes even more of an emergency. So, we're not talking about waiting one or two days, we want you to go to hospital in that instance, as soon as possible, OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Sure."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Now if <UNIN/>, things happen again, feel free to contact us, we can assess you over the phone, we can give you direction and guidance over the phone. That's, that's, that's not a problem, you know, you, you've got easy access to us."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So, um, this is the plan going forward. Um, I'm going to, um, do that referral."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You should hear back from the hospital, relatively soon."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "The hospital, you can actually ring them, on um, uh, the <UNSURE>PALS</UNSURE> number, and then there's also the TIA clinic number."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "I'm going to leave that number in the notes for this consultation, OK. So you'll have all the information you need, to chase this appointment."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And um, if you want, you can ring them, either today or tomorrow morning."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/>, today in the afternoon, wait uh, one or two hours. Or tomorrow morning just to find out when they <UNSURE>got</UNSURE> time to slot you in. And, just to make sure they've got you in the system, that they've got in the books, and they're going to be calling you in, OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>, this isn't, <UNSURE>a</UNSURE>, an immediate emergency that you need to rush down to A and E. But it's something quite urgent we need to, deal with in a short space of time, OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So if there's, if there's any delay that, transpires for example, you can't make the appointment or, you know, they, you don't get called. <INAUDIBLE_SPEECH/>, you, you get, get in contact back, back with us, OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "All right. Did you have any questions at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, I think that covers, most of it."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, great. So just bear with me a few minutes, and then I'll send that uh, all through and then you should, um, you should be able to <UNSURE>help</UNSURE>, you should have the information at your hands to, in order to take things further, OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>, thank you."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "All the best. Take care now. Bye bye."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    }
+  ],
+  "events": null,
+  "notes": null
+}

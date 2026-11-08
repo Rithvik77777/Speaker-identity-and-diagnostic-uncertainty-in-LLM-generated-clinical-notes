@@ -1,0 +1,459 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:51Z",
+  "model": null,
+  "seed": null,
+  "id": "ae092a67-41ab-4b78-8bbd-746d7057773f",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "PATIENT",
+      "text": "Hello?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi there. Good morning!"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hi. <INAUDIBLE_SPEECH/>. Nice to meet you. Hello."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hello. I, I'm Doctor <INAUDIBLE_SPEECH/>. Nice to see you."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi. Um, so, before we start your appointment, could I confirm your full name and date of birth, if that's OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yeah. Uh, Mary Richards. Uh, and my, I'm forty years old. So."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You're <INAUDIBLE_SPEECH/> OK, fine. So, you're <UNIN/> you're forty years old, you said, yeah?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Perfect, OK. Um, are you in a private place where you're OK to speak at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, great. Um, so how can I help you today?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, so, just been having some, um, problems with my hearing, I can't really hear very well, and <UNSURE>my</UNSURE> , noticed that my face has been feeling a bit numb recently."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK. OK. And how long has this been going on for?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, it's been, it's been a few weeks now. Um, been about three weeks or something."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK. And, is this just on one side, or both sides?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Just one side, just on my left side, I've noticed that the hearing's kind of gone down a bit."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK. And <UNIN/> your face feeling numb, where exactly is that? Which part of your face? Can you, can you show me with your finger?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, so again it's the left side, it's kind of like around my left ear, and kind of, along here. So like, my jawline's just all feeling a bit numb round here."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK. OK. Um, has anything else happened, um, in this time? Any other symptoms you have at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Not that I, <UNSURE>not that</UNSURE> I've noticed, <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I think, occasionally noticed <UNSURE>a</UNSURE>, ringing in my ear. Um."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Some, some ringing in your ear. OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>, <UNSURE>yeah it's</UNSURE> <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Sure, OK. Um, and um, have you had any weakness or numbness, down the, in the rest of the body at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, no, no, no, nothing like that."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Have you had any difficulty swallowing?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, have you had any difficulty speaking?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Have you noticed any problems with your vision, at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, that's all good."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Uh, and do you have the numbness present right now?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yeah. It kind of, kind of, there quite often, <UNSURE>so, all the</UNSURE> time. So yeah, right now it feels very, doesn't feel like when I touch <UNSURE>this</UNSURE> side of my <UNSURE>face</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Sure. Sure, OK. Alright, um, just going back to the kind of <INAUDIBLE_SPEECH/> feeling in, in the ear, um, do you have any discharge coming from that ear at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, nothing, nothing coming out."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "K. Any pain in the ear, or from the ear?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no, <UNSURE>don't think</UNSURE> so."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK. And um, have you had any fever at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, nothing like that."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, do you, um, have any itchiness in the ear?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Do you use cotton <UNIN/> buds to kind of clean your ears out?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Pardon? Ohh, no, no, no, don't use cottons buds, <UNIN/> like that."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No. Alright. OK. Alright. Um, <UNIN/> need to, need to ask a few other general questions. Um, do you have any other illnesses at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I've, well I've got kind of, been told I have polyps in my nose in the past and, occasionally get them kind of <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, that, that's all fine and, you know I take a <UNSURE>Rennie's</UNSURE> if I need to, and if my nose polyps are playing up I've got a spray. Um."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Other than that I think they said, ages ago, I had something called, can't quite remember but, labyrinthitis, something like that, but again, nothing, nothing <UNSURE>ongoing</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Sure. Sure, OK. So, are you on any regular medication? You mentioned the spray for your nose."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, so, no, uh, I only take the, spray for my nose when I need it for, and um, sometimes take <UNIN/> like Rennies, but I just get that from the chemist."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Sure. <UNIN/> and, and the spray for your nose, where do you get that from? Is that from a doctor?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, they gave me a prescription ages ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah. Do you remember the name of the spray, at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Unfortunately I don't, sorry."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/> that's alright. That's alright. Uh, and you're not on any other medication at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No, OK. Do you have any <UNIN/>, any allergies to any medication?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no just <UNSURE>Latex</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Latex, OK. Alright, that's good to know. Um, and um, in terms of your family, are there any kind of illnesses within your family at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "My brother had, Neurofibromatosis, I think it is. Um, other than that everyone else is OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right, OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, good. That's good. Um, and in, in terms of your own kind of background now, are you, are you working at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, so I'm a, I'm a jockey, um, but, because of all the kind of, these symptoms I've been getting, especially sometimes when I get a ringing, I can feel a bit dizzy. <UNSURE>Ohh</UNSURE>, I've just had to do far less training."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "So, kind of beginning to, yeah, impacting work, um, a little bit now."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. So you have to excuse my ignorance, you mean, jockey like with horses? Is that what you're talking about? Yeah. Alright, OK. Fine. Um, great. Um, uh, and, uh, do you live alone?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I, uh, live with my partner."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Uh, OK. Right, um, do you have any pets at all at home?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, no pets."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, fine. OK so, alright. Um, Is there anything else that you wanted to tell me about what's been <UNIN/> going on, recently?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no, just like, like I said, like the ringing um, occasionally and, when I get that I can sometimes feel a bit dizzy but, the main thing is really the, lack of hearing, and the numbness that's got me <UNIN/> like,  yeah, no idea what's going on there."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, fine. Alright. Um,"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, <INAUDIBLE_SPEECH/>, what I think <UNIN/>, go on."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I <UNSURE>mean</UNSURE>, there was just like, there was one thing I think <UNSURE>just</UNSURE>, 'cause I can panic and you can look online, <INAUDIBLE_SPEECH/> get a bit, frantic."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>, I guess what I'm trying to think is, you know, is there something particularly serious <UNSURE>that</UNSURE>, you know, will need to be sorted and."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Obviously, really, anything can just make you really frantic <INAUDIBLE_SPEECH/>. Hopefully nothing <UNIN/>, so serious I will die from it, I don't know I just, I think <UNSURE>got myself</UNSURE> in a pickle."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. <UNIN/> so um, uh, obviously we're limited in terms of assessment via the video, uh, portal."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mmm."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> um, from what you've told me, this doesn't seem to be you know, anything um, that you're gonna die from. However, I would like you to be assessed in a clinic today."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK? I <UNIN/>,would like you to come to one of my clinics. I would like a GP to assess you. <INAUDIBLE_SPEECH/> what you're, what you're describing might be something called Bell's Palsy. OK? Um,"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>OK</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "We can go into that, explaining what that is, if um, if that's confirmed on, on physical examination. But um, that's not usually a <UNIN/> life-threatening problem."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "But, um, part of the reason why I'd like you to come in, it's just that we can do a, a what we call a, a neurological examination just to make sure there's nothing else going on, and confirm <UNIN/> that might be the diagnosis. Have a look, have a look inside the ear, see if there's any, <UNIN/>, anything to see within the ear."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<INAUDIBLE_SPEECH/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "So, um, um, so, in answer to your question. No, I don't think that you need to worry about that, I <UNIN/>,  think you know <UNIN/>, preliminarily I can, I can reassure you."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>OK</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "However, <INAUDIBLE_SPEECH/>, in order to definitively reassure you, I, I think you need a physical examination today, OK. <INAUDIBLE_SPEECH/>, so what I wanna do, is I'm gonna send a message to our admin team, I'll ask them, to book you in for a face-to-face appointment in one of our clinics."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, <UNSURE>that's</UNSURE> fine."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, within Central London. OK, and then you can ring the <UNIN/>, the support team number, I'll leave that number in your notes. And you can ring them after five minutes, and then they'll slot you in to a place that's convenient for you, OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>, that's fine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "All right. So, someone <INAUDIBLE_SPEECH/> will see you, and hopefully you will be able to reassure further but, please make sure the appointment gets done today."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK, yep, <UNSURE>I</UNSURE> will do, that's fine. Thank you very much."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "All right then. OK. Nice to see you. Take <UNSURE>care</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Bye bye."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Bye."
+    }
+  ],
+  "events": null,
+  "notes": null
+}

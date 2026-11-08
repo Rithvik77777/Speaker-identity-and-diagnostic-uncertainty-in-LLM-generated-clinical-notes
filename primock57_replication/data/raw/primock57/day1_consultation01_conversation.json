@@ -1,0 +1,451 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:51Z",
+  "model": null,
+  "seed": null,
+  "id": "92ae93cb-bd4c-420d-a0b6-8b35e3904a64",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "DOCTOR",
+      "text": "Hello? Hi. Um, should we start? Yeah, okay. <UNSURE>Hello how</UNSURE> um. Good morning sir, how can I help you this morning?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hello, how are you?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Oh</UNSURE> <UNSURE>hey</UNSURE>, um, I've just had some diarrhea for the last three days, um, and it's been affecting me I need to stay close to the toilet. And, um, yeah, it's been affecting my day-to-day activities."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> Sorry to hear that. Um, and and when you say diarrhea, what'd you mean by diarrhea? Do you mean you're going to the toilet more often? Or are your stools more loose?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, so it's like loose and watery stool, going to the toilet quite often, uh and like some pain in my, like, lower stomach?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Okay. And how many times a day are you going, let's say, in the last couple of days?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Um</UNSURE>, probably like six or seven times a day? Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Six, seven times a day. And you <UNIN/> mention it's mainly watery. Have you noticed any other things, like blood in your stools?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, no blood, yeah, just watery and loose stool."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Okay. And you mentioned you've had some pain in your tummy as well. <UNIN/> Whereabouts is the pain, exactly?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "So <UNIN/> in my lower abdomen, so, uh, like, um...yeah, just to one side."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "One side. <UNSURE>And</UNSURE> what side is that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, on the left side."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Left side. Okay, and can you describe the pain to me?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, it feels, um, like a cramp, like a muscular cramp, and, um, yeah i feel a bit uh weak and shaky."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Okay. And is the pain, is that, is it there all the time, or does it come and go?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, it comes and goes."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Come</UNSURE> and go. Does the pain move anywhere else, for example towards your back?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh...no, just maybe my stomach."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Okay, fine. And you mentioned you've been feeling quite weak and shaky as well. What do you mean by shaky? Do you mean you've been having, uh have you been feeling feverish, for example?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Yeah</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, yeah, it doesn't feel like -- yeah, it just <UNSURE>makes</UNSURE> me feel weak. I haven't had a fever, um, at the moment, but I did notice um a temperature when the symptoms started, so, um, yeah around about three or four days ago."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>You</UNSURE> measure your temperature then?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, I <UNSURE>uh</UNSURE> I didn't mention my temperature, no, but I felt, um, just a bit hot. <UNSURE>And</UNSURE>, <UNSURE>y'know</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Okay. Okay. Any other symptoms like sweating, or um, night <UNSURE>sweats</UNSURE>? No? And, uh, any vomiting at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, so um, I vomited at the start of the symptoms but now um I've stopped vomiting."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>You</UNSURE> stopped vomiting, okay. And was your vomit, I know it's not <UNSURE>a nice thing</UNSURE> to talk about, but was it just normal food colour <UNIN/> Yeah. And there was no blood in your vomit, is that right?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah, just normal vomit, yeah. No no <UNSURE>blood</UNSURE>, no. Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No, okay. Um, and um, any any other symptoms at all? So you mentioned tummy pain, you mentioned diarrhea, you mentioned your vomiting, uh, anything else that comes to mind?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yep. Um, I had a loss of appetite, um, so I haven't been eating as much, but I've been able to hold down fluids."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> Okay."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Okay, so you're drinking fluids. Um, what kind of foods have you managed to eat, <UNSURE>if</UNSURE> anything?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, just soups, and, uh, yeah, light foods. Like smoothies and, yeah, liquid foods mainly."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Okay. Fine. Um, and sir <UNIN/> <UNSURE>these</UNSURE> started three days ago the symptoms. <UNSURE>Are you</UNSURE> aware of any triggers which may have caused the <UNSURE>symptoms</UNSURE> uh to kick on. So <UNSURE>for</UNSURE> example, <UNSURE>think like</UNSURE> takeaway foods or eating out or <UNSURE>being</UNSURE> around other people <UNSURE>with</UNSURE> similar symptoms."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, so I had takeaway about four days ago, um, <UNSURE>uh</UNSURE>, but other than that I've, yeah, been, uh, eating normally. Nothing unusual here."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Okay</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Do you remember <UNSURE>where</UNSURE> you ate?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, yeah, I <UNIN/> ate at a Chinese restaurant with friends. Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Okay. Anyone else unwell with similar <UNSURE>symptoms</UNSURE>?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, so no one else in the family, so <UNIN/> a wife and two kids and one, um, child was vomiting, but they haven't got diarrhea. There's no one with the same symptoms."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Okay, okay. Fine. Um, alright. And uh, in terms of your <UNIN/>, your overall health, are you normally <UNSURE>fit and</UNSURE> well? Or, uh"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, yeah, I mean, other than um athsma, um I use an inhaler, everything uh else is fine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Okay. And, is your asthma well-controlled?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, that's fine. I just, yeah, use an inhaler, and uh that's under control."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Fine. And you don't have any other tummy problem, bowel problems I should be aware of?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "No, okay. Um, and <UNIN/> apart from the inhalers, do you take any other medications?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no, no other medications."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Okay</UNSURE>, fine. And in terms of just your day to day life, you said it's been affecting your life, um, in what way has it been affecting your life?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, so, I need to stay close to the toilet 'cause I go quite frequently during the these past three days. Um, yeah, other than that, it's uh, yeah, the main concern."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Okay."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And have you, are you currently working at the moment? <UNIN/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, <UNSURE>yes</UNSURE>, yeah. I I work, er. Um, I'm an accountant."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Would, would</UNSURE> work."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Okay. Have you been going into work the last three days, or <UNSURE>have you</UNSURE> been at home?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, yeah, I've been going to work. Yeah. Yeah, it's been quite difficult."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> <UNSURE>okay</UNSURE>. That must be difficult for you then."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> <UNSURE>fine</UNSURE>. And you said, you mentioned you live with your wife and two children, is that right?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yes, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Right</UNSURE>, alright. Um, just <UNSURE>a</UNSURE> couple of other question we need to ask, <UNSURE>sir</UNSURE>. Um, do you smoke at all?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no, I don't smoke."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And do you drink much in the way of alcohol?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no, I I don't drink alcohol, no. <UNIN/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Okay. <UNIN/> so um, er normally at this stage I like to um, examine you if that's okay, but um, um, but but having listened to your story, sir, I think uh, um, just to recap <UNIN/> for the last three days you've been having loose stool, diarrhea, a bit of tummy pain uh mainly on the left-hand side, um and <UNIN/> vomiting and <UNSURE>fever and</UNSURE> you're quite weak and lethargic um, you mentioned you had this Chinese takeaway as <UNSURE>little as</UNSURE> three days ago and I wondered whether that might be the cause of your problems."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Okay."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, it seems like you may have something, uh, called gastroenteritis, which essentially just a tummy bug or infection of your <UNSURE>uh</UNSURE> of your tummy."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Uh, mainly caused by viruses but there can be a possibility of bacteria uh causing <UNSURE>its</UNSURE> symptoms. Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "At this stage, uh, what, what we'd recommend is just what we <UNSURE>say</UNSURE> conservative management. So, um, I don't think you need anything like antibiotics. It's really just, um, making sure you're well hydrated, so drinking fluids."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, <UNIN/> there are things like Dioralyte you can get from the pharmacy, which uh it's um it helps helps replenish your minerals and vitamins."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Okay."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and if you are having vomiting diarrhea I <UNSURE>would say</UNSURE> recommend <UNSURE>that</UNSURE> in the first, you know, first couple of days."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> If you are feeling feverish and weak, <UNSURE>eh</UNSURE> taking some paracetamol, uh, <UNIN/> two tablets up to four times a day for the first few days can also help."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Yep</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "I <UNSURE>will</UNSURE> certainly advise you to take some time <UNSURE>off</UNSURE> work, <UNSURE>actually</UNSURE> I know you're quite keen to work but I would say the next two, two to three days as <UNSURE>the infection</UNSURE> clears from your system to take some time off and rest."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Okay."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, <UNSURE>I'll admit</UNSURE> if your symptoms haven't got better, you know, in in three to four days, <UNSURE>I'd</UNSURE> like to come and see you again. <UNIN/>"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Okay, <UNSURE>sure</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Because if it is ongoing then we have to wonder whether something else <UNSURE>caused</UNSURE> your symptoms."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yep."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Uh</UNSURE>, and we may need to do further <UNSURE>tests</UNSURE> like um taking a sample of your stool so we can test that."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, etcetera etcetera."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yep, sure, yep."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "How's that sound?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "That sounds great, yeah. Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> Do you have any questions for me?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, no, no further questions, <UNSURE>no</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Okay, and is uh is the treatment plan clear?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, <UNSURE>yes</UNSURE>, yeah, that's that's very clear. Thank you."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Great. Well, I wish you all the best."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Okay, thank you. Bye."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/> Thank you. <UNSURE>Bye bye</UNSURE>."
+    }
+  ],
+  "events": null,
+  "notes": null
+}

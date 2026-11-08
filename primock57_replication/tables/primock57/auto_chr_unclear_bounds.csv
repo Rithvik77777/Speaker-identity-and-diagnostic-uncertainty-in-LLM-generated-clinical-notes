@@ -1,0 +1,7 @@
+model,prompt,CHR_lower,CHR_upper
+granite4_micro,P0,0.0167,0.0167
+granite4_micro,P1,0.0,0.0
+phi4_mini,P0,0.075,0.075
+phi4_mini,P1,0.0083,0.0083
+qwen3_4b,P0,0.0083,0.0083
+qwen3_4b,P1,0.0,0.0

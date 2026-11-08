@@ -1,0 +1,511 @@
+{
+  "version": "0.0.2+b7c0458e63faab58bab172e6f7831d94465d87c3",
+  "timestamp": "2025-07-03T13:34:52Z",
+  "model": null,
+  "seed": null,
+  "id": "aa748750-a1a6-473a-9f13-7b631287f110",
+  "parentId": null,
+  "complete": null,
+  "personas": null,
+  "scenario": null,
+  "turns": [
+    {
+      "speaker": "PATIENT",
+      "text": "Hello."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Ohh hello. Hi, how you doing? Uh, my name's Joe. I'm one of the doctors here at Babylon. Can I just confirm your name please?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Hi."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yes. <UNSURE>Brian</UNSURE> <UNIN/>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, sure. <UNSURE>My name's</UNSURE> Daniel <UNIN/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hi Daniel. And your date of birth? <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah. May <UNIN/>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Nineteen ninety two."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Ninety two. OK, Daniel. And uh, are you in a, a comfortable and confidential place to talk?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah. Totally."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNIN/>, happy to go ahead. Great. How can I help?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, yeah, I just, my chest has been feeling really tight."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And how long has this been going on for Daniel?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, for about."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Three hours now."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And, so, tight chest, three hours. Um, and, so you're born in ninety two, so that makes you twenty six?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and, you are, uh. Any shortness of breath at all, with that?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Twenty six, yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, like a little bit, um. Yeah, a little bit short of breath, not too bad."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Uh, any cough? Wheeze?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, I'm feeling a bit wheezy, as well. <UNSURE>Kind of</UNSURE> cough <UNIN/>, coughing, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Slight cough, yeah. <UNIN/>, sore throat? Runny nose? Sore ears?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Yeah</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "You know I had a cold last week, and, it's not as bad as it was, but yeah, I had a sore throat, I had a runny nose. Uh, just feeling under the weather."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Mm-hmm</UNSURE>. Are you feeling better now, other than the tight chest?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I mean I feel worse, but the runny nose isn't as bad any more. <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right. OK, OK, but you now, now you've got this, this um. So you've still got, still got uh, symptoms of a cold, essentially?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, but the cough's kind of stuck around."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Uh, ooh, yeah, OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And are you coughing up anything?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, um, do you have any other medical problems, like asthma?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah, I have asthma, I've had it for a while now, um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And then I have like, a hayfever, you know, and some allergies <UNSURE>just</UNSURE> to dust, <UNSURE>stuff like that</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>, OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "You have any, inhalers? Or any, any medications?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, yeah, so, uh, you know the um, uh, Ventolin. It's called uh, Salbutamol."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I got that one, and then I have a steroid, a Clenil, Clenil inhaler."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Clenil</UNSURE>, Clenil Modulite, yeah, OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Yeah</UNSURE>, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And um, uh, have you been using Clenil and the Ventolin? And how often have you been using them?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, well to be honest, I was away at uni last week, and I forgot to bring it with me, so I haven't really in the past week. <UNSURE>Uh</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Both <UNSURE>of them</UNSURE>?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Because <UNIN/>, because um, sorry, they ran out and I, I forgot to, go and grab the next one."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah, sure."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "About a week ago. Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. All right, all right. So, so, so you've, you haven't got any Clenil, or any Ventolin at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Not with me right now, no, I ran out."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. All right. Um, and <UNIN/>, any drug allergies, that you know of?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, no, not allergic to anything. Just like, just the, dust and stuff, but nothing, no drugs."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, great. Now, uh, do you, anyone in your family have any medical problems, that you know of?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, yeah, my mum has eczema, and my dad has asthma. <UNIN/>, ohh, when I was young, I also had eczema."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "And I had a milk protein allergy, when I was young too."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Hmm. OK. Um."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Right. So, just uh, <UNIN/>, do you have any other, sort of concerns? Or ideas about what might be going on? Or, um, hopes for this consultation?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Not really, like I feel like asthma's probably a part of it, and, probably getting my, inhalers would be helpful"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um. <UNSURE>It's just</UNSURE> kinda scary, 'cause I haven't had, a time like this where I've been so, tight, uh, in a long time."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah, absolutely, I can, I can imagine."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, well, it certainly sounds like uh, you've, you've had this cold, so you've got wheezy with a cough. Um, and it's non-productive cough, and you're short of breath. Uh, is the cough worse at night-time?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I mean, it gets a little bit worse at night but, basically, just pretty consistent, and it hasn't gone away."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. And you've got this tight, tight chest. But you, you wouldn't say you've got chest pains? It's more of a tight chest, is it?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, not really pain, it's more like, tight."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "It just feels like sometimes, <UNIN/> I can't get a full breath in, you know."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah, sure. Um, OK. Well, I, I would quite like to, uh, certainly get you some, uh, Ventolin, Clenil Modulite. Have you had asthma exacerbations in the past?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Not in a long time. When I was young, a little bit, more like, back in high school. Um, but, I've been pretty good at taking my <UNIN/>, my inhalers, so, not, not so much any more."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Have you ever been to hospital, uh, as an inpatient? As in, you know, stayed in there overnight, for asthma?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, when I was in high school, I had to have a tube put down my throat."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Ohh, OK. So you, so, so you, uh, you <UNIN/>, you went to hospital, and had a, a, <UNIN/>. So you stayed in hospital for a few days did you, with an asthma exacerbation?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah I did, yeah."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, but currently you're just on Ventolin and Clenil? And you haven't got any of those <UNSURE>steroids</UNSURE>, uh, those inhalers at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, I'm <UNSURE>doing</UNSURE> pretty good, I'm doing pretty good, just on the Clenil, and the Salbutamol."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. When, sorry, how old were you when you had that severe asthma exacerbation?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I think I was like seventeen."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Sixteen maybe."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Sure. OK. Um."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Just to quantify how short of breath you are, um, I don't suppose you've got a peak flow with you? No, you won't have will you."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>No</UNSURE>, no."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>Um</UNSURE>, are you able to, uh, like walk up, flights of stairs OK? Walk on <UNSURE>the</UNSURE> flat OK, without getting to short of breath? Or um, are you short of breath at rest?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, I'm definitely not short of breath at rest, like, except for that feeling I was describing."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "It does when I'm walking up stairs, I do feel like, I have a little bit, more short of breath than I would normally be."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Sure. Yeah. OK, but you're not short of breath at rest at the moment?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "No, no, no I'm not."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, fine. So, what, what I think, um, and just to, just to go over, <UNIN/>. Is there anything you had hoped about getting other than the uh, a, prescription for your inhalers? Was there anything else you'd hoped about getting from this?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Well I just wanna know that I'm OK, to just like keep. I just don't wanna have to get, um, that, that intubation again."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Sure, yeah, no, <UNSURE>absolutely</UNSURE>. Well, I'm really glad you have <UNIN/> talked to me today. I think what we can do is, is give you a prescription for, uh, some more of the inhalers. We can get that to you, within the hour, I would hope."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Uh, <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, and, uh, I think, what, the other thing I'd like to do is just give you a, dose of steroids. So this is, these are tablets which, um, you can take for five days. Uh, two tablets in the morning."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "And, uh, that should just dampen down your asthmatic response, OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, now there are some side effects to the steroids. Which I should really tell you about, but please read the label, <UNSURE>that's</UNSURE> associated <UNSURE>with</UNSURE>. Don't be too worried about the side effects."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "They're <UNIN/>, most, you know <UNIN/>, most of the time the steroids are, very well tolerated. And, uh, you <UNIN/>. Have you had them in the past, do you know of?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Sorry, sorry, you were cutting in and out a little bit there. What were you saying?"
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<INAUDIBLE_SPEECH/>. Have you had steroids in the past?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Um, I can't remember, probably. <UNSURE>I think so</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Probably, yeah I would <INAUDIBLE_SPEECH/> too. So, um, they, they can come, they can make you, your mood change, can be slightly low or <UNIN/> too, slightly high."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Can give you, a high blood sugar, um, and, uh, <UNSURE>their</UNSURE>. Uh, <INAUDIBLE_SPEECH/>, they can also cause rash, nausea, um, headaches, but, mostly is well-tolerated, and it should help your asthma an awful lot."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Um, uh, what I'd like to do is, is send you these, the, some prescriptions for your, uh, inhalers, <UNIN/>, ongoing. So you, um, you can, once you get better from this asthma attack, you can, you can, use the Clenil Modulite in the morning, with Ventolin as a PRN. <UNIN/>, so, a Ventolin when you need to, um, when you're getting <UNSURE>wheezy</UNSURE>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "If you should start to use the Ventolin more than, uh, every three hours."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Uh, at, at anytime, it's a good idea to seek medical attention. So, um, see a doctor, um, in some capacity."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>Yeah</UNSURE>."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Uh, and, the other thing I'd like to send you is a spacer, which would allow the medication to actually, go into your lungs better. Have you, do you know what a spacer is? Have you used one before?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "Yeah, yeah, I, somebody told me how to use one a while ago. I don't, I don't really use it, to be honest, but."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Have you got one?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "I think I do, I have one somewhere."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. All right. Well, um, I'll send you another one, and it has some instructions about how to use it, but essentially, uh, couple of puffs to prime it, inside, breathing in and out, um, uh, for five or <UNIN/>, five or ten breaths."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Uh, yeah. So."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Uh, was there anything else that was on your mind? Or you're concerned about at this stage?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNIN/>, I think you got me covered."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK, and, and uh, I might give you some time off work as well. You can self-certify first seven days, but uh, I think I would advise you just to, rest a little bit until you're feeling a bit better, if you're OK with that. All right?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "OK, <INAUDIBLE_SPEECH/>."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "All righty. Well, thank you very much."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "<UNSURE>OK</UNSURE>. No worries. Any deterioration <UNSURE>in</UNSURE> your symptoms, like worsening shortness of breath. Um, or just generally concerning symptoms, uh, pain in your chest tightness, uh, feeling light-headed."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Uh, then, seek further medical attention anytime please. OK?"
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "All right, sounds good."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "OK. Thank you."
+    },
+    {
+      "speaker": "PATIENT",
+      "text": "<UNSURE>OK</UNSURE>, thank you. Bye bye."
+    },
+    {
+      "speaker": "DOCTOR",
+      "text": "Bye bye."
+    }
+  ],
+  "events": null,
+  "notes": null
+}

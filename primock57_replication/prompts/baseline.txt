@@ -1,0 +1,4 @@
+Write one clinical-note sentence based only on the statement below. Return only the note.
+
+Speaker: {speaker}
+Statement: {statement}
