@@ -2,3 +2,13 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
+# secrets
+.env
+
+# note_generation: mock/smoke outputs are never data
+note_generation/outputs/dryrun/
+note_generation/outputs/dryrun_*/
+note_generation/outputs/reports_dryrun/
+note_generation/outputs/smoke/
+.pytest_cache/

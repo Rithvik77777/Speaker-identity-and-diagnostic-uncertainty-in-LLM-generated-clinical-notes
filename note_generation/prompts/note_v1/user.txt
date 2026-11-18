@@ -1,0 +1,14 @@
+Write a clinical note for the visit transcribed below. In the transcript, lines starting with [doctor] are spoken by the doctor and lines starting with [patient] are spoken by the patient.
+
+Use these section headings, in this order:
+CHIEF COMPLAINT
+HISTORY OF PRESENT ILLNESS
+REVIEW OF SYSTEMS
+PHYSICAL EXAMINATION
+RESULTS
+ASSESSMENT AND PLAN
+
+Use only information from the transcript. If the transcript has no information for a section, write "Not discussed." under that heading. Return only the note, in plain text.
+
+TRANSCRIPT:
+{dialogue}

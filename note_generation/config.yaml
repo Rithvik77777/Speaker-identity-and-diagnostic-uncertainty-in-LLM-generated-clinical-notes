@@ -1,0 +1,55 @@
+# Experiment configuration. Everything that affects a generated note lives here or in prompts/.
+# After the dev run, run `python -m note_generation.freeze`. From then on the runner refuses
+# to run the eval/baseline splits if this file (protocol-relevant parts), the prompt, or the
+# input data change. See note_generation/README.md.
+
+protocol:
+  prompt_version: note_v1          # folder under note_generation/prompts/
+  seed: 6210                       # order shuffling, packet shuffling, bootstrap
+
+# Which pair files belong to which run. Nothing is trained, so splits are only labels:
+# valid = dev/calibration (never reported); everything else = evaluation.
+runs:
+  dev:      {splits: [valid],                       insertion: true}
+  eval:     {splits: [train, test1, test2, test3],  insertion: true}
+  baseline: {splits: [train, test1, test2, test3],  insertion: false}   # original dialogue, inserted line removed
+
+generation:
+  max_output_tokens: 4096          # same cap for every model; thinking tokens may count against it
+  n_generations: 1                 # one note per dialogue; never pick a "better" one
+  request_timeout_s: 180
+  max_attempts: 5                  # transient errors only (429 / 5xx / timeout / connection)
+  backoff_base_s: 4
+  delay_between_calls_s: 0.5
+
+# Four models. Replace every TODO before any real run (the runner refuses TODO values).
+# Never add temperature for Claude: current Claude models reject sampling parameters.
+# Reasoning policy (decide as a team, record in the paper): lowest setting each model allows.
+models:
+  claude_a:
+    provider: anthropic
+    model_id: TODO_CLAUDE_MODEL_A        # e.g. claude-opus-5-5
+    effort: low                          # output_config.effort; Opus 5.5 cannot disable thinking
+    thinking: null                       # leave null = model default; e.g. {type: between_tools} on Sonnet 5.5
+  claude_b:
+    provider: anthropic
+    model_id: TODO_CLAUDE_MODEL_B        # e.g. claude-sonnet-5-5
+    effort: low
+    thinking: null
+  gemini:
+    provider: google
+    model_id: TODO_GEMINI_MODEL          # e.g. gemini-3.5-flash-lite
+    thinking_level: low                  # ThinkingConfig.thinking_level
+    temperature: null                    # null = provider default (Gemini 3 recommends 1.0)
+  deepseek:
+    provider: deepseek
+    model_id: TODO_DEEPSEEK_MODEL        # check current model names in DeepSeek's API docs
+    base_url: https://api.deepseek.com
+    temperature: null                    # null = provider default
+
+# Thresholds for the warning markers (see README "Markers").
+thresholds:
+  reasoning_share_warn: 0.5        # reasoning tokens > 50% of max_output_tokens
+  max_run_days_per_model: 3        # a model's eval run spread over more days -> possible model drift
+  asymmetry_warn_pts: 5            # doctor vs patient failure-rate gap (percentage points)
+  min_note_chars: 200              # shorter "notes" are flagged

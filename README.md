@@ -7,6 +7,8 @@ attributed to the doctor vs. the patient?
 - [`speaker_swap_insertion/`](speaker_swap_insertion/) — builds the controlled dataset: a templated, hedged statement
   ("i wonder if it might be gout") is inserted into each MedARC / ACI-Bench conversation, in two copies that differ only
   in the speaker tag (`[doctor]` vs `[patient]`). See its README for the pipeline, checks, and human-review procedure.
+- [`note_generation/`](note_generation/) — sends those pairs to four LLMs with one frozen prompt, then validates, screens,
+  packages for human scoring and analyses the notes. See its README for the runbook, barriers and markers.
 
 ## Setup
 ```

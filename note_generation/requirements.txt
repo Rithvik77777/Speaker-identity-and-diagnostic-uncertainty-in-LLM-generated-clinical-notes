@@ -1,0 +1,11 @@
+# note_generation dependencies (install: pip install -r note_generation/requirements.txt)
+# After installing, pin the exact versions you used (pip freeze) so every teammate matches.
+pandas>=2.0
+pyarrow>=14.0
+numpy
+pyyaml
+python-dotenv
+anthropic
+google-genai
+openai
+pytest
