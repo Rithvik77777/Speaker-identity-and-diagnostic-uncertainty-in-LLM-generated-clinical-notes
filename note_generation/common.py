@@ -59,10 +59,22 @@ def prompt_hash(version: str) -> str:
     return sha256_text(system + "\n<<USER>>\n" + user)
 
 
-def protocol_hash(cfg: dict) -> str:
-    """Hash of every config section that can change a generated note."""
-    relevant = {k: cfg[k] for k in ("protocol", "runs", "generation", "models")}
+# Request pacing cannot change a note, so it is left out of the hash (a free-tier model may need
+# a slower pace than the others without starting a new protocol).
+PACING_KEYS = ("delay_between_calls_s",)
+
+
+def shared_hash(cfg: dict) -> str:
+    """Hash of the config sections shared by all models that can change a generated note."""
+    gen = {k: v for k, v in cfg["generation"].items() if k not in PACING_KEYS}
+    relevant = {"protocol": cfg["protocol"], "runs": cfg["runs"], "generation": gen}
     return sha256_text(json.dumps(relevant, sort_keys=True))
+
+
+def protocol_hash(cfg: dict, model_key: str) -> str:
+    """Shared settings plus this model's own settings. Filling in another model's ID later
+    does not change it, so each model can be frozen and run on its own schedule."""
+    return sha256_text(json.dumps({"shared": shared_hash(cfg), "model": cfg["models"][model_key]}, sort_keys=True))
 
 
 def inputs_hash(splits: list[str]) -> str:

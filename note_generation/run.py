@@ -22,7 +22,7 @@ from . import markers
 from .common import (DRYRUN, FREEZE_FILE, OUT, RAW, REPO, append_jsonl, build_items, load_config,
                      load_prompt, prompt_hash, protocol_hash, read_jsonl, render_user, run_id,
                      sha256_text)
-from .freeze import current_hashes
+from .freeze import SHARED_KEYS, current_hashes
 from .providers import PermanentError, TransientError, api_key, get_generate
 from .validate_inputs import check_inputs
 
@@ -48,6 +48,7 @@ def main() -> int:
     ap.add_argument("--run", required=True, choices=["dev", "eval", "baseline"])
     ap.add_argument("--dry-run", action="store_true", help="use the mock model; writes to outputs/dryrun/")
     ap.add_argument("--limit", type=int, help="smoke test: only the first N requests; writes to outputs/smoke/")
+    ap.add_argument("--delay", type=float, help="seconds between calls (overrides config; pacing is not part of the protocol)")
     args = ap.parse_args()
 
     load_dotenv(REPO / ".env")
@@ -74,9 +75,14 @@ def main() -> int:
             return fail("protocol not frozen. Finish the dev run, then `python -m note_generation.freeze`")
         frozen = json.loads(FREEZE_FILE.read_text(encoding="utf-8"))
         now = current_hashes(cfg)
-        changed = [k for k, v in now.items() if frozen.get(k) != v]
+        changed = [k for k in SHARED_KEYS if frozen.get(k) != now[k]]
         if changed:
             return fail(f"files changed since freeze: {changed}. Revert them, or start a new protocol version")
+        entry = frozen.get("models", {}).get(args.model)
+        if entry is None:
+            return fail(f"model {args.model!r} is not frozen yet; run `python -m note_generation.freeze` after its dev run")
+        if entry["protocol_sha256"] != protocol_hash(cfg, args.model):
+            return fail(f"models.{args.model} changed since freeze. Revert it, or start a new protocol version")
 
     if not args.dry_run:
         try:
@@ -85,7 +91,7 @@ def main() -> int:
             return fail(str(e))
 
     system, user_tmpl = load_prompt(version)
-    p_hash, c_hash = prompt_hash(version), protocol_hash(cfg)
+    p_hash, c_hash = prompt_hash(version), protocol_hash(cfg, args.model)
     base = DRYRUN if args.dry_run else (OUT / "smoke" if args.limit else RAW)
     out_path = base / version / args.run / f"{args.model}.jsonl"
 
@@ -149,7 +155,7 @@ def main() -> int:
             return fail(f"{MAX_CONSECUTIVE_PERMANENT} non-retryable errors in a row (last: {err}). "
                         "Check the model id and API key; nothing else will be sent.")
         if not args.dry_run:
-            time.sleep(gen["delay_between_calls_s"])
+            time.sleep(gen["delay_between_calls_s"] if args.delay is None else args.delay)
 
     print("done. Next: python -m note_generation.validate_runs --run", args.run, "--dry-run" if args.dry_run else "")
     return 0

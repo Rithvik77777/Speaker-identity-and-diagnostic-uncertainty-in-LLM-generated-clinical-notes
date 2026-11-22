@@ -188,3 +188,54 @@ def test_mcnemar_and_kappa():
     assert analyze.mcnemar_exact(0, 10) < 0.01
     a = pd.Series(["x", "y", "x", "y"])
     assert analyze.cohen_kappa(a, a) == pytest.approx(1.0)
+
+
+# ---------- per-model freeze ----------
+
+def test_protocol_hash_is_per_model():
+    from note_generation.common import protocol_hash
+    cfg = copy.deepcopy(CFG)
+    cfg["models"]["gemini"]["model_id"] = "gemini-x"
+    before = protocol_hash(cfg, "gemini")
+    cfg["models"]["claude_a"]["model_id"] = "claude-x"          # another model filled in later
+    cfg["generation"]["delay_between_calls_s"] = 9               # pacing only
+    assert protocol_hash(cfg, "gemini") == before
+    cfg["generation"]["max_output_tokens"] = 1                   # shared setting that changes notes
+    assert protocol_hash(cfg, "gemini") != before
+    cfg = copy.deepcopy(CFG); cfg["models"]["gemini"]["model_id"] = "gemini-x"; cfg["models"]["gemini"]["thinking_level"] = "high"
+    assert protocol_hash(cfg, "gemini") != before
+
+
+def _freeze(monkeypatch, tmp_path, cfg, argv=()):
+    from note_generation import freeze
+    monkeypatch.setattr(freeze, "FREEZE_FILE", tmp_path / "freeze.json")
+    monkeypatch.setattr(freeze, "load_config", lambda: cfg)
+    monkeypatch.setattr(sys, "argv", ["freeze", *argv])
+    return freeze.main()
+
+
+def test_freeze_skips_todo_models_and_adds_them_later(monkeypatch, tmp_path):
+    import json
+    cfg = copy.deepcopy(CFG)
+    cfg["models"]["gemini"]["model_id"] = "gemini-x"
+    assert _freeze(monkeypatch, tmp_path, cfg) == 0
+    frozen = json.loads((tmp_path / "freeze.json").read_text())
+    assert set(frozen["models"]) == {"gemini"}
+    cfg["models"]["claude_a"]["model_id"] = "claude-x"
+    assert _freeze(monkeypatch, tmp_path, cfg) == 0
+    frozen2 = json.loads((tmp_path / "freeze.json").read_text())
+    assert set(frozen2["models"]) == {"gemini", "claude_a"}
+    assert frozen2["models"]["gemini"] == frozen["models"]["gemini"]
+    cfg["models"]["gemini"]["thinking_level"] = "high"           # changing a frozen model needs --force
+    assert _freeze(monkeypatch, tmp_path, cfg) == 1
+
+
+def test_barrier_eval_requires_this_model_frozen(monkeypatch, tmp_path):
+    cfg = copy.deepcopy(CFG)
+    cfg["models"]["gemini"]["model_id"] = "gemini-x"
+    assert _freeze(monkeypatch, tmp_path, cfg) == 0
+    monkeypatch.setattr(run, "FREEZE_FILE", tmp_path / "freeze.json")
+    cfg["models"]["claude_a"]["model_id"] = "claude-x"           # filled in but never frozen
+    assert _run_main(monkeypatch, ["--model", "claude_a", "--run", "eval"], cfg) == 2
+    cfg["models"]["gemini"]["thinking_level"] = "high"           # frozen model edited afterwards
+    assert _run_main(monkeypatch, ["--model", "gemini", "--run", "eval"], cfg) == 2
