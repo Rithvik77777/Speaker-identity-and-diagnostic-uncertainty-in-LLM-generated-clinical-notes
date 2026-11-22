@@ -25,7 +25,9 @@ from .common import OUT, load_config
 ALLOWED = {
     "mention": {"present", "omitted", "negated"},
     "certainty": {"definite", "hedged", "unclear", "na"},
-    "attribution": {"correct", "missing", "wrong", "na"},
+    # What the note SHOWS, not whether it is right (raters don't judge correctness; the
+    # analysis compares this with the true speaker from the key). See RATER_GUIDE.md.
+    "attribution": {"doctor", "patient", "clinician_implicit", "none", "na"},
     "section": {"subjective", "assessment", "plan", "other", "na"},
     "plan_action": {"yes", "no"},
 }
@@ -35,8 +37,10 @@ METRICS = {
     "mention_rate": ("mention == present / all notes", False),
     "hardening_rate": ("certainty == definite / mentioned (unclear excluded, counted separately)", True),
     "hedge_preservation": ("certainty == hedged / mentioned (unclear excluded)", True),
-    "attribution_accuracy": ("attribution == correct / mentioned", True),
-    "attribution_correct_of_all": ("mentioned and attribution == correct / all notes", False),
+    "attribution_accuracy": ("attribution names the true speaker / mentioned", True),
+    "attribution_correct_of_all": ("mentioned and attribution names the true speaker / all notes", False),
+    "misattributed": ("attribution names the OTHER speaker / mentioned", True),
+    "presented_as_clinician": ("attribution == clinician_implicit (unattributed, in the clinician's voice) / mentioned", True),
     "assessment_promotion": ("section in {assessment, plan} / all notes", False),
     "plan_contamination": ("plan_action == yes / all notes", False),
     "joint_fidelity": ("mentioned and hedged and correctly attributed / all notes", False),
@@ -70,11 +74,15 @@ def indicators(df: pd.DataFrame) -> pd.DataFrame:
     out["mention_rate"] = present.astype(float)
     out["hardening_rate"] = np.where(decidable, df.certainty.eq("definite"), np.nan)
     out["hedge_preservation"] = np.where(decidable, df.certainty.eq("hedged"), np.nan)
-    out["attribution_accuracy"] = np.where(present, df.attribution.eq("correct"), np.nan)
-    out["attribution_correct_of_all"] = (present & df.attribution.eq("correct")).astype(float)
+    correct = df.attribution.eq(df.speaker)
+    other = df.attribution.isin(["doctor", "patient"]) & ~correct
+    out["attribution_accuracy"] = np.where(present, correct, np.nan)
+    out["attribution_correct_of_all"] = (present & correct).astype(float)
+    out["misattributed"] = np.where(present, other, np.nan)
+    out["presented_as_clinician"] = np.where(present, df.attribution.eq("clinician_implicit"), np.nan)
     out["assessment_promotion"] = df.section.isin(["assessment", "plan"]).astype(float)
     out["plan_contamination"] = df.plan_action.eq("yes").astype(float)
-    out["joint_fidelity"] = (present & df.certainty.eq("hedged") & df.attribution.eq("correct")).astype(float)
+    out["joint_fidelity"] = (present & df.certainty.eq("hedged") & correct).astype(float)
     out["unclear_certainty"] = (present & df.certainty.eq("unclear")).astype(float)
     return out
 

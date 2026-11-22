@@ -7,8 +7,9 @@ For every scorable note: find the sentences that mention the inserted condition,
 their section, and pre-flag hedge / attribution / negation / plan cues. The auto columns
 only help raters find text; they are never the final labels (humans label every item).
 
-Packets hide the model, the prompt version, the encounter id and the run order. Raters see the inserted line
-(so they know who said it), the note, and the pre-found sentences.
+Packets hide the model, the prompt version, the encounter id, the run order AND the speaker:
+raters see the inserted sentence without its [doctor]/[patient] tag, and label what the note
+shows (RATER_GUIDE.md). The analysis compares that with the true speaker from the key file.
 """
 from __future__ import annotations
 
@@ -30,12 +31,29 @@ HEDGE = ["may", "might", "could", "possible", "possibly", "probable", "probably"
          "suspect", "suspected", "suspicion", "concern for", "concerned", "consider", "considering",
          "rule out", "r/o", "differential", "versus", "vs", "question of", "questionable", "query",
          "wonders", "wondering", "wondered", "not sure", "unsure", "uncertain", "cannot exclude", "?"]
-ATTR_PATIENT = ["patient reports", "patient states", "patient wonders", "patient thinks", "patient believes",
-                "patient is concerned", "patient asks", "patient mentions", "patient expresses", "patient questions",
-                "per patient", "per the patient", "she wonders", "he wonders", "she thinks", "he thinks",
-                "she is concerned", "he is concerned", "pt reports", "pt wonders"]
-ATTR_DOCTOR = ["doctor suspects", "doctor thinks", "doctor notes", "doctor considers", "doctor wonders",
-               "physician", "provider suspects", "clinician", "i suspect", "we suspect", "dr "]
+# Attribution: a speaker word, at most one word in between ("initially", "also", "is"), then an
+# opinion/report verb in any tense. Fixed phrases missed most dev notes ("patient wondered",
+# "doctor stated", "doctor commented"). Pronouns count as the patient: in these notes he/she/they
+# refer to the patient, and the doctor is named as "the doctor" / "the physician".
+_OPINION_VERB = (r"(?:wonder(?:s|ed|ing)?|think(?:s|ing)?|thought|believe(?:s|d)?|suspect(?:s|ed)?|"
+                 r"suggest(?:s|ed)?|state(?:s|d)?|said|says|comment(?:s|ed)?|note(?:s|d)?|mention(?:s|ed)?|"
+                 r"raise(?:s|d)?|question(?:s|ed)?|ask(?:s|ed)?|express(?:es|ed)?|report(?:s|ed)?|"
+                 r"consider(?:s|ed)?|feel(?:s)?|felt|worr(?:y|ies|ied)|concerned|speculate(?:s|d)?|"
+                 r"propose(?:s|d)?|offer(?:s|ed)?|guess(?:es|ed)?|attribute(?:s|d)?)")
+_BETWEEN = r"(?:\s+[a-z'\-]+)?\s+"
+_DOCTOR_WORD = r"(?:doctor|physician|provider|clinician|dr\.?|examiner)"
+_PATIENT_WORD = r"(?:patient|pt|he|she|they)"
+ATTR_DOCTOR_RE = [
+    re.compile(rf"\b{_DOCTOR_WORD}{_BETWEEN}{_OPINION_VERB}\b"),
+    re.compile(rf"\b(?:per|by|from|according to) (?:the )?{_DOCTOR_WORD}\b"),
+    re.compile(rf"\b(?:doctor|physician|provider|clinician)'s (?:impression|suspicion|concern|opinion|suggestion|comment)\b"),
+    re.compile(rf"\b(?:i|we){_BETWEEN}{_OPINION_VERB}\b"),      # first person in a note = the note's author (clinician)
+]
+ATTR_PATIENT_RE = [
+    re.compile(rf"\b{_PATIENT_WORD}{_BETWEEN}{_OPINION_VERB}\b"),
+    re.compile(rf"\b(?:per|by|from|according to) (?:the )?(?:patient|pt)\b"),
+    re.compile(r"\b(?:patient|pt)'s (?:concern|worry|suspicion|question|belief|theory|impression|opinion)\b"),
+]
 NEGATION = ["no ", "denies", "not ", "without", "negative for", "ruled out", "unlikely"]
 PLAN = ["order", "obtain", "refer", "referral", "start", "prescribe", "check", "test", "evaluate", "evaluation",
         "rule out", "workup", "work-up", "imaging", "ultrasound", "x-ray", "mri", "ct ", "labs", "blood work",
@@ -44,7 +62,7 @@ PLAN = ["order", "obtain", "refer", "referral", "start", "prescribe", "check", "
 LABEL_COLUMNS = {
     "mention": "present / omitted / negated",
     "certainty": "definite / hedged / unclear / NA",
-    "attribution": "correct / missing / wrong / NA",
+    "attribution": "doctor / patient / clinician_implicit / none / NA  (what the note shows; see RATER_GUIDE.md)",
     "section": "subjective / assessment / plan / other / NA",
     "plan_action": "yes / no",
     "evidence_span": "shortest quote supporting the labels",
@@ -78,6 +96,16 @@ def _has(text: str, cues: list[str]) -> list[str]:
     return found
 
 
+def _matches(text: str, patterns: list[re.Pattern]) -> list[str]:
+    """Distinct matched phrases (lower-cased), in order of first appearance."""
+    t = text.lower()
+    found = []
+    for pat in patterns:
+        for m in pat.finditer(t):
+            found.append(" ".join(m.group(0).split()))
+    return list(dict.fromkeys(found))
+
+
 def section_group(section: str) -> str:
     s = section.upper()
     if s in ("CHIEF COMPLAINT", "HISTORY OF PRESENT ILLNESS", "REVIEW OF SYSTEMS"):
@@ -97,13 +125,21 @@ def screen_note(note: str, terms: list[str]) -> dict:
         "auto_n_mentions": len(hits),
         "auto_sections": ";".join(dict.fromkeys(section_group(sec) for sec, _ in hits)),
         "auto_hedge_cues": ";".join(_has(joined, HEDGE)),
-        "auto_patient_attr_cues": ";".join(_has(joined, ATTR_PATIENT)),
-        "auto_doctor_attr_cues": ";".join(_has(joined, ATTR_DOCTOR)),
+        "auto_patient_attr_cues": ";".join(_matches(joined, ATTR_PATIENT_RE)),
+        "auto_doctor_attr_cues": ";".join(_matches(joined, ATTR_DOCTOR_RE)),
         "auto_negation_cues": ";".join(_has(joined, NEGATION)),
         "auto_plan_cues": ";".join(_has(" ".join(s for sec, s in hits if section_group(sec) == "assessment_plan"), PLAN)),
         "mention_sentences": "\n".join(f"[{sec}] {s}" for sec, s in hits),
         "headings_found": ";".join(h for h in EXPECTED_HEADINGS if h in note.upper()),
     }
+
+
+# Same wording as speaker_swap_insertion/build_pairs.py TEMPLATES, shown to raters without the speaker tag.
+INSERT_TEMPLATES = {"T1": "i wonder if it might be {c}", "T2": "i think it could be {c}", "T3": "it might be {c} i'm not sure"}
+
+
+def _untagged_sentence(template_id: str, condition: str) -> str:
+    return INSERT_TEMPLATES[template_id].format(c=condition)
 
 
 def main() -> int:
@@ -150,7 +186,7 @@ def main() -> int:
     scr["item_id"] = [f"I{n:05d}" for n in rng.sample(range(10000, 99999), len(scr))]
     packet = pd.DataFrame({
         "item_id": scr.item_id,
-        "inserted_line_said_by": scr.speaker,
+        "inserted_sentence": [_untagged_sentence(t, c) for t, c in zip(scr.template_id, scr.condition)],
         "condition": scr.condition,
         "synonyms": scr.synonyms,
         "pre_found_sentences": scr.mention_sentences,

@@ -211,7 +211,7 @@ def _labels_and_key(tmp_path):
             iid = f"I{e:03d}{spk[0]}"
             definite = spk == "patient"          # synthetic: patient copies always hardened
             lab.append(dict(item_id=iid, mention="present", certainty="definite" if definite else "hedged",
-                            attribution="correct", section="subjective", plan_action="no", evidence_span="x"))
+                            attribution=spk, section="subjective", plan_action="no", evidence_span="x"))
             key.append(dict(item_id=iid, run_id=iid, model_key="m", encounter_id=f"E{e}", speaker=spk,
                             split="test1", config="aci", template_id="T1"))
     lp, kp = tmp_path / "labels.csv", tmp_path / "key.csv"
@@ -231,6 +231,18 @@ def test_metrics_gap_and_ci(tmp_path, monkeypatch):
     assert hr.ci95_lo == pytest.approx(1.0) and hr.mcnemar_p < 0.001
     mr = res[res.metric == "mention_rate"].iloc[0]
     assert mr.gap_patient_minus_doctor == pytest.approx(0.0)
+    aa = res[res.metric == "attribution_accuracy"].iloc[0]
+    assert aa.doctor_rate == pytest.approx(1.0) and aa.patient_rate == pytest.approx(1.0)
+
+
+def test_attribution_is_scored_against_the_true_speaker():
+    df = pd.DataFrame(dict(speaker=["doctor", "doctor", "patient", "patient"], mention="present",
+                           certainty="hedged", attribution=["doctor", "clinician_implicit", "doctor", "none"],
+                           section="subjective", plan_action="no"))
+    ind = analyze.indicators(df)
+    assert ind.attribution_accuracy.tolist() == [1, 0, 0, 0]
+    assert ind.misattributed.tolist() == [0, 0, 1, 0]
+    assert ind.presented_as_clinician.tolist() == [0, 1, 0, 0]
 
 
 def test_metrics_refuse_dirty_labels(tmp_path, monkeypatch):
@@ -248,3 +260,29 @@ def test_mcnemar_and_kappa():
     assert analyze.mcnemar_exact(0, 10) < 0.01
     a = pd.Series(["x", "y", "x", "y"])
     assert analyze.cohen_kappa(a, a) == pytest.approx(1.0)
+
+
+@pytest.mark.parametrize("text,want", [
+    ("Doctor initially wondered if it might be a frozen shoulder.", "doctor"),
+    ("During the history, the doctor commented that the injury could be a herniated disc.", "doctor"),
+    ("Possible thyroid problem, as stated by the doctor.", "doctor"),
+    ("The patient wondered whether it might be gallstones.", "patient"),
+    ("He says it might be exercise-induced asthma, but he is not sure.", "patient"),
+    ("The patient's concern is gout.", "patient"),
+    ("Possible exercise-induced asthma.", "none"),
+])
+def test_screen_attribution_cues_any_tense(text, want):
+    """Phrasings taken from dev notes; the old fixed-phrase lists missed most of them."""
+    r = screen_note("ASSESSMENT AND PLAN\n" + text, ["gallstones", "frozen shoulder", "herniated disc",
+                                                     "thyroid problem", "exercise-induced asthma", "gout"])
+    got = ("doctor" if r["auto_doctor_attr_cues"] else "") + ("patient" if r["auto_patient_attr_cues"] else "")
+    assert (got or "none") == want
+
+
+def test_rater_sentence_matches_insertion_templates_and_hides_speaker():
+    sys.path.insert(0, str(load_config.__globals__["REPO"] / "speaker_swap_insertion"))
+    from build_pairs import TEMPLATES
+    from note_generation.screen import INSERT_TEMPLATES, _untagged_sentence
+    assert {k: v.replace("{phrase}", "{c}") for k, v in TEMPLATES.items()} == INSERT_TEMPLATES
+    s = _untagged_sentence("T2", "gout")
+    assert s == "i think it could be gout" and "[" not in s

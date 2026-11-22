@@ -114,7 +114,7 @@ Gate 2 also raises run-level warnings:
 - **Non-determinism:** API models can't be run greedily (Claude rejects temperature), so one generation per dialogue is a sample. If time allows, rerun about 20 dialogues 3× per model to show the variance.
 - **Settings that differ by provider:** temperature and reasoning controls aren't identical across vendors. They're recorded per model in `config.yaml` and `freeze.json`.
 - **Pretraining contamination:** ACI-Bench is public, so models may have seen the conversations, but never the inserted line.
-- **Rater bias:** raters must see the speaker to judge attribution, so they aren't blind to the condition. Packets hide the model, the prompt version, the encounter and the order. Report κ before adjudication.
+- **Rater bias:** raters are blind to the condition: packets show the inserted sentence without its speaker tag and hide the model, prompt version, encounter and order. Raters label what the note shows (`RATER_GUIDE.md`) and the analysis scores it against the key. A note that names the speaker still reveals it, which is unavoidable. Report κ before adjudication.
 - **The prompt explains the speaker tags.** That's identical for both copies, but it makes speakers salient. See `prompts/note_v1/NOTES.md`.
 - **The automatic screen is only a helper.** Synonym and hedge-word matching misses paraphrases ("uric acid crystal disease") and catches false hits. Humans label every item; report screen-vs-human agreement.
 
@@ -123,6 +123,7 @@ Gate 2 also raises run-level warnings:
 | Path | What |
 |---|---|
 | `config.yaml` | Models, generation settings, runs, marker thresholds |
+| `RATER_GUIDE.md` | Label definitions, multi-mention rules, worked examples, calibration and adjudication procedure. Raters label what the note shows; `analyze` scores it against the key |
 | `prompts/note_v1/` | Primary prompt (`system.txt`, `user.txt`) and its design notes |
 | `prompts/note_v2_guarded/` | Guarded condition: v1 plus one paragraph (a test enforces this) |
 | `providers/` | One adapter per provider (same interface) and `mock.py` for dry runs |
