@@ -14,7 +14,6 @@ from dataclasses import asdict, dataclass, field
 API_KEY_ENV = {
     "anthropic": "ANTHROPIC_API_KEY",
     "google": "GEMINI_API_KEY",
-    "deepseek": "DEEPSEEK_API_KEY",
     "mock": None,
 }
 
@@ -59,8 +58,6 @@ def get_generate(provider: str):
         from .claude import generate
     elif provider == "google":
         from .gemini import generate
-    elif provider == "deepseek":
-        from .deepseek import generate
     elif provider == "mock":
         from .mock import generate
     else:

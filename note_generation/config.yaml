@@ -18,37 +18,32 @@ runs:
   baseline: {splits: [train, test1, test2, test3],  insertion: false, prompts: [note_v1]}   # inserted line removed; spontaneous-mention check
 
 generation:
-  max_output_tokens: 8192          # same cap for every model; thinking tokens count against it (DeepSeek used up to 2.3k in the smoke test)
+  max_output_tokens: 8192          # same cap for every model; thinking tokens count against it
   n_generations: 1                 # one note per dialogue; never pick a "better" one
   request_timeout_s: 180
   max_attempts: 5                  # transient errors only (429 / 5xx / timeout / connection)
   backoff_base_s: 4
   delay_between_calls_s: 0.5
 
-# Four models. Replace every TODO before any real run (the runner refuses TODO values).
+# Three models (team decision 2026-11-22: Sonnet, Haiku, Gemini). The runner refuses TODO values.
 # Never add temperature for Claude: current Claude models reject sampling parameters.
 # Reasoning policy (decide as a team, record in the paper): lowest setting each model allows.
 models:
   claude_a:
     provider: anthropic
-    model_id: claude-opus-5-5
-    effort: low                          # output_config.effort; Opus 5.5 cannot disable thinking (default effort is medium)
-    thinking: null                       # null = model default (adaptive)
+    model_id: claude-sonnet-5-5
+    effort: low                          # output_config.effort (Sonnet 5.5 default is high)
+    thinking: null                       # null = model default (adaptive); same policy for both Claude models
   claude_b:
     provider: anthropic
     model_id: claude-haiku-5-5
     effort: low                          # Haiku 5.5 default effort is medium
-    thinking: null                       # null = model default (adaptive); same policy as claude_a
+    thinking: null                       # null = model default (adaptive)
   gemini:
     provider: google
     model_id: gemini-3.5-flash-lite      # confirmed in the Gemini models list
     thinking_level: low                  # ThinkingConfig.thinking_level
     temperature: null                    # null = provider default (Gemini 3 recommends 1.0)
-  deepseek:
-    provider: deepseek
-    model_id: deepseek-flash             # confirmed in DeepSeek's /models list
-    base_url: https://api.deepseek.com
-    temperature: null                    # null = provider default
 
 # Thresholds for the warning markers (see README "Markers").
 thresholds:

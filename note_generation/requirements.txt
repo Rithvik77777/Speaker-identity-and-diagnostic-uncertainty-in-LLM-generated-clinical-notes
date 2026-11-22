@@ -7,5 +7,4 @@ pyyaml
 python-dotenv
 anthropic
 google-genai
-openai
 pytest

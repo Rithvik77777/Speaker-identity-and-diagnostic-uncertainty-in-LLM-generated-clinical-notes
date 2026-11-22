@@ -1,6 +1,6 @@
 # note_generation: running the speaker-swap experiment
 
-This folder sends the paired dialogues from `speaker_swap_insertion/output/pairs_<split>.csv` to four LLMs under two frozen prompts, then checks, screens, packages and analyses the notes.
+This folder sends the paired dialogues from `speaker_swap_insertion/output/pairs_<split>.csv` to three LLMs (Claude Sonnet 5.5, Claude Haiku 5.5, Gemini 3.5 Flash-Lite) under two frozen prompts, then checks, screens, packages and analyses the notes.
 
 **Two prompt conditions** (`config.yaml` → `protocol.prompt_versions`):
 - `note_v1` (primary): a plain scribe prompt that says nothing about certainty or attribution. It measures default behaviour, and the omission (mention-rate) results come only from it.
@@ -29,19 +29,21 @@ cp .env.example .env                                              # then paste r
 python -m pytest note_generation/tests -q                         # offline, no keys needed; expect all passing
 ```
 
-**API keys** live only in `.env` (git-ignored): `ANTHROPIC_API_KEY`, `GEMINI_API_KEY`, `DEEPSEEK_API_KEY`. The runner refuses to start if the key for the chosen model is missing or still the placeholder.
+**API keys** live only in `.env` (git-ignored): `ANTHROPIC_API_KEY` (both Claude models), `GEMINI_API_KEY`. The runner refuses to start if the key for the chosen model is missing or still the placeholder.
 
-## 2. Fill in the models (team decision)
+## 2. The models (team decision, 2026-11-22)
 
-Edit `models:` in `config.yaml`. Replace each `TODO_...` with the exact model ID, and settle the reasoning policy. The runner and `freeze` refuse to work while any TODO is left.
+Set in `models:` in `config.yaml`. The runner and `freeze` refuse to work while any model ID is a `TODO`.
 
-| Key | Provider | Notes |
-|---|---|---|
-| `claude_a`, `claude_b` | Anthropic | Don't add temperature (current Claude models reject it). `effort` controls reasoning. Some models can't disable thinking |
-| `gemini` | Google | `thinking_level`; temperature left at the provider default |
-| `deepseek` | DeepSeek (OpenAI-compatible API) | Check current model names in DeepSeek's docs; reasoning models may ignore temperature |
+| Key | Model | Provider | Reasoning setting |
+|---|---|---|---|
+| `claude_a` | `claude-sonnet-5-5` | Anthropic | `effort: low`, default (adaptive) thinking. No temperature: current Claude models reject it |
+| `claude_b` | `claude-haiku-5-5` | Anthropic | `effort: low`, default (adaptive) thinking |
+| `gemini` | `gemini-3.5-flash-lite` | Google | `thinking_level: low`; temperature at the provider default |
 
-The prompt (`prompts/note_v1/`) and every other setting are identical for all four. Settings that *can't* be identical (temperature, reasoning) are recorded per model and must be described in the paper.
+On the Gemini free tier (about 500 requests a day per Google Cloud project), the eval and baseline runs need about 845 calls. When the quota runs out, the runner stops by itself after 3 failed notes. Put a key from another project into `.env` and rerun the same command: finished notes are skipped. The key is not part of any hash, so notes from both keys count as one protocol.
+
+The prompt (`prompts/note_v1/`) and every other setting are identical for all three. Settings that *can't* be identical (temperature, reasoning) are recorded per model and must be described in the paper.
 
 ## 3. Commands, in order
 
@@ -49,7 +51,7 @@ The prompt (`prompts/note_v1/`) and every other setting are identical for all fo
 python -m note_generation.validate_inputs                          # GATE 1
 python -m note_generation.run --model claude_a --run dev --dry-run # whole pipeline with a fake model
 python -m note_generation.run --model claude_a --run dev --limit 3 # smoke test: 3 real calls -> outputs/smoke/
-python -m note_generation.run --model claude_a --run dev           # dev run, prompt v1; repeat for claude_b, gemini, deepseek
+python -m note_generation.run --model claude_a --run dev           # dev run, prompt v1; repeat for claude_b, gemini
 python -m note_generation.run --model claude_a --run dev --prompt note_v2_guarded   # dev run, prompt v2; each model
 python -m note_generation.validate_runs --run dev                  # health table per prompt; fix settings now if needed
 python -m note_generation.freeze                                   # LOCK: both prompts + config + data hashes -> freeze.json
