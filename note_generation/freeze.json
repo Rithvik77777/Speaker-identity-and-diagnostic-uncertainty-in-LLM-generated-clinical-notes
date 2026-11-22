@@ -1,0 +1,18 @@
+{
+  "prompt_versions": [
+    "note_v1",
+    "note_v2_guarded"
+  ],
+  "prompts_sha256": {
+    "note_v1": "7a1d3f1476f54c3221cbca2cbaa2516cd6701414291ee33ed5638e8eb63bc85b",
+    "note_v2_guarded": "ebdcec4fa44d50adf148b037cd9a22ae2237ad6372e3dba839a6ab2b1eaaf958"
+  },
+  "protocol_sha256": "00510077eff5ed18d7176b576cc59a62a24f29c2320cf76e97734ff6a6ee0d38",
+  "inputs_sha256": "d2623be421c26a65884ef93562f0c9bc57f4b5492639a5c32761733b8c44cdc5",
+  "frozen_at_utc": "2026-11-22T23:54:56+00:00",
+  "models": {
+    "claude_a": "claude-sonnet-5-5",
+    "claude_b": "claude-haiku-5-5",
+    "gemini": "gemini-3.5-flash-lite"
+  }
+}
