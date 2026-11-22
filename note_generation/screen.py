@@ -1,13 +1,13 @@
 """Automatic screen + blinded rating packets.
 
-    python -m note_generation.screen --run eval --raters rater1 rater2
+    python -m note_generation.screen --run eval --raters rater1 rater2     # v1 + v2 notes, mixed in one packet
     python -m note_generation.screen --run baseline        # screen only (spontaneous mentions)
 
 For every scorable note: find the sentences that mention the inserted condition, record
 their section, and pre-flag hedge / attribution / negation / plan cues. The auto columns
 only help raters find text; they are never the final labels (humans label every item).
 
-Packets hide the model, the encounter id and the run order. Raters see the inserted line
+Packets hide the model, the prompt version, the encounter id and the run order. Raters see the inserted line
 (so they know who said it), the note, and the pre-found sentences.
 """
 from __future__ import annotations
@@ -19,7 +19,7 @@ import sys
 
 import pandas as pd
 
-from .common import OUT, load_config, mentions
+from .common import OUT, load_config, mentions, run_prompts
 from .markers import EXPECTED_HEADINGS, is_scorable
 from .validate_runs import latest, load_run
 
@@ -111,20 +111,22 @@ def main() -> int:
     ap.add_argument("--run", required=True, choices=["dev", "eval", "baseline"])
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--raters", nargs="*", default=[], help="one packet copy per rater name")
+    ap.add_argument("--prompts", nargs="*", help="prompt versions to include (default: every prompt the run uses)")
     args = ap.parse_args()
     cfg = load_config()
 
-    df = load_run(cfg, args.run, args.dry_run)
+    versions = args.prompts or run_prompts(cfg, args.run)
+    df = pd.concat([load_run(cfg, args.run, args.dry_run, v) for v in versions], ignore_index=True)
     if df.empty:
         print("no records")
         return 1
     rows = []
-    for model_key, g in df.groupby("model_key"):
+    for _, g in df.groupby(["prompt_version", "model_key"]):
         for r in latest(g).to_dict("records"):
             if r["status"] != "ok" or not is_scorable(r["flags"]):
                 continue
             terms = [t for t in r["synonyms"].split(";") if t.strip()] + [r["condition"]]
-            rows.append({**{k: r[k] for k in ("run_id", "model_key", "encounter_id", "split", "config", "speaker",
+            rows.append({**{k: r[k] for k in ("run_id", "prompt_version", "model_key", "encounter_id", "split", "config", "speaker",
                                               "template_id", "condition", "synonyms", "note_text")},
                          **screen_note(r["note_text"], terms)})
     scr = pd.DataFrame(rows)
@@ -132,7 +134,7 @@ def main() -> int:
     base.mkdir(parents=True, exist_ok=True)
     scr.drop(columns=["note_text"]).to_csv(base / f"{args.run}_screen.csv", index=False)
     print(f"screened {len(scr)} scorable notes -> {base / f'{args.run}_screen.csv'}")
-    print(scr.groupby(["model_key", "speaker"]).auto_mention.apply(lambda x: f"{(x == 'present').mean():.0%} mention")
+    print(scr.groupby(["prompt_version", "model_key", "speaker"]).auto_mention.apply(lambda x: f"{(x == 'present').mean():.0%} mention")
           .to_string())
 
     if args.run == "baseline":
@@ -158,7 +160,7 @@ def main() -> int:
         packet[col] = ""
     packet["rater"] = ""
     packet["comment"] = ""
-    key = scr[["item_id", "run_id", "model_key", "encounter_id", "speaker", "split", "config", "template_id"]]
+    key = scr[["item_id", "run_id", "prompt_version", "model_key", "encounter_id", "speaker", "split", "config", "template_id"]]
 
     pdir = OUT / ("dryrun_packets" if args.dry_run else "packets")
     pdir.mkdir(parents=True, exist_ok=True)

@@ -8,4 +8,4 @@ Design rules for this prompt. Read them before writing a v2.
 - **"Use only information from the transcript"** is a standard scribe instruction. It doesn't target the inserted line.
 - **Plain text, no markdown**, so the automatic screen can find headings.
 
-Once any eval or baseline run has used `note_v1`, never edit these files. Copy the folder to `note_v2/` and change `protocol.prompt_version` in `config.yaml`.
+Once any eval or baseline run has used `note_v1`, never edit these files. A new condition gets its own folder (like `note_v2_guarded/`) and an entry in `protocol.prompt_versions` in `config.yaml`; `note_v1` stays first, as the primary prompt.

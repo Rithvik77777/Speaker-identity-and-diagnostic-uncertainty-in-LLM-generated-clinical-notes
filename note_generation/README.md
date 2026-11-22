@@ -1,6 +1,10 @@
 # note_generation: running the speaker-swap experiment
 
-This folder sends the paired dialogues from `speaker_swap_insertion/output/pairs_<split>.csv` to four LLMs with one frozen prompt, then checks, screens, packages and analyses the notes. Every step has a **barrier**: a check that stops the pipeline when something would make the results invalid. Every note carries **markers**: flags for problems that might distort the evaluation.
+This folder sends the paired dialogues from `speaker_swap_insertion/output/pairs_<split>.csv` to four LLMs under two frozen prompts, then checks, screens, packages and analyses the notes.
+
+**Two prompt conditions** (`config.yaml` → `protocol.prompt_versions`):
+- `note_v1` (primary): a plain scribe prompt that says nothing about certainty or attribution. It measures default behaviour, and the omission (mention-rate) results come only from it.
+- `note_v2_guarded`: v1 plus one paragraph asking the model to keep each statement's certainty and say whether the doctor or the patient expressed it. This mirrors the guarded prompt of *Possible or Definite?*. It tests whether an instruction removes the speaker effect. See `prompts/note_v2_guarded/NOTES.md`. Every step has a **barrier**: a check that stops the pipeline when something would make the results invalid. Every note carries **markers**: flags for problems that might distort the evaluation.
 
 ## Pipeline
 
@@ -9,11 +13,11 @@ validate_inputs ─▶ run (dev) ─▶ freeze ─▶ run (eval, baseline) ─�
    GATE 1                        lock         refuses if unfrozen      GATE 2                    kappa, adjudicate
 ```
 
-| Run | Pair files | Requests per model | Reported? |
-|---|---|---|---|
-| `dev` | valid | 36 (18 encounters × 2 speakers) | No: prompt check and rater calibration only |
-| `eval` | train, test1, test2, test3 | 338 (169 × 2) | Yes |
-| `baseline` | the same 169, inserted line removed | 169 | Yes: spontaneous-mention check |
+| Run | Pair files | Prompts | Requests per model | Reported? |
+|---|---|---|---|---|
+| `dev` | valid | v1, v2 | 72 (18 encounters × 2 speakers × 2 prompts) | No: prompt check and rater calibration only |
+| `eval` | train, test1, test2, test3 | v1, v2 | 676 (169 × 2 × 2) | Yes |
+| `baseline` | the same 169, inserted line removed | v1 only | 169 | Yes: spontaneous-mention check |
 
 ## 1. Setup (once per person)
 
@@ -45,14 +49,15 @@ The prompt (`prompts/note_v1/`) and every other setting are identical for all fo
 python -m note_generation.validate_inputs                          # GATE 1
 python -m note_generation.run --model claude_a --run dev --dry-run # whole pipeline with a fake model
 python -m note_generation.run --model claude_a --run dev --limit 3 # smoke test: 3 real calls -> outputs/smoke/
-python -m note_generation.run --model claude_a --run dev           # dev run; repeat for claude_b, gemini, deepseek
-python -m note_generation.validate_runs --run dev                  # read the health table; fix settings now if needed
-python -m note_generation.freeze                                   # LOCK: prompt + config + data hashes -> freeze.json
-python -m note_generation.run --model claude_a --run eval          # main run, each model
-python -m note_generation.run --model claude_a --run baseline      # no-insertion run, each model
-python -m note_generation.validate_runs --run eval                 # GATE 2 (also --run baseline)
+python -m note_generation.run --model claude_a --run dev           # dev run, prompt v1; repeat for claude_b, gemini, deepseek
+python -m note_generation.run --model claude_a --run dev --prompt note_v2_guarded   # dev run, prompt v2; each model
+python -m note_generation.validate_runs --run dev                  # health table per prompt; fix settings now if needed
+python -m note_generation.freeze                                   # LOCK: both prompts + config + data hashes -> freeze.json
+python -m note_generation.run --model claude_a --run eval          # main run, each model (and again with --prompt note_v2_guarded)
+python -m note_generation.run --model claude_a --run baseline      # no-insertion run, each model (v1 only)
+python -m note_generation.validate_runs --run eval                 # GATE 2 for every prompt (also --run baseline)
 python -m note_generation.screen --run baseline                    # spontaneous-mention count
-python -m note_generation.screen --run eval --raters rater1 rater2 # blinded packets for human scoring
+python -m note_generation.screen --run eval --raters rater1 rater2 # ONE blinded packet holding v1 + v2 notes
 python -m note_generation.analyze kappa note_generation/outputs/packets/eval_packet_rater1.csv note_generation/outputs/packets/eval_packet_rater2.csv
 python -m note_generation.analyze metrics --run eval --labels note_generation/outputs/packets/eval_adjudicated.csv
 python -m note_generation.analyze metrics --run eval --labels note_generation/outputs/packets/eval_adjudicated.csv --by template_id
@@ -109,7 +114,7 @@ Gate 2 also raises run-level warnings:
 - **Non-determinism:** API models can't be run greedily (Claude rejects temperature), so one generation per dialogue is a sample. If time allows, rerun about 20 dialogues 3× per model to show the variance.
 - **Settings that differ by provider:** temperature and reasoning controls aren't identical across vendors. They're recorded per model in `config.yaml` and `freeze.json`.
 - **Pretraining contamination:** ACI-Bench is public, so models may have seen the conversations, but never the inserted line.
-- **Rater bias:** raters must see the speaker to judge attribution, so they aren't blind to the condition. Packets hide the model, encounter and order. Report κ before adjudication.
+- **Rater bias:** raters must see the speaker to judge attribution, so they aren't blind to the condition. Packets hide the model, the prompt version, the encounter and the order. Report κ before adjudication.
 - **The prompt explains the speaker tags.** That's identical for both copies, but it makes speakers salient. See `prompts/note_v1/NOTES.md`.
 - **The automatic screen is only a helper.** Synonym and hedge-word matching misses paraphrases ("uric acid crystal disease") and catches false hits. Humans label every item; report screen-vs-human agreement.
 
@@ -118,11 +123,12 @@ Gate 2 also raises run-level warnings:
 | Path | What |
 |---|---|
 | `config.yaml` | Models, generation settings, runs, marker thresholds |
-| `prompts/note_v1/` | Frozen baseline prompt (`system.txt`, `user.txt`) and its design notes. New ideas go in `note_v2/` |
+| `prompts/note_v1/` | Primary prompt (`system.txt`, `user.txt`) and its design notes |
+| `prompts/note_v2_guarded/` | Guarded condition: v1 plus one paragraph (a test enforces this) |
 | `providers/` | One adapter per provider (same interface) and `mock.py` for dry runs |
 | `run.py`, `freeze.py`, `validate_inputs.py`, `validate_runs.py`, `screen.py`, `analyze.py`, `markers.py`, `common.py` | Pipeline |
 | `outputs/raw/<prompt>/<run>/<model>.jsonl` | **Real notes** (commit through a PR) |
-| `outputs/reports/`, `outputs/screen/`, `outputs/packets/`, `outputs/analysis/` | Health tables, screens, rater packets (+ KEY file: don't give it to raters), metrics |
+| `outputs/reports/`, `outputs/screen/`, `outputs/packets/`, `outputs/analysis/` | Health tables (`<prompt>_<run>_health.csv`), screens, rater packets (+ KEY file with model and prompt: don't give it to raters), metrics per prompt × model |
 | `outputs/dryrun*/`, `outputs/smoke/` | Mock and smoke outputs: git-ignored, never analysed |
 
 Each JSONL record holds the request identity (encounter, speaker, insertion, template, condition), the model requested and returned, prompt/config/input hashes, git commit, note text, normalised and raw finish reason, token counts (input / output / reasoning / cached), request ID, latency, attempts, error, markers and a UTC timestamp.

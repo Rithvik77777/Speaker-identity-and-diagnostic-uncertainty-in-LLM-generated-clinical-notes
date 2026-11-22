@@ -4,18 +4,21 @@
 # input data change. See note_generation/README.md.
 
 protocol:
-  prompt_version: note_v1          # folder under note_generation/prompts/
+  # Folders under note_generation/prompts/. The FIRST is the primary (baseline) prompt; the
+  # others are separate conditions run on the same encounters with every model.
+  prompt_versions: [note_v1, note_v2_guarded]
   seed: 6210                       # order shuffling, packet shuffling, bootstrap
 
 # Which pair files belong to which run. Nothing is trained, so splits are only labels:
 # valid = dev/calibration (never reported); everything else = evaluation.
+# `prompts` limits a run to some prompt versions (default: all of them).
 runs:
   dev:      {splits: [valid],                       insertion: true}
   eval:     {splits: [train, test1, test2, test3],  insertion: true}
-  baseline: {splits: [train, test1, test2, test3],  insertion: false}   # original dialogue, inserted line removed
+  baseline: {splits: [train, test1, test2, test3],  insertion: false, prompts: [note_v1]}   # inserted line removed; spontaneous-mention check
 
 generation:
-  max_output_tokens: 4096          # same cap for every model; thinking tokens may count against it
+  max_output_tokens: 8192          # same cap for every model; thinking tokens count against it (DeepSeek used up to 2.3k in the smoke test)
   n_generations: 1                 # one note per dialogue; never pick a "better" one
   request_timeout_s: 180
   max_attempts: 5                  # transient errors only (429 / 5xx / timeout / connection)
@@ -28,22 +31,22 @@ generation:
 models:
   claude_a:
     provider: anthropic
-    model_id: TODO_CLAUDE_MODEL_A        # e.g. claude-opus-5-5
-    effort: low                          # output_config.effort; Opus 5.5 cannot disable thinking
-    thinking: null                       # leave null = model default; e.g. {type: between_tools} on Sonnet 5.5
+    model_id: claude-opus-5-5
+    effort: low                          # output_config.effort; Opus 5.5 cannot disable thinking (default effort is medium)
+    thinking: null                       # null = model default (adaptive)
   claude_b:
     provider: anthropic
-    model_id: TODO_CLAUDE_MODEL_B        # e.g. claude-sonnet-5-5
-    effort: low
-    thinking: null
+    model_id: claude-haiku-5-5
+    effort: low                          # Haiku 5.5 default effort is medium
+    thinking: null                       # null = model default (adaptive); same policy as claude_a
   gemini:
     provider: google
-    model_id: TODO_GEMINI_MODEL          # e.g. gemini-3.5-flash-lite
+    model_id: gemini-3.5-flash-lite      # confirmed in the Gemini models list
     thinking_level: low                  # ThinkingConfig.thinking_level
     temperature: null                    # null = provider default (Gemini 3 recommends 1.0)
   deepseek:
     provider: deepseek
-    model_id: TODO_DEEPSEEK_MODEL        # check current model names in DeepSeek's API docs
+    model_id: deepseek-flash             # confirmed in DeepSeek's /models list
     base_url: https://api.deepseek.com
     temperature: null                    # null = provider default
 

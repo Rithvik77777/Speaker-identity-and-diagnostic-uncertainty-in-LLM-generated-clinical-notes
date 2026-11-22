@@ -1,11 +1,12 @@
 """Gate 2: check generated notes before anyone scores them.
 
-    python -m note_generation.validate_runs --run eval
+    python -m note_generation.validate_runs --run eval                            # every prompt the run uses
+    python -m note_generation.validate_runs --run eval --prompt note_v2_guarded   # one prompt
     python -m note_generation.validate_runs --run dev --dry-run
 
 Fails (exit 1) on missing or duplicate notes, mixed settings, or mock data in a real folder.
 Prints warnings for every marker and for doctor/patient imbalances, and writes
-outputs/reports/<run>_health.csv (the run-health table for the checkpoint).
+outputs/reports/<prompt>_<run>_health.csv (the run-health table for the checkpoint).
 """
 from __future__ import annotations
 
@@ -15,12 +16,12 @@ from datetime import datetime
 
 import pandas as pd
 
-from .common import DRYRUN, OUT, RAW, build_items, load_config, read_jsonl, run_id
+from .common import DRYRUN, OUT, RAW, build_items, load_config, read_jsonl, run_id, run_prompts
 from .markers import MARKERS, is_scorable
 
 
-def load_run(cfg: dict, run: str, dry: bool) -> pd.DataFrame:
-    base = (DRYRUN if dry else RAW) / cfg["protocol"]["prompt_version"] / run
+def load_run(cfg: dict, run: str, dry: bool, version: str) -> pd.DataFrame:
+    base = (DRYRUN if dry else RAW) / version / run
     recs = []
     for p in sorted(base.glob("*.jsonl")):
         recs.extend(read_jsonl(p))
@@ -38,17 +39,28 @@ def latest(df: pd.DataFrame) -> pd.DataFrame:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--run", required=True, choices=["dev", "eval", "baseline"])
+    ap.add_argument("--prompt", help="one prompt version (default: every prompt the run uses)")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
     cfg = load_config()
-    th = cfg["thresholds"]
-    version = cfg["protocol"]["prompt_version"]
-    errors, warnings = [], []
+    versions = [args.prompt] if args.prompt else run_prompts(cfg, args.run)
+    results = [validate(cfg, args, v) for v in versions]
+    return max(results)
 
-    df = load_run(cfg, args.run, args.dry_run)
+
+def validate(cfg: dict, args, version: str) -> int:
+    th = cfg["thresholds"]
+    errors, warnings = [], []
+    print(f"\n===== prompt {version}, run {args.run} =====")
+
+    df = load_run(cfg, args.run, args.dry_run, version)
     if df.empty:
         print("no records found")
         return 1
+    missing_models = sorted(set(cfg["models"]) - set(df.model_key))
+    if missing_models:
+        msg = f"no notes at all for {missing_models}"
+        (warnings if args.run == "dev" else errors).append(msg)
     if not args.dry_run and (df.provider == "mock").any():
         errors.append("mock records found in a real output folder")
 
@@ -113,7 +125,7 @@ def main() -> int:
     health = pd.DataFrame(rows)
     rep_dir = OUT / ("reports_dryrun" if args.dry_run else "reports")
     rep_dir.mkdir(parents=True, exist_ok=True)
-    out_csv = rep_dir / f"{args.run}_health.csv"
+    out_csv = rep_dir / f"{version}_{args.run}_health.csv"
     health.to_csv(out_csv, index=False)
 
     cols = ["model_key", "speaker", "n", "ok", "scorable"] + [c for c in MARKERS if health[c].sum() > 0]
@@ -126,7 +138,7 @@ def main() -> int:
         for e in errors:
             print("  -", e)
         return 1
-    print(f"GATE 2 PASSED for run '{args.run}' ({datetime.now():%Y-%m-%d %H:%M}).")
+    print(f"GATE 2 PASSED for prompt '{version}', run '{args.run}' ({datetime.now():%Y-%m-%d %H:%M}).")
     return 0
 
 

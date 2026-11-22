@@ -7,8 +7,8 @@ import pandas as pd
 import pytest
 
 from note_generation import analyze, markers, run
-from note_generation.common import (build_items, load_config, load_prompt, protocol_hash, render_user, run_id,
-                                    strip_insertion)
+from note_generation.common import (build_items, load_config, load_prompt, primary_prompt, prompt_versions,
+                                    protocol_hash, render_user, run_id, run_prompts, strip_insertion)
 from note_generation.providers import PermanentError, api_key
 from note_generation.screen import screen_note
 from note_generation.validate_inputs import check_inputs
@@ -64,11 +64,39 @@ def test_protocol_hash_is_per_model():
 
 
 def test_prompt_renders_dialogue_once_and_never_mentions_certainty():
-    system, user = load_prompt(CFG["protocol"]["prompt_version"])
+    system, user = load_prompt(primary_prompt(CFG))
     rendered = render_user(user, "[doctor] {weird braces}\n[patient] hi")
     assert "{weird braces}" in rendered and "{dialogue}" not in rendered
     for word in ("certain", "hedge", "attribut", "diagnos"):
         assert word not in (system + user).lower(), f"baseline prompt must not mention '{word}'"
+
+
+def test_guarded_prompt_is_v1_plus_one_paragraph():
+    """Any v1/v2 difference in the notes must come from the added instruction alone."""
+    assert primary_prompt(CFG) == "note_v1" and "note_v2_guarded" in prompt_versions(CFG)
+    s1, u1 = load_prompt("note_v1")
+    s2, u2 = load_prompt("note_v2_guarded")
+    assert s1 == s2
+    head, tail = u1.split("\n\nTRANSCRIPT:")
+    assert u2.startswith(head + "\n\n") and u2.endswith("\n\nTRANSCRIPT:" + tail)
+    added = u2[len(head) + 2: len(u2) - len("\n\nTRANSCRIPT:" + tail)]
+    assert "\n\n" not in added and "certainty" in added and "doctor or the patient" in added
+    assert "diagnos" not in added.lower()        # never points at the inserted condition
+
+
+def test_runs_use_the_right_prompts():
+    assert run_prompts(CFG, "eval") == ["note_v1", "note_v2_guarded"]
+    assert run_prompts(CFG, "dev") == ["note_v1", "note_v2_guarded"]
+    assert run_prompts(CFG, "baseline") == ["note_v1"]
+
+
+def test_freeze_locks_every_prompt(monkeypatch):
+    from note_generation import common, freeze
+    h = freeze.current_hashes(CFG)
+    assert set(h["prompts_sha256"]) == {"note_v1", "note_v2_guarded"}
+    real = common.load_prompt
+    monkeypatch.setattr(common, "load_prompt", lambda v: (real(v)[0], real(v)[1] + " edited") if v == "note_v2_guarded" else real(v))
+    assert freeze.current_hashes(CFG)["prompts_sha256"] != h["prompts_sha256"]
 
 
 # ---------- markers ----------
@@ -92,7 +120,7 @@ MODEL = {"provider": "anthropic", "model_id": "model-x"}
     (dict(note_text="**Plan** " * 40), "MARKDOWN"),
     (dict(insertion=False, note_text="possible gout " * 20), "CONDITION_IN_BASELINE"),
     (dict(synonyms="uti", condition="uti", note_text="likely uti " * 30), "SHORT_SYNONYM"),
-    (dict(reasoning_tokens=4000), "HEAVY_REASONING"),
+    (dict(reasoning_tokens=int(0.9 * CFG["generation"]["max_output_tokens"])), "HEAVY_REASONING"),
     (dict(status="error", note_text=None), "ERROR"),
 ])
 def test_markers(kw, flag):
@@ -117,8 +145,27 @@ def _run_main(monkeypatch, argv, cfg=None):
     return run.main()
 
 
+@pytest.fixture(autouse=True)
+def _no_real_api_calls(monkeypatch):
+    """Tests must never reach a real provider, whatever config.yaml currently holds."""
+    real = run.get_generate
+
+    def guarded(provider):
+        if provider != "mock":
+            raise AssertionError(f"test tried to call the real {provider!r} API")
+        return real(provider)
+    monkeypatch.setattr(run, "get_generate", guarded)
+
+
 def test_barrier_todo_model_id(monkeypatch):
-    assert _run_main(monkeypatch, ["--model", "claude_a", "--run", "dev"]) == 2
+    cfg = copy.deepcopy(CFG)
+    cfg["models"]["claude_a"]["model_id"] = "TODO_CLAUDE_MODEL_A"
+    assert _run_main(monkeypatch, ["--model", "claude_a", "--run", "dev"], cfg) == 2
+
+
+def test_barrier_baseline_has_no_guarded_prompt(monkeypatch):
+    assert _run_main(monkeypatch, ["--model", "claude_a", "--run", "baseline", "--prompt", "note_v2_guarded",
+                                   "--dry-run"]) == 2
 
 
 def test_barrier_eval_requires_freeze(monkeypatch, tmp_path):

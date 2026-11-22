@@ -12,3 +12,5 @@ note_generation/outputs/dryrun_*/
 note_generation/outputs/reports_dryrun/
 note_generation/outputs/smoke/
 .pytest_cache/
+note_generation/outputs/logs/
+note_generation/outputs/superseded/

@@ -131,11 +131,13 @@ def cmd_metrics(args) -> int:
         return 1
     if "speaker_key" in df:
         df["speaker"] = df["speaker_key"]
+    if "prompt_version" not in df:          # keys made before prompt versions existed
+        df["prompt_version"] = cfg["protocol"]["prompt_versions"][0]
     ind = indicators(df)
-    data = pd.concat([df[["model_key", "encounter_id", "speaker", "template_id", "config"]], ind], axis=1)
+    data = pd.concat([df[["prompt_version", "model_key", "encounter_id", "speaker", "template_id", "config"]], ind], axis=1)
 
     rng = np.random.default_rng(cfg["protocol"]["seed"])
-    group_cols = ["model_key"] + ([args.by] if args.by else [])
+    group_cols = ["prompt_version", "model_key"] + ([args.by] if args.by else [])
     rows = []
     for keys, g in data.groupby(group_cols):
         keys = keys if isinstance(keys, tuple) else (keys,)

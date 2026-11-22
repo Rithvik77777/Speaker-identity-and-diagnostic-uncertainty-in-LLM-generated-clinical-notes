@@ -12,15 +12,15 @@ import json
 import sys
 from datetime import datetime, timezone
 
-from .common import FREEZE_FILE, inputs_hash, load_config, prompt_hash, protocol_hash
+from .common import FREEZE_FILE, inputs_hash, load_config, prompt_hash, prompt_versions, protocol_hash
 from .validate_inputs import check_inputs
 
 
 def current_hashes(cfg: dict) -> dict:
     splits = sorted({s for r in cfg["runs"].values() for s in r["splits"]})
     return {
-        "prompt_version": cfg["protocol"]["prompt_version"],
-        "prompt_sha256": prompt_hash(cfg["protocol"]["prompt_version"]),
+        "prompt_versions": prompt_versions(cfg),
+        "prompts_sha256": {v: prompt_hash(v) for v in prompt_versions(cfg)},   # every prompt is locked
         "protocol_sha256": protocol_hash(cfg),
         "inputs_sha256": inputs_hash(splits),
     }

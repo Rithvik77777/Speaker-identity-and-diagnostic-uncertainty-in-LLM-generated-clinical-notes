@@ -1,11 +1,12 @@
 """Generate notes for one model and one run.
 
-    python -m note_generation.run --model claude_a --run dev
+    python -m note_generation.run --model claude_a --run dev                            # primary prompt (note_v1)
+    python -m note_generation.run --model claude_a --run dev --prompt note_v2_guarded   # guarded condition
     python -m note_generation.run --model claude_a --run dev --limit 3      # smoke test
     python -m note_generation.run --model claude_a --run eval --dry-run     # mock model, no API
 
 Safe to stop and restart: finished requests are skipped (resume by run_id). Failed ones are
-retried on the next start. One model per invocation; run the four models as separate commands.
+retried on the next start. One model and one prompt per invocation; run each model x prompt as a separate command.
 """
 from __future__ import annotations
 
@@ -20,8 +21,8 @@ from dotenv import load_dotenv
 
 from . import markers
 from .common import (DRYRUN, FREEZE_FILE, OUT, RAW, REPO, append_jsonl, build_items, load_config,
-                     load_prompt, prompt_hash, protocol_hash, read_jsonl, render_user, run_id,
-                     sha256_text)
+                     load_prompt, primary_prompt, prompt_hash, protocol_hash, read_jsonl, render_user,
+                     run_id, run_prompts, sha256_text)
 from .freeze import current_hashes
 from .providers import PermanentError, TransientError, api_key, get_generate
 from .validate_inputs import check_inputs
@@ -48,14 +49,17 @@ def main() -> int:
     ap.add_argument("--run", required=True, choices=["dev", "eval", "baseline"])
     ap.add_argument("--dry-run", action="store_true", help="use the mock model; writes to outputs/dryrun/")
     ap.add_argument("--limit", type=int, help="smoke test: only the first N requests; writes to outputs/smoke/")
+    ap.add_argument("--prompt", help="prompt version (default: the primary one, first in protocol.prompt_versions)")
     args = ap.parse_args()
 
     load_dotenv(REPO / ".env")
     cfg = load_config()
     gen = cfg["generation"]
-    version = cfg["protocol"]["prompt_version"]
+    version = args.prompt or primary_prompt(cfg)
 
     # ---- barriers before any request ----
+    if version not in run_prompts(cfg, args.run):
+        return fail(f"prompt {version!r} is not used by run {args.run!r}; it uses {run_prompts(cfg, args.run)}")
     if args.model not in cfg["models"]:
         return fail(f"unknown model key {args.model!r}; choose from {list(cfg['models'])}")
     model_cfg = dict(cfg["models"][args.model])

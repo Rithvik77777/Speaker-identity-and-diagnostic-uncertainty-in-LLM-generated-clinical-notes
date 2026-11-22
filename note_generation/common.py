@@ -29,6 +29,20 @@ def load_config() -> dict:
         return yaml.safe_load(f)
 
 
+def prompt_versions(cfg: dict) -> list[str]:
+    """All prompt versions of the study. The first is the primary (baseline) prompt."""
+    return list(cfg["protocol"]["prompt_versions"])
+
+
+def primary_prompt(cfg: dict) -> str:
+    return prompt_versions(cfg)[0]
+
+
+def run_prompts(cfg: dict, run_name: str) -> list[str]:
+    """Prompt versions a run uses: runs.<name>.prompts if set, else every version."""
+    return list(cfg["runs"][run_name].get("prompts") or prompt_versions(cfg))
+
+
 def load_prompt(version: str) -> tuple[str, str]:
     """Return (system, user_template). The user template contains the literal {dialogue}."""
     d = PROMPTS_DIR / version
