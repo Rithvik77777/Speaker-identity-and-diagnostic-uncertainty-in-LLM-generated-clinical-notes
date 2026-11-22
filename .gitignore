@@ -14,3 +14,5 @@ note_generation/outputs/smoke/
 .pytest_cache/
 note_generation/outputs/logs/
 note_generation/outputs/superseded/
+# rater blinding: the key maps packet items to model/prompt/speaker; share it only after labelling
+note_generation/outputs/packets/*_KEY_*.csv
