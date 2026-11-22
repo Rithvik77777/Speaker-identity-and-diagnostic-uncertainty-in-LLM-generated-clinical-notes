@@ -1,0 +1,3 @@
+model_key,speaker,n,ok,scorable,median_latency_s,mean_output_tokens,model_returned,ERROR,EMPTY,REFUSAL,TRUNCATED,MODEL_MISMATCH,TOO_SHORT,MISSING_HEADINGS,MARKDOWN,RAW_SPEAKER_TAGS,PROMPT_ECHO,HEAVY_REASONING,SHORT_SYNONYM,CONDITION_IN_BASELINE
+gemini,doctor,169,169,169,2.3,501.0,gemini-3.5-flash-lite,0,0,0,0,0,0,6,0,0,0,0,0,0
+gemini,patient,169,169,169,2.4,499.0,gemini-3.5-flash-lite,0,0,0,0,0,0,8,0,0,0,0,2,0
