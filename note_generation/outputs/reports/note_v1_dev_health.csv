@@ -1,9 +1,7 @@
 model_key,speaker,n,ok,scorable,median_latency_s,mean_output_tokens,model_returned,ERROR,EMPTY,REFUSAL,TRUNCATED,MODEL_MISMATCH,TOO_SHORT,MISSING_HEADINGS,MARKDOWN,RAW_SPEAKER_TAGS,PROMPT_ECHO,HEAVY_REASONING,SHORT_SYNONYM,CONDITION_IN_BASELINE
-claude_a,doctor,18,18,18,9.8,1123.0,claude-opus-5-5,0,0,0,0,0,0,0,0,0,0,0,0,0
-claude_a,patient,18,18,18,9.2,1076.0,claude-opus-5-5,0,0,0,0,0,0,0,1,0,0,0,1,0
+claude_a,doctor,18,18,18,7.2,1028.0,claude-sonnet-5-5,0,0,0,0,0,0,0,0,0,0,0,1,0
+claude_a,patient,18,18,18,7.2,1065.0,claude-sonnet-5-5,0,0,0,0,0,0,0,0,0,0,0,1,0
 claude_b,doctor,18,18,18,5.2,1148.0,claude-haiku-5-5,0,0,0,0,0,0,0,0,0,0,0,0,0
 claude_b,patient,18,18,18,5.1,1164.0,claude-haiku-5-5,0,0,0,0,0,0,0,0,0,0,0,1,0
-deepseek,doctor,18,18,18,15.5,2944.0,deepseek-flash,0,0,0,0,0,0,0,0,0,0,3,0,0
-deepseek,patient,18,18,18,12.8,2779.0,deepseek-flash,0,0,0,0,0,0,0,0,0,0,2,1,0
 gemini,doctor,18,18,18,2.1,479.0,gemini-3.5-flash-lite,0,0,0,0,0,0,0,0,0,0,0,0,0
 gemini,patient,18,18,18,2.2,488.0,gemini-3.5-flash-lite,0,0,0,0,0,0,0,0,0,0,0,1,0

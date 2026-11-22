@@ -7,7 +7,7 @@ attributed to the doctor vs. the patient?
 - [`speaker_swap_insertion/`](speaker_swap_insertion/) — builds the controlled dataset: a templated, hedged statement
   ("i wonder if it might be gout") is inserted into each MedARC / ACI-Bench conversation, in two copies that differ only
   in the speaker tag (`[doctor]` vs `[patient]`). See its README for the pipeline, checks, and human-review procedure.
-- [`note_generation/`](note_generation/) — sends those pairs to four LLMs under two frozen prompts (plain `note_v1` and guarded `note_v2_guarded`), then validates, screens,
+- [`note_generation/`](note_generation/) — sends those pairs to three LLMs (Claude Sonnet 5.5, Claude Haiku 5.5, Gemini 3.5 Flash-Lite) under two frozen prompts (plain `note_v1` and guarded `note_v2_guarded`), then validates, screens,
   packages for human scoring and analyses the notes. See its README for the runbook, barriers and markers.
 
 ## Setup
@@ -18,78 +18,69 @@ pip install -r note_generation/requirements.txt    # LLM runs + evaluation (note
 
 ---
 
-## Team update: branch `eric/llm-runner` (2026-11-22)
+## Team update: branch `eric/llm-runner` (2026-11-22, three models)
 
-**In short:** all four models are pinned and working, a second (guarded) prompt was added, and the **dev run is done**: 4 models × 2 prompts × 36 dialogues = 288 notes, all scorable. The rater guide and calibration packets are ready. **Nothing has been frozen, and no eval or baseline run exists yet.** The runner refuses those until we freeze, and the freeze waits on the team decisions below.
+**In short:** the study now uses **three models**: Claude Sonnet 5.5, Claude Haiku 5.5 and Gemini 3.5 Flash-Lite (team decision). DeepSeek and Opus 5.5 are dropped. The dev run is done for all three under both prompts (216 notes, all scorable, gate 2 passed). **Human rating is deferred**, so nothing blocks the eval run: next is the freeze, then eval + baseline.
 
-### Done since the last update
+### Done
 
 | Area | What changed | Where |
 |---|---|---|
-| Models | `claude_a` = `claude-opus-5-5`, `claude_b` = `claude-haiku-5-5`, `gemini` = `gemini-3.5-flash-lite`, `deepseek` = `deepseek-flash`. The Gemini and DeepSeek IDs were checked against each provider's model list. Reasoning: lowest setting each model allows (`effort: low` for both Claude models, `thinking_level: low` for Gemini, provider default for DeepSeek) | `note_generation/config.yaml` |
-| Second prompt | `note_v2_guarded` = `note_v1` plus one paragraph: keep each statement's certainty as spoken, and say whether the doctor or the patient expressed an opinion. It mirrors the guarded prompt of *Possible or Definite?*. It runs alongside v1, never instead of it, and the baseline run uses v1 only. A test enforces "v1 + one paragraph" | `note_generation/prompts/note_v2_guarded/` |
-| Output cap | 4096 → 8192 tokens for every model. DeepSeek used up to 2.3k reasoning tokens per note, and reasoning counts against the cap | `config.yaml` |
-| Hash fix | Each note's settings hash now covers only the shared settings plus **its own** model. Before, filling in one model's ID invalidated every other model's notes | `common.py` |
-| Dev run | 288 notes, 0 truncated, 0 refused, gate 2 passed for both prompts. Health tables and the screen are committed | `note_generation/outputs/` |
-| Rater guide | Definitions for every label, rules for notes that mention the condition more than once, worked examples from dev notes, and the calibration → κ → adjudication procedure | [`note_generation/RATER_GUIDE.md`](note_generation/RATER_GUIDE.md) |
-| Attribution label | Raters now record **what the note shows** (`doctor / patient / clinician_implicit / none`). `analyze` scores it against the true speaker. New metrics: `misattributed`, `presented_as_clinician` | `analyze.py` |
-| Rater blinding | Packets show the inserted sentence **without** its speaker tag. Raters are blind to model, prompt **and** speaker. The key file is git-ignored | `screen.py`, `.gitignore` |
-| Screen cues | Attribution cues now match any tense ("patient wondered", "doctor stated"). On dev, doctor attribution found in v2 notes rose from 16% to 96% | `screen.py` |
-| Tests | 43 offline tests, all passing. Tests can no longer reach a real API | `note_generation/tests/` |
+| Models | `claude_a` = `claude-sonnet-5-5`, `claude_b` = `claude-haiku-5-5`, `gemini` = `gemini-3.5-flash-lite`. Reasoning: lowest setting each model allows (`effort: low` for both Claude models, `thinking_level: low` for Gemini); temperature at the provider default | `note_generation/config.yaml` |
+| Dropped models | DeepSeek adapter, key and `openai` dependency removed. Opus and DeepSeek dev notes moved to `note_generation/outputs/archive/dropped_models/` (not analysed) | |
+| Second prompt | `note_v2_guarded` = `note_v1` plus one paragraph: keep each statement's certainty as spoken, and say whether the doctor or the patient expressed an opinion. Mirrors the guarded prompt of *Possible or Definite?*. Runs alongside v1 on every model; baseline uses v1 only | `note_generation/prompts/` |
+| Output cap | 8192 tokens for every model. Longest dev note used 1,624 | `config.yaml` |
+| Hash fix | Each note's settings hash covers the shared settings plus **its own** model, so changing one model doesn't invalidate the others | `common.py` |
+| Dev run | 3 models × 2 prompts × 36 dialogues = 216 notes, 0 truncated, 0 refused, gate 2 passed for both prompts | `note_generation/outputs/` |
+| Rater guide, blind packets | Ready for when human rating starts. Packets hide model, prompt and speaker | [`note_generation/RATER_GUIDE.md`](note_generation/RATER_GUIDE.md) |
+| Tests | 43 offline tests passing; tests can't reach a real API | `note_generation/tests/` |
 
 ### Dev preview: NOT a result, never reported
 
-These numbers come from the automatic screen on 18 pairs per cell, with no human labels. Treat them as a check on the settings only.
+Automatic screen only, 18 pairs per cell, no human labels.
 
-| % of notes mentioning the inserted condition | Opus 5.5 | Haiku 5.5 | DeepSeek | Gemini |
-|---|---|---|---|---|
-| v1, doctor said it | 11% | 39% | 11% | 6% |
-| v1, patient said it | 100% | 83% | 78% | 17% |
-| v2 (guarded), doctor said it | 100% | 89% | 100% | 83% |
-| v2 (guarded), patient said it | 100% | 100% | 100% | 94% |
+| % of notes mentioning the inserted condition | Sonnet 5.5 | Haiku 5.5 | Gemini |
+|---|---|---|---|
+| v1, doctor said it | 28% | 39% | 6% |
+| v1, patient said it | 100% | 83% | 17% |
+| v2 (guarded), doctor said it | 100% | 89% | 83% |
+| v2 (guarded), patient said it | 100% | 100% | 94% |
 
-**What this suggests:**
-- **Under v1, the patient's hedge is recorded far more often, in all four models.** That's the **opposite** of the proposal's hypothesis. It is usually written in the history section as the patient's concern. The few doctor hedges that survive mostly sit unattributed in the assessment.
-- **The guarded prompt brings mention to 83–100%** with the hedge kept.
-- **Gemini rarely mentions the condition under v1 for either speaker.** That's a property of the model, not a prompt problem.
+Under v1 the patient's hedge is recorded far more often than the doctor's in every model, the **opposite** of the proposal's hypothesis. The guarded prompt brings mention to 83–100%. Gemini rarely mentions the condition under v1 for either speaker.
 
-### Proposed design decisions (need team sign-off before the freeze)
+### Primary outcomes (stated before eval)
 
-1. **Framing:** describe the effect ("the speaker label alone changes whether and where a hedge is recorded"), and state the hypotheses as two-sided. Don't call it "bias" without a standard for what a good note should do: dropping a doctor's unanswered guess may be reasonable documentation.
-2. **Primary outcomes:**
-   - **v1: the patient − doctor mention gap**, with McNemar on 169 pairs per model.
-   - **v2: certainty and attribution.** Under v1, too few doctor hedges survive to measure them.
-   - Assessment promotion is interpreted for patient-said hedges only.
-3. **Rating scope:** eval is now 676 notes per model (169 × 2 speakers × 2 prompts), about 2,700 per rater. Rate everything, or a subset chosen in advance. Decide after timing the calibration round.
+1. **v1: the patient − doctor mention gap**, per model, McNemar on 169 pairs, reported as a two-sided, descriptive effect.
+2. **v2: certainty and attribution** of the inserted condition (too few doctor hedges survive under v1 to measure them).
+3. Baseline: how often each model mentions the condition when nobody said it.
 
-### What you need to do
+Everything else (sections, plan actions, per-template breakdowns) is secondary.
 
-1. **Pull and test:** `git pull`, then `pip install -r note_generation/requirements.txt` and `python -m pytest note_generation/tests -q` (43 passing).
-2. **Raters: calibrate on dev.** Read the [rater guide](note_generation/RATER_GUIDE.md). Packets are in `note_generation/outputs/packets/` (`dev_packet_raterA.csv` / `raterB.csv`), or make named copies with `python -m note_generation.screen --run dev --raters <you> <other>`. Label about 60 items each, then compare with `analyze kappa`. **Don't open `note_generation/outputs/raw/`**: those files show the model and the speaker.
-3. **Condition review (R0–R5):** still blocking. Two reviewers fill in `speaker_swap_insertion/output/review_<split>.csv` (see that folder's README) before any eval run.
-4. **Team:** sign off on the three decisions above.
+### Decisions recorded
 
-Then one person freezes and runs eval + baseline for all four models from a clean commit. Running everything from one machine keeps one code version and environment. The API keys don't need to be shared: whoever runs puts their own in `.env`.
+- **Human rating deferred.** Mention comes from the automatic screen; certainty and attribution labelling (human, LLM judge validated against humans, or both) is decided after eval. Generation doesn't depend on it.
+- **Condition review (R0–R5) not done before eval.** Any encounter found faulty later is dropped at analysis and reported, not regenerated.
 
-### Plan to the checkpoint
+### Running eval (one person, one machine)
 
-| Step | Status | Command(s) |
-|---|---|---|
-| Model IDs + keys; smoke test | ✅ done | `run --model <key> --run dev --limit 3` |
-| Dev run, both prompts, all models; health tables | ✅ done | `run --run dev [--prompt note_v2_guarded]`, `validate_runs --run dev` |
-| Rater calibration on dev; condition review R0–R5; design sign-off | ⏳ next | `screen --run dev --raters …`, `analyze kappa …` |
-| **Freeze** | after the step above | `freeze` |
-| Eval (both prompts) + baseline (v1), all models | after the freeze | `run --run eval [--prompt note_v2_guarded]`, `run --run baseline` |
-| Gate 2, spontaneous-mention check, eval packets | after the runs | `validate_runs --run eval`, `screen --run baseline`, `screen --run eval --raters …` |
+```
+python -m note_generation.freeze            # then commit freeze.json; run everything from that clean commit
+python -m note_generation.run --model claude_a --run eval
+python -m note_generation.run --model claude_a --run eval --prompt note_v2_guarded
+python -m note_generation.run --model claude_a --run baseline
+#   ...same three for claude_b and gemini
+python -m note_generation.validate_runs --run eval
+python -m note_generation.validate_runs --run baseline
+python -m note_generation.screen --run eval
+python -m note_generation.screen --run baseline
+```
 
-**Cost so far:** dev cost about $2.40 on Opus 5.5 and $0.06 on Haiku 5.5. Gemini and DeepSeek token counts are in the run records. Projected cost for eval + baseline is about $25 on Opus and under $1 on Haiku.
+**Gemini free tier** (about 500 requests a day per Google Cloud project; Gemini needs 845 calls): when the quota runs out, the runner stops by itself after 3 failed notes. Put a key from a **different** Google Cloud project into `.env` and rerun the same command; finished notes are skipped and the failed ones retried. The key isn't part of any hash, so both keys count as one protocol. Finish each model within 3 days (drift warning).
 
-### Open decisions
+**Cost:** Sonnet dev ≈ $1.70 (72 notes), so eval + baseline ≈ $20. Haiku: under $1. Gemini: free tier. (Earlier Opus/DeepSeek dev runs cost ≈ $3.50 and are archived.)
 
-- [x] Model IDs (above)
-- [x] Reasoning policy: lowest setting each model allows; temperature at the provider default (Claude rejects it)
-- [x] Guarded prompt: yes, as a second condition on every model
-- [ ] Framing and primary outcomes (proposal above)
-- [ ] Who are the two raters; score all eval notes or a subset chosen in advance
-- [ ] Who runs the eval (suggestion: one person, all four models)
+### Open
+
+- [ ] Run the freeze and eval (Eric)
+- [ ] How certainty/attribution get labelled (after eval)
 - [ ] Optional: rerun about 20 dialogues 3× per model to show run-to-run variation
