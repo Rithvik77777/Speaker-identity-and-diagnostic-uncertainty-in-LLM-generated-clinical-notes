@@ -85,7 +85,7 @@ def main() -> int:
             return fail(str(e))
 
     system, user_tmpl = load_prompt(version)
-    p_hash, c_hash = prompt_hash(version), protocol_hash(cfg)
+    p_hash, c_hash = prompt_hash(version), protocol_hash(cfg, args.model)  # this model's settings only
     base = DRYRUN if args.dry_run else (OUT / "smoke" if args.limit else RAW)
     out_path = base / version / args.run / f"{args.model}.jsonl"
 

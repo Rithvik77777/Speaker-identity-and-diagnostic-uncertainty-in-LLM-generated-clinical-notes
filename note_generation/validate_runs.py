@@ -52,10 +52,13 @@ def main() -> int:
     if not args.dry_run and (df.provider == "mock").any():
         errors.append("mock records found in a real output folder")
 
-    # Settings must be identical across every note of this run.
-    for col in ("prompt_sha256", "protocol_sha256"):
-        if df[col].nunique() > 1:
-            errors.append(f"notes made under {df[col].nunique()} different {col} values (mixed settings)")
+    # Settings must be identical across every note of this run: one prompt for all models,
+    # and one protocol hash per model (it covers the shared settings + that model's entry).
+    if df.prompt_sha256.nunique() > 1:
+        errors.append(f"notes made under {df.prompt_sha256.nunique()} different prompt_sha256 values (mixed settings)")
+    n_proto = df.groupby("model_key").protocol_sha256.nunique()
+    for model_key, n in n_proto[n_proto > 1].items():
+        errors.append(f"{model_key}: notes made under {n} different protocol_sha256 values (mixed settings)")
 
     ok_dupes = df[df.status == "ok"].run_id.value_counts()
     if (ok_dupes > 1).any():

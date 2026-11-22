@@ -7,7 +7,8 @@ import pandas as pd
 import pytest
 
 from note_generation import analyze, markers, run
-from note_generation.common import build_items, load_config, load_prompt, render_user, run_id, strip_insertion
+from note_generation.common import (build_items, load_config, load_prompt, protocol_hash, render_user, run_id,
+                                    strip_insertion)
 from note_generation.providers import PermanentError, api_key
 from note_generation.screen import screen_note
 from note_generation.validate_inputs import check_inputs
@@ -48,6 +49,18 @@ def test_speakers_of_an_encounter_run_back_to_back():
 def test_baseline_has_no_inserted_line():
     for it in build_items(CFG, "baseline")[:20]:
         assert it["condition"].lower() not in it["dialogue"].lower()
+
+
+def test_protocol_hash_is_per_model():
+    """Filling in another model's ID must not invalidate notes already made by this one."""
+    other = copy.deepcopy(CFG)
+    other["models"]["claude_a"]["model_id"] = "some-claude-id"
+    assert protocol_hash(other, "gemini") == protocol_hash(CFG, "gemini")
+    assert protocol_hash(other, "claude_a") != protocol_hash(CFG, "claude_a")
+    assert protocol_hash(other) != protocol_hash(CFG)          # freeze still locks every model
+    shared = copy.deepcopy(CFG)
+    shared["generation"]["max_output_tokens"] += 1
+    assert protocol_hash(shared, "gemini") != protocol_hash(CFG, "gemini")
 
 
 def test_prompt_renders_dialogue_once_and_never_mentions_certainty():

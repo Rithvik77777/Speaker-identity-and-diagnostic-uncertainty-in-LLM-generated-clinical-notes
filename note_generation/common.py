@@ -59,9 +59,18 @@ def prompt_hash(version: str) -> str:
     return sha256_text(system + "\n<<USER>>\n" + user)
 
 
-def protocol_hash(cfg: dict) -> str:
-    """Hash of every config section that can change a generated note."""
-    relevant = {k: cfg[k] for k in ("protocol", "runs", "generation", "models")}
+def protocol_hash(cfg: dict, model_key: str | None = None) -> str:
+    """Hash of the config sections that can change a generated note.
+
+    With model_key: the shared sections plus that one model's entry. This is what each note
+    records, so filling in or changing ANOTHER model's settings does not invalidate its notes.
+    Without model_key: the shared sections plus every model (used by freeze, which locks all four).
+    """
+    relevant = {k: cfg[k] for k in ("protocol", "runs", "generation")}
+    if model_key is None:
+        relevant["models"] = cfg["models"]
+    else:
+        relevant["model"] = {model_key: cfg["models"][model_key]}
     return sha256_text(json.dumps(relevant, sort_keys=True))
 
 
