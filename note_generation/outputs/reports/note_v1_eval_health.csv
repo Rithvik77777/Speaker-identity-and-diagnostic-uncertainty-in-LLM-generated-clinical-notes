@@ -1,0 +1,7 @@
+model_key,speaker,n,ok,scorable,median_latency_s,mean_output_tokens,model_returned,ERROR,EMPTY,REFUSAL,TRUNCATED,MODEL_MISMATCH,TOO_SHORT,MISSING_HEADINGS,MARKDOWN,RAW_SPEAKER_TAGS,PROMPT_ECHO,HEAVY_REASONING,SHORT_SYNONYM,CONDITION_IN_BASELINE
+claude_a,doctor,169,169,169,6.9,1054.0,claude-sonnet-5-5,0,0,0,0,0,0,0,0,0,0,0,2,0
+claude_a,patient,169,169,169,6.9,1060.0,claude-sonnet-5-5,0,0,0,0,0,0,0,0,0,0,0,4,0
+claude_b,doctor,169,169,169,4.8,1115.0,claude-haiku-5-5,0,0,0,0,0,0,0,0,0,0,0,1,0
+claude_b,patient,169,169,169,4.7,1100.0,claude-haiku-5-5,0,0,0,0,0,0,0,0,0,0,0,4,0
+gemini,doctor,169,169,169,3.8,500.0,gemini-3.5-flash-lite,0,0,0,0,0,0,8,0,0,0,0,0,0
+gemini,patient,169,169,169,3.7,499.0,gemini-3.5-flash-lite,0,0,0,0,0,0,7,0,0,0,0,1,0
