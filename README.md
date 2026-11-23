@@ -20,7 +20,7 @@ pip install -r note_generation/requirements.txt    # LLM runs + evaluation (note
 
 ## Team update: branch `eric/llm-runner` (2026-11-22, three models)
 
-**In short:** the study now uses **three models**: Claude Sonnet 5.5, Claude Haiku 5.5 and Gemini 3.5 Flash-Lite (team decision). DeepSeek and Opus 5.5 are dropped. The dev run is done for all three under both prompts (216 notes, all scorable, gate 2 passed). **Human rating is deferred**, so nothing blocks the eval run: next is the freeze, then eval + baseline.
+**In short:** the study now uses **three models**: Claude Sonnet 5.5, Claude Haiku 5.5 and Gemini 3.5 Flash-Lite (team decision). DeepSeek and Opus 5.5 are dropped. The dev run is done for all three under both prompts (216 notes, all scorable, gate 2 passed). Eval and baseline are now **done** (results below); next is labelling.
 
 ### Done
 
@@ -79,8 +79,27 @@ python -m note_generation.screen --run baseline
 
 **Cost:** Sonnet dev ≈ $1.70 (72 notes), so eval + baseline ≈ $20. Haiku: under $1. Gemini: free tier. (Earlier Opus/DeepSeek dev runs cost ≈ $3.50 and are archived.)
 
+### Eval results (2026-11-23)
+
+Eval and baseline are **done**: 2,535 notes (845 per model), generated from the frozen protocol (`6ec2525`). Gate 2 passed for every run, with no drift or asymmetry warnings. Screens: `note_generation/outputs/screen/eval_screen.csv` and `baseline_screen.csv`.
+
+**Preliminary** (automatic screen, not yet validated against human labels): % of notes mentioning the inserted condition, 169 pairs per model.
+
+| | Sonnet 5.5 | Haiku 5.5 | Gemini 3.5 Flash-Lite |
+|---|---|---|---|
+| v1, doctor said it | 38% | 46% | 15% |
+| v1, patient said it | 93% | 92% | 29% |
+| v1 gap (95% CI) | +55 (+47 to +63) | +47 (+39 to +54) | +14 (+7 to +21) |
+| v2, doctor / patient | 95% / 100% | 89% / 100% | 82% / 94% |
+
+Exact McNemar p < 0.001 for every v1 and v2 gap. When a doctor's hedge survives under v1, 60–86% of the time it sits in the assessment or plan; a patient's goes in the history. Baseline: the condition was mentioned in 3 of 507 notes where nobody said it.
+
+**Cost:** about $20 Sonnet, $7 Haiku (list-price estimates from token counts); Gemini on the free tier.
+
 ### Open
 
-- [ ] Run the freeze and eval (Eric)
-- [ ] How certainty/attribution get labelled (after eval)
+- [x] Freeze and eval (done 2026-11-23)
+- [ ] **Labelling method** for certainty and attribution: an LLM judge (e.g. Opus 5.5, not a studied model) validated on a ~150–200 item human sample, or the reduced human-only plan
+- [ ] **Screen audit:** hand-check a seeded sample of notes the screen marked "omitted", and report agreement
+- [ ] Final statistics through `analyze` once labels exist; then the write-up
 - [ ] Optional: rerun about 20 dialogues 3× per model to show run-to-run variation
